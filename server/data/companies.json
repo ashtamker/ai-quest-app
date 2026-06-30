@@ -1,0 +1,1679 @@
+[
+  {
+    "id": "2bprecise",
+    "nameHe": "2bPrecise",
+    "nameAr": "2bPrecise",
+    "nameEn": "2bPrecise",
+    "field": "בריאות דיגיטלית / רפואה מותאמת",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-4c2639c6",
+      "recommendation"
+    ],
+    "descriptionHe": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
+    "descriptionAr": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "2bPrecise"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/2bprecise.jpg",
+    "logoMark": "2",
+    "logoAltHe": "סימן זיהוי ללוגו של 2bPrecise",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار 2bPrecise",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "התאמה אישית בבריאות"
+  },
+  {
+    "id": "ecosystem",
+    "nameHe": "מרכז חדשנות",
+    "nameAr": "מרכז חדשנות",
+    "nameEn": "Innovation Center",
+    "field": "אקוסיסטם",
+    "level": 3,
+    "abilityIds": [
+      "human",
+      "ethics"
+    ],
+    "descriptionHe": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
+    "descriptionAr": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "",
+    "aliases": [
+      "מרכז חדשנות"
+    ],
+    "active": true,
+    "logoMark": "AI",
+    "logoAltHe": "לוגו גב־ים נגב",
+    "logoAltAr": "شعار جاف يام النقب",
+    "logoUrl": "./assets/company-logos/gav-yam-negev.png",
+    "logoSource": "gav-yam-negev-official-site",
+    "stationType": "knowledge"
+  },
+  {
+    "id": "agmon-with-tulchinsky",
+    "nameHe": "Agmon with Tulchinsky",
+    "nameAr": "Agmon with Tulchinsky",
+    "nameEn": "Agmon with Tulchinsky",
+    "field": "שירותים משפטיים / אקוסיסטם",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Agmon with Tulchinsky"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/agmon-with-tulchinsky.jpg",
+    "logoMark": "AW",
+    "logoAltHe": "סימן זיהוי ללוגו של Agmon with Tulchinsky",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Agmon with Tulchinsky",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "משפטים ורגולציה"
+  },
+  {
+    "id": "altera-digital-health",
+    "nameHe": "Altera Digital Health",
+    "nameAr": "Altera Digital Health",
+    "nameEn": "Altera Digital Health",
+    "field": "בריאות דיגיטלית",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-eb7be6ac"
+    ],
+    "descriptionHe": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "descriptionAr": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Altera Digital Health"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/altera-digital-health.png",
+    "logoMark": "AD",
+    "logoAltHe": "סימן זיהוי ללוגו של Altera Digital Health",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Altera Digital Health",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "בריאות דיגיטלית"
+  },
+  {
+    "id": "audiocodes",
+    "nameHe": "AudioCodes",
+    "nameAr": "AudioCodes",
+    "nameEn": "AudioCodes",
+    "field": "תקשורת וקול",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-b071ea70"
+    ],
+    "descriptionHe": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "AudioCodes"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/audiocodes.png",
+    "logoMark": "A",
+    "logoAltHe": "סימן זיהוי ללוגו של AudioCodes",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار AudioCodes",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "תקשורת קולית"
+  },
+  {
+    "id": "bgn",
+    "nameHe": "BGN",
+    "nameAr": "BGN",
+    "nameEn": "BGN",
+    "field": "מסחור מחקר / אוניברסיטה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-a1d1f0cf"
+    ],
+    "descriptionHe": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
+    "descriptionAr": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "BGN"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/bgn.png",
+    "logoMark": "B",
+    "logoAltHe": "סימן זיהוי ללוגו של BGN",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار BGN",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "מחקר לחדשנות"
+  },
+  {
+    "id": "bone-sci-bio",
+    "nameHe": "Bone Sci Bio",
+    "nameAr": "Bone Sci Bio",
+    "nameEn": "Bone Sci Bio",
+    "field": "ביוטק / בריאות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-716e9d98"
+    ],
+    "descriptionHe": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
+    "descriptionAr": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Bone Sci Bio"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/bone-sci-bio.jpg",
+    "logoMark": "BS",
+    "logoAltHe": "סימן זיהוי ללוגו של Bone Sci Bio",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Bone Sci Bio",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "brooks-keret",
+    "nameHe": "brooks-keret",
+    "nameAr": "brooks-keret",
+    "nameEn": "brooks-keret",
+    "field": "פיננסים / ניהול חברות",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "brooks-keret"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/brooks-keret.svg",
+    "logoMark": "BK",
+    "logoAltHe": "סימן זיהוי ללוגו של brooks-keret",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار brooks-keret",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "ניהול פיננסי"
+  },
+  {
+    "id": "capow",
+    "nameHe": "CaPow",
+    "nameAr": "CaPow",
+    "nameEn": "CaPow",
+    "field": "רובוטיקה / אנרגיה / תפעול",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-65ac5ed1"
+    ],
+    "descriptionHe": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
+    "descriptionAr": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "CaPow"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/capow.png",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של CaPow",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار CaPow",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "אנרגיה ותפעול חכם"
+  },
+  {
+    "id": "cbg",
+    "nameHe": "CBG",
+    "nameAr": "CBG",
+    "nameEn": "CBG",
+    "field": "אקוסיסטם / שירותים עסקיים",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "CBG"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/cbg.png",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של CBG",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار CBG",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "תמיכה בצמיחה"
+  },
+  {
+    "id": "cert",
+    "nameHe": "Cert",
+    "nameAr": "Cert",
+    "nameEn": "Cert",
+    "field": "סייבר / הכשרה / אמון דיגיטלי",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Cert"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/cert.png",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של Cert",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Cert",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "cyber-bgu",
+    "nameHe": "Cyber@BGU",
+    "nameAr": "Cyber@BGU",
+    "nameEn": "Cyber@BGU",
+    "field": "מחקר סייבר / אקדמיה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-50e42956"
+    ],
+    "descriptionHe": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
+    "descriptionAr": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Cyber@BGU"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/cyber-bgu.svg",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של Cyber@BGU",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Cyber@BGU",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "ידע ומחקר"
+  },
+  {
+    "id": "cyberark",
+    "nameHe": "CyberArk",
+    "nameAr": "CyberArk",
+    "nameEn": "CyberArk",
+    "field": "סייבר וזהויות",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "CyberArk",
+      "CyberArk (A Palo Alto Networks Company)",
+      "cyberark"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/cyberark.svg",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של CyberArk",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار CyberArk",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "הגנת זהויות"
+  },
+  {
+    "id": "cyberglobes",
+    "nameHe": "Cyberglobes",
+    "nameAr": "Cyberglobes",
+    "nameEn": "Cyberglobes",
+    "field": "סייבר / מודיעין / אקוסיסטם",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Cyberglobes"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/cyberglobes.png",
+    "logoMark": "C",
+    "logoAltHe": "סימן זיהוי ללוגו של Cyberglobes",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Cyberglobes",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "איסוף מידע פתוח"
+  },
+  {
+    "id": "dalet",
+    "nameHe": "Dalet",
+    "nameAr": "Dalet",
+    "nameEn": "Dalet",
+    "field": "מדיה ותוכן",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-97b35d53"
+    ],
+    "descriptionHe": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
+    "descriptionAr": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Dalet"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/dalet.png",
+    "logoMark": "D",
+    "logoAltHe": "סימן זיהוי ללוגו של Dalet",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Dalet",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "ניהול תוכן ומדיה"
+  },
+  {
+    "id": "dcic",
+    "nameHe": "DCIC",
+    "nameAr": "DCIC",
+    "nameEn": "DCIC",
+    "field": "חדשנות / אקוסיסטם",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "DCIC"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/dcic.svg",
+    "logoMark": "D",
+    "logoAltHe": "סימן זיהוי ללוגו של DCIC",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار DCIC",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "dell",
+    "nameHe": "DELL Technologies",
+    "nameAr": "DELL Technologies",
+    "nameEn": "DELL Technologies",
+    "field": "תשתיות מחשוב / שרתים",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-58accb02"
+    ],
+    "descriptionHe": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
+    "descriptionAr": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "DELL Technologies"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/dell-technologies.png",
+    "logoMark": "DT",
+    "logoAltHe": "סימן זיהוי ללוגו של DELL Technologies",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار DELL Technologies",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "תשתית מחשוב"
+  },
+  {
+    "id": "drs-rada-technologies",
+    "nameHe": "DRS RADA Technologies",
+    "nameAr": "DRS RADA Technologies",
+    "nameEn": "DRS RADA Technologies",
+    "field": "ביטחון / מערכות חכמות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-bffc19c3"
+    ],
+    "descriptionHe": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "descriptionAr": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "DRS RADA Technologies"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/drs-rada-technologies.png",
+    "logoMark": "DR",
+    "logoAltHe": "סימן זיהוי ללוגו של DRS RADA Technologies",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار DRS RADA Technologies",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "חיישנים וזיהוי"
+  },
+  {
+    "id": "energyteam",
+    "nameHe": "energyteam",
+    "nameAr": "energyteam",
+    "nameEn": "energyteam",
+    "field": "אנרגיה / תשתיות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-67e30743"
+    ],
+    "descriptionHe": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
+    "descriptionAr": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "energyteam"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/energyteam.png",
+    "logoMark": "E",
+    "logoAltHe": "סימן זיהוי ללוגו של energyteam",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار energyteam",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "enter",
+    "nameHe": "ENTER",
+    "nameAr": "ENTER",
+    "nameEn": "ENTER",
+    "field": "אקוסיסטם / חדשנות",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "ENTER"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/enter.jpg",
+    "logoMark": "E",
+    "logoAltHe": "סימן זיהוי ללוגו של ENTER",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار ENTER",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "finsec-innovation-lab",
+    "nameHe": "FinSec Innovation Lab",
+    "nameAr": "FinSec Innovation Lab",
+    "nameEn": "FinSec Innovation Lab",
+    "field": "פינטק / סייבר / חדשנות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-942ce053"
+    ],
+    "descriptionHe": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
+    "descriptionAr": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "FinSec Innovation Lab"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/finsec-innovation-lab.png",
+    "logoMark": "FI",
+    "logoAltHe": "סימן זיהוי ללוגו של FinSec Innovation Lab",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار FinSec Innovation Lab",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "hyperguest",
+    "nameHe": "HyperGuest",
+    "nameAr": "HyperGuest",
+    "nameEn": "HyperGuest",
+    "field": "תיירות / פלטפורמה דיגיטלית",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-9ae1b284",
+      "recommendation"
+    ],
+    "descriptionHe": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
+    "descriptionAr": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "HyperGuest"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/hyperguest.png",
+    "logoMark": "H",
+    "logoAltHe": "סימן זיהוי ללוגו של HyperGuest",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار HyperGuest",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "ibm",
+    "nameHe": "IBM",
+    "nameAr": "IBM",
+    "nameEn": "IBM",
+    "field": "AI / דאטה / ענן",
+    "level": 1,
+    "abilityIds": [
+      "ability-ai"
+    ],
+    "descriptionHe": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
+    "descriptionAr": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "IBM"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/ibm.png",
+    "logoMark": "I",
+    "logoAltHe": "סימן זיהוי ללוגו של IBM",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار IBM",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "ניתוח מידע ואמון"
+  },
+  {
+    "id": "ilanot",
+    "nameHe": "Ilanot",
+    "nameAr": "Ilanot",
+    "nameEn": "Ilanot",
+    "field": "אקוסיסטם / שירותים",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Ilanot"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/ilanot.jpg",
+    "logoMark": "I",
+    "logoAltHe": "סימן זיהוי ללוגו של Ilanot",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Ilanot",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "למידה והזדמנות"
+  },
+  {
+    "id": "innovation-basecamp",
+    "nameHe": "Innovation Basecamp",
+    "nameAr": "Innovation Basecamp",
+    "nameEn": "Innovation Basecamp",
+    "field": "יזמות / חדשנות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-5f4345de"
+    ],
+    "descriptionHe": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "descriptionAr": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Innovation Basecamp"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/innovation-basecamp.png",
+    "logoMark": "IB",
+    "logoAltHe": "סימן זיהוי ללוגו של Innovation Basecamp",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Innovation Basecamp",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "intel",
+    "nameHe": "Intel",
+    "nameAr": "Intel",
+    "nameEn": "Intel",
+    "field": "שבבים / חומרה",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-36dd2639"
+    ],
+    "descriptionHe": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
+    "descriptionAr": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Intel"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/intel.png",
+    "logoMark": "I",
+    "logoAltHe": "סימן זיהוי ללוגו של Intel",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Intel",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "חומרה ושבבים"
+  },
+  {
+    "id": "leidos",
+    "nameHe": "Leidos",
+    "nameAr": "Leidos",
+    "nameEn": "Leidos",
+    "field": "מערכות טכנולוגיות / דאטה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-262e22d7"
+    ],
+    "descriptionHe": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
+    "descriptionAr": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Leidos"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/leidos.svg",
+    "logoMark": "L",
+    "logoAltHe": "סימן זיהוי ללוגו של Leidos",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Leidos",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "מערכות ודאטה"
+  },
+  {
+    "id": "let",
+    "nameHe": "Let",
+    "nameAr": "Let",
+    "nameEn": "Let",
+    "field": "מוצר / שירות דיגיטלי",
+    "level": 3,
+    "abilityIds": [
+      "product"
+    ],
+    "descriptionHe": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "descriptionAr": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Let"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/let.jpg",
+    "logoMark": "L",
+    "logoAltHe": "סימן זיהוי ללוגו של Let",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Let",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "let-group-ltd-atmos",
+    "nameHe": "Let Group Ltd - atmos",
+    "nameAr": "Let Group Ltd - atmos",
+    "nameEn": "Let Group Ltd - atmos",
+    "field": "מוצר / פלטפורמה דיגיטלית",
+    "level": 3,
+    "abilityIds": [
+      "product"
+    ],
+    "descriptionHe": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "descriptionAr": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Let Group Ltd - atmos"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/let-group-ltd-atmos.svg",
+    "logoMark": "LG",
+    "logoAltHe": "סימן זיהוי ללוגו של Let Group Ltd - atmos",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Let Group Ltd - atmos",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "פלטפורמה דיגיטלית"
+  },
+  {
+    "id": "lightricks",
+    "nameHe": "Lightricks",
+    "nameAr": "Lightricks",
+    "nameEn": "Lightricks",
+    "field": "יצירה דיגיטלית / AI קריאייטיבי",
+    "level": 1,
+    "abilityIds": [
+      "ability-ai-24fcf",
+      "recommendation"
+    ],
+    "descriptionHe": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
+    "descriptionAr": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Lightricks"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/lightricks.png",
+    "logoMark": "L",
+    "logoAltHe": "סימן זיהוי ללוגו של Lightricks",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Lightricks",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "liolan",
+    "nameHe": "liolan",
+    "nameAr": "liolan",
+    "nameEn": "liolan",
+    "field": "טכנולוגיה / שירותים",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-57171461"
+    ],
+    "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "liolan"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/liolan.svg",
+    "logoMark": "L",
+    "logoAltHe": "סימן זיהוי ללוגו של liolan",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار liolan",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "mdclone",
+    "nameHe": "MDCLONE",
+    "nameAr": "MDCLONE",
+    "nameEn": "MDCLONE",
+    "field": "דאטה רפואי",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-eb7be6ac"
+    ],
+    "descriptionHe": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "descriptionAr": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "MDCLONE"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/mdclone.png",
+    "logoMark": "M",
+    "logoAltHe": "סימן זיהוי ללוגו של MDCLONE",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار MDCLONE",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "דאטה רפואי בטוח"
+  },
+  {
+    "id": "micro",
+    "nameHe": "Micro",
+    "nameAr": "Micro",
+    "nameEn": "Micro",
+    "field": "טכנולוגיה / שירותים",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-57171461"
+    ],
+    "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Micro"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/micro.svg",
+    "logoMark": "M",
+    "logoAltHe": "סימן זיהוי ללוגו של Micro",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Micro",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "microsoft",
+    "nameHe": "Microsoft",
+    "nameAr": "Microsoft",
+    "nameEn": "Microsoft",
+    "field": "ענן / AI / תוכנה",
+    "level": 1,
+    "abilityIds": [
+      "ability-ai-1eebf",
+      "recommendation"
+    ],
+    "descriptionHe": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
+    "descriptionAr": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Microsoft"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/microsoft.svg",
+    "logoMark": "M",
+    "logoAltHe": "סימן זיהוי ללוגו של Microsoft",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Microsoft",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "ענן וכלי AI"
+  },
+  {
+    "id": "morphisec",
+    "nameHe": "Morphisec",
+    "nameAr": "Morphisec",
+    "nameEn": "Morphisec",
+    "field": "סייבר",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Morphisec"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/morphisec.png",
+    "logoMark": "M",
+    "logoAltHe": "סימן זיהוי ללוגו של Morphisec",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Morphisec",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "הגנה מפני תקיפות"
+  },
+  {
+    "id": "nitzanim",
+    "nameHe": "Nitzanim",
+    "nameAr": "Nitzanim",
+    "nameEn": "Nitzanim",
+    "field": "הכשרה / חינוך טכנולוגי",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-34c0aea6"
+    ],
+    "descriptionHe": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
+    "descriptionAr": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Nitzanim"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/nitzanim.jpg",
+    "logoMark": "N",
+    "logoAltHe": "סימן זיהוי ללוגו של Nitzanim",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Nitzanim",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "novocure",
+    "nameHe": "Novocure",
+    "nameAr": "Novocure",
+    "nameEn": "Novocure",
+    "field": "בריאות / מדטק",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-6c90a3af"
+    ],
+    "descriptionHe": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
+    "descriptionAr": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Novocure"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/novocure.svg",
+    "logoMark": "N",
+    "logoAltHe": "סימן זיהוי ללוגו של Novocure",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Novocure",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "nvidia",
+    "nameHe": "Nvidia",
+    "nameAr": "Nvidia",
+    "nameEn": "Nvidia",
+    "field": "AI / שבבים / כוח עיבוד",
+    "level": 1,
+    "abilityIds": [
+      "ability-ai-68f0d"
+    ],
+    "descriptionHe": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
+    "descriptionAr": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Nvidia"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/nvidia.png",
+    "logoMark": "N",
+    "logoAltHe": "סימן זיהוי ללוגו של Nvidia",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Nvidia",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "כוח עיבוד AI"
+  },
+  {
+    "id": "oracle",
+    "nameHe": "Oracle",
+    "nameAr": "Oracle",
+    "nameEn": "Oracle",
+    "field": "דאטה / בסיסי נתונים / ענן",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-da55b18a"
+    ],
+    "descriptionHe": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
+    "descriptionAr": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Oracle"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/oracle.png",
+    "logoMark": "O",
+    "logoAltHe": "סימן זיהוי ללוגו של Oracle",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Oracle",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "ניהול דאטה"
+  },
+  {
+    "id": "oz-software",
+    "nameHe": "Oz software",
+    "nameAr": "Oz software",
+    "nameEn": "Oz software",
+    "field": "פיתוח תוכנה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-6ecd9bfb"
+    ],
+    "descriptionHe": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
+    "descriptionAr": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Oz software",
+      "ozsoftware"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/ozsoftware.svg",
+    "logoMark": "OS",
+    "logoAltHe": "סימן זיהוי ללוגו של Oz software",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Oz software",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "penta-drone",
+    "nameHe": "Penta Drone Robotics",
+    "nameAr": "Penta Drone Robotics",
+    "nameEn": "Penta Drone Robotics",
+    "field": "רחפנים / רובוטיקה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-e5cef07a"
+    ],
+    "descriptionHe": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
+    "descriptionAr": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Penta Drone Robotics",
+      "pentadrone"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/penta-drone-robotics.png",
+    "logoMark": "PD",
+    "logoAltHe": "סימן זיהוי ללוגו של Penta Drone Robotics",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Penta Drone Robotics",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "רובוטיקה וחיישנים"
+  },
+  {
+    "id": "pwc-israel",
+    "nameHe": "PWC Israel",
+    "nameAr": "PWC Israel",
+    "nameEn": "PWC Israel",
+    "field": "ייעוץ עסקי / טכנולוגי",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-fb271243"
+    ],
+    "descriptionHe": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
+    "descriptionAr": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "PWC Israel"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/pwc-israel.png",
+    "logoMark": "PI",
+    "logoAltHe": "סימן זיהוי ללוגו של PWC Israel",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار PWC Israel",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "ייעוץ ואסטרטגיה"
+  },
+  {
+    "id": "rad",
+    "nameHe": "RAD",
+    "nameAr": "RAD",
+    "nameEn": "RAD",
+    "field": "תקשורת ותשתיות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-b071ea70"
+    ],
+    "descriptionHe": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "RAD"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/rad.png",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של RAD",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار RAD",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "חיבוריות ורשת"
+  },
+  {
+    "id": "rafael",
+    "nameHe": "RAFAEL",
+    "nameAr": "RAFAEL",
+    "nameEn": "RAFAEL",
+    "field": "ביטחון / מערכות מתקדמות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-bffc19c3"
+    ],
+    "descriptionHe": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "descriptionAr": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "RAFAEL",
+      "Rafael"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/rafael.svg",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של RAFAEL",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار RAFAEL",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "אמינות ובטיחות"
+  },
+  {
+    "id": "retama",
+    "nameHe": "Retama",
+    "nameAr": "Retama",
+    "nameEn": "Retama",
+    "field": "אקוסיסטם / שירותים",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Retama"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/retama.png",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של Retama",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Retama",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "rezilion",
+    "nameHe": "Rezilion",
+    "nameAr": "Rezilion",
+    "nameEn": "Rezilion",
+    "field": "סייבר / אבטחת תוכנה",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Rezilion",
+      "rezilion"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/rezilion.png",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של Rezilion",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Rezilion",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "ribbon",
+    "nameHe": "Ribbon",
+    "nameAr": "Ribbon",
+    "nameEn": "Ribbon",
+    "field": "תקשורת / רשתות",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-b071ea70"
+    ],
+    "descriptionHe": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Ribbon"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/ribbon.png",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של Ribbon",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Ribbon",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "תקשורת בין מערכות"
+  },
+  {
+    "id": "rsecurity",
+    "nameHe": "RSecurity",
+    "nameAr": "RSecurity",
+    "nameEn": "RSecurity",
+    "field": "סייבר",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-a739e7d6"
+    ],
+    "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "RSecurity"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/rsecurity.png",
+    "logoMark": "R",
+    "logoAltHe": "סימן זיהוי ללוגו של RSecurity",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار RSecurity",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "siga",
+    "nameHe": "SIGA",
+    "nameAr": "SIGA",
+    "nameEn": "SIGA",
+    "field": "סייבר תעשייתי / OT",
+    "level": 1,
+    "abilityIds": [
+      "ability-item-0d95f1a8"
+    ],
+    "descriptionHe": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
+    "descriptionAr": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "SIGA"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/siga.png",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של SIGA",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار SIGA",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "sigmabit",
+    "nameHe": "Sigmabit",
+    "nameAr": "Sigmabit",
+    "nameEn": "Sigmabit",
+    "field": "ביטחון / סייבר / תוכנה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-f58da2d1"
+    ],
+    "descriptionHe": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
+    "descriptionAr": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Sigmabit"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/sigmabit.png",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של Sigmabit",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Sigmabit",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "signatureit",
+    "nameHe": "SignatureIT",
+    "nameAr": "SignatureIT",
+    "nameEn": "SignatureIT",
+    "field": "שירותי IT / תשתיות",
+    "level": 2,
+    "abilityIds": [
+      "ability-it"
+    ],
+    "descriptionHe": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
+    "descriptionAr": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "SignatureIT"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/signatureit.png",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של SignatureIT",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار SignatureIT",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "siraj",
+    "nameHe": "Siraj",
+    "nameAr": "Siraj",
+    "nameEn": "Siraj",
+    "field": "טכנולוגיה / שירותים דיגיטליים",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-57171461"
+    ],
+    "descriptionHe": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Siraj"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/siraj.png",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של Siraj",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Siraj",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "פיתוח פתרונות"
+  },
+  {
+    "id": "soroka",
+    "nameHe": "Soroka",
+    "nameAr": "Soroka",
+    "nameEn": "Soroka",
+    "field": "בריאות / מחקר רפואי",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-39b0ea36"
+    ],
+    "descriptionHe": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
+    "descriptionAr": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Soroka"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/soroka.png",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של Soroka",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Soroka",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "soundcampaign",
+    "nameHe": "SoundCampaign",
+    "nameAr": "SoundCampaign",
+    "nameEn": "SoundCampaign",
+    "field": "מוזיקה / שיווק דיגיטלי",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-acc94bca"
+    ],
+    "descriptionHe": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
+    "descriptionAr": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "SoundCampaign"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/soundcampaign.jpg",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של SoundCampaign",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار SoundCampaign",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "spark-marketing-il",
+    "nameHe": "Spark Marketing IL",
+    "nameAr": "Spark Marketing IL",
+    "nameEn": "Spark Marketing IL",
+    "field": "שיווק דיגיטלי",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-091dd22e"
+    ],
+    "descriptionHe": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
+    "descriptionAr": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Spark Marketing IL"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/spark-marketing-il.png",
+    "logoMark": "SM",
+    "logoAltHe": "סימן זיהוי ללוגו של Spark Marketing IL",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Spark Marketing IL",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "מסר ושיווק"
+  },
+  {
+    "id": "swiftness",
+    "nameHe": "Swiftness",
+    "nameAr": "Swiftness",
+    "nameEn": "Swiftness",
+    "field": "תוכנה / אוטומציה",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-c6c72da8"
+    ],
+    "descriptionHe": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
+    "descriptionAr": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Swiftness"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/swiftness.jpg",
+    "logoMark": "S",
+    "logoAltHe": "סימן זיהוי ללוגו של Swiftness",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Swiftness",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "taboola",
+    "nameHe": "taboola",
+    "nameAr": "taboola",
+    "nameEn": "taboola",
+    "field": "המלצות תוכן / דאטה",
+    "level": 1,
+    "abilityIds": [
+      "recommendation"
+    ],
+    "descriptionHe": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
+    "descriptionAr": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "taboola"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/taboola.png",
+    "logoMark": "T",
+    "logoAltHe": "סימן זיהוי ללוגו של taboola",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار taboola",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "מערכת המלצות"
+  },
+  {
+    "id": "tap-mobile",
+    "nameHe": "Tap Mobile",
+    "nameAr": "Tap Mobile",
+    "nameEn": "Tap Mobile",
+    "field": "מובייל / מוצר / משתמשים",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-85141a89"
+    ],
+    "descriptionHe": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
+    "descriptionAr": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Tap Mobile"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/tap-mobile.png",
+    "logoMark": "TM",
+    "logoAltHe": "סימן זיהוי ללוגו של Tap Mobile",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Tap Mobile",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "מובייל וחוויית שימוש"
+  },
+  {
+    "id": "tech7",
+    "nameHe": "Tech 7",
+    "nameAr": "Tech 7",
+    "nameEn": "Tech 7",
+    "field": "אקוסיסטם סטארטאפים",
+    "level": 2,
+    "abilityIds": [
+      "ability-item-5f4345de"
+    ],
+    "descriptionHe": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "descriptionAr": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Tech 7",
+      "Tech7"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/tech7.svg",
+    "logoMark": "T7",
+    "logoAltHe": "סימן זיהוי ללוגו של Tech 7",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Tech 7",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "קהילת יזמות"
+  },
+  {
+    "id": "tech19",
+    "nameHe": "Tech19",
+    "nameAr": "Tech19",
+    "nameEn": "Tech19",
+    "field": "הכשרה / תעסוקה טכנולוגית",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-28739596"
+    ],
+    "descriptionHe": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
+    "descriptionAr": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Tech19",
+      "tech-19"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/tech-19.svg",
+    "logoMark": "T",
+    "logoAltHe": "סימן זיהוי ללוגו של Tech19",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Tech19",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "הכשרה לעולם העבודה"
+  },
+  {
+    "id": "threedots-online",
+    "nameHe": "THREEDOTS ONLINE",
+    "nameAr": "THREEDOTS ONLINE",
+    "nameEn": "THREEDOTS ONLINE",
+    "field": "דיגיטל / מוצר אונליין",
+    "level": 3,
+    "abilityIds": [
+      "product"
+    ],
+    "descriptionHe": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
+    "descriptionAr": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
+    "modelRelevance": "ניקוד + השראה",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "THREEDOTS ONLINE"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/threedots-online.svg",
+    "logoMark": "TO",
+    "logoAltHe": "סימן זיהוי ללוגו של THREEDOTS ONLINE",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار THREEDOTS ONLINE",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "upnext-innovate-ltd",
+    "nameHe": "UpNext Innovate LTD",
+    "nameAr": "UpNext Innovate LTD",
+    "nameEn": "UpNext Innovate LTD",
+    "field": "חדשנות / סטארטאפ",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-39b20a69"
+    ],
+    "descriptionHe": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
+    "descriptionAr": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "UpNext Innovate LTD"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/upnext-innovate-ltd.png",
+    "logoMark": "UI",
+    "logoAltHe": "סימן זיהוי ללוגו של UpNext Innovate LTD",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار UpNext Innovate LTD",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model"
+  },
+  {
+    "id": "weka",
+    "nameHe": "WEKA",
+    "nameAr": "WEKA",
+    "nameEn": "WEKA",
+    "field": "אחסון דאטה / תשתיות AI",
+    "level": 1,
+    "abilityIds": [
+      "ability-ai-f37df"
+    ],
+    "descriptionHe": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
+    "descriptionAr": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "WEKA"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/weka.png",
+    "logoMark": "W",
+    "logoAltHe": "סימן זיהוי ללוגו של WEKA",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار WEKA",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "אחסון מהיר לדאטה"
+  },
+  {
+    "id": "wework",
+    "nameHe": "Wework",
+    "nameAr": "Wework",
+    "nameEn": "Wework",
+    "field": "חללי עבודה / אקוסיסטם",
+    "level": 3,
+    "abilityIds": [
+      "ability-item-36e511e0"
+    ],
+    "descriptionHe": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "modelRelevance": "עקיף / אקוסיסטם",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "Wework"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/wework.png",
+    "logoMark": "W",
+    "logoAltHe": "סימן זיהוי ללוגו של Wework",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار Wework",
+    "logoSource": "gav-yam-negev",
+    "stationType": "knowledge",
+    "excelAbilityBadge": "קהילה ומרחב עבודה"
+  },
+  {
+    "id": "wix",
+    "nameHe": "WIX",
+    "nameAr": "WIX",
+    "nameEn": "WIX",
+    "field": "אתרים / מוצר / UX",
+    "level": 1,
+    "abilityIds": [
+      "ux",
+      "recommendation"
+    ],
+    "descriptionHe": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
+    "descriptionAr": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
+    "modelRelevance": "ישיר",
+    "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
+    "aliases": [
+      "WIX"
+    ],
+    "active": true,
+    "logoUrl": "./assets/company-logos/wix.png",
+    "logoMark": "W",
+    "logoAltHe": "סימן זיהוי ללוגו של WIX",
+    "logoAltAr": "علامة مساعدة للتعرّف على شعار WIX",
+    "logoSource": "gav-yam-negev",
+    "stationType": "model",
+    "excelAbilityBadge": "חוויית משתמש"
+  }
+]

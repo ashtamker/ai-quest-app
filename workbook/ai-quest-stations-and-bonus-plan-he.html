@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Quest — פירוט עמדות, תחנות ובונוסים</title>
+  <style>
+    :root{
+      --ink:#10243f;
+      --muted:#58708f;
+      --blue:#1558d6;
+      --cyan:#0ea5e9;
+      --soft:#f5f8ff;
+      --line:#d7e3f5;
+      --orange:#f97316;
+      --green:#16a34a;
+      --purple:#7c3aed;
+      --red:#dc2626;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#eaf1fb;color:var(--ink);font-family:Arial,'Noto Sans Hebrew',sans-serif;line-height:1.55}
+    .print{position:fixed;bottom:12px;left:12px;background:#0f172a;color:#fff;border-radius:999px;padding:10px 14px;box-shadow:0 8px 18px #0004;z-index:20;font-weight:800}
+    .sheet{width:210mm;min-height:297mm;margin:0 auto 18px;background:white;padding:15mm;box-shadow:0 12px 28px #0002;position:relative;overflow:hidden}
+    .cover{color:white;background:radial-gradient(circle at 15% 10%,#56d6ff77,transparent 28%),linear-gradient(135deg,#071d38,#123d66 52%,#5628a8);display:flex;flex-direction:column;justify-content:space-between}
+    .cover h1{font-size:44px;line-height:1.05;margin:0 0 14px}
+    .cover h2{font-size:25px;color:#b8eeff;margin:0 0 20px}
+    .cover p{font-size:21px;max-width:760px}
+    .pill{display:inline-block;background:#ffffff18;border:1px solid #ffffff55;border-radius:999px;padding:8px 14px;font-weight:900;margin-bottom:20px}
+    .team{background:#ffffff18;border:1px solid #ffffff55;border-radius:24px;padding:16px;font-size:19px}
+    .team div{border-bottom:1px dashed #fff8;padding:9px}
+    h1,h2,h3{margin:0 0 10px}
+    h2{font-size:28px;color:#123d66;border-bottom:4px solid #dbeafe;padding-bottom:8px;margin-bottom:14px}
+    h3{font-size:21px;color:#123d66}
+    h4{margin:12px 0 6px;font-size:17px;color:#0f3c69}
+    p{margin:7px 0}
+    ul,ol{margin:8px 0 10px;padding-right:22px}
+    li{margin:4px 0}
+    .lead{font-size:19px;font-weight:800;background:#fff7ed;border:2px solid #fed7aa;border-radius:20px;padding:14px;margin:12px 0 18px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .box{border:1px solid var(--line);border-radius:18px;background:var(--soft);padding:14px;margin-bottom:12px}
+    .box strong{color:#123d66}
+    .timeline{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}
+    td,th{border:1px solid #cbd5e1;padding:9px;vertical-align:top}
+    th{background:#eaf3ff;color:#123d66}
+    .station{break-inside:avoid;page-break-inside:avoid;border:2px solid color-mix(in srgb,var(--c),white 58%);border-radius:24px;padding:14px;margin:0 0 13px;background:linear-gradient(180deg,#fff,#f8fbff)}
+    .station-head{display:grid;grid-template-columns:62px 1fr;gap:12px;align-items:center;margin-bottom:8px}
+    .icon{width:62px;height:62px;border-radius:18px;background:color-mix(in srgb,var(--c),white 86%);border:2px solid color-mix(in srgb,var(--c),white 45%);display:grid;place-items:center;font-size:30px}
+    .num{color:var(--c);font-weight:900}
+    .power{font-weight:900;color:var(--c);margin:0}
+    .mini{color:var(--muted);font-size:14px}
+    .script{background:#f8fafc;border-right:5px solid var(--c);border-radius:14px;padding:10px;margin:8px 0}
+    .children{background:#ecfeff;border:1px solid #a5f3fc;border-radius:14px;padding:10px;margin:8px 0}
+    .receive{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:14px;padding:10px;margin:8px 0}
+    .bonus{border:3px solid color-mix(in srgb,var(--c),white 42%);background:linear-gradient(135deg,#fff,#fff7ed);border-radius:26px;padding:16px;margin-bottom:16px;break-inside:avoid;page-break-inside:avoid}
+    .bonus h3{font-size:24px;color:var(--c)}
+    .sign{border:2px dashed #94a3b8;border-radius:16px;padding:12px;min-height:62px;background:#fff;margin-top:8px}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+    .card{border:2px dashed #94a3b8;border-radius:16px;padding:12px;background:white;min-height:92px;break-inside:avoid}
+    .card b{color:#123d66}
+    .footer{position:absolute;bottom:8mm;left:15mm;right:15mm;display:flex;justify-content:space-between;color:#64748b;font-size:11px}
+    .badge{display:inline-block;border-radius:999px;background:#e0f2fe;border:1px solid #bae6fd;color:#075985;font-weight:900;padding:5px 10px;margin:2px}
+    .small{font-size:13px;color:#64748b}
+    @media print{body{background:white}.sheet{margin:0;box-shadow:none;page-break-after:always}.print{display:none}.station,.bonus,.card{break-inside:avoid;page-break-inside:avoid}}
+    @page{size:A4;margin:0}
+  </style>
+</head>
+<body>
+  <div class="print">Ctrl/Cmd+P → Save as PDF / הדפסה</div>
+
+  <section class="sheet cover">
+    <div>
+      <span class="pill">AI Quest · תכנון עמדות מלא</span>
+      <h1>מה קורה בכל עמדה?</h1>
+      <h2>תחנות חברה + עמדות שלוקים/חטיפים + קלפי משימה</h2>
+      <p>מסמך הפעלה מדויק למדריכים: בכל תחנה הילדים שומעים הסבר על חברה, אוספים “כוח AI”, עונים על שאלות, ובנקודות בונוס מקבלים שלוק/חטיף יחד עם רמז שעוזר להם לפתור את המשימה הסופית.</p>
+    </div>
+    <div class="team">
+      <div>שם האירוע: AI Quest בפארק</div>
+      <div>קהל יעד: גילאי 12–13</div>
+      <div>משך מומלץ: 60 דקות</div>
+      <div>ציוד מרכזי: חוברות תלמיד, חוברת מדריך, קלפי משימה, שלוקים/חטיפים, חותמות/מדבקות</div>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <h2>הרעיון הכללי</h2>
+    <p class="lead">“תחנה” היא לא דוכן פיזי מורכב — היא נקודת הסבר על חברה. בכל תחנה המדריך מספר סיפור קצר על החברה, מסביר איזה כוח AI היא מייצגת, והילדים משתמשים בכוח הזה כדי לבנות בסוף מערכת AI משלהם.</p>
+
+    <div class="grid2">
+      <div class="box">
+        <h3>מה קורה בתחנת חברה?</h3>
+        <ul>
+          <li>המדריך מסביר על חברה אמיתית במשך 60–90 שניות.</li>
+          <li>הילדים מסמנים תשובות בחוברת.</li>
+          <li>הצוות מקבל “כוח AI”.</li>
+          <li>המדריך חותם/מסמן שהתחנה הושלמה.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>מה קורה בעמדת בונוס?</h3>
+        <ul>
+          <li>הילדים עושים משימה קצרה של 1–2 דקות.</li>
+          <li>מקבלים שלוק/חטיף/מדבקה.</li>
+          <li>מקבלים קלף שעוזר במשימה הסופית.</li>
+          <li>הקלף מחבר בין המשחק לבין העבודה הכתובה.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>סדר מומלץ ל־60 דקות</h2>
+    <table class="timeline">
+      <tr><th>זמן</th><th>מה עושים</th><th>הערה למדריכים</th></tr>
+      <tr><td>0–5</td><td>פתיחה</td><td>מסבירים: אוספים כוחות AI וקלפי משימה.</td></tr>
+      <tr><td>5–17</td><td>תחנות 1–3</td><td>Microsoft, NVIDIA, Intel.</td></tr>
+      <tr><td>17–20</td><td>עמדת שלוקים — טעינת ענן</td><td>שלוק + קלף משתמש.</td></tr>
+      <tr><td>20–32</td><td>תחנות 4–6</td><td>Oracle, CyberArk, Wix.</td></tr>
+      <tr><td>32–35</td><td>עמדת חטיפים — איסוף דאטה</td><td>חטיף + קלף דאטה + קלף אחריות.</td></tr>
+      <tr><td>35–51</td><td>תחנות 7–10</td><td>Taboola, RAFAEL, Siraj Technologies, Lightricks.</td></tr>
+      <tr><td>51–53</td><td>עמדת קוד המשימה</td><td>קלף משפט סיום / מדבקת סוכן AI.</td></tr>
+      <tr><td>53–60</td><td>עבודה כתובה וסיכום</td><td>הצוות משתמש בכוחות ובקלפים שאסף.</td></tr>
+    </table>
+
+    <div class="box">
+      <h3>החיבור למשימה הסופית</h3>
+      <p>בסוף הילדים בונים רעיון למערכת AI שעוזרת לילדים לבחור תחום טכנולוגי עתידי. עמדות הבונוס נותנות להם בדיוק את החומרים שהם צריכים:</p>
+      <p><span class="badge">קלף משתמש</span> למי המערכת עוזרת</p>
+      <p><span class="badge">קלף דאטה</span> אילו שאלות המערכת תשאל</p>
+      <p><span class="badge">קלף אחריות</span> איך שומרים על פרטיות ובחירה</p>
+      <p><span class="badge">קלף משפט סיום</span> איך מציגים את הרעיון במשפט ברור</p>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>מבנה פעילות</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>תחנות החברה — מה יש בכל תחנה?</h2>
+
+    <div class="station" style="--c:#2563eb">
+      <div class="station-head"><div class="icon">☁️</div><div><span class="num">תחנה 1 · Microsoft</span><h3>ענן וכלי AI</h3><p class="power">הכוח שנאסף: ענן וכלי AI</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> מיקרוסופט מפתחת כלים שהמון אנשים משתמשים בהם — Windows, Word, Teams וכלי AI. כדי שכלים כאלה יעבדו להרבה אנשים, צריך ענן: הרבה מחשבים חזקים שמחוברים דרך האינטרנט.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים ש־AI לא חי רק “בתוך המחשב שלי”; הוא צריך תשתית, כוח מחשוב, שמירת מידע ועדכונים.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “ענן וכלי AI”. משתמשים בו בסוף כדי להסביר איך המערכת שלהם תעבוד להרבה תלמידים.</div>
+    </div>
+
+    <div class="station" style="--c:#65a30d">
+      <div class="station-head"><div class="icon">⚡</div><div><span class="num">תחנה 2 · NVIDIA</span><h3>כוח חישוב ל־AI</h3><p class="power">הכוח שנאסף: כוח חישוב</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> NVIDIA מפתחת שבבים חזקים בשם GPU. שבבים כאלה עושים המון חישובים במהירות, וזה מה שמאפשר ל־AI ללמוד מתמונות, טקסטים ודוגמאות.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים ש־AI דורש הרבה חישובים, ושכוח חזק חייב להגיע עם בדיקות ואחריות.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “מאיץ AI”. בסוף אפשר להשתמש בו כדי להגיד שהמערכת מהירה ומסוגלת לעבד הרבה תשובות.</div>
+    </div>
+
+    <div class="station" style="--c:#0ea5e9">
+      <div class="station-head"><div class="icon">🔲</div><div><span class="num">תחנה 3 · Intel</span><h3>שבבים וחומרה</h3><p class="power">הכוח שנאסף: חומרה יציבה</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Intel מפתחת שבבים שנמצאים במחשבים ומכשירים. גם AI הכי חכם צריך “גוף” שמריץ אותו.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שחומרה ותוכנה עובדות יחד, ושמערכת AI צריכה בסיס אמין.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “שבבים וחומרה”. הוא עוזר לחשוב איפה המערכת רצה — מחשב, ענן, טאבלט או עמדת מידע.</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>תחנות 1–3</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>עמדת בונוס 1 — שלוקים</h2>
+
+    <div class="bonus" style="--c:#0ea5e9">
+      <h3>עמדת “טעינת ענן”</h3>
+      <p class="lead">מיקום: אחרי תחנות Microsoft, NVIDIA ו־Intel.</p>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה יש פיזית בעמדה?</h3>
+          <ul>
+            <li>שלוקים או מים קרים.</li>
+            <li>קלפי משתמש מודפסים וגזורים.</li>
+            <li>חותמת/מדבקה: “טעינת ענן הושלמה”.</li>
+            <li>שלט: “עמדת טעינת ענן”.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה המטרה?</h3>
+          <p>לתת הפסקת אנרגיה קצרה, אבל גם לעזור לצוות לבחור למי מערכת ה־AI שלהם מיועדת.</p>
+        </div>
+      </div>
+
+      <h3>מה המדריך אומר?</h3>
+      <div class="script" style="--c:#0ea5e9">“עצירה קצרה לטעינת אנרגיה. כמו ש־AI צריך ענן, שבבים וכוח חישוב — גם אתם צריכים להיטען. כדי לקבל את קלף המשתמש, תגידו לי איזה כוח מהתחנות הראשונות הכי חשוב למערכת שעובדת להרבה תלמידים.”</div>
+
+      <h3>משימת כניסה</h3>
+      <p>הצוות עונה בעל־פה: איזה כוח מהתחנות הראשונות הכי חשוב למערכת AI שפועלת להרבה תלמידים?</p>
+      <p><b>תשובות טובות:</b> ענן, כוח חישוב, שבבים/חומרה. כל תשובה מנומקת מתקבלת.</p>
+
+      <h3>מה מקבלים?</h3>
+      <div class="receive"><b>שלוק + קלף משתמש.</b> הקלף עוזר להם לענות בסוף על השאלה: למי המערכת שלנו עוזרת?</div>
+
+      <h3>קלפי משתמש לדוגמה</h3>
+      <div class="cards">
+        <div class="card"><b>קלף משתמש</b><br>תלמיד/ה שלא יודע/ת איזה תחום טכנולוגי מתאים לו/ה.</div>
+        <div class="card"><b>קלף משתמש</b><br>תלמיד/ה שמתבייש/ת לשאול שאלות.</div>
+        <div class="card"><b>קלף משתמש</b><br>תלמיד/ה שאוהב/ת משחקים ורוצה להבין אם זה יכול להפוך למקצוע.</div>
+        <div class="card"><b>קלף משתמש</b><br>תלמיד/ה שחושב/ת שטכנולוגיה זה רק תכנות.</div>
+      </div>
+
+      <h3>מה כותבים בחוברת?</h3>
+      <div class="sign">המשתמש שהמערכת שלנו עוזרת לו/לה: ____________________________________________</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>עמדת שלוקים</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>תחנות החברה — המשך</h2>
+
+    <div class="station" style="--c:#dc2626">
+      <div class="station-head"><div class="icon">🗄️</div><div><span class="num">תחנה 4 · Oracle</span><h3>דאטה מסודר</h3><p class="power">הכוח שנאסף: דאטה איכותי</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Oracle עוסקת בדאטה ובבסיסי נתונים. AI טוב צריך מידע מסודר ואמין. אם המידע מבולגן או שגוי — גם התשובה יכולה להיות שגויה.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שמערכת AI צריכה לשאול שאלות טובות ולהשתמש במידע נכון.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “דאטה מסודר”. משתמשים בו כדי להחליט איזה מידע המערכת תשאל תלמיד.</div>
+    </div>
+
+    <div class="station" style="--c:#1d4ed8">
+      <div class="station-head"><div class="icon">🔐</div><div><span class="num">תחנה 5 · CyberArk</span><h3>זהויות ואבטחה</h3><p class="power">הכוח שנאסף: פרטיות והרשאות</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> CyberArk עוסקת בסייבר ובזהויות: מי נכנס למערכת ומה מותר לו לעשות. במערכות AI יש מידע רגיש ולכן חייבים הרשאות ואבטחה.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שלא כל מידע מותר לשמור או לשתף, ושצריך להגן על פרטים אישיים.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “זהויות ואבטחה”. משתמשים בו בסעיף הפרטיות במשימה הסופית.</div>
+    </div>
+
+    <div class="station" style="--c:#7c3aed">
+      <div class="station-head"><div class="icon">🎨</div><div><span class="num">תחנה 6 · Wix</span><h3>חוויית משתמש</h3><p class="power">הכוח שנאסף: UX ברור ונוח</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Wix מזכירה שגם רעיון חכם חייב להיות ברור ונעים לשימוש. אם המשתמש לא מבין איפה ללחוץ — המערכת לא באמת טובה.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שמערכת AI לילדים צריכה לדבר פשוט, להציג כפתורים ברורים ולהסביר את עצמה.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “חוויית משתמש”. משתמשים בו כדי לתאר איך הילד ישתמש במערכת בקלות.</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>תחנות 4–6</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>עמדת בונוס 2 — חטיפים</h2>
+
+    <div class="bonus" style="--c:#f97316">
+      <h3>עמדת “איסוף דאטה”</h3>
+      <p class="lead">מיקום: אחרי תחנות Oracle, CyberArk ו־Wix.</p>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה יש פיזית בעמדה?</h3>
+          <ul>
+            <li>חטיפים אישיים קטנים.</li>
+            <li>קלפי דאטה.</li>
+            <li>קלפי אחריות.</li>
+            <li>עטים ספייר.</li>
+            <li>שלט: “AI טוב מתחיל משאלות טובות”.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה המטרה?</h3>
+          <p>לגרום לצוות להבין שהמערכת הסופית שלהם לא יכולה “לנחש”; היא צריכה לשאול שאלות נכונות ולשמור על פרטיות.</p>
+        </div>
+      </div>
+
+      <h3>מה המדריך אומר?</h3>
+      <div class="script" style="--c:#f97316">“AI טוב לא מנחש סתם. הוא שואל שאלות טובות ומשתמש במידע בצורה אחראית. לפני החטיף, כל צוות כותב שאלה אחת שהמערכת שלו תשאל תלמיד כדי לעזור לו לבחור תחום טכנולוגי.”</div>
+
+      <h3>משימת כניסה</h3>
+      <p>כל צוות כותב או אומר שאלה אחת שהמערכת תשאל תלמיד.</p>
+      <p><b>דוגמאות:</b> מה מעניין אותך? האם אתה אוהב לעבוד לבד או בצוות? איזה מקצוע בבית הספר הכי מעניין אותך? האם אתה אוהב ליצור, לחקור, לתכנת או לעצב?</p>
+
+      <h3>מה מקבלים?</h3>
+      <div class="receive"><b>חטיף + קלף דאטה + קלף אחריות.</b> הקלפים עוזרים למלא את סעיפים 3–4 בעבודה הכתובה.</div>
+
+      <h3>קלפי דאטה לדוגמה</h3>
+      <div class="cards">
+        <div class="card"><b>קלף דאטה</b><br>המערכת תשאל על תחומי עניין.</div>
+        <div class="card"><b>קלף דאטה</b><br>המערכת תשאל על סגנון למידה.</div>
+        <div class="card"><b>קלף דאטה</b><br>המערכת תשאל על מקצועות אהובים בבית ספר.</div>
+        <div class="card"><b>קלף דאטה</b><br>המערכת תשאל אם התלמיד/ה מעדיף/ה לעבוד לבד או בצוות.</div>
+      </div>
+
+      <h3>קלפי אחריות לדוגמה</h3>
+      <div class="cards">
+        <div class="card"><b>כלל אחריות</b><br>לא שומרים מידע אישי בלי אישור.</div>
+        <div class="card"><b>כלל אחריות</b><br>המערכת לא מחליטה במקום הילד/ה.</div>
+        <div class="card"><b>כלל אחריות</b><br>המערכת מסבירה למה היא המליצה.</div>
+        <div class="card"><b>כלל אחריות</b><br>תמיד אפשר לשנות תשובות.</div>
+      </div>
+
+      <h3>מה כותבים בחוברת?</h3>
+      <div class="sign">3 שאלות שהמערכת תשאל: _______________________________________________________<br><br>כלל אחריות שנבחר: ___________________________________________________________</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>עמדת חטיפים</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>תחנות החברה — סיום</h2>
+
+    <div class="station" style="--c:#0891b2">
+      <div class="station-head"><div class="icon">🎯</div><div><span class="num">תחנה 7 · Taboola</span><h3>המלצות תוכן</h3><p class="power">הכוח שנאסף: המלצה חכמה</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Taboola עוסקת בהמלצות תוכן. מערכת המלצות טובה צריכה להתאים למשתמש, אבל גם לפתוח אפשרויות חדשות ולא לסגור אותו בבועה.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שמערכת AI יכולה להמליץ על תחומי טכנולוגיה, אבל לא לבחור במקום הילד.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “המלצות תוכן”. משתמשים בו כדי להסביר איך המערכת ממליצה על תחומים.</div>
+    </div>
+
+    <div class="station" style="--c:#0f766e">
+      <div class="station-head"><div class="icon">🛡️</div><div><span class="num">תחנה 8 · RAFAEL</span><h3>אחריות במערכות מתקדמות</h3><p class="power">הכוח שנאסף: בדיקות ובקרה אנושית</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> RAFAEL מפתחת מערכות טכנולוגיות מתקדמות. במערכות חשובות אין “בערך”: צריך בדיקות, כללים ואישור אנושי.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שככל שהטכנולוגיה חזקה יותר, האחריות גדולה יותר.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “אחריות”. משתמשים בו כדי להגדיר מתי המערכת צריכה לבקש אישור ממבוגר/מדריך.</div>
+    </div>
+
+    <div class="station" style="--c:#ea580c">
+      <div class="station-head"><div class="icon">🌍</div><div><span class="num">תחנה 9 · Siraj Technologies</span><h3>טכנולוגיה לקהילה</h3><p class="power">הכוח שנאסף: צורך אמיתי</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Siraj Technologies מזכירה שטכנולוגיה לא חייבת להיות רק גאדג׳ט מגניב. היא יכולה לעזור לאנשים, עסקים וקהילות לפתור בעיות אמיתיות.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שצריך להתחיל מהשאלה: למי אנחנו עוזרים ומה הבעיה האמיתית שלו?</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “טכנולוגיה לקהילה”. משתמשים בו כדי להראות שהמערכת עוזרת לילדים באמת.</div>
+    </div>
+
+    <div class="station" style="--c:#9333ea">
+      <div class="station-head"><div class="icon">✨</div><div><span class="num">תחנה 10 · Lightricks</span><h3>יצירה דיגיטלית</h3><p class="power">הכוח שנאסף: הצגה יצירתית</p></div></div>
+      <div class="script"><b>מה המדריך מסביר:</b> Lightricks מפתחת כלים ליצירה ועריכה. AI יכול ליצור דברים מדהימים, אבל לא כל מה שנוצר ב־AI הוא אמיתי. האדם אחראי לבדוק אמת ולהשתמש בכבוד.</div>
+      <div class="children"><b>מה הילדים עושים:</b> מבינים שאפשר להציג רעיון בצורה יצירתית, אבל צריך להיות אמינים ולא להטעות.</div>
+      <div class="receive"><b>מה מקבלים:</b> כוח “יצירה דיגיטלית”. משתמשים בו כדי לנסח פרסומת או הצגה יפה למערכת.</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>תחנות 7–10</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>עמדת בונוס 3 — קוד המשימה</h2>
+
+    <div class="bonus" style="--c:#7c3aed">
+      <h3>עמדת “קוד המשימה הסופי”</h3>
+      <p class="lead">מיקום: אחרי תחנות Taboola, RAFAEL, Siraj Technologies ו־Lightricks.</p>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה יש פיזית בעמדה?</h3>
+          <ul>
+            <li>קלפי משפט סיום.</li>
+            <li>מדבקות/חותמות “סוכן AI מוסמך”.</li>
+            <li>אפשרות: כרטיס קטן עם מקום לשם הצוות.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה המטרה?</h3>
+          <p>לסגור את הסיור ולהפוך את כל הכוחות שנאספו לרעיון אחד ברור שאפשר לכתוב ולהציג.</p>
+        </div>
+      </div>
+
+      <h3>מה המדריך אומר?</h3>
+      <div class="script" style="--c:#7c3aed">“עכשיו אתם צריכים להפוך את כל מה שאספתם לרעיון אחד ברור. בחרו כוח אחד מהתחנות האחרונות שחייב להופיע במערכת שלכם, וקבלו את משפט הסיום שיעזור לכם לנסח את הפרסומת.”</div>
+
+      <h3>משימת כניסה</h3>
+      <p>הצוות בוחר כוח אחד מארבע התחנות האחרונות ומסביר למה הוא חשוב למערכת שלהם.</p>
+      <ul>
+        <li><b>Taboola:</b> המלצות חכמות.</li>
+        <li><b>RAFAEL:</b> בדיקות ואחריות.</li>
+        <li><b>Siraj Technologies:</b> צורך אמיתי ועזרה לקהילה.</li>
+        <li><b>Lightricks:</b> הצגה יצירתית וברורה.</li>
+      </ul>
+
+      <h3>מה מקבלים?</h3>
+      <div class="receive"><b>קלף משפט סיום + מדבקה/חותמת.</b> הקלף עוזר להם למלא את סעיף הפרסומת בעבודה הכתובה.</div>
+
+      <h3>קלפי משפט סיום לדוגמה</h3>
+      <div class="cards">
+        <div class="card"><b>משפט סיום</b><br>המערכת שלנו עוזרת ל־__________ לגלות __________ בעזרת __________ תוך שמירה על __________.</div>
+        <div class="card"><b>משפט סיום</b><br>בעזרת המערכת שלנו, תלמידים יכולים __________, לקבל __________, ולהחליט __________.</div>
+        <div class="card"><b>משפט סיום</b><br>זה לא AI שמחליט במקום הילד — זה AI שעוזר לילד __________.</div>
+        <div class="card"><b>משפט סיום</b><br>המערכת שלנו משלבת __________, __________ ו־__________ כדי לעזור לתלמידים לבחור חכם.</div>
+      </div>
+
+      <h3>דוגמה מוכנה</h3>
+      <div class="sign">“המערכת שלנו עוזרת לתלמידים שמתלבטים לגלות את תחום הטכנולוגיה שמתאים להם, בעזרת המלצות חכמות, תוך שמירה על פרטיות ובחירה אישית.”</div>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>עמדת סיום</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>דף הפעלה מהיר למדריך</h2>
+
+    <div class="box">
+      <h3>משפט פתיחה לפעילות</h3>
+      <p>“היום אתם צוותי סוכני AI. בכל תחנה תכירו חברה אמיתית ותאספו כוח AI. בעמדות הבונוס תקבלו גם משהו קטן לאנרגיה וגם קלף שיעזור לכם לפתור את המשימה הסופית: לבנות רעיון למערכת AI שעוזרת לילדים לבחור תחום טכנולוגי עתידי.”</p>
+    </div>
+
+    <h2>מה צריך להכין מראש?</h2>
+    <table class="timeline">
+      <tr><th>פריט</th><th>כמות מומלצת</th><th>הערה</th></tr>
+      <tr><td>חוברות תלמיד</td><td>לפי מספר צוותים</td><td>עדיף חוברת אחת לכל צוות.</td></tr>
+      <tr><td>חוברת מדריך</td><td>לכל מדריך/ה</td><td>כוללת הסבר ותשובות.</td></tr>
+      <tr><td>שלוקים/מים</td><td>לפי מספר ילדים + רזרבה</td><td>עמדת טעינת ענן.</td></tr>
+      <tr><td>חטיפים אישיים</td><td>לפי מספר ילדים + רזרבה</td><td>עמדת איסוף דאטה.</td></tr>
+      <tr><td>קלפי משתמש</td><td>לפחות אחד לכל צוות</td><td>אפשר לגזור מהעמוד הזה.</td></tr>
+      <tr><td>קלפי דאטה</td><td>2–3 לכל צוות</td><td>לבחירת שאלות למערכת.</td></tr>
+      <tr><td>קלפי אחריות</td><td>אחד לכל צוות</td><td>פרטיות ובקרה.</td></tr>
+      <tr><td>קלפי משפט סיום</td><td>אחד לכל צוות</td><td>עוזר לפרסומת הסופית.</td></tr>
+      <tr><td>חותמות/מדבקות</td><td>לפי מספר צוותים</td><td>לא חובה, אבל מוסיף תחושת משחק.</td></tr>
+    </table>
+
+    <h2>ניקוד מומלץ</h2>
+    <ul>
+      <li>השלמת תחנת חברה: עד 15 נקודות.</li>
+      <li>השתתפות בעמדת שלוקים: 5 נקודות בונוס.</li>
+      <li>כתיבת שאלה טובה בעמדת חטיפים: 5 נקודות בונוס.</li>
+      <li>שימוש ב־3 קלפי משימה בעבודה הסופית: 10 נקודות בונוס.</li>
+    </ul>
+
+    <div class="box">
+      <h3>גרסה קצרה אם יש עומס</h3>
+      <p>אם אין מספיק זמן או כוח אדם, מפעילים רק שתי עמדות בונוס:</p>
+      <ol>
+        <li>אחרי תחנה 3 — שלוקים + קלף משתמש.</li>
+        <li>אחרי תחנה 6 — חטיפים + קלף דאטה/אחריות.</li>
+      </ol>
+      <p>את קלף משפט הסיום נותנים לכל הצוותים בזמן העבודה הכתובה.</p>
+    </div>
+
+    <div class="footer"><span>AI Quest</span><span>דף הפעלה</span></div>
+  </section>
+</body>
+</html>

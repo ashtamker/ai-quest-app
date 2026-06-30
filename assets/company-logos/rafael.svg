@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="RAFAEL logo">
+  <rect width="720" height="220" rx="34" fill="#ffffff"/>
+  <text x="360" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="7" fill="#0b4f8a">RAFAEL</text>
+  <path d="M170 158 C245 188, 475 188, 550 158" fill="none" stroke="#2b8fd6" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="CYBER@BGU logo">
+  <rect width="720" height="220" rx="34" fill="#ffffff"/>
+  <text x="360" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800" letter-spacing="2" fill="#4429a8">CYBER@BGU</text>
+  <path d="M165 158 C250 184, 470 184, 555 158" fill="none" stroke="#56d6ff" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+</svg>

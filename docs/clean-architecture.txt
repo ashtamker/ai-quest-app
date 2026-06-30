@@ -1,0 +1,388 @@
+Clean Architecture: Simplified and In‑Depth
+Guide
+מסמך	לימודי	בעברית	על	בסיס	המאמר	המקורי
+מקור:	מאמר	Medium	מאת	DrunknCode	,	פורסם	במאי	אלפיים	עשרים	וארבע,	זמן	קריאה	משוער	של	חמש	עשרה	דקות.
+הערה:	המסמך	משמר	את	מבנה	הרעיונות,	הנושאים,	הדוגמאות	וההסברים	של	המאמר,	אך	מנוסח	מחדש	ואינו	העתקה	מילולית
+של	הטקסט	המקורי.
+מטרת	המסמך
+להפוך	את	המאמר	למדריך	עבודה	ברור	ומסודר	בעברית:	מהי	Clean Architecture	,	מהם	העקרונות	המרכזיים,	כיצד
+מחלקים	אפליקציית	Flutter	לשכבות,	ומה	תפקידם	של	Repository, Entity, Use Case, Model, Data Source	ורכיבי
+Presentation	.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 1 of 12 --
+
+תוכן	עניינים
+תקציר	הרעיון	המרכזי
+מבוא	ל־	Clean Architecture
+עקרונות	הליבה
+שכבות	הארכיטקטורה
+Data Layer	–	שכבת	הנתונים
+Domain Layer	–	שכבת	הדומיין
+Presentation Layer	–	שכבת	התצוגה
+ייצוג	חזותי	וזרימת	תלות
+מסקנות	וסיכום
+מילון	מושגים	קצר
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 2 of 12 --
+
+תקציר	הרעיון	המרכזי
+Clean Architecture	היא	גישה	לתכנון	תוכנה	שמטרתה	להפריד	בין	תחומי	אחריות	שונים	במערכת,	כך	שהקוד	יהיה
+קל	יותר	לניהול,	בדיקה,	תחזוקה	והרחבה.	במקום	לערבב	ממשק	משתמש,	לוגיקה	עסקית,	גישה	לנתונים	ותלויות
+חיצוניות	באותו	מקום,	מחלקים	את	האפליקציה	לשכבות	מוגדרות	היטב.
+הרעיון	המרכזי	הוא	שהליבה	העסקית	של	האפליקציה	צריכה	להיות	עצמאית	ככל	האפשר.	היא	לא	אמורה	להיות
+תלויה	ב־	Flutter	,	במסד	נתונים	מסוים,	ב־	API	חיצוני,	ב־	UI	או	במסגרת	עבודה	אחרת.	שכבות	חיצוניות	יכולות	להכיר
+את	השכבות	הפנימיות,	אבל	השכבות	הפנימיות	אינן	תלויות	בשכבות	החיצוניות.
+משפט	מפתח
+התלויות	תמיד	פונות	פנימה:	מן	ה־	UI	וה־	Data	אל	ה־	Domain	,	ולא	להפך.
+מבוא	ל־	Clean Architecture
+Clean Architecture	,	שמזוהה	בין	היתר	עם	Robert C. Martin	,	המכונה	Uncle Bob	,	מציעה	דרך	לבנות	מערכות
+מורכבות	כך	שכל	חלק	במערכת	יהיה	ממוקד	באחריות	שלו.	השיטה	מתאימה	במיוחד	למערכות	שצפויות	לגדול,
+להשתנות,	להיבדק	לאורך	זמן	ולהחליף	רכיבים	חיצוניים	בלי	לשבור	את	הליבה	העסקית.
+ביישומי	Flutter	,	הגישה	באה	לידי	ביטוי	בחלוקה	ברורה	בין	שכבת	התצוגה,	שכבת	הדומיין	ושכבת	הנתונים.	כל	שכבה
+מכירה	רק	את	מה	שהיא	חייבת	להכיר.	ההפרדה	הזו	מאפשרת	כתיבת	בדיקות	פשוטה	יותר,	החלפת	API	או	מסד
+נתונים	בצורה	בטוחה	יותר,	ושימור	קוד	קריא	ומאורגן	גם	כאשר	הפרויקט	גדל.
+עקרונות	הליבה	של	Clean Architecture
+עיקרון	המשמעות	בפועל
+Separation of Concerns	–	הפרדת	תחומי	אחריות	כל	תחום	במערכת	מטופל	במקום	המתאים	לו:	UI	בשכבת
+התצוגה,	חוקים	עסקיים	בשכבת	הדומיין,	וגישה	למידע	בשכבת
+הנתונים.
+Independence of Frameworks	–	עצמאות	ממסגרות	עבודה	הלוגיקה	המרכזית	אינה	תלויה	ב־	Flutter	,	בספריית	State
+Management	,	במסד	נתונים	או	בכלי	חיצוני	אחר.	כך	אפשר
+להחליף	או	לשדרג	טכנולוגיה	בלי	לפגוע	בליבה.
+Testability	–	יכולת	בדיקה	כאשר	כל	שכבה	מבודדת	וברורה,	ניתן	לבדוק	Use Cases,
+Entities, Repositories	ורכיבי	Presentation	בנפרד.
+Flexibility and Maintainability	–	גמישות	ותחזוקתיות	מבנה	שכבות	מאפשר	לשנות	חלק	מסוים	במערכת	בלי	לגרור
+שינויים	רחבים	ולא	מבוקרים	בכל	הקוד.
+Dependency Rule	–	כלל	התלות	תלויות	הקוד	צריכות	להצביע	פנימה,	אל	הליבה.	שכבות	חיצוניות
+תלויות	בשכבות	פנימיות,	אך	לא	להפך.
+שכבות	הארכיטקטורה
+המאמר	מציג	שלוש	שכבות	מרכזיות	בהקשר	של	Flutter Clean Architecture: Data Layer, Domain Layer
+ו־	Presentation Layer	.	כל	שכבה	אחראית	לתחום	אחר,	והקשר	ביניהן	נבנה	כך	שהדומיין	נשאר	נקי	מתלויות
+חיצוניות.
+שכבה	תפקיד	מרכזי
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 3 of 12 --
+
+Data Layer	אחראית	על	מקורות	מידע,	מודלים,	מימושי	Repositories, API,
+Cache, Local Storage	ומיפוי	נתונים.
+Domain Layer	מכילה	את	הליבה	העסקית:	Entities, Use Cases	וממשקי
+Repository	.	זו	השכבה	העצמאית	והחשובה	ביותר.
+Presentation Layer	אחראית	על	מסכים,	Widgets	,	ניהול	מצב,
+ViewModels/Presenters	ותגובה	לפעולות	משתמש.
+באופן	כללי,	המשתמש	פועל	מול	ה־	Presentation Layer	.	שכבת	התצוגה	מפעילה	Use Cases	שנמצאים	ב־	Domain
+Layer	.	ה־	Use Cases	משתמשים	בממשקי	Repository	שמוגדרים	בדומיין.	המימושים	בפועל	של	אותם
+Repositories	נמצאים	ב־	Data Layer	ומדברים	עם	API	,	בסיס	נתונים	או	מקור	מידע	מקומי.
+Data Layer	–	שכבת	הנתונים
+שכבת	הנתונים	אחראית	על	ניהול	מקורות	המידע	החיצוניים	והפנימיים	של	האפליקציה.	היא	יודעת	איך	לשלוף	מידע
+מ־	REST API	,	איך	לשמור	נתונים	בזיכרון	מקומי,	איך	לעבוד	עם	Cache	,	ואיך	להמיר	מידע	גולמי	למודלים	שהמערכת
+יכולה	להשתמש	בהם.
+תתי־רכיבים	מרכזיים	בשכבת	הנתונים
+•	Data Sources	–	מחלקות	או	ממשקים	שאחראים	לשליפה	ושמירה	של	מידע	ממקורות	שונים,	כמו	API	מרוחק,	מסד
+נתונים	מקומי,	Shared Preferences	,	קבצים	או	חיישני	מכשיר.
+•	Models	–	מבני	נתונים	שמייצגים	את	המידע	כפי	שהוא	מגיע	ממקור	חיצוני	או	נשמר	אליו.	לעיתים	הם	דומים	מאוד
+ל־	Entities	,	אך	מותאמים	לצורכי	הנתונים,	למשל	JSON serialization	.
+•	Repository Implementations	–	המימושים	בפועל	של	ממשקי	Repository	שהוגדרו	בדומיין.	הם	מחברים	בין	שכבת
+הדומיין	לבין	מקורות	הנתונים.
+•	Mappers	–	רכיבים	שממירים	בין	Data Models	לבין	Domain Entities	,	כדי	שהדומיין	לא	יהיה	תלוי	בצורת	הנתונים
+החיצונית.
+Repositories	בשכבת	הנתונים
+Repository	משמש	כמתווך	בין	הדומיין	לבין	מקורות	המידע.	מצד	הדומיין	הוא	מציג	API	פשוט	ונקי,	ומצד	הנתונים
+הוא	מחליט	מאיפה	להביא	את	המידע:	רשת,	Cache	,	מסד	נתונים	מקומי	או	מקור	אחר.
+המאמר	מדגיש	שה־	Domain Layer	מגדיר	את	ממשק	ה־	Repository	,	בעוד	שה־	Data Layer	מספקת	את	המימוש.	כך
+הדומיין	תלוי	בהפשטה	ולא	במחלקה	קונקרטית.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 4 of 12 --
+
+abstract interface class UserRepository {
+Future<User> getUserById(int id);
+Future<void> createUser(User user);
+}
+class UserRepositoryImpl implements UserRepository {
+final UserRemoteDataSource remote;
+final UserLocalDataSource local;
+UserRepositoryImpl(this.remote, this.local);
+@override
+Future<User> getUserById(int id) async => remote.fetchUser(id);
+}
+Dependency Inversion Principle
+שכבת	הדומיין	תלויה	בממשקים	ובהפשטות,	ולא	במימושים.	לכן	שינוי	באופן	שבו	שולפים	מידע	—	למשל	מעבר	מ־	REST
+API	ל־	GraphQL	או	החלפת	מסד	נתונים	—	לא	אמור	לשנות	את	Use Cases	או	Entities	.
+Data Sources	–	מקורות	מידע
+Data Source	הוא	הרכיב	שמבצע	בפועל	את	פעולות	הגישה	לנתונים.	הוא	יודע	איך	לדבר	עם	מקור	המידע	הספציפי,
+אך	אינו	אמור	להכיל	לוגיקה	עסקית.	המאמר	מחלק	את	מקורות	הנתונים	לשני	סוגים	עיקריים:
+1	.	Remote Data Source	–	אחראי	על	תקשורת	עם	שירותים	חיצוניים	או	APIs	.	הוא	מבצע	בקשות	HTTP	,	מטפל	בתגובות
+וממיר	מידע	גולמי	למודלים.
+2	.	Local Data Source	–	אחראי	על	נתונים	שנשמרים	במכשיר,	למשל	Database	מקומי,	Cache, Shared Preferences
+או	קבצים.
+בדרך	כלל	נגדיר	ממשק	מופשט	ל־	Data Source	,	ולאחר	מכן	מימושים	קונקרטיים.	כך	ניתן	להחליף	מקור	מידע	או
+לדמות	אותו	בבדיקות.
+abstract interface class DataSource<T> {
+Future<T> fetchData();
+Future<void> saveData(T data);
+}
+class RemoteUserDataSource implements DataSource<UserModel> {
+@override
+Future<UserModel> fetchData() async {
+// HTTP request + response parsing
+throw UnimplementedError();
+}
+@override
+Future<void> saveData(UserModel data) async {
+// Send data to remote API
+}
+}
+המימושים	הקונקרטיים	הם	המקום	שבו	נמצאים	פרטים	כמו	כתובות	API	,	שאילתות	SQL	,	פורמט	JSON	או	קריאות
+ל־	storage	.	הפרטים	האלה	נשארים	מחוץ	לדומיין	כדי	שהליבה	העסקית	לא	תושפע	מהם.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 5 of 12 --
+
+Models	–	מודלים	של	נתונים
+Model	בשכבת	הנתונים	מייצג	את	צורת	הנתון	כפי	שהוא	עובר	בין	מקורות	המידע	לבין	האפליקציה.	הוא	יכול	לכלול
+שדות	שמגיעים	מ־	JSON	,	מתודות	fromJson/toJson	,	התאמות	לפורמט	של	מסד	נתונים,	ולפעמים	מידע	טכני	שאינו
+שייך	ל־	Entity	הדומייני.
+מטרות	המודל
+•	לעטוף	מידע	שמגיע	ממקורות	חיצוניים	כמו	API	או	Database	.
+•	לספק	מבנה	ברור	ונוח	לעיבוד	נתונים	בתוך	שכבת	הנתונים.
+•	להסתיר	פרטים	טכניים	של	אחסון	ושליפה	מהשכבות	הפנימיות.
+•	לאפשר	המרה	בין	פורמטים	חיצוניים	לבין	אובייקטים	פנימיים.
+מאפיינים	ואחריות	של	מודלים
+•	המודל	בדרך	כלל	משקף	את	מבנה	המידע	שמתקבל	מבחוץ:	שדות,	שמות	מפתחות,	טיפוסים	ויחסים.
+•	המודל	עשוי	לכלול	constructors	שמקבלים	JSON	או	Map	.
+•	המודל	יכול	לכלול	serialization	ו־	deserialization	.
+•	בחלק	מהמקרים	הוא	כולל	validation	בסיסי	כדי	לוודא	שהנתון	עקבי	לפני	המשך	עיבוד.
+•	לפני	מעבר	לדומיין,	המודל	יכול	להיות	מומר	ל־	Entity	נקי	יותר.
+class UserModel {
+final int id;
+final String name;
+final String email;
+UserModel({required this.id, required this.name, required this.email});
+factory UserModel.fromJson(Map<String, dynamic> json) => UserModel(
+id: json['id'] as int,
+name: json['name'] as String,
+email: json['email'] as String,
+);
+Map<String, dynamic> toJson() => {'id': id, 'name': name, 'email': email};
+}
+בדוגמה	זו,	UserModel	משמש	לייצוג	נתוני	משתמש	כפי	שהם	עוברים	מול	מקור	מידע	חיצוני.	הוא	כולל	יצירה	מתוך
+JSON	והמרה	חזרה	ל־	JSON	.	בדומיין	ייתכן	שנשתמש	ב־	User Entity	נקי	יותר,	שאינו	תלוי	בפורמט	JSON	.
+Domain Layer	–	שכבת	הדומיין
+שכבת	הדומיין	היא	ליבת	האפליקציה.	כאן	נמצאים	החוקים	העסקיים,	המושגים	המרכזיים	של	המערכת,	פעולות
+המשתמש	המשמעותיות	והממשקים	שמגדירים	מה	האפליקציה	צריכה	לקבל	ממקורות	הנתונים	—	בלי	לדעת	כיצד	זה
+קורה	בפועל.
+השכבה	הזו	עצמאית	ממסדי	נתונים,	APIs, Flutter Widgets	,	ספריות	State Management, UI	ומימושים	טכניים.
+לכן	היא	בדרך	כלל	השכבה	שהכי	קל	לבדוק	והכי	חשוב	לשמור	נקייה.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 6 of 12 --
+
+תתי־רכיבים	מרכזיים	בשכבת	הדומיין
+•	Entities	–	אובייקטים	שמייצגים	מושגים	עסקיים	מרכזיים	במערכת.
+•	Use Cases	–	פעולות	או	תרחישים	עסקיים	שהמערכת	יודעת	לבצע.
+•	Repository Interfaces	–	חוזים	שמגדירים	אילו	פעולות	נתונים	הדומיין	צריך,	בלי	לקבוע	איך	הן	ימומשו.
+Entities	–	ישויות	עסקיות
+Entity	מייצגת	אובייקט	עסקי	מרכזי	באפליקציה.	היא	יכולה	להכיל	נתונים	והתנהגות,	אך	אינה	תלויה	בטכנולוגיה
+חיצונית.	ב־	Flutter/Dart, Entity	תהיה	לרוב	מחלקת	Dart	פשוטה,	ללא	תלות	ב־	Flutter, HTTP, JSON	או	Database	.
+מאפיינים	של	Entity
+מאפיין	הסבר
+Plain Dart Class	מחלקה	פשוטה,	ללא	תלות	במסגרת	עבודה	חיצונית.
+Data and Behavior	יכולה	להכיל	גם	שדות	וגם	פעולות	שקשורות	ללוגיקה	העסקית.
+Immutable or Mutable	יכולה	להיות	בלתי־ניתנת	לשינוי	או	ניתנת	לשינוי,	בהתאם	לצורך.
+Immutable	משפרת	צפיות	ובטיחות.
+Identity	לעיתים	לישות	יש	מזהה	ייחודי,	כמו	id	או	UUID	,	שמבדיל	אותה
+מאחרות.
+class Task {
+final String id;
+final String title;
+final bool completed;
+const Task({
+required this.id,
+required this.title,
+this.completed = false,
+});
+}
+בדוגמה	זו	Task	מייצגת	משימה.	היא	כוללת	id, title	ו־	completed	.	אין	בה	ידע	על	UI, JSON, API	או	Database	.	זו
+ישות	עסקית	נקייה.
+יתרונות	של	Entities	נקיות
+•	ריכוז	הלוגיקה	העסקית	במקום	ברור	וקל	לתחזוקה.
+•	שימוש	חוזר	בישויות	בין	חלקים	שונים	של	המערכת.
+•	בדיקות	יחידה	פשוטות,	ללא	צורך	להריץ	Flutter	או	להתחבר	למקור	נתונים.
+•	יכולת	לשנות	חוקים	עסקיים	בלי	להשפיע	על	UI	או	Data Layer	.
+•	עמידה	בכלל	התלות:	השכבות	הפנימיות	לא	מכירות	את	החיצוניות.
+Use Cases	–	תרחישי	שימוש
+Use Case	מייצג	פעולה	ספציפית	שהמערכת	מבצעת.	כל	Use Case	אמור	להתמקד	באחריות	אחת:	התחברות
+משתמש,	יצירת	חשבון,	שליפת	משתמש	נוכחי,	יצירת	משימה,	סימון	משימה	כהושלמה	וכדומה.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 7 of 12 --
+
+הגדרה	ותפקיד
+•	Use Case	מתאר	משימה	או	פעולה	שהמשתמש	או	המערכת	מפעילים.
+•	הוא	עוטף	את	הלוגיקה	העסקית	הדרושה	לביצוע	הפעולה.
+•	הוא	מקדם	מודולריות,	שימוש	חוזר	ויכולת	בדיקה.
+•	הוא	מיישם	את	Single Responsibility Principle	:	כל	Use Case	עושה	דבר	אחד	ברור.
+•	הוא	תלוי	בהפשטות	כמו	Repository Interface	,	ולא	במימושים	של	Data Layer	.
+מימוש	Use Cases	ב־	Flutter Clean Architecture
+ביישום	נפוץ,	כל	Use Case	הוא	מחלקה	בשכבת	הדומיין.	המחלקה	מקבלת	את	התלויות	שלה	דרך	constructor	,
+בדרך	כלל	Repository Interface	.	היא	חושפת	פעולה	מרכזית	אחת,	לרוב	באמצעות	call	,	ומחזירה	תוצאה	עסקית	או
+כישלון.
+abstract interface class UseCase<Result, Params> {
+Future<Either<Failure, Result>> call(Params params);
+}
+class UserLogin implements UseCase<User, LoginParams> {
+final AuthRepository repository;
+UserLogin(this.repository);
+@override
+Future<Either<Failure, User>> call(LoginParams params) {
+return repository.loginWithEmailPassword(
+email: params.email,
+password: params.password,
+);
+}
+}
+בדוגמה	זו,	UserLogin	אינו	יודע	אם	ההתחברות	מתבצעת	מול	Firebase, Supabase, REST API	או	שרת	פנימי.	הוא
+מכיר	רק	את	AuthRepository	,	שהוא	חוזה	של	הדומיין.
+class CurrentUser implements UseCase<User, NoParams> {
+final AuthRepository repository;
+CurrentUser(this.repository);
+@override
+Future<Either<Failure, User>> call(NoParams params) {
+return repository.currentUser();
+}
+}
+class NoParams { const NoParams(); }
+Use Cases	מחזקים	את	גבולות	הארכיטקטורה:	הם	נמצאים	בליבה,	מפעילים	חוקים	עסקיים,	ומבודדים	את	הדומיין
+מ־	UI	וממקורות	מידע	חיצוניים.
+Repositories	בשכבת	הדומיין
+ב־	Clean Architecture, Repository	בשכבת	הדומיין	הוא	בעיקר	ממשק.	הוא	מגדיר	אילו	פעולות	הנתונים	זמינות
+לדומיין,	אך	לא	מפרט	כיצד	הנתונים	נשלפים	או	נשמרים.	המימוש	נמצא	בשכבת	הנתונים.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 8 of 12 --
+
+מאפיינים	מרכזיים
+מאפיין	המשמעות
+Abstraction of Data Access	הדומיין	מבקש	מידע	דרך	ממשק,	בלי	לדעת	אם	הוא	מגיע	מ־	API,
+Cache	או	Database	.
+Single Source of Truth	ה־	Repository	מרכז	את	אופן	הגישה	לנתונים	ומציג	לדומיין	API
+עקבי.
+Encapsulation of Rules	אפשר	לרכז	בו	החלטות	הקשורות	לנתונים,	תוך	שמירה	על
+הדומיין	נקי	ממימושים	טכניים.
+Testability	בבדיקות	ניתן	להחליף	Repository	אמיתי	במימוש	מדומה,	וכך
+לבדוק	Use Cases	בנפרד.
+abstract interface class AuthRepository {
+Future<Either<Failure, User>> loginWithEmailPassword({
+required String email,
+required String password,
+});
+Future<Either<Failure, User>> currentUser();
+}
+class AuthRepositoryImpl implements AuthRepository {
+final AuthRemoteDataSource remote;
+AuthRepositoryImpl(this.remote);
+@override
+Future<Either<Failure, User>> currentUser() => remote.currentUser();
+}
+הדגש	המרכזי	הוא	שהדומיין	לא	מכיר	AuthRemoteDataSource	או	ConnectionChecker	.	אלה	פרטים	של	שכבת
+הנתונים.	הדומיין	מכיר	רק	את	AuthRepository	.
+Presentation Layer	–	שכבת	התצוגה
+שכבת	התצוגה	אחראית	על	ממשק	המשתמש,	אינטראקציות	המשתמש	וניהול	מצב	הקשור	להצגת	מידע.	ב־	Flutter
+היא	כוללת	Widgets, Pages	,	רכיבי	State Management, ViewModels	או	Presenters	,	ולעיתים	גם	Controllers
+שמטפלים	בקלט	מהמשתמש.
+המאמר	מדגיש	ש־	Widgets	ו־	Pages	לא	אמורים	להכיל	לוגיקה	עסקית.	הם	אמורים	להציג	מידע,	להגיב	לאירועים
+ולהעביר	פעולות	לשכבת	הדומיין	דרך	Use Cases	או	דרך	ViewModel/Bloc	שמפעיל	את	ה־	Use Case	.
+Widgets
+Widget	הוא	אבן	הבניין	של	UI	ב־	Flutter	.	אפשר	ליצור	Widgets	קטנים	לשימוש	חוזר,	כמו	כפתורים,	שדות	טקסט,
+כרטיסים	ורכיבי	תצוגה.	Widget	טוב	ממוקד	בהצגה	ובאינטראקציה	בסיסית,	ולא	מכיל	חוקים	עסקיים.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 9 of 12 --
+
+Pages
+Page	מייצגת	מסך	מלא	או	אזור	UI	משמעותי	באפליקציה.	היא	מארגנת	Widgets	,	מחברת	אותם	ל־	state	,	ומעבירה
+פעולות	משתמש	לרכיבי	Presentation Logic	או	Use Cases. Page	לא	אמורה	לדעת	איך	הנתונים	נשמרים	או
+מאיפה	הם	מגיעים.
+Data Binding
+Data Binding	הוא	מנגנון	שמסנכרן	בין	מצב	האפליקציה	לבין	ה־	UI	.	ב־	Flutter	אפשר	לעשות	זאת	באמצעות
+setState, Provider, Riverpod, BLoC	או	פתרונות	אחרים.	במקרים	מסוימים	משתמשים	גם	בגישה	דו־כיוונית,	שבה
+שינוי	ב־	UI	משפיע	בחזרה	על	המודל	או	ה־	state	.
+Dependency Injection
+Dependency Injection	מאפשר	להעביר	תלות	חיצונית	לרכיב	במקום	ליצור	אותה	בתוכו.	בשכבת	התצוגה,	DI	יכול
+לספק	ViewModels, Use Cases, Services	או	Repositories	דרך	Provider, Riverpod, get_it	או	מנגנון	אחר.
+המטרה	היא	להפחית	coupling	ולהקל	על	בדיקות.
+ViewModels	או	Presenters
+ViewModel	הוא	רכיב	שמחזיק	לוגיקה	של	תצוגה	וניהול	מצב.	הוא	מכין	נתונים	לתצוגה,	מפעיל	Use Cases	,	ומעדכן
+את	ה־	UI	בהתאם	לתוצאה.	Presenter	משרת	רעיון	דומה:	הוא	מתווך	בין	UI	לבין	הלוגיקה	שמכינה	את	המידע
+להצגה.
+המאמר	מציג	גם	את	BLoC	כגישה	נפוצה	לניהול	State	ולוגיקת	Presentation. BLoC	או	ViewModel	יכולים	לקבל
+אירועים	מה־	UI	,	להפעיל	Use Cases	,	ואז	להחזיר	States	שאותם	ה־	UI	מציג.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 10 of 12 --
+
+class LoginViewModel {
+final UserLogin login;
+LoginViewModel(this.login);
+Future<void> submit(String email, String password) async {
+await login(LoginParams(email: email, password: password));
+// Convert the domain result into a presentation state
+}
+}
+ייצוג	חזותי	וזרימת	תלות
+במאמר	מופיעים	מספר	איורים	שממחישים	את	חלוקת	השכבות	ואת	הקשרים	ביניהן.	במקום	לשלב	את	התמונות
+עצמן,	המסמך	מתאר	את	הרעיון	המרכזי	שלהן:
+•	ה־	Domain Layer	נמצא	במרכז	ומייצג	את	הליבה	העסקית.
+•	ה־	Data Layer	נמצא	בשכבה	חיצונית	יותר	ומספק	מימושים	לגישה	לנתונים.
+•	ה־	Presentation Layer	נמצא	גם	הוא	מחוץ	לדומיין	ומטפל	בממשק	המשתמש.
+•	החץ	הלוגי	של	התלות	פונה	פנימה:	UI	ו־	Data	תלויים	ב־	Domain	,	אך	Domain	לא	תלוי	בהם.
+•	Entities	ו־	Use Cases	הם	החלקים	היציבים	ביותר	במערכת,	בעוד	UI	ו־	Data Sources	עשויים	להשתנות	בתדירות
+גבוהה	יותר.
+דרך	פשוטה	לזכור
+UI	שואל:	מה	המשתמש	רוצה	לעשות?	Use Case	מבצע	את	הפעולה	העסקית.	Repository Interface	מגדיר	מה	צריך
+מהנתונים.	Data Layer	יודע	איך	להשיג	את	הנתונים	בפועל.
+מסקנות	וסיכום
+Clean Architecture	מספקת	מבנה	קוד	שמפריד	בין	אחריות	עסקית,	תצוגה	וגישה	לנתונים.	בזכות	ההפרדה	הזו,	קל
+יותר	לתחזק	את	המערכת,	לבדוק	אותה,	להחליף	רכיבים	חיצוניים	ולהבין	איפה	כל	חלק	בקוד	אמור	להימצא.
+המאמר	מדגיש	כי	שכבת	הדומיין	היא	הליבה.	היא	צריכה	להישאר	עצמאית,	נקייה	מתלויות	טכנולוגיות,	וממוקדת
+בחוקים	העסקיים.	שכבת	הנתונים	מממשת	את	הגישה	למקורות	מידע,	ושכבת	התצוגה	מטפלת	באינטראקציה	מול
+המשתמש.
+כאשר	מיישמים	את	הגישה	נכון,	מתקבלת	ארכיטקטורה	גמישה,	ניתנת	לבדיקה,	ניתנת	להרחבה	וקלה	יותר	להבנה	גם
+בצוותים	גדולים	או	בפרויקטים	שגדלים	לאורך	זמן.
+מילון	מושגים	קצר
+מושג	הסבר	קצר
+Clean Architecture	גישה	לארגון	קוד	באמצעות	שכבות	ותלות	פנימה,	כדי	לשמור	על
+ליבה	עסקית	עצמאית.
+Domain Layer	שכבת	הליבה	של	המערכת:	Entities, Use Cases	וממשקי
+Repository	.
+Data Layer	שכבה	שמטפלת	במקורות	מידע,	מודלים	ומימושי	Repositories	.
+Presentation Layer	שכבת	UI	וניהול	מצב:	Widgets, Pages, BLoC, ViewModels
+ו־	Presenters	.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 11 of 12 --
+
+Entity	אובייקט	עסקי	מרכזי,	נקי	מתלות	בטכנולוגיות	חיצוניות.
+Use Case	פעולה	עסקית	אחת	שהמערכת	מבצעת,	למשל	התחברות	או
+שליפת	משתמש.
+Repository Interface	חוזה	בדומיין	שמגדיר	פעולות	נתונים	בלי	לחשוף	מימושים.
+Repository Implementation	מימוש	בשכבת	הנתונים	שמדבר	בפועל	עם	API, Cache	או
+Database	.
+Data Source	רכיב	שאחראי	על	שליפה	ושמירה	מול	מקור	מידע	ספציפי.
+Model	ייצוג	נתונים	טכני,	לרוב	מותאם	ל־	JSON, Database	או	API	.
+Dependency Inversion Principle	עיקרון	שלפיו	שכבות	פנימיות	תלויות	בהפשטות	ולא	במימושים
+קונקרטיים.
+BLoC	תבנית	ניהול	מצב	ב־	Flutter	שמפרידה	בין	אירועים,	לוגיקה
+ו־	State	להצגה.
+מקור	וקרדיט
+המסמך	מבוסס	על	המאמר:	Clean Architecture: Simplified and In‑Depth Guide	מאת	DrunknCode,
+Medium	,	פורסם	במאי	אלפיים	עשרים	וארבע.
+המאמר	המקורי	כולל	גם	קרדיטים	לתמונות	ולמקורות	נוספים	בנושא	Clean Architecture	.	במסמך	זה	לא	שולבו
+התמונות	המקוריות,	אלא	תיאור	מילולי	של	הרעיונות	שהן	ממחישות.
+Clean Architecture	–	מסמך	לימודי	בעברית
+
+-- 12 of 12 --
+
