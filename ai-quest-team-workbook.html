@@ -1,0 +1,1586 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Quest — חוברת עבודה לצוות</title>
+<style>
+:root{--ink:#10243f;--blue:#1558d6;--cyan:#27c5f5;--purple:#7c5cff;--line:#cbd5e1;--soft:#f4f8ff;--good:#16a34a;--warn:#f59e0b}*{box-sizing:border-box}body{margin:0;background:#eaf1fb;color:var(--ink);font-family:Arial,'Noto Sans Hebrew','Noto Sans Arabic',sans-serif;line-height:1.45}.sheet{width:210mm;min-height:297mm;margin:0 auto 18px;background:white;padding:16mm;box-shadow:0 12px 30px #0002;position:relative;overflow:hidden}.cover{background:radial-gradient(circle at top left,#56d6ff55,transparent 35%),linear-gradient(135deg,#071d38,#123d66 55%,#2f1f76);color:white;display:flex;flex-direction:column;justify-content:space-between}.cover h1{font-size:54px;margin:0;line-height:.95}.cover h2{font-size:28px;margin:12px 0;color:#b8eeff}.badge{display:inline-block;border:2px solid #75dfff;border-radius:999px;padding:8px 16px;font-weight:800}.team-box{background:#ffffff16;border:1px solid #ffffff44;border-radius:24px;padding:18px;font-size:20px}.team-box div{border-bottom:1px dashed #fff8;padding:10px 0}.ar{direction:rtl;color:#52657d;font-size:.92em}.cover .ar{color:#d7ecff}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.card{border:1px solid var(--line);border-radius:18px;padding:14px;background:var(--soft)}h1,h2,h3{margin:0 0 10px}h2{font-size:28px;color:#123d66;border-bottom:4px solid #dbeafe;padding-bottom:8px}h3{font-size:22px}.muted{color:#64748b}.big-note{font-size:20px;font-weight:800;background:#fff7ed;border:2px solid #fed7aa;border-radius:18px;padding:14px}.story{white-space:pre-line;font-size:16px}.company-card{break-inside:avoid;page-break-inside:avoid;border:2px solid #dbeafe;border-radius:22px;padding:14px;margin:0 0 12px;background:linear-gradient(180deg,#fff,#f8fbff)}.company-head{display:grid;grid-template-columns:94px 1fr;gap:14px;align-items:center}.logo{width:94px;height:94px;border:1px solid #dbeafe;border-radius:22px;display:grid;place-items:center;background:white;overflow:hidden}.logo img{max-width:108%;max-height:108%;object-fit:contain}.logo b{font-size:34px;color:var(--blue)}.company-head small{font-weight:900;color:var(--blue)}.field{font-weight:800;color:#334155;margin:0}.desc{font-size:14px;margin:8px 0}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.chips span{background:#e0f2fe;color:#075985;border:1px solid #bae6fd;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800}.logo-work{border:1px dashed #94a3b8;border-radius:14px;padding:8px;background:#fff;margin:8px 0;font-size:13px}.question{border-top:1px solid #e2e8f0;padding-top:8px;margin-top:8px}.question h4{margin:0 0 4px;font-size:15px}.options{display:grid;grid-template-columns:1fr 1fr;gap:6px}.options label{display:grid;grid-template-columns:26px 1fr;gap:6px;align-items:start;border:1px solid #e2e8f0;border-radius:12px;padding:6px;background:#fff}.options small{grid-column:2;font-size:11px}.circle{width:24px;height:24px;border:2px solid #60a5fa;border-radius:50%;display:grid;place-items:center;font-weight:900}.answer-line{margin-top:8px;font-weight:800}.score-box{display:grid;grid-template-columns:1fr 60px 1fr 60px;gap:8px;align-items:center;margin-top:10px}.score-box b,.sign{border:1px dashed #64748b;border-radius:8px;min-height:32px;background:white}table{width:100%;border-collapse:collapse;margin:12px 0}td,th{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:#eaf3ff;color:#123d66}.sign{min-width:80px}.puzzle{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.puzzle div{height:70px;border:2px dashed #94a3b8;border-radius:16px;display:grid;place-items:center;font-size:26px;font-weight:900;color:#94a3b8;background:#f8fafc}.lines{min-height:150px;border:1px dashed #94a3b8;border-radius:16px;background:repeating-linear-gradient(#fff,#fff 29px,#e2e8f0 30px);margin:10px 0}.free-lines{height:90px;border:1px dashed #94a3b8;border-radius:14px;background:white}.footer{position:absolute;bottom:8mm;left:16mm;right:16mm;font-size:11px;color:#64748b;display:flex;justify-content:space-between}.page-break{break-before:page;page-break-before:always}.print-hint{position:fixed;left:12px;bottom:12px;background:#0f172a;color:white;padding:10px 14px;border-radius:999px;box-shadow:0 8px 18px #0004;font-size:14px}@media print{body{background:white}.sheet{margin:0;box-shadow:none;width:210mm;min-height:297mm;page-break-after:always}.print-hint{display:none}a{color:inherit}}@page{size:A4;margin:0}
+</style>
+</head>
+<body>
+<div class="print-hint">להדפסה: Ctrl/Cmd+P → Save as PDF או הדפסה דו־צדדית</div>
+<section class="sheet cover"><div><span class="badge">AI Quest · גב־ים נגב</span><h1>חוברת עבודה לצוות</h1><h2>בונים מודל AI חכם, בטוח ואחראי</h2><p class="ar">كراسة عمل للفريق — نبني نموذج ذكاء اصطناعي ذكيًا وآمنًا ومسؤولًا</p></div><div class="team-box"><div>שם הצוות: ____________________________</div><div>שמות המשתתפים: ______________________</div><div>זמן פעילות: 60 / 90 / 135 דקות</div><div>מדריך/ה: _____________________________</div></div><p>חוברת אחת לכל צוות · אין צורך בטלפון · עובדים, חוקרים, מסמנים ומקבלים אישור מדריך.</p></section>
+<section class="sheet"><h2>1. סיפור המשימה</h2><p class="story">ברוכים הבאים ל־AI Quest בפארק גב־ים נגב.
+
+אתם נמצאים עכשיו בתוך פארק הייטק אמיתי, שבו פועלות חברות מתחומים שונים: סייבר, דאטה, ענן, חומרה, תוכנה, תוכן, תקשורת, בריאות, ביטחון ויזמות.
+
+בפארק הופעל מודל AI ניסיוני שנועד לעזור לפתור בעיה אמיתית שהוגדרה למשימה שלכם. אבל יש בעיה: המודל עדיין לא מספיק טוב. חסרים לו מידע איכותי, אבטחה, הבנת משתמשים, תשתיות חזקות, פרטיות ובקרה אנושית.
+
+המשימה שלכם היא לצאת לפארק בצוותים, למצוא חברות, לצלם את הלוגו שלהן, לענות על שאלות, להבין מה כל חברה עושה, ולאסוף ממנה יכולת טכנולוגית.
+
+כל יכולת שתאספו יכולה לעזור למודל שלכם להשתפר. חלק מהחברות יעזרו ישירות למודל, וחלק מהחברות יתנו לכם ניקוד והשראה כי הן חלק מהאקוסיסטם של פארק ההייטק.
+
+המטרה היא לא לסיים הכי מהר. המטרה היא לחקור, לחשוב, לענות נכון, לאסוף יכולות מגוונות, ולבנות את מודל ה־AI החכם, הבטוח והאחראי ביותר.
+
+בהצלחה, צוות החוקרים. המודל מחכה לכם.</p><div class="big-note">המטרה: לאסוף יכולות מחברות שונות כדי לשפר מודל AI שעוזר לתלמידים לבחור תחום טכנולוגי עתידי.</div><h2>איך עובדים בלי טלפון?</h2><div class="grid2"><div class="card"><h3>בכל חברת משימה</h3><ol><li>מצאו את החברה/הלוגו בפארק.</li><li>כתבו מה החברה עושה.</li><li>ענו על השאלות.</li><li>קבלו אישור מדריך אם צריך.</li></ol></div><div class="card"><h3>ניקוד ואיסוף יכולות</h3><p>כל חברה נותנת לצוות יכולת טכנולוגית. סמנו בטבלת תיק המודל אילו יכולות אספתם.</p><p class="ar">كل شركة تمنح الفريق قدرة تكنولوجية تساعد النموذج.</p></div></div><div class="footer"><span>AI Quest</span><span>עמוד הנחיות</span></div></section>
+<section class="sheet"><h2>2. מילון קצר</h2><div class="grid2"><div><b>בינה מלאכותית / AI</b><span class="ar">الذكاء الاصطناعي</span><p>טכנולוגיה שמאפשרת למחשב לבצע משימות שנראות כמו חשיבה: לכתוב, לזהות דפוסים, להמליץ או לסכם.</p></div><div><b>מודל AI</b><span class="ar">نموذج ذكاء اصطناعي</span><p>מערכת שלמדה מדוגמאות ומנסה לתת תשובה או המלצה לפי מה שלמדה.</p></div><div><b>דאטה</b><span class="ar">بيانات</span><p>מידע. למשל תשובות, תמונות, טקסטים או מספרים שמערכת יכולה ללמוד מהם.</p></div><div><b>אלגוריתם</b><span class="ar">خوارزمية</span><p>סדרת הוראות שמחשב מבצע כדי לפתור בעיה.</p></div><div><b>ענן</b><span class="ar">سحابة</span><p>שירותי מחשוב שפועלים דרך האינטרנט ולא רק על המכשיר שלנו.</p></div><div><b>שרת</b><span class="ar">خادم</span><p>מחשב חזק שנותן שירות למחשבים או לטלפונים אחרים.</p></div><div><b>סייבר</b><span class="ar">سايبر / أمن سيبراني</span><p>תחום שעוסק בהגנה על מידע, משתמשים ומערכות.</p></div><div><b>פרטיות</b><span class="ar">خصوصية</span><p>שמירה על מידע אישי כך שלא יגיע למי שלא צריך אותו.</p></div><div><b>הטיה</b><span class="ar">تحيّز</span><p>מצב שבו מערכת נותנת תוצאה לא הוגנת כי למדה ממידע חלקי או לא מאוזן.</p></div><div><b>חוויית משתמש / UX</b><span class="ar">تجربة المستخدم</span><p>כמה קל, ברור ונעים להשתמש במוצר.</p></div><div><b>מערכת המלצות</b><span class="ar">نظام توصيات</span><p>מערכת שמציעה תוכן, מוצרים או אפשרויות לפי מידע על המשתמש.</p></div><div><b>צ׳קפוינט</b><span class="ar">نقطة تحقق</span><p>נקודת עצירה ובקרה במשחק שבה הצוות חוזר למדריך או פותח שלב חדש.</p></div></div><h2>3. תכנון מסלול</h2><table><tr><th>זמן פעילות</th><th>יעד מומלץ</th><th>הערה</th></tr><tr><td>60 דקות</td><td>כ־24 חברות</td><td>מסלול קצר, התמקדו בחברות מוכרות ובתחומים מגוונים.</td></tr><tr><td>90 דקות</td><td>כ־40 חברות</td><td>מסלול מלא רגיל.</td></tr><tr><td>135 דקות</td><td>עד כל החברות</td><td>מסלול עומק.</td></tr></table><div class="lines"></div><div class="footer"><span>AI Quest</span><span>מילון ותכנון</span></div></section>
+<section class="sheet"><h2>4. צ׳קפוינטים ופאזל</h2><p>בנקודות עצירה חוזרים למדריך. הצוות מציג התקדמות, והמדריך מאשר ונותן חלק פאזל.</p><table><tr><th>#</th><th>מתי עוצרים?</th><th>מה מציגים?</th><th>חתימת מדריך</th></tr><tr><td>אוכל</td><td>אחרי 2 חברות</td><td>עצירת טעינה: מצאו לוגו מסעדה/קפה בפארק ותארו אותו.</td><td class="sign"></td></tr><tr><td>1</td><td>אחרי 4 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>2</td><td>אחרי 10 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>3</td><td>אחרי 17 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>4</td><td>אחרי 24 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>5</td><td>אחרי 31 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>6</td><td>אחרי 38 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>7</td><td>אחרי 45 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>8</td><td>אחרי 52 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr><tr><td>9</td><td>אחרי 59 חברות</td><td>גשו למדריך, הציגו 2–3 דברים שלמדתם וקבלו חלק פאזל.</td><td class="sign"></td></tr></table><h3>פאזל הצוות</h3><p>סמנו כל חלק שקיבלתם מהמדריך.</p><div class="puzzle"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div></div><div class="footer"><span>AI Quest</span><span>צ׳קפוינטים</span></div></section>
+<section class="sheet"><h2>5. תיק המודל</h2><p>כדי שהמודל הסופי יהיה מוכן, נסו לאסוף לפחות 3 חברות בכל תחום מרכזי.</p><table><tr><th>תחום יכולת</th><th>חברה 1</th><th>חברה 2</th><th>חברה 3</th><th>אישור</th></tr><tr><td>דאטה<br><span class="ar">بيانات</span></td><td></td><td></td><td></td><td class="sign"></td></tr><tr><td>אבטחה<br><span class="ar">حماية</span></td><td></td><td></td><td></td><td class="sign"></td></tr><tr><td>חוויית משתמש<br><span class="ar">تجربة مستخدم</span></td><td></td><td></td><td></td><td class="sign"></td></tr><tr><td>המלצות<br><span class="ar">توصيات</span></td><td></td><td></td><td></td><td class="sign"></td></tr><tr><td>אתיקה ובקרה<br><span class="ar">أخلاقيات ورقابة</span></td><td></td><td></td><td></td><td class="sign"></td></tr></table><h3>מה המודל שלנו כבר יודע?</h3><div class="lines"></div><h3>מה עדיין חסר למודל?</h3><div class="lines"></div><div class="footer"><span>AI Quest</span><span>תיק מודל</span></div></section>
+<section class="sheet"><h2>6. משימה סופית</h2><div class="card"><h3>בחירת תחום עתידי</h3><p>מודל AI שעוזר לבני נוער לגלות תחום טכנולוגי עתידי. כרגע חסרים לו מידע איכותי, אבטחה, חוויית משתמש, אחריות ובקרה אנושית.</p></div><h3>בנו רעיון למודל AI משופר</h3><ol><li>איזו בעיה המודל פותר?</li><li>איזה דאטה הוא צריך?</li><li>איך שומרים על פרטיות ואבטחה?</li><li>איך מסבירים לתלמידים את ההמלצה?</li><li>איפה חייבת להיות בקרה אנושית?</li></ol><div class="lines"></div><h3>הפרומפט הסופי שלנו</h3><div class="lines"></div><div class="footer"><span>AI Quest</span><span>משימה סופית</span></div></section>
+<section class="sheet"><h2>7. בנק משימות חברות</h2><p>בחרו חברות לפי המסלול שלכם. כל כרטיס שווה חקירה, שאלות ואיסוף יכולת.</p><p class="muted">טיפ למדריך: אפשר להדפיס את החוברת דו־צדדית. אם רוצים לקצר — להדפיס רק את עמודי ההנחיות + חלק מכרטיסי החברות.</p><div class="footer"><span>AI Quest</span><span>תחילת בנק חברות</span></div></section>
+<section class="sheet company-bank"><section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/microsoft.svg" alt="סימן זיהוי ללוגו של Microsoft"></div>
+      <div><small>משימת חברה 1</small><h3>Microsoft</h3><p class="ar name-ar">Microsoft</p><p class="field">ענן / AI / תוכנה</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span><span>המלצות</span></div>
+    <p class="desc">ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>1.1 איך ענן יכול לעזור למוצר AI?</h4>
+      <p class="ar">كيف يمكن للسحابة أن تساعد منتج ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לאפשר למשתמשים רבים להשתמש במערכת מכל מקום</span><small class="ar">السماح لمستخدمين كثيرين باستعمال النظام من أي مكان</small></label><label><span class="circle">ב</span><span>להפוך כל תשובה לנכונה</span><small class="ar">جعل كل إجابة صحيحة</small></label><label><span class="circle">ג</span><span>להחליף פרטיות</span><small class="ar">استبدال الخصوصية</small></label><label><span class="circle">ד</span><span>לבטל צורך בדאטה</span><small class="ar">إلغاء الحاجة إلى البيانات</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>1.2 מה עדיין צריך לבדוק גם כשמשתמשים בכלי AI חזקים?</h4>
+      <p class="ar">ماذا يجب أن نفحص حتى عند استخدام أدوات ذكاء اصطناعي قوية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>דיוק, פרטיות והתאמה למטרה</span><small class="ar">الدقة، الخصوصية والملاءمة للهدف</small></label><label><span class="circle">ב</span><span>רק צבעים</span><small class="ar">ألوان فقط</small></label><label><span class="circle">ג</span><span>רק מהירות</span><small class="ar">سرعة فقط</small></label><label><span class="circle">ד</span><span>רק שם החברה</span><small class="ar">اسم الشركة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/nvidia.png" alt="סימן זיהוי ללוגו של Nvidia"></div>
+      <div><small>משימת חברה 2</small><h3>Nvidia</h3><p class="ar name-ar">Nvidia</p><p class="field">AI / שבבים / כוח עיבוד</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>2.1 למה מערכות AI צריכות כוח עיבוד חזק?</h4>
+      <p class="ar">لماذا تحتاج أنظمة الذكاء الاصطناعي إلى قدرة معالجة قوية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לעבד הרבה מידע ולבצע חישובים מורכבים</span><small class="ar">لمعالجة معلومات كثيرة وتنفيذ حسابات معقدة</small></label><label><span class="circle">ב</span><span>כדי להחליף את האינטרנט</span><small class="ar">لاستبدال الإنترنت</small></label><label><span class="circle">ג</span><span>כדי לשמור סיסמאות בלבד</span><small class="ar">لحفظ كلمات السر فقط</small></label><label><span class="circle">ד</span><span>כדי להגדיל את הלוגו</span><small class="ar">لتكبير الشعار</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>2.2 מה יקרה אם למודל AI אין מספיק כוח עיבוד?</h4>
+      <p class="ar">ماذا يحدث إذا لم يكن لدى نموذج الذكاء الاصطناعي قدرة معالجة كافية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>הוא עלול לעבוד לאט או לא להתמודד עם הרבה מידע</span><small class="ar">قد يعمل ببطء أو لا ينجح في التعامل مع معلومات كثيرة</small></label><label><span class="circle">ב</span><span>הוא יהיה תמיד מדויק יותר</span><small class="ar">سيكون دائمًا أدق</small></label><label><span class="circle">ג</span><span>הוא לא יצטרך דאטה</span><small class="ar">لن يحتاج إلى بيانات</small></label><label><span class="circle">ד</span><span>הוא יוכל להחליף בני אדם</span><small class="ar">سيستطيع استبدال البشر</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/intel.png" alt="סימן זיהוי ללוגו של Intel"></div>
+      <div><small>משימת חברה 3</small><h3>Intel</h3><p class="ar name-ar">Intel</p><p class="field">שבבים / חומרה</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>3.1 מה הקשר בין שבבים לבין AI?</h4>
+      <p class="ar">ما العلاقة بين الرقائق والذكاء الاصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>שבבים מריצים את החישובים שהמודל צריך</span><small class="ar">الرقائق تشغّل الحسابات التي يحتاجها النموذج</small></label><label><span class="circle">ב</span><span>שבבים כותבים שירים בעצמם</span><small class="ar">الرقائق تكتب الأغاني وحدها</small></label><label><span class="circle">ג</span><span>שבבים מחליפים את המסך</span><small class="ar">الرقائق تستبدل الشاشة</small></label><label><span class="circle">ד</span><span>אין קשר בכלל</span><small class="ar">لا توجد علاقة أبدًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>3.2 איזה רכיב במודל מתחזק בזכות חברת חומרה?</h4>
+      <p class="ar">أي جزء في النموذج يصبح أقوى بفضل شركة عتاد؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כוח עיבוד ותשתית</span><small class="ar">قدرة معالجة وبنية تحتية</small></label><label><span class="circle">ב</span><span>עיצוב לוגו</span><small class="ar">تصميم شعار</small></label><label><span class="circle">ג</span><span>שיווק בלבד</span><small class="ar">تسويق فقط</small></label><label><span class="circle">ד</span><span>שפה בלבד</span><small class="ar">لغة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/oracle.png" alt="סימן זיהוי ללוגו של Oracle"></div>
+      <div><small>משימת חברה 4</small><h3>Oracle</h3><p class="ar name-ar">Oracle</p><p class="field">דאטה / בסיסי נתונים / ענן</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>4.1 מה תפקיד בסיס נתונים במערכת AI?</h4>
+      <p class="ar">ما دور قاعدة البيانات في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לשמור ולארגן מידע</span><small class="ar">حفظ المعلومات وتنظيمها</small></label><label><span class="circle">ב</span><span>לצבוע את האתר</span><small class="ar">تلوين الموقع</small></label><label><span class="circle">ג</span><span>להחליף מצלמה</span><small class="ar">استبدال الكاميرا</small></label><label><span class="circle">ד</span><span>למנוע מהמשתמש לחשוב</span><small class="ar">منع المستخدم من التفكير</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>4.2 מה היתרון של ענן עבור אפליקציה עם הרבה משתמשים?</h4>
+      <p class="ar">ما فائدة السحابة لتطبيق يستخدمه الكثير من الناس؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>אפשר להריץ ולנהל את השירות בקנה מידה גדול</span><small class="ar">يمكن تشغيل الخدمة وإدارتها على نطاق واسع</small></label><label><span class="circle">ב</span><span>הוא עובד בלי אינטרנט</span><small class="ar">هو يعمل بدون إنترنت</small></label><label><span class="circle">ג</span><span>הוא מבטל אבטחה</span><small class="ar">هو يلغي الأمان</small></label><label><span class="circle">ד</span><span>הוא מתאים רק למשחקים</span><small class="ar">هو مناسب للألعاب فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/ibm.png" alt="סימן זיהוי ללוגו של IBM"></div>
+      <div><small>משימת חברה 5</small><h3>IBM</h3><p class="ar name-ar">IBM</p><p class="field">AI / דאטה / ענן</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>5.1 מהו דאטה בהקשר של AI?</h4>
+      <p class="ar">ما معنى البيانات في عالم الذكاء الاصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>מידע שהמערכת יכולה ללמוד ממנו</span><small class="ar">معلومات يمكن للنظام أن يتعلم منها</small></label><label><span class="circle">ב</span><span>שם של משחק</span><small class="ar">اسم لعبة</small></label><label><span class="circle">ג</span><span>סוג של כבל</span><small class="ar">نوع من الكابل</small></label><label><span class="circle">ד</span><span>רק תמונות של מחשבים</span><small class="ar">صور حواسيب فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>5.2 למה דאטה חלקי יכול לגרום למודל לטעות?</h4>
+      <p class="ar">لماذا قد تجعل البيانات الناقصة النموذج يخطئ؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי המודל לומד רק מחלק מהתמונה</span><small class="ar">لأن النموذج يتعلم من جزء فقط من الصورة</small></label><label><span class="circle">ב</span><span>כי הוא הופך את המחשב לכבד</span><small class="ar">لأنه يجعل الحاسوب ثقيلًا</small></label><label><span class="circle">ג</span><span>כי הוא מבטל את הצורך בשאלות</span><small class="ar">لأنه يلغي الحاجة إلى الأسئلة</small></label><label><span class="circle">ד</span><span>כי דאטה לא קשור ל-AI</span><small class="ar">لأن البيانات غير مرتبطة بالذكاء الاصطناعي</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/dell-technologies.png" alt="סימן זיהוי ללוגו של DELL Technologies"></div>
+      <div><small>משימת חברה 6</small><h3>DELL Technologies</h3><p class="ar name-ar">DELL Technologies</p><p class="field">תשתיות מחשוב / שרתים</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>6.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>6.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/cyberark.svg" alt="סימן זיהוי ללוגו של CyberArk"></div>
+      <div><small>משימת חברה 7</small><h3>CyberArk</h3><p class="ar name-ar">CyberArk</p><p class="field">סייבר וזהויות</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>7.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>7.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/wix.png" alt="סימן זיהוי ללוגו של WIX"></div>
+      <div><small>משימת חברה 8</small><h3>WIX</h3><p class="ar name-ar">WIX</p><p class="field">אתרים / מוצר / UX</p></div>
+    </div>
+    <div class="chips"><span>חוויית משתמש</span><span>המלצות</span></div>
+    <p class="desc">אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>8.1 מהי חוויית משתמש?</h4>
+      <p class="ar">ما هي تجربة المستخدم؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כמה קל ונעים להשתמש במוצר</span><small class="ar">كم هو سهل ومريح استخدام المنتج</small></label><label><span class="circle">ב</span><span>כמה כבד המחשב</span><small class="ar">كم الحاسوب ثقيل</small></label><label><span class="circle">ג</span><span>שם של שפת תכנות</span><small class="ar">اسم لغة برمجة</small></label><label><span class="circle">ד</span><span>רק צבע הרקע</span><small class="ar">لون الخلفية فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>8.2 למה מודל AI טוב צריך ממשק ברור?</h4>
+      <p class="ar">لماذا يحتاج نموذج ذكاء اصطناعي جيد إلى واجهة واضحة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי משתמשים צריכים להבין מה לעשות ומה ההמלצה אומרת</span><small class="ar">لأن المستخدمين يجب أن يفهموا ماذا يفعلون وماذا تعني التوصية</small></label><label><span class="circle">ב</span><span>כי אחרת אין צורך בדאטה</span><small class="ar">لأننا عندها لا نحتاج بيانات</small></label><label><span class="circle">ג</span><span>כי AI עובד רק עם כפתורים גדולים</span><small class="ar">لأن الذكاء الاصطناعي يعمل فقط مع أزرار كبيرة</small></label><label><span class="circle">ד</span><span>כי זה מחליף אבטחה</span><small class="ar">لأن ذلك يستبدل الأمان</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/taboola.png" alt="סימן זיהוי ללוגו של taboola"></div>
+      <div><small>משימת חברה 9</small><h3>taboola</h3><p class="ar name-ar">taboola</p><p class="field">המלצות תוכן / דאטה</p></div>
+    </div>
+    <div class="chips"><span>המלצות</span></div>
+    <p class="desc">המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>9.1 מהי מערכת המלצות?</h4>
+      <p class="ar">ما هو نظام التوصيات؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>מערכת שמציעה תוכן או אפשרויות לפי מידע על המשתמש</span><small class="ar">نظام يقترح محتوى أو اختيارات حسب معلومات عن المستخدم</small></label><label><span class="circle">ב</span><span>מערכת שמכבה מחשבים</span><small class="ar">نظام يطفئ الحواسيب</small></label><label><span class="circle">ג</span><span>מערכת שמתקנת כבישים</span><small class="ar">نظام يصلح الشوارع</small></label><label><span class="circle">ד</span><span>מערכת שמחליפה צוותים</span><small class="ar">نظام يستبدل الفرق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>9.2 מה הסיכון במערכת שממליצה תמיד על אותו סוג תוכן?</h4>
+      <p class="ar">ما الخطر في نظام يوصي دائمًا بنفس نوع المحتوى؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא עלולה ליצור בועה ולצמצם אפשרויות</span><small class="ar">قد تصنع فقاعة وتقلل الاختيارات</small></label><label><span class="circle">ב</span><span>היא הופכת כל תשובה לנכונה</span><small class="ar">هي تجعل كل إجابة صحيحة</small></label><label><span class="circle">ג</span><span>היא מבטלת צורך במשתמש</span><small class="ar">هي تلغي الحاجة إلى المستخدم</small></label><label><span class="circle">ד</span><span>אין שום סיכון</span><small class="ar">لا يوجد أي خطر</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/rafael.svg" alt="סימן זיהוי ללוגו של RAFAEL"></div>
+      <div><small>משימת חברה 10</small><h3>RAFAEL</h3><p class="ar name-ar">RAFAEL</p><p class="field">ביטחון / מערכות מתקדמות</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>10.1 למה מערכות מתקדמות דורשות בדיקות רבות?</h4>
+      <p class="ar">لماذا تحتاج الأنظمة المتقدمة إلى فحوصات كثيرة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי טעות יכולה להשפיע על החלטות חשובות</span><small class="ar">لأن الخطأ قد يؤثر على قرارات مهمة</small></label><label><span class="circle">ב</span><span>כי הן תמיד פשוטות</span><small class="ar">لأنها دائمًا بسيطة</small></label><label><span class="circle">ג</span><span>כי הן לא משתמשות בדאטה</span><small class="ar">لأنها لا تستخدم البيانات</small></label><label><span class="circle">ד</span><span>כי הן מיועדות רק למשחק</span><small class="ar">لأنها مخصصة للألعاب فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>10.2 איך AI יכול להשתלב במערכות מתקדמות?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد في أنظمة متقدمة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לנתח מידע, לזהות דפוסים ולעזור בהחלטות</span><small class="ar">تحليل المعلومات، اكتشاف الأنماط والمساعدة في القرارات</small></label><label><span class="circle">ב</span><span>להחליף כל אדם בכל מצב</span><small class="ar">استبدال كل إنسان في كل حالة</small></label><label><span class="circle">ג</span><span>לבטל צורך באבטחה</span><small class="ar">إلغاء الحاجة إلى الأمان</small></label><label><span class="circle">ד</span><span>למנוע טעויות תמיד</span><small class="ar">منع الأخطاء دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/soroka.png" alt="סימן זיהוי ללוגו של Soroka"></div>
+      <div><small>משימת חברה 11</small><h3>Soroka</h3><p class="ar name-ar">Soroka</p><p class="field">בריאות / מחקר רפואי</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>11.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>11.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/audiocodes.png" alt="סימן זיהוי ללוגו של AudioCodes"></div>
+      <div><small>משימת חברה 12</small><h3>AudioCodes</h3><p class="ar name-ar">AudioCodes</p><p class="field">תקשורת וקול</p></div>
+    </div>
+    <div class="chips"><span>תקשורת</span></div>
+    <p class="desc">תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>12.1 למה תקשורת חשובה למערכות חכמות?</h4>
+      <p class="ar">لماذا الاتصال مهم للأنظمة الذكية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי מידע צריך לעבור בין משתמשים, מערכות ושירותים</span><small class="ar">لأن المعلومات يجب أن تنتقل بين مستخدمين، أنظمة وخدمات</small></label><label><span class="circle">ב</span><span>כי היא מחליפה את הדאטה</span><small class="ar">لأنها تستبدل البيانات</small></label><label><span class="circle">ג</span><span>כי היא מבטלת אבטחה</span><small class="ar">لأنها تلغي الأمان</small></label><label><span class="circle">ד</span><span>כי היא קשורה רק לטלוויזיה</span><small class="ar">لأنها مرتبطة بالتلفزيون فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>12.2 איזה רכיב במודל מתחזק בזכות חברת תקשורת?</h4>
+      <p class="ar">أي جزء في النموذج يصبح أقوى بفضل شركة اتصالات؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>העברת מידע וחיבור בין מערכות</span><small class="ar">نقل المعلومات وربط الأنظمة</small></label><label><span class="circle">ב</span><span>כתיבת שירים</span><small class="ar">كتابة أغاني</small></label><label><span class="circle">ג</span><span>בחירת צבעים</span><small class="ar">اختيار ألوان</small></label><label><span class="circle">ד</span><span>מחיקת משתמשים</span><small class="ar">حذف مستخدمين</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/morphisec.png" alt="סימן זיהוי ללוגו של Morphisec"></div>
+      <div><small>משימת חברה 13</small><h3>Morphisec</h3><p class="ar name-ar">Morphisec</p><p class="field">סייבר</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>13.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>13.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/mdclone.png" alt="סימן זיהוי ללוגו של MDCLONE"></div>
+      <div><small>משימת חברה 14</small><h3>MDCLONE</h3><p class="ar name-ar">MDCLONE</p><p class="field">דאטה רפואי</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>14.1 למה פרטיות חשובה במיוחד בתחום בריאות?</h4>
+      <p class="ar">لماذا الخصوصية مهمة جدًا في مجال الصحة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי מידע רפואי הוא אישי ורגיש</span><small class="ar">لأن المعلومات الطبية شخصية وحساسة</small></label><label><span class="circle">ב</span><span>כי רופאים לא משתמשים במחשבים</span><small class="ar">لأن الأطباء لا يستخدمون الحواسيب</small></label><label><span class="circle">ג</span><span>כי AI לא צריך מידע</span><small class="ar">لأن الذكاء الاصطناعي لا يحتاج معلومات</small></label><label><span class="circle">ד</span><span>כי בריאות קשורה רק לספורט</span><small class="ar">لأن الصحة مرتبطة بالرياضة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>14.2 מי צריך לקבל החלטה רפואית סופית?</h4>
+      <p class="ar">من يجب أن يتخذ القرار الطبي النهائي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איש מקצוע רפואי, בעזרת כלים ונתונים</span><small class="ar">مختص طبي، بمساعدة أدوات ومعلومات</small></label><label><span class="circle">ב</span><span>מודל AI לבד</span><small class="ar">نموذج ذكاء اصطناعي وحده</small></label><label><span class="circle">ג</span><span>האפליקציה בלי הסבר</span><small class="ar">التطبيق بدون شرح</small></label><label><span class="circle">ד</span><span>מי שסיים הכי מהר</span><small class="ar">من أنهى بسرعة أكبر</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/novocure.svg" alt="סימן זיהוי ללוגו של Novocure"></div>
+      <div><small>משימת חברה 15</small><h3>Novocure</h3><p class="ar name-ar">Novocure</p><p class="field">בריאות / מדטק</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>15.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>15.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/lightricks.png" alt="סימן זיהוי ללוגו של Lightricks"></div>
+      <div><small>משימת חברה 16</small><h3>Lightricks</h3><p class="ar name-ar">Lightricks</p><p class="field">יצירה דיגיטלית / AI קריאייטיבי</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span><span>המלצות</span></div>
+    <p class="desc">יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>16.1 איך AI יכול לעזור ביצירה דיגיטלית?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد في الإبداع الرقمي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>להציע רעיונות, תמונות, סרטונים או טקסטים</span><small class="ar">اقتراح أفكار، صور، فيديوهات أو نصوص</small></label><label><span class="circle">ב</span><span>להחליף את כל היוצרים תמיד</span><small class="ar">استبدال كل المبدعين دائمًا</small></label><label><span class="circle">ג</span><span>לבטל זכויות יוצרים</span><small class="ar">إلغاء حقوق النشر</small></label><label><span class="circle">ד</span><span>למנוע ביקורת</span><small class="ar">منع النقد</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>16.2 למה חשוב לבדוק תוכן שנוצר ב-AI לפני פרסום?</h4>
+      <p class="ar">لماذا من المهم فحص محتوى صنعه الذكاء الاصطناعي قبل نشره؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי הוא יכול לכלול טעויות, הטיות או מסר לא מתאים</span><small class="ar">لأنه قد يحتوي على أخطاء، تحيزات أو رسالة غير مناسبة</small></label><label><span class="circle">ב</span><span>כי AI תמיד איטי</span><small class="ar">لأن الذكاء الاصطناعي بطيء دائمًا</small></label><label><span class="circle">ג</span><span>כי אסור להשתמש בו בכלל</span><small class="ar">لأنه ممنوع استخدامه تمامًا</small></label><label><span class="circle">ד</span><span>כי הוא לא יכול ליצור כלום</span><small class="ar">لأنه لا يستطيع إنشاء أي شيء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/weka.png" alt="סימן זיהוי ללוגו של WEKA"></div>
+      <div><small>משימת חברה 17</small><h3>WEKA</h3><p class="ar name-ar">WEKA</p><p class="field">אחסון דאטה / תשתיות AI</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>17.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>17.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/ribbon.png" alt="סימן זיהוי ללוגו של Ribbon"></div>
+      <div><small>משימת חברה 18</small><h3>Ribbon</h3><p class="ar name-ar">Ribbon</p><p class="field">תקשורת / רשתות</p></div>
+    </div>
+    <div class="chips"><span>תקשורת</span></div>
+    <p class="desc">תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>18.1 למה תקשורת חשובה למערכות חכמות?</h4>
+      <p class="ar">لماذا الاتصال مهم للأنظمة الذكية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי מידע צריך לעבור בין משתמשים, מערכות ושירותים</span><small class="ar">لأن المعلومات يجب أن تنتقل بين مستخدمين، أنظمة وخدمات</small></label><label><span class="circle">ב</span><span>כי היא מחליפה את הדאטה</span><small class="ar">لأنها تستبدل البيانات</small></label><label><span class="circle">ג</span><span>כי היא מבטלת אבטחה</span><small class="ar">لأنها تلغي الأمان</small></label><label><span class="circle">ד</span><span>כי היא קשורה רק לטלוויזיה</span><small class="ar">لأنها مرتبطة بالتلفزيون فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>18.2 איזה רכיב במודל מתחזק בזכות חברת תקשורת?</h4>
+      <p class="ar">أي جزء في النموذج يصبح أقوى بفضل شركة اتصالات؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>העברת מידע וחיבור בין מערכות</span><small class="ar">نقل المعلومات وربط الأنظمة</small></label><label><span class="circle">ב</span><span>כתיבת שירים</span><small class="ar">كتابة أغاني</small></label><label><span class="circle">ג</span><span>בחירת צבעים</span><small class="ar">اختيار ألوان</small></label><label><span class="circle">ד</span><span>מחיקת משתמשים</span><small class="ar">حذف مستخدمين</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/rad.png" alt="סימן זיהוי ללוגו של RAD"></div>
+      <div><small>משימת חברה 19</small><h3>RAD</h3><p class="ar name-ar">RAD</p><p class="field">תקשורת ותשתיות</p></div>
+    </div>
+    <div class="chips"><span>תקשורת</span></div>
+    <p class="desc">תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>19.1 למה תקשורת חשובה למערכות חכמות?</h4>
+      <p class="ar">لماذا الاتصال مهم للأنظمة الذكية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי מידע צריך לעבור בין משתמשים, מערכות ושירותים</span><small class="ar">لأن المعلومات يجب أن تنتقل بين مستخدمين، أنظمة وخدمات</small></label><label><span class="circle">ב</span><span>כי היא מחליפה את הדאטה</span><small class="ar">لأنها تستبدل البيانات</small></label><label><span class="circle">ג</span><span>כי היא מבטלת אבטחה</span><small class="ar">لأنها تلغي الأمان</small></label><label><span class="circle">ד</span><span>כי היא קשורה רק לטלוויזיה</span><small class="ar">لأنها مرتبطة بالتلفزيون فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>19.2 איזה רכיב במודל מתחזק בזכות חברת תקשורת?</h4>
+      <p class="ar">أي جزء في النموذج يصبح أقوى بفضل شركة اتصالات؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>העברת מידע וחיבור בין מערכות</span><small class="ar">نقل المعلومات وربط الأنظمة</small></label><label><span class="circle">ב</span><span>כתיבת שירים</span><small class="ar">كتابة أغاني</small></label><label><span class="circle">ג</span><span>בחירת צבעים</span><small class="ar">اختيار ألوان</small></label><label><span class="circle">ד</span><span>מחיקת משתמשים</span><small class="ar">حذف مستخدمين</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/dalet.png" alt="סימן זיהוי ללוגו של Dalet"></div>
+      <div><small>משימת חברה 20</small><h3>Dalet</h3><p class="ar name-ar">Dalet</p><p class="field">מדיה ותוכן</p></div>
+    </div>
+    <div class="chips"><span>תוכן</span></div>
+    <p class="desc">מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>20.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>20.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/leidos.svg" alt="סימן זיהוי ללוגו של Leidos"></div>
+      <div><small>משימת חברה 21</small><h3>Leidos</h3><p class="ar name-ar">Leidos</p><p class="field">מערכות טכנולוגיות / דאטה</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>21.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>21.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/pwc-israel.png" alt="סימן זיהוי ללוגו של PWC Israel"></div>
+      <div><small>משימת חברה 22</small><h3>PWC Israel</h3><p class="ar name-ar">PWC Israel</p><p class="field">ייעוץ עסקי / טכנולוגי</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>22.1 מה תפקיד ייעוץ טכנולוגי בארגון?</h4>
+      <p class="ar">ما دور الاستشارة التكنولوجية في مؤسسة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעזור לבחור וליישם פתרונות בצורה נכונה</span><small class="ar">المساعدة في اختيار وتنفيذ حلول بطريقة صحيحة</small></label><label><span class="circle">ב</span><span>לכתוב את כל הקוד לבד</span><small class="ar">كتابة كل الكود وحده</small></label><label><span class="circle">ג</span><span>למנוע חדשנות</span><small class="ar">منع الابتكار</small></label><label><span class="circle">ד</span><span>להחליף משתמשים</span><small class="ar">استبدال المستخدمين</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/drs-rada-technologies.png" alt="סימן זיהוי ללוגו של DRS RADA Technologies"></div>
+      <div><small>משימת חברה 23</small><h3>DRS RADA Technologies</h3><p class="ar name-ar">DRS RADA Technologies</p><p class="field">ביטחון / מערכות חכמות</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>23.1 למה מערכות מתקדמות דורשות בדיקות רבות?</h4>
+      <p class="ar">لماذا تحتاج الأنظمة المتقدمة إلى فحوصات كثيرة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי טעות יכולה להשפיע על החלטות חשובות</span><small class="ar">لأن الخطأ قد يؤثر على قرارات مهمة</small></label><label><span class="circle">ב</span><span>כי הן תמיד פשוטות</span><small class="ar">لأنها دائمًا بسيطة</small></label><label><span class="circle">ג</span><span>כי הן לא משתמשות בדאטה</span><small class="ar">لأنها لا تستخدم البيانات</small></label><label><span class="circle">ד</span><span>כי הן מיועדות רק למשחק</span><small class="ar">لأنها مخصصة للألعاب فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>23.2 איך AI יכול להשתלב במערכות מתקדמות?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد في أنظمة متقدمة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לנתח מידע, לזהות דפוסים ולעזור בהחלטות</span><small class="ar">تحليل المعلومات، اكتشاف الأنماط والمساعدة في القرارات</small></label><label><span class="circle">ב</span><span>להחליף כל אדם בכל מצב</span><small class="ar">استبدال كل إنسان في كل حالة</small></label><label><span class="circle">ג</span><span>לבטל צורך באבטחה</span><small class="ar">إلغاء الحاجة إلى الأمان</small></label><label><span class="circle">ד</span><span>למנוע טעויות תמיד</span><small class="ar">منع الأخطاء دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/bgn.png" alt="סימן זיהוי ללוגו של BGN"></div>
+      <div><small>משימת חברה 24</small><h3>BGN</h3><p class="ar name-ar">BGN</p><p class="field">מסחור מחקר / אוניברסיטה</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>24.1 מה הקשר בין מחקר לחדשנות?</h4>
+      <p class="ar">ما العلاقة بين البحث والابتكار؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>מחקר יוצר ידע שאפשר להפוך לפתרונות</span><small class="ar">البحث يخلق معرفة يمكن تحويلها إلى حلول</small></label><label><span class="circle">ב</span><span>מחקר הוא רק קריאה בספר</span><small class="ar">البحث هو قراءة كتاب فقط</small></label><label><span class="circle">ג</span><span>חדשנות לא צריכה ידע</span><small class="ar">الابتكار لا يحتاج معرفة</small></label><label><span class="circle">ד</span><span>AI לא קשור למחקר</span><small class="ar">الذكاء الاصطناعي غير مرتبط بالبحث</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/cyber-bgu.svg" alt="סימן זיהוי ללוגו של Cyber@BGU"></div>
+      <div><small>משימת חברה 25</small><h3>Cyber@BGU</h3><p class="ar name-ar">Cyber@BGU</p><p class="field">מחקר סייבר / אקדמיה</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>25.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>25.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/tech7.svg" alt="סימן זיהוי ללוגו של Tech 7"></div>
+      <div><small>משימת חברה 26</small><h3>Tech 7</h3><p class="ar name-ar">Tech 7</p><p class="field">אקוסיסטם סטארטאפים</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>26.1 מה עוזר לרעיון להפוך לסטארטאפ?</h4>
+      <p class="ar">ما الذي يساعد الفكرة على أن تصبح ستارت أب؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>קהילה, תמיכה, בדיקה של צורך ומשתמשים</span><small class="ar">مجتمع، دعم، وفحص حاجة المستخدمين</small></label><label><span class="circle">ב</span><span>רק לוגו יפה</span><small class="ar">شعار جميل فقط</small></label><label><span class="circle">ג</span><span>רק מחשב יקר</span><small class="ar">حاسوب غالٍ فقط</small></label><label><span class="circle">ד</span><span>סיום מהיר של משחק</span><small class="ar">إنهاء سريع للعبة</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>26.2 למה חשוב להציג רעיון לאחרים?</h4>
+      <p class="ar">لماذا من المهم عرض الفكرة على الآخرين؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לקבל משוב ולשפר אותו</span><small class="ar">للحصول على ملاحظات وتحسينه</small></label><label><span class="circle">ב</span><span>כדי שלא ישתמשו בו</span><small class="ar">كي لا يستخدمه أحد</small></label><label><span class="circle">ג</span><span>כדי להסתיר טעויות</span><small class="ar">لإخفاء الأخطاء</small></label><label><span class="circle">ד</span><span>כי AI דורש קהל</span><small class="ar">لأن الذكاء الاصطناعي يحتاج جمهورًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/innovation-basecamp.png" alt="סימן זיהוי ללוגו של Innovation Basecamp"></div>
+      <div><small>משימת חברה 27</small><h3>Innovation Basecamp</h3><p class="ar name-ar">Innovation Basecamp</p><p class="field">יזמות / חדשנות</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>27.1 מה עוזר לרעיון להפוך לסטארטאפ?</h4>
+      <p class="ar">ما الذي يساعد الفكرة على أن تصبح ستارت أب؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>קהילה, תמיכה, בדיקה של צורך ומשתמשים</span><small class="ar">مجتمع، دعم، وفحص حاجة المستخدمين</small></label><label><span class="circle">ב</span><span>רק לוגו יפה</span><small class="ar">شعار جميل فقط</small></label><label><span class="circle">ג</span><span>רק מחשב יקר</span><small class="ar">حاسوب غالٍ فقط</small></label><label><span class="circle">ד</span><span>סיום מהיר של משחק</span><small class="ar">إنهاء سريع للعبة</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>27.2 למה חשוב להציג רעיון לאחרים?</h4>
+      <p class="ar">لماذا من المهم عرض الفكرة على الآخرين؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לקבל משוב ולשפר אותו</span><small class="ar">للحصول على ملاحظات وتحسينه</small></label><label><span class="circle">ב</span><span>כדי שלא ישתמשו בו</span><small class="ar">كي لا يستخدمه أحد</small></label><label><span class="circle">ג</span><span>כדי להסתיר טעויות</span><small class="ar">لإخفاء الأخطاء</small></label><label><span class="circle">ד</span><span>כי AI דורש קהל</span><small class="ar">لأن الذكاء الاصطناعي يحتاج جمهورًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/2bprecise.jpg" alt="סימן זיהוי ללוגו של 2bPrecise"></div>
+      <div><small>משימת חברה 28</small><h3>2bPrecise</h3><p class="ar name-ar">2bPrecise</p><p class="field">בריאות דיגיטלית / רפואה מותאמת</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span><span>המלצות</span></div>
+    <p class="desc">בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>28.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>28.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/gav-yam-negev.png" alt="לוגו גב־ים נגב"></div>
+      <div><small>משימת חברה 29</small><h3>מרכז חדשנות</h3><p class="ar name-ar">מרכז חדשנות</p><p class="field">אקוסיסטם</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>29.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/agmon-with-tulchinsky.jpg" alt="סימן זיהוי ללוגו של Agmon with Tulchinsky"></div>
+      <div><small>משימת חברה 30</small><h3>Agmon with Tulchinsky</h3><p class="ar name-ar">Agmon with Tulchinsky</p><p class="field">שירותים משפטיים / אקוסיסטם</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>30.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/altera-digital-health.png" alt="סימן זיהוי ללוגו של Altera Digital Health"></div>
+      <div><small>משימת חברה 31</small><h3>Altera Digital Health</h3><p class="ar name-ar">Altera Digital Health</p><p class="field">בריאות דיגיטלית</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>31.1 למה פרטיות חשובה במיוחד בתחום בריאות?</h4>
+      <p class="ar">لماذا الخصوصية مهمة جدًا في مجال الصحة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי מידע רפואי הוא אישי ורגיש</span><small class="ar">لأن المعلومات الطبية شخصية وحساسة</small></label><label><span class="circle">ב</span><span>כי רופאים לא משתמשים במחשבים</span><small class="ar">لأن الأطباء لا يستخدمون الحواسيب</small></label><label><span class="circle">ג</span><span>כי AI לא צריך מידע</span><small class="ar">لأن الذكاء الاصطناعي لا يحتاج معلومات</small></label><label><span class="circle">ד</span><span>כי בריאות קשורה רק לספורט</span><small class="ar">لأن الصحة مرتبطة بالرياضة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>31.2 מי צריך לקבל החלטה רפואית סופית?</h4>
+      <p class="ar">من يجب أن يتخذ القرار الطبي النهائي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איש מקצוע רפואי, בעזרת כלים ונתונים</span><small class="ar">مختص طبي، بمساعدة أدوات ومعلومات</small></label><label><span class="circle">ב</span><span>מודל AI לבד</span><small class="ar">نموذج ذكاء اصطناعي وحده</small></label><label><span class="circle">ג</span><span>האפליקציה בלי הסבר</span><small class="ar">التطبيق بدون شرح</small></label><label><span class="circle">ד</span><span>מי שסיים הכי מהר</span><small class="ar">من أنهى بسرعة أكبر</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/bone-sci-bio.jpg" alt="סימן זיהוי ללוגו של Bone Sci Bio"></div>
+      <div><small>משימת חברה 32</small><h3>Bone Sci Bio</h3><p class="ar name-ar">Bone Sci Bio</p><p class="field">ביוטק / בריאות</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>32.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>32.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/brooks-keret.svg" alt="סימן זיהוי ללוגו של brooks-keret"></div>
+      <div><small>משימת חברה 33</small><h3>brooks-keret</h3><p class="ar name-ar">brooks-keret</p><p class="field">פיננסים / ניהול חברות</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>33.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/capow.png" alt="סימן זיהוי ללוגו של CaPow"></div>
+      <div><small>משימת חברה 34</small><h3>CaPow</h3><p class="ar name-ar">CaPow</p><p class="field">רובוטיקה / אנרגיה / תפעול</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>34.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>34.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/cbg.png" alt="סימן זיהוי ללוגו של CBG"></div>
+      <div><small>משימת חברה 35</small><h3>CBG</h3><p class="ar name-ar">CBG</p><p class="field">אקוסיסטם / שירותים עסקיים</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>35.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/cert.png" alt="סימן זיהוי ללוגו של Cert"></div>
+      <div><small>משימת חברה 36</small><h3>Cert</h3><p class="ar name-ar">Cert</p><p class="field">סייבר / הכשרה / אמון דיגיטלי</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>36.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>36.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/cyberglobes.png" alt="סימן זיהוי ללוגו של Cyberglobes"></div>
+      <div><small>משימת חברה 37</small><h3>Cyberglobes</h3><p class="ar name-ar">Cyberglobes</p><p class="field">סייבר / מודיעין / אקוסיסטם</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>37.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>37.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/dcic.svg" alt="סימן זיהוי ללוגו של DCIC"></div>
+      <div><small>משימת חברה 38</small><h3>DCIC</h3><p class="ar name-ar">DCIC</p><p class="field">חדשנות / אקוסיסטם</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>38.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/energyteam.png" alt="סימן זיהוי ללוגו של energyteam"></div>
+      <div><small>משימת חברה 39</small><h3>energyteam</h3><p class="ar name-ar">energyteam</p><p class="field">אנרגיה / תשתיות</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>39.1 איך AI יכול לעזור בתחום אנרגיה?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد في مجال الطاقة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לזהות דפוסים בצריכה ולעזור לנהל משאבים</span><small class="ar">اكتشاف أنماط في الاستهلاك والمساعدة في إدارة الموارد</small></label><label><span class="circle">ב</span><span>ליצור אנרגיה בלי מקור</span><small class="ar">إنتاج طاقة بلا مصدر</small></label><label><span class="circle">ג</span><span>לבטל תחזוקה</span><small class="ar">إلغاء الصيانة</small></label><label><span class="circle">ד</span><span>להחליף חוקים פיזיקליים</span><small class="ar">استبدال قوانين الفيزياء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/enter.jpg" alt="סימן זיהוי ללוגו של ENTER"></div>
+      <div><small>משימת חברה 40</small><h3>ENTER</h3><p class="ar name-ar">ENTER</p><p class="field">אקוסיסטם / חדשנות</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>40.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/finsec-innovation-lab.png" alt="סימן זיהוי ללוגו של FinSec Innovation Lab"></div>
+      <div><small>משימת חברה 41</small><h3>FinSec Innovation Lab</h3><p class="ar name-ar">FinSec Innovation Lab</p><p class="field">פינטק / סייבר / חדשנות</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>41.1 למה מערכות פיננסיות צריכות אבטחה חזקה?</h4>
+      <p class="ar">لماذا تحتاج الأنظمة المالية إلى حماية قوية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי הן עובדות עם כסף ומידע רגיש</span><small class="ar">لأنها تعمل مع مال ومعلومات حساسة</small></label><label><span class="circle">ב</span><span>כי הן לא משתמשות באינטרנט</span><small class="ar">لأنها لا تستخدم الإنترنت</small></label><label><span class="circle">ג</span><span>כי משתמשים לא חשובים</span><small class="ar">لأن المستخدمين غير مهمين</small></label><label><span class="circle">ד</span><span>כי ניקוד תלוי במהירות</span><small class="ar">لأن النقاط تعتمد على السرعة</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/hyperguest.png" alt="סימן זיהוי ללוגו של HyperGuest"></div>
+      <div><small>משימת חברה 42</small><h3>HyperGuest</h3><p class="ar name-ar">HyperGuest</p><p class="field">תיירות / פלטפורמה דיגיטלית</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span><span>המלצות</span></div>
+    <p class="desc">תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>42.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>42.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/ilanot.jpg" alt="סימן זיהוי ללוגו של Ilanot"></div>
+      <div><small>משימת חברה 43</small><h3>Ilanot</h3><p class="ar name-ar">Ilanot</p><p class="field">אקוסיסטם / שירותים</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>43.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/let.jpg" alt="סימן זיהוי ללוגו של Let"></div>
+      <div><small>משימת חברה 44</small><h3>Let</h3><p class="ar name-ar">Let</p><p class="field">מוצר / שירות דיגיטלי</p></div>
+    </div>
+    <div class="chips"><span>חוויית משתמש</span></div>
+    <p class="desc">מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>44.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/let-group-ltd-atmos.svg" alt="סימן זיהוי ללוגו של Let Group Ltd - atmos"></div>
+      <div><small>משימת חברה 45</small><h3>Let Group Ltd - atmos</h3><p class="ar name-ar">Let Group Ltd - atmos</p><p class="field">מוצר / פלטפורמה דיגיטלית</p></div>
+    </div>
+    <div class="chips"><span>חוויית משתמש</span></div>
+    <p class="desc">מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>45.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/liolan.svg" alt="סימן זיהוי ללוגו של liolan"></div>
+      <div><small>משימת חברה 46</small><h3>liolan</h3><p class="ar name-ar">liolan</p><p class="field">טכנולוגיה / שירותים</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>46.1 מה כדאי לשאול כשפוגשים חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ماذا يجب أن نسأل عندما نلتقي شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה גדול הלוגו</span><small class="ar">ما حجم الشعار</small></label><label><span class="circle">ג</span><span>אם היא תמיד משתמשת ב-AI</span><small class="ar">هل تستخدم الذكاء الاصطناعي دائمًا</small></label><label><span class="circle">ד</span><span>אם היא מחליפה בתי ספר</span><small class="ar">هل تستبدل المدارس</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/micro.svg" alt="סימן זיהוי ללוגו של Micro"></div>
+      <div><small>משימת חברה 47</small><h3>Micro</h3><p class="ar name-ar">Micro</p><p class="field">טכנולוגיה / שירותים</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>47.1 מה כדאי לשאול כשפוגשים חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ماذا يجب أن نسأل عندما نلتقي شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה גדול הלוגו</span><small class="ar">ما حجم الشعار</small></label><label><span class="circle">ג</span><span>אם היא תמיד משתמשת ב-AI</span><small class="ar">هل تستخدم الذكاء الاصطناعي دائمًا</small></label><label><span class="circle">ד</span><span>אם היא מחליפה בתי ספר</span><small class="ar">هل تستبدل المدارس</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/nitzanim.jpg" alt="סימן זיהוי ללוגו של Nitzanim"></div>
+      <div><small>משימת חברה 48</small><h3>Nitzanim</h3><p class="ar name-ar">Nitzanim</p><p class="field">הכשרה / חינוך טכנולוגי</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>48.1 איך טכנולוגיה יכולה לצמצם פערים בלמידה?</h4>
+      <p class="ar">كيف يمكن للتكنولوجيا أن تقلل الفجوات في التعلم؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>להנגיש מידע וכלים לתלמידים שונים</span><small class="ar">إتاحة معلومات وأدوات لطلاب مختلفين</small></label><label><span class="circle">ב</span><span>לתת את אותה תשובה לכולם תמיד</span><small class="ar">إعطاء نفس الإجابة للجميع دائمًا</small></label><label><span class="circle">ג</span><span>לבטל מורים</span><small class="ar">إلغاء المعلمين</small></label><label><span class="circle">ד</span><span>להחליף חברים</span><small class="ar">استبدال الأصدقاء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/ozsoftware.svg" alt="סימן זיהוי ללוגו של Oz software"></div>
+      <div><small>משימת חברה 49</small><h3>Oz software</h3><p class="ar name-ar">Oz software</p><p class="field">פיתוח תוכנה</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>49.1 איך AI יכול לעזור למפתחי תוכנה?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد مطوري البرامج؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>להציע קוד, למצוא טעויות ולשפר רעיונות</span><small class="ar">اقتراح كود، إيجاد أخطاء وتحسين أفكار</small></label><label><span class="circle">ב</span><span>להבטיח שכל קוד נכון</span><small class="ar">ضمان أن كل كود صحيح</small></label><label><span class="circle">ג</span><span>לבטל צורך בבדיקות</span><small class="ar">إلغاء الحاجة إلى الفحوصات</small></label><label><span class="circle">ד</span><span>לכתוב ללא מטרה</span><small class="ar">الكتابة بلا هدف</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>49.2 למה לא מספיק להעתיק קוד ש-AI כתב?</h4>
+      <p class="ar">لماذا لا يكفي نسخ كود كتبه الذكاء الاصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי צריך לבדוק שהוא עובד, בטוח ומתאים למטרה</span><small class="ar">لأنه يجب فحص أنه يعمل، آمن ومناسب للهدف</small></label><label><span class="circle">ב</span><span>כי קוד לא קשור לתוכנה</span><small class="ar">لأن الكود غير مرتبط بالبرامج</small></label><label><span class="circle">ג</span><span>כי AI לא יודע לכתוב</span><small class="ar">لأن الذكاء الاصطناعي لا يعرف الكتابة</small></label><label><span class="circle">ד</span><span>כי תמיד עדיף לנחש</span><small class="ar">لأن التخمين دائمًا أفضل</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/penta-drone-robotics.png" alt="סימן זיהוי ללוגו של Penta Drone Robotics"></div>
+      <div><small>משימת חברה 50</small><h3>Penta Drone Robotics</h3><p class="ar name-ar">Penta Drone Robotics</p><p class="field">רחפנים / רובוטיקה</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>50.1 מה מיוחד ברובוטיקה לעומת אפליקציה רגילה?</h4>
+      <p class="ar">ما المختلف في الروبوتات مقارنة بتطبيق عادي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>הרובוט פועל בעולם הפיזי ולכן צריך בטיחות גבוהה</span><small class="ar">الروبوت يعمل في العالم الحقيقي ولذلك يحتاج سلامة عالية</small></label><label><span class="circle">ב</span><span>אין צורך בתוכנה</span><small class="ar">لا حاجة إلى برنامج</small></label><label><span class="circle">ג</span><span>אין קשר לחיישנים</span><small class="ar">لا علاقة بالحساسات</small></label><label><span class="circle">ד</span><span>רובוטים לא צריכים חשמל</span><small class="ar">الروبوتات لا تحتاج كهرباء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>50.2 איך AI יכול לעזור לרובוט?</h4>
+      <p class="ar">كيف يمكن للذكاء الاصطناعي أن يساعد الروبوت؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעבד מידע מחיישנים ולקבל החלטות</span><small class="ar">معالجة معلومات من الحساسات واتخاذ قرارات</small></label><label><span class="circle">ב</span><span>למחוק את כל הקוד</span><small class="ar">حذف كل الكود</small></label><label><span class="circle">ג</span><span>לבטל את הצורך בבדיקה</span><small class="ar">إلغاء الحاجة إلى الفحص</small></label><label><span class="circle">ד</span><span>להפוך אותו לאתר</span><small class="ar">تحويله إلى موقع</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/retama.png" alt="סימן זיהוי ללוגו של Retama"></div>
+      <div><small>משימת חברה 51</small><h3>Retama</h3><p class="ar name-ar">Retama</p><p class="field">אקוסיסטם / שירותים</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>51.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/rezilion.png" alt="סימן זיהוי ללוגו של Rezilion"></div>
+      <div><small>משימת חברה 52</small><h3>Rezilion</h3><p class="ar name-ar">Rezilion</p><p class="field">סייבר / אבטחת תוכנה</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>52.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>52.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/rsecurity.png" alt="סימן זיהוי ללוגו של RSecurity"></div>
+      <div><small>משימת חברה 53</small><h3>RSecurity</h3><p class="ar name-ar">RSecurity</p><p class="field">סייבר</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>53.1 מהי אחת המטרות המרכזיות של חברת סייבר?</h4>
+      <p class="ar">ما أحد الأهداف الرئيسية لشركة سايبر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>לעצב לוגואים</span><small class="ar">تصميم شعارات</small></label><label><span class="circle">ב</span><span>להגן על מידע, משתמשים ומערכות</span><small class="ar">حماية المعلومات، المستخدمين والأنظمة</small></label><label><span class="circle">ג</span><span>לבנות בניינים</span><small class="ar">بناء مبانٍ</small></label><label><span class="circle">ד</span><span>לנהל מסעדות</span><small class="ar">إدارة مطاعم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>53.2 למה אבטחת זהויות חשובה במערכת AI?</h4>
+      <p class="ar">لماذا حماية الهويات مهمة في نظام ذكاء اصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי לדעת מי רשאי לגשת למידע</span><small class="ar">لكي نعرف من يُسمح له بالوصول إلى المعلومات</small></label><label><span class="circle">ב</span><span>כדי שהמסך יהיה צבעוני</span><small class="ar">لكي تكون الشاشة ملوّنة</small></label><label><span class="circle">ג</span><span>כדי לבטל את הצורך באינטרנט</span><small class="ar">لإلغاء الحاجة إلى الإنترنت</small></label><label><span class="circle">ד</span><span>כדי להחליף את המשתמש</span><small class="ar">لاستبدال المستخدم</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/siga.png" alt="סימן זיהוי ללוגו של SIGA"></div>
+      <div><small>משימת חברה 54</small><h3>SIGA</h3><p class="ar name-ar">SIGA</p><p class="field">סייבר תעשייתי / OT</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>54.1 מה מיוחד בסייבר תעשייתי / OT?</h4>
+      <p class="ar">ما المميز في السايبر الصناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>הוא מגן על מערכות פיזיות כמו מפעלים ותשתיות</span><small class="ar">هو يحمي أنظمة حقيقية مثل المصانع والبنى التحتية</small></label><label><span class="circle">ב</span><span>הוא מיועד רק למשחקי מחשב</span><small class="ar">هو مخصص لألعاب الحاسوب فقط</small></label><label><span class="circle">ג</span><span>הוא עוסק רק בעיצוב</span><small class="ar">هو يهتم بالتصميم فقط</small></label><label><span class="circle">ד</span><span>הוא מחליף חשמל</span><small class="ar">هو يستبدل الكهرباء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>54.2 למה טעות במערכת AI שמחוברת למערכת פיזית יכולה להיות מסוכנת יותר?</h4>
+      <p class="ar">لماذا قد يكون خطأ في نظام ذكاء اصطناعي متصل بجهاز حقيقي أخطر؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כי היא יכולה להשפיע על מכונה או תהליך אמיתי</span><small class="ar">لأنها قد تؤثر على آلة أو عملية حقيقية</small></label><label><span class="circle">ב</span><span>כי היא יוצרת צבעים מוזרים</span><small class="ar">لأنها تصنع ألوانًا غريبة</small></label><label><span class="circle">ג</span><span>כי היא כותבת מהר מדי</span><small class="ar">لأنها تكتب بسرعة كبيرة</small></label><label><span class="circle">ד</span><span>כי היא לא צריכה חשמל</span><small class="ar">لأنها لا تحتاج كهرباء</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/sigmabit.png" alt="סימן זיהוי ללוגו של Sigmabit"></div>
+      <div><small>משימת חברה 55</small><h3>Sigmabit</h3><p class="ar name-ar">Sigmabit</p><p class="field">ביטחון / סייבר / תוכנה</p></div>
+    </div>
+    <div class="chips"><span>אבטחה</span></div>
+    <p class="desc">ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>55.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>55.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/signatureit.png" alt="סימן זיהוי ללוגו של SignatureIT"></div>
+      <div><small>משימת חברה 56</small><h3>SignatureIT</h3><p class="ar name-ar">SignatureIT</p><p class="field">שירותי IT / תשתיות</p></div>
+    </div>
+    <div class="chips"><span>תשתיות</span></div>
+    <p class="desc">שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>56.1 למה שירותי IT חשובים בארגון?</h4>
+      <p class="ar">لماذا خدمات تكنولوجيا المعلومات مهمة في مؤسسة؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי שמערכות, משתמשים ותשתיות יעבדו בצורה יציבה</span><small class="ar">لكي تعمل الأنظمة، المستخدمون والبنى التحتية بثبات</small></label><label><span class="circle">ב</span><span>כדי לבטל תוכנה</span><small class="ar">لإلغاء البرامج</small></label><label><span class="circle">ג</span><span>כדי לעצב את כל המוצרים</span><small class="ar">لتصميم كل المنتجات</small></label><label><span class="circle">ד</span><span>כדי להחליף דאטה</span><small class="ar">لاستبدال البيانات</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/siraj.png" alt="סימן זיהוי ללוגו של Siraj"></div>
+      <div><small>משימת חברה 57</small><h3>Siraj</h3><p class="ar name-ar">Siraj</p><p class="field">טכנולוגיה / שירותים דיגיטליים</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>57.1 מה כדאי לשאול כשפוגשים חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ماذا يجب أن نسأل عندما نلتقي شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה גדול הלוגו</span><small class="ar">ما حجم الشعار</small></label><label><span class="circle">ג</span><span>אם היא תמיד משתמשת ב-AI</span><small class="ar">هل تستخدم الذكاء الاصطناعي دائمًا</small></label><label><span class="circle">ד</span><span>אם היא מחליפה בתי ספר</span><small class="ar">هل تستبدل المدارس</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/soundcampaign.jpg" alt="סימן זיהוי ללוגו של SoundCampaign"></div>
+      <div><small>משימת חברה 58</small><h3>SoundCampaign</h3><p class="ar name-ar">SoundCampaign</p><p class="field">מוזיקה / שיווק דיגיטלי</p></div>
+    </div>
+    <div class="chips"><span>תוכן</span></div>
+    <p class="desc">מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>58.1 מה חשוב לבדוק לפני שמפרסמים קמפיין שנוצר בעזרת AI?</h4>
+      <p class="ar">ماذا يجب أن نفحص قبل نشر حملة أُنشئت بمساعدة الذكاء الاصطناعي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>שהמסר נכון, אמין ומתאים לקהל</span><small class="ar">أن تكون الرسالة صحيحة، موثوقة ومناسبة للجمهور</small></label><label><span class="circle">ב</span><span>שהוא הכי ארוך</span><small class="ar">أن تكون الأطول</small></label><label><span class="circle">ג</span><span>שהוא לא קשור למוצר</span><small class="ar">أنها غير مرتبطة بالمنتج</small></label><label><span class="circle">ד</span><span>שהוא נוצר הכי מהר</span><small class="ar">أنها أُنشئت بسرعة أكبر</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/spark-marketing-il.png" alt="סימן זיהוי ללוגו של Spark Marketing IL"></div>
+      <div><small>משימת חברה 59</small><h3>Spark Marketing IL</h3><p class="ar name-ar">Spark Marketing IL</p><p class="field">שיווק דיגיטלי</p></div>
+    </div>
+    <div class="chips"><span>תוכן</span></div>
+    <p class="desc">שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>59.1 איך דאטה יכול לעזור בשיווק דיגיטלי?</h4>
+      <p class="ar">كيف يمكن للبيانات أن تساعد في التسويق الرقمي؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>להבין מה מעניין קהלים שונים</span><small class="ar">فهم ما يهم جماهير مختلفة</small></label><label><span class="circle">ב</span><span>להכריח אנשים לקנות</span><small class="ar">إجبار الناس على الشراء</small></label><label><span class="circle">ג</span><span>לבטל פרטיות</span><small class="ar">إلغاء الخصوصية</small></label><label><span class="circle">ד</span><span>להחליף מוצר לא טוב</span><small class="ar">استبدال منتج غير جيد</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/swiftness.jpg" alt="סימן זיהוי ללוגו של Swiftness"></div>
+      <div><small>משימת חברה 60</small><h3>Swiftness</h3><p class="ar name-ar">Swiftness</p><p class="field">תוכנה / אוטומציה</p></div>
+    </div>
+    <div class="chips"><span>דאטה</span></div>
+    <p class="desc">תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>60.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>60.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/tap-mobile.png" alt="סימן זיהוי ללוגו של Tap Mobile"></div>
+      <div><small>משימת חברה 61</small><h3>Tap Mobile</h3><p class="ar name-ar">Tap Mobile</p><p class="field">מובייל / מוצר / משתמשים</p></div>
+    </div>
+    <div class="chips"><span>חוויית משתמש</span></div>
+    <p class="desc">מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>61.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="question">
+      <h4>61.2 איך חברה שאינה חברת AI יכולה עדיין להיות חלק מפארק הייטק?</h4>
+      <p class="ar">كيف يمكن لشركة ليست شركة ذكاء اصطناعي أن تكون جزءًا من حديقة هاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>היא יכולה לתמוך בחברות, עובדים, תשתיות או חדשנות</span><small class="ar">يمكنها دعم شركات، موظفين، بنى تحتية أو ابتكار</small></label><label><span class="circle">ב</span><span>היא לא יכולה בשום דרך</span><small class="ar">لا يمكنها بأي طريقة</small></label><label><span class="circle">ג</span><span>רק אם היא מייצרת רובוטים</span><small class="ar">فقط إذا كانت تصنع روبوتات</small></label><label><span class="circle">ד</span><span>רק אם יש לה אפליקציה</span><small class="ar">فقط إذا كان لديها تطبيق</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/tech-19.svg" alt="סימן זיהוי ללוגו של Tech19"></div>
+      <div><small>משימת חברה 62</small><h3>Tech19</h3><p class="ar name-ar">Tech19</p><p class="field">הכשרה / תעסוקה טכנולוגית</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>62.1 למה חשוב להכיר מקצועות טכנולוגיים כבר בחטיבה?</h4>
+      <p class="ar">لماذا من المهم التعرف على مهن تكنولوجية منذ المرحلة الإعدادية؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>כדי להבין אפשרויות עתידיות ולפתח מיומנויות</span><small class="ar">لفهم إمكانيات مستقبلية وتطوير مهارات</small></label><label><span class="circle">ב</span><span>כדי לבחור עבודה מיד</span><small class="ar">لاختيار عمل فورًا</small></label><label><span class="circle">ג</span><span>כדי להפסיק ללמוד מקצועות אחרים</span><small class="ar">للتوقف عن تعلم مواضيع أخرى</small></label><label><span class="circle">ד</span><span>כדי להחליף את בית הספר</span><small class="ar">لاستبدال المدرسة</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/threedots-online.svg" alt="סימן זיהוי ללוגו של THREEDOTS ONLINE"></div>
+      <div><small>משימת חברה 63</small><h3>THREEDOTS ONLINE</h3><p class="ar name-ar">THREEDOTS ONLINE</p><p class="field">דיגיטל / מוצר אונליין</p></div>
+    </div>
+    <div class="chips"><span>חוויית משתמש</span></div>
+    <p class="desc">דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>63.1 מה השאלה הכי טובה לשאול על חברה טכנולוגית שלא מכירים?</h4>
+      <p class="ar">ما أفضل سؤال نسأله عن شركة تكنولوجية لا نعرفها؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>איזו בעיה היא פותרת ולמי</span><small class="ar">أي مشكلة تحل، ولمن؟</small></label><label><span class="circle">ב</span><span>כמה קומות יש בבניין</span><small class="ar">كم طابقًا في المبنى</small></label><label><span class="circle">ג</span><span>מה צבע הלוגו בלבד</span><small class="ar">ما لون الشعار فقط</small></label><label><span class="circle">ד</span><span>האם היא תמיד משתמשת ברובוטים</span><small class="ar">هل تستخدم الروبوتات دائمًا</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/upnext-innovate-ltd.png" alt="סימן זיהוי ללוגו של UpNext Innovate LTD"></div>
+      <div><small>משימת חברה 64</small><h3>UpNext Innovate LTD</h3><p class="ar name-ar">UpNext Innovate LTD</p><p class="field">חדשנות / סטארטאפ</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>64.1 מהי חדשנות?</h4>
+      <p class="ar">ما هو الابتكار؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>פתרון חדש או משופר לבעיה אמיתית</span><small class="ar">حل جديد أو محسّن لمشكلة حقيقية</small></label><label><span class="circle">ב</span><span>רעיון בלי משתמשים</span><small class="ar">فكرة بلا مستخدمين</small></label><label><span class="circle">ג</span><span>העתקה של מוצר קיים</span><small class="ar">نسخ منتج موجود</small></label><label><span class="circle">ד</span><span>רק עיצוב יפה</span><small class="ar">تصميم جميل فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section>
+<section class="company-card">
+    <div class="company-head">
+      <div class="logo"><img src="assets/company-logos/wework.png" alt="סימן זיהוי ללוגו של Wework"></div>
+      <div><small>משימת חברה 65</small><h3>Wework</h3><p class="ar name-ar">Wework</p><p class="field">חללי עבודה / אקוסיסטם</p></div>
+    </div>
+    <div class="chips"><span>אתיקה ובקרה</span></div>
+    <p class="desc">חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.</p>
+    <div class="logo-work"><b>אימות לוגו / شعار الشركة</b><br>מצאו את הלוגו בפארק. ציירו/תארו אותו בקצרה וקבלו אישור מדריך:<br><span>____________________________________________________________</span></div>
+    
+    <div class="question">
+      <h4>65.1 מהו אקוסיסטם הייטק?</h4>
+      <p class="ar">ما هي منظومة الهاي تك؟</p>
+      <div class="options">
+        <label><span class="circle">א</span><span>רשת של חברות, אנשים, ידע ושיתופי פעולה</span><small class="ar">شبكة من شركات، أشخاص، معرفة وتعاون</small></label><label><span class="circle">ב</span><span>רק בניין אחד</span><small class="ar">مبنى واحد فقط</small></label><label><span class="circle">ג</span><span>רק מחשב חזק</span><small class="ar">حاسوب قوي فقط</small></label><label><span class="circle">ד</span><span>רק שיעור בבית ספר</span><small class="ar">درس في المدرسة فقط</small></label>
+      </div>
+      <div class="answer-line">תשובת הצוות / إجابة الفريق: ____________________</div>
+    </div>
+    <div class="score-box"><span>ניקוד משימה</span><b>____</b><span>אישור מדריך</span><b>____</b></div>
+  </section><div class="footer"><span>AI Quest</span><span>בנק חברות</span></div></section>
+</body></html>

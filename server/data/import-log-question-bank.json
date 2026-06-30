@@ -1,0 +1,770 @@
+{
+  "generatedAt": "2026-06-24T08:41:45.687Z",
+  "groups": [
+    {
+      "id": "2bprecise",
+      "display": "2bPrecise",
+      "aliases": [
+        "2bPrecise"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-4c2639c6"
+      ]
+    },
+    {
+      "id": "agmon-with-tulchinsky",
+      "display": "Agmon with Tulchinsky",
+      "aliases": [
+        "Agmon with Tulchinsky"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "altera-digital-health",
+      "display": "Altera Digital Health",
+      "aliases": [
+        "Altera Digital Health"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-eb7be6ac"
+      ]
+    },
+    {
+      "id": "audiocodes",
+      "display": "AudioCodes",
+      "aliases": [
+        "AudioCodes"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-b071ea70"
+      ]
+    },
+    {
+      "id": "bgn",
+      "display": "BGN",
+      "aliases": [
+        "BGN"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-a1d1f0cf"
+      ]
+    },
+    {
+      "id": "bone-sci-bio",
+      "display": "Bone Sci Bio",
+      "aliases": [
+        "Bone Sci Bio"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-716e9d98"
+      ]
+    },
+    {
+      "id": "cbg",
+      "display": "CBG",
+      "aliases": [
+        "CBG"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "capow",
+      "display": "CaPow",
+      "aliases": [
+        "CaPow"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-65ac5ed1"
+      ]
+    },
+    {
+      "id": "cert",
+      "display": "Cert",
+      "aliases": [
+        "Cert"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "cyber-bgu",
+      "display": "Cyber@BGU",
+      "aliases": [
+        "Cyber@BGU"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-50e42956"
+      ]
+    },
+    {
+      "id": "cyberark",
+      "display": "CyberArk",
+      "aliases": [
+        "CyberArk",
+        "CyberArk (A Palo Alto Networks Company)",
+        "cyberark"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "cyberglobes",
+      "display": "Cyberglobes",
+      "aliases": [
+        "Cyberglobes"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "dcic",
+      "display": "DCIC",
+      "aliases": [
+        "DCIC"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "dell",
+      "display": "DELL Technologies",
+      "aliases": [
+        "DELL Technologies"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-58accb02"
+      ]
+    },
+    {
+      "id": "drs-rada-technologies",
+      "display": "DRS RADA Technologies",
+      "aliases": [
+        "DRS RADA Technologies"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-bffc19c3"
+      ]
+    },
+    {
+      "id": "dalet",
+      "display": "Dalet",
+      "aliases": [
+        "Dalet"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-97b35d53"
+      ]
+    },
+    {
+      "id": "enter",
+      "display": "ENTER",
+      "aliases": [
+        "ENTER"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "finsec-innovation-lab",
+      "display": "FinSec Innovation Lab",
+      "aliases": [
+        "FinSec Innovation Lab"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-942ce053"
+      ]
+    },
+    {
+      "id": "hyperguest",
+      "display": "HyperGuest",
+      "aliases": [
+        "HyperGuest"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-9ae1b284"
+      ]
+    },
+    {
+      "id": "ibm",
+      "display": "IBM",
+      "aliases": [
+        "IBM"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ability-ai"
+      ]
+    },
+    {
+      "id": "ilanot",
+      "display": "Ilanot",
+      "aliases": [
+        "Ilanot"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "innovation-basecamp",
+      "display": "Innovation Basecamp",
+      "aliases": [
+        "Innovation Basecamp"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-5f4345de"
+      ]
+    },
+    {
+      "id": "intel",
+      "display": "Intel",
+      "aliases": [
+        "Intel"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-36dd2639"
+      ]
+    },
+    {
+      "id": "leidos",
+      "display": "Leidos",
+      "aliases": [
+        "Leidos"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-262e22d7"
+      ]
+    },
+    {
+      "id": "let",
+      "display": "Let",
+      "aliases": [
+        "Let"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "product"
+      ]
+    },
+    {
+      "id": "let-group-ltd-atmos",
+      "display": "Let Group Ltd - atmos",
+      "aliases": [
+        "Let Group Ltd - atmos"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "product"
+      ]
+    },
+    {
+      "id": "lightricks",
+      "display": "Lightricks",
+      "aliases": [
+        "Lightricks"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-ai-24fcf"
+      ]
+    },
+    {
+      "id": "mdclone",
+      "display": "MDCLONE",
+      "aliases": [
+        "MDCLONE"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-eb7be6ac"
+      ]
+    },
+    {
+      "id": "micro",
+      "display": "Micro",
+      "aliases": [
+        "Micro"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-57171461"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "display": "Microsoft",
+      "aliases": [
+        "Microsoft"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-ai-1eebf"
+      ]
+    },
+    {
+      "id": "morphisec",
+      "display": "Morphisec",
+      "aliases": [
+        "Morphisec"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "nitzanim",
+      "display": "Nitzanim",
+      "aliases": [
+        "Nitzanim"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-34c0aea6"
+      ]
+    },
+    {
+      "id": "novocure",
+      "display": "Novocure",
+      "aliases": [
+        "Novocure"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-6c90a3af"
+      ]
+    },
+    {
+      "id": "nvidia",
+      "display": "Nvidia",
+      "aliases": [
+        "Nvidia"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ability-ai-68f0d"
+      ]
+    },
+    {
+      "id": "oracle",
+      "display": "Oracle",
+      "aliases": [
+        "Oracle"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-da55b18a"
+      ]
+    },
+    {
+      "id": "oz-software",
+      "display": "Oz software",
+      "aliases": [
+        "Oz software",
+        "ozsoftware"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-6ecd9bfb"
+      ]
+    },
+    {
+      "id": "pwc-israel",
+      "display": "PWC Israel",
+      "aliases": [
+        "PWC Israel"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-fb271243"
+      ]
+    },
+    {
+      "id": "penta-drone",
+      "display": "Penta Drone Robotics",
+      "aliases": [
+        "Penta Drone Robotics",
+        "pentadrone"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-e5cef07a"
+      ]
+    },
+    {
+      "id": "rad",
+      "display": "RAD",
+      "aliases": [
+        "RAD"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-b071ea70"
+      ]
+    },
+    {
+      "id": "rafael",
+      "display": "RAFAEL",
+      "aliases": [
+        "RAFAEL",
+        "Rafael"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-bffc19c3"
+      ]
+    },
+    {
+      "id": "rsecurity",
+      "display": "RSecurity",
+      "aliases": [
+        "RSecurity"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "retama",
+      "display": "Retama",
+      "aliases": [
+        "Retama"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "rezilion",
+      "display": "Rezilion",
+      "aliases": [
+        "Rezilion",
+        "rezilion"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ability-item-a739e7d6"
+      ]
+    },
+    {
+      "id": "ribbon",
+      "display": "Ribbon",
+      "aliases": [
+        "Ribbon"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-b071ea70"
+      ]
+    },
+    {
+      "id": "siga",
+      "display": "SIGA",
+      "aliases": [
+        "SIGA"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-0d95f1a8"
+      ]
+    },
+    {
+      "id": "sigmabit",
+      "display": "Sigmabit",
+      "aliases": [
+        "Sigmabit"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-f58da2d1"
+      ]
+    },
+    {
+      "id": "signatureit",
+      "display": "SignatureIT",
+      "aliases": [
+        "SignatureIT"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-it"
+      ]
+    },
+    {
+      "id": "siraj",
+      "display": "Siraj",
+      "aliases": [
+        "Siraj"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-57171461"
+      ]
+    },
+    {
+      "id": "soroka",
+      "display": "Soroka",
+      "aliases": [
+        "Soroka"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-39b0ea36"
+      ]
+    },
+    {
+      "id": "soundcampaign",
+      "display": "SoundCampaign",
+      "aliases": [
+        "SoundCampaign"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-acc94bca"
+      ]
+    },
+    {
+      "id": "spark-marketing-il",
+      "display": "Spark Marketing IL",
+      "aliases": [
+        "Spark Marketing IL"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-091dd22e"
+      ]
+    },
+    {
+      "id": "swiftness",
+      "display": "Swiftness",
+      "aliases": [
+        "Swiftness"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-c6c72da8"
+      ]
+    },
+    {
+      "id": "threedots-online",
+      "display": "THREEDOTS ONLINE",
+      "aliases": [
+        "THREEDOTS ONLINE"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "product"
+      ]
+    },
+    {
+      "id": "tap-mobile",
+      "display": "Tap Mobile",
+      "aliases": [
+        "Tap Mobile"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-85141a89"
+      ]
+    },
+    {
+      "id": "tech7",
+      "display": "Tech 7",
+      "aliases": [
+        "Tech 7",
+        "Tech7"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-item-5f4345de"
+      ]
+    },
+    {
+      "id": "tech19",
+      "display": "Tech19",
+      "aliases": [
+        "Tech19",
+        "tech-19"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-28739596"
+      ]
+    },
+    {
+      "id": "upnext-innovate-ltd",
+      "display": "UpNext Innovate LTD",
+      "aliases": [
+        "UpNext Innovate LTD"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-39b20a69"
+      ]
+    },
+    {
+      "id": "weka",
+      "display": "WEKA",
+      "aliases": [
+        "WEKA"
+      ],
+      "questions": 2,
+      "abilityIds": [
+        "ability-ai-f37df"
+      ]
+    },
+    {
+      "id": "wix",
+      "display": "WIX",
+      "aliases": [
+        "WIX"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "ux"
+      ]
+    },
+    {
+      "id": "wework",
+      "display": "Wework",
+      "aliases": [
+        "Wework"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "brooks-keret",
+      "display": "brooks-keret",
+      "aliases": [
+        "brooks-keret"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-36e511e0"
+      ]
+    },
+    {
+      "id": "energyteam",
+      "display": "energyteam",
+      "aliases": [
+        "energyteam"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-67e30743"
+      ]
+    },
+    {
+      "id": "liolan",
+      "display": "liolan",
+      "aliases": [
+        "liolan"
+      ],
+      "questions": 1,
+      "abilityIds": [
+        "ability-item-57171461"
+      ]
+    },
+    {
+      "id": "taboola",
+      "display": "taboola",
+      "aliases": [
+        "taboola"
+      ],
+      "questions": 3,
+      "abilityIds": [
+        "recommendation"
+      ]
+    }
+  ],
+  "aliasesMerged": [
+    {
+      "id": "cyberark",
+      "aliases": [
+        "CyberArk",
+        "CyberArk (A Palo Alto Networks Company)",
+        "cyberark"
+      ]
+    },
+    {
+      "id": "oz-software",
+      "aliases": [
+        "Oz software",
+        "ozsoftware"
+      ]
+    },
+    {
+      "id": "penta-drone",
+      "aliases": [
+        "Penta Drone Robotics",
+        "pentadrone"
+      ]
+    },
+    {
+      "id": "rafael",
+      "aliases": [
+        "RAFAEL",
+        "Rafael"
+      ]
+    },
+    {
+      "id": "rezilion",
+      "aliases": [
+        "Rezilion",
+        "rezilion"
+      ]
+    },
+    {
+      "id": "tech7",
+      "aliases": [
+        "Tech 7",
+        "Tech7"
+      ]
+    },
+    {
+      "id": "tech19",
+      "aliases": [
+        "Tech19",
+        "tech-19"
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Starter Lab + AI Quest — פעילות 75 דקות ללא טלפונים</title>
+  <style>
+    :root{
+      --ink:#10243f;--muted:#60738d;--blue:#1558d6;--cyan:#06b6d4;--purple:#7c3aed;--orange:#f97316;--green:#16a34a;--red:#dc2626;--soft:#f5f8ff;--line:#d7e3f5;
+    }
+    *{box-sizing:border-box}
+    html{scroll-snap-type:y mandatory}
+    body{margin:0;background:#eaf1fb;color:var(--ink);font-family:Arial,'Noto Sans Hebrew',sans-serif;line-height:1.45}
+    .toolbar{position:fixed;left:12px;bottom:12px;z-index:50;display:flex;gap:8px;align-items:center}.toolbar button,.toolbar a{border:0;border-radius:999px;background:#0f172a;color:white;padding:10px 13px;font-weight:900;text-decoration:none;box-shadow:0 8px 18px #0004;cursor:pointer}.toolbar span{background:#fff;border:1px solid #cbd5e1;border-radius:999px;padding:8px 12px;font-size:13px;color:#334155;box-shadow:0 8px 18px #0002}
+    .slide{width:100vw;min-height:100vh;background:white;padding:5.8vh 7vw;scroll-snap-align:start;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center}.slide:after{content:attr(data-num);position:absolute;left:28px;top:22px;color:#94a3b8;font-weight:900}.cover{color:white;background:radial-gradient(circle at 10% 8%,#67e8f977,transparent 28%),radial-gradient(circle at 85% 70%,#a78bfa66,transparent 25%),linear-gradient(135deg,#071d38,#123d66 52%,#5628a8)}
+    h1,h2,h3{margin:0 0 16px}h1{font-size:clamp(42px,6vw,76px);line-height:1.02}h2{font-size:clamp(32px,4.7vw,58px);line-height:1.08;color:#123d66}.cover h2{color:#b8eeff}h3{font-size:clamp(24px,3vw,36px);color:#123d66}p,li,td,th{font-size:clamp(20px,2vw,30px)}.small{font-size:clamp(16px,1.3vw,22px);color:var(--muted)}.lead{font-size:clamp(24px,2.5vw,34px);font-weight:900;background:#fff7ed;border:3px solid #fed7aa;border-radius:26px;padding:18px;margin:16px 0}.pill{display:inline-block;background:#ffffff18;border:1px solid #ffffff55;border-radius:999px;padding:10px 16px;font-weight:900;margin-bottom:22px}.cover .pill{color:white}.tag{display:inline-block;background:#e0f2fe;border:1px solid #bae6fd;border-radius:999px;color:#075985;padding:7px 13px;font-weight:900;margin:4px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:2px solid var(--line);border-radius:26px;background:var(--soft);padding:22px;box-shadow:0 10px 24px #0000000d}.card.orange{background:#fff7ed;border-color:#fed7aa}.card.green{background:#f0fdf4;border-color:#bbf7d0}.card.cyan{background:#ecfeff;border-color:#a5f3fc}.card.purple{background:#f5f3ff;border-color:#ddd6fe}.icon{font-size:clamp(44px,5vw,74px);line-height:1}.big{font-size:clamp(34px,4vw,54px);font-weight:900}.center{text-align:center}.muted{color:var(--muted)}ul,ol{margin:10px 0;padding-right:32px}li{margin:8px 0}.timeline{width:100%;border-collapse:collapse;margin-top:16px}td,th{border:2px solid #cbd5e1;padding:14px;vertical-align:top}th{background:#eaf3ff;color:#123d66}.note{position:absolute;right:7vw;bottom:4vh;color:#64748b;font-size:16px}.visual{font-size:clamp(54px,8vw,120px);text-align:center;letter-spacing:10px;margin:22px 0}.compare{display:grid;grid-template-columns:1fr 1fr;gap:18px}.bubble{border-radius:28px;padding:22px;background:#f8fafc;border:2px solid #e2e8f0;font-size:clamp(22px,2.2vw,32px)}.question{font-size:clamp(34px,4vw,58px);font-weight:900;color:#123d66}.answerbox{border:3px dashed #94a3b8;border-radius:22px;min-height:120px;background:#fff;margin-top:18px;padding:18px}.footer{position:absolute;right:32px;bottom:22px;left:32px;display:flex;justify-content:space-between;color:#94a3b8;font-size:14px}.route{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.route div{background:linear-gradient(135deg,#e0f2fe,#ede9fe);border:2px solid #bfdbfe;border-radius:20px;padding:16px;text-align:center;font-weight:900;font-size:clamp(18px,1.6vw,24px)}.mini{font-size:clamp(16px,1.2vw,20px)}.workslide{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center}.pdfshot{width:100%;height:62vh;border:3px solid #cbd5e1;border-radius:24px;background:#f8fafc;box-shadow:0 12px 28px #0001}.guide-note{background:#0f172a;color:white;border-radius:22px;padding:16px;font-size:clamp(17px,1.3vw,22px)}.guide-note b{color:#bae6fd}.source-link{font-size:16px;color:#64748b}.source-link a{color:#1558d6;font-weight:900}
+    @media print{html{scroll-snap-type:none}body{background:white}.toolbar{display:none}.slide{width:297mm;min-height:210mm;page-break-after:always;padding:16mm 20mm}.slide:after{left:12mm;top:8mm}.note{right:20mm;bottom:10mm}.footer{right:12mm;left:12mm;bottom:8mm}p,li,td,th{font-size:18px}h1{font-size:54px}h2{font-size:42px}h3{font-size:28px}.pdfshot{height:105mm}.workslide{gap:12px}}@page{size:A4 landscape;margin:0}
+  </style>
+</head>
+<body>
+  <div class="toolbar"><button onclick="prevSlide()">‹</button><button onclick="nextSlide()">›</button><button onclick="window.print()">PDF</button><span>חיצים במקלדת / הדפסה ל־PDF</span></div>
+
+  <section class="slide cover" data-num="1">
+    <span class="pill">AI Starter Lab + AI Quest</span>
+    <h1>לחשוב, לזהות ולאסוף כוחות AI</h1>
+    <h2>פעילות 75 דקות ללא טלפונים</h2>
+    <p>מבינים מה זה AI, משחקים בזיהוי תוצרים, יוצאים לסיור מודרך, ואוספים כוחות שיעזרו בסיכום קצר אחד.</p>
+    <div class="footer"><span>גרסה מותאמת ללא טלפונים</span><span>75 דקות</span></div>
+  </section>
+
+  <section class="slide" data-num="2">
+    <h2>מה הסיפור של היום?</h2>
+    <p class="lead">אתם צוותי AI צעירים. המשימה שלכם: להבין איך AI עובד, לאסוף כוחות מחברות אמיתיות, ואז להשתמש בהם כדי להציע רעיון קצר, בטוח ושימושי.</p>
+    <div class="grid3">
+      <div class="card cyan center"><div class="icon">🧠</div><h3>מבינים</h3><p>מה AI יודע לעשות ואיפה פוגשים אותו.</p></div>
+      <div class="card orange center"><div class="icon">🔍</div><h3>בודקים</h3><p>איך מזהים טעויות ותוצרים שנראים אמיתיים מדי.</p></div>
+      <div class="card green center"><div class="icon">⚡</div><h3>אוספים</h3><p>כוחות AI בסיור ומשתמשים בהם בסיכום.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="3">
+    <h2>מבנה 75 דקות</h2>
+    <table class="timeline">
+      <tr><th>זמן</th><th>מה עושים?</th><th>מטרה</th></tr>
+      <tr><td>0–8</td><td>פתיחה: איפה פגשנו AI?</td><td>חיבור לחיים שלהם</td></tr>
+      <tr><td>8–20</td><td>מה זה AI + איך הוא לומד</td><td>הבנה פשוטה לפני הסיור</td></tr>
+      <tr><td>20–37</td><td>Human or AI?</td><td>משחק זיהוי עם התמונות והטקסטים המקוריים</td></tr>
+      <tr><td>37–43</td><td>איך שואלים AI נכון?</td><td>פרומפט חלש מול פרומפט טוב — בלי טלפונים</td></tr>
+      <tr><td>43–65</td><td>סיור AI Quest + עמדות בונוס</td><td>איסוף כוחות ודוגמאות</td></tr>
+      <tr><td>65–75</td><td>סיכום: כרטיס רעיון קצר</td><td>חיבור כל הכוחות לתוצר אחד</td></tr>
+    </table>
+    <p class="small">חשוב: לא בונים מוצר גם בהרצאה וגם בסיור. בונים רעיון קצר רק בסוף.</p>
+  </section>
+
+  <section class="slide" data-num="4">
+    <h2>כללי משחק</h2>
+    <div class="grid2">
+      <div class="card green"><div class="icon">✅</div><h3>מה כן עושים?</h3><ul><li>מקשיבים למדריך הראשי.</li><li>עונים בקבוצה.</li><li>מסמנים כוחות בחוברת.</li><li>שומרים קלפי בונוס לסיכום.</li></ul></div>
+      <div class="card cyan"><div class="icon">📵</div><h3>איך עובדים בלי טלפונים?</h3><ul><li>הכול קורה בעל־פה, על מסך ובחוברת.</li><li>אין צורך לפתוח כלי AI.</li><li>כותבים רעיון כאילו היינו נותנים אותו ל־AI.</li></ul></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="5">
+    <h2>איפה פגשתם AI השבוע?</h2>
+    <div class="visual">📱 🎵 🎮 📸 🧭</div>
+    <div class="grid3">
+      <div class="card">TikTok / YouTube</div>
+      <div class="card">פילטרים בתמונות</div>
+      <div class="card">תרגום אוטומטי</div>
+      <div class="card">ChatGPT</div>
+      <div class="card">פרסומות מותאמות</div>
+      <div class="card">Spotify / משחקים</div>
+    </div>
+    <p class="note">שאלה לקהל: תנו דוגמה אחת מהשבוע.</p>
+  </section>
+
+  <section class="slide" data-num="6">
+    <h2>מה זה בכלל AI?</h2>
+    <p class="lead">בינה מלאכותית היא טכנולוגיה שעוזרת למחשב לבצע משימות שנראות כמו חשיבה אנושית — לזהות דפוסים, להציע רעיונות, לכתוב, לסכם, ליצור ולהמליץ.</p>
+    <div class="grid3">
+      <div class="card center"><div class="icon">🔎</div><h3>מזהה</h3><p>דפוסים בתמונות, מילים ונתונים.</p></div>
+      <div class="card center"><div class="icon">💡</div><h3>מציע</h3><p>רעיונות, ניסוחים ופתרונות.</p></div>
+      <div class="card center"><div class="icon">🎯</div><h3>ממליץ</h3><p>תוכן, מסלול או בחירה מתאימה.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="7">
+    <h2>AI לא חושב כמונו</h2>
+    <div class="compare">
+      <div class="card cyan"><h3>אדם</h3><ul><li>מבין הקשר וחוויה.</li><li>שואל למה זה חשוב.</li><li>יכול לקחת אחריות.</li></ul></div>
+      <div class="card orange"><h3>AI</h3><ul><li>לומד מהמון דוגמאות.</li><li>מזהה דפוסים והסתברויות.</li><li>יכול לטעות בביטחון.</li></ul></div>
+    </div>
+    <p class="lead">לכן AI הוא כלי חזק — אבל האדם עדיין בודק, בוחר ואחראי.</p>
+  </section>
+
+  <section class="slide" data-num="8">
+    <h2>דימוי פשוט: איך AI לומד?</h2>
+    <div class="visual">🐶 🐱 🐶 🐱 🐶</div>
+    <p class="lead">אם נראה למחשב אלפי תמונות של כלבים וחתולים, הוא מתחיל לזהות מאפיינים שחוזרים על עצמם. AI עושה את זה בקנה מידה ענק ומהר מאוד.</p>
+    <p class="small">שאלה לקהל: איזה פרטים עוזרים להבדיל בין כלב לחתול?</p>
+  </section>
+
+  <section class="slide" data-num="9">
+    <h2>מה AI יודע לעשות היום?</h2>
+    <div class="grid3">
+      <div class="card"><h3>לכתוב</h3><p>הודעה, סיפור, רעיון, סלוגן.</p></div>
+      <div class="card"><h3>לסכם</h3><p>טקסט ארוך לנקודות קצרות.</p></div>
+      <div class="card"><h3>ליצור תמונה</h3><p>פוסטר, דמות, המחשה.</p></div>
+      <div class="card"><h3>להמליץ</h3><p>שיר, סרטון, תחום עניין.</p></div>
+      <div class="card"><h3>לזהות דפוסים</h3><p>טעויות, העדפות, פעילות חריגה.</p></div>
+      <div class="card"><h3>לענות</h3><p>על שאלות — אבל צריך לבדוק.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="10">
+    <h2>האם אפשר לסמוך עליו?</h2>
+    <p class="lead">לא אוטומטית. תוצר AI יכול להיראות חכם, בטוח ואמיתי — ועדיין להיות שגוי.</p>
+    <div class="grid3">
+      <div class="card orange center"><div class="icon">🖐️</div><h3>תמונה</h3><p>ידיים, אצבעות, טקסטים מוזרים.</p></div>
+      <div class="card orange center"><div class="icon">📝</div><h3>טקסט</h3><p>נשמע מושלם מדי או כללי מדי.</p></div>
+      <div class="card orange center"><div class="icon">⚠️</div><h3>עובדות</h3><p>יכול להמציא מידע בביטחון.</p></div>
+    </div>
+  </section>
+
+  <section class="slide cover" data-num="11">
+    <h1>משחק: Human or AI?</h1>
+    <h2>האם תצליחו לזהות?</h2>
+    <p>בכל סיבוב מרימים יד: אנושי או AI. אחר כך מסבירים למה.</p>
+  </section>
+
+  <section class="slide" data-num="12">
+    <h2>Human or AI — איך משחקים?</h2>
+    <div class="grid2">
+      <div class="card cyan"><h3>הוראה לילדים</h3><p>בכל סיבוב תראו תמונה, טקסט או סלוגן. תרימו יד: לדעתכם זה נוצר על ידי אדם או AI?</p></div>
+      <div class="card orange"><h3>הוראה למדריך</h3><p>לא מגלים מיד. קודם מבקשים מהילדים להסביר לפי סימנים: פרטים מוזרים, ניסוח, הקשר, אמינות ושיקול דעת.</p></div>
+    </div>
+    <p class="lead">המטרה היא לא “לנחש נכון”, אלא ללמוד איך בודקים תוצר שנראה אמיתי.</p>
+    <p class="source-link">מקור חומרי המשחק: <a href="ai-starter-lab-original.pdf" target="_blank">המצגת המקורית</a></p>
+  </section>
+
+  <section class="slide workslide" data-num="13">
+    <div>
+      <h2>סיבוב 1: תמונה — כיתה עתידנית</h2>
+      <p class="question">אדם או AI?</p>
+      <div class="card cyan"><h3>מה הילדים מחפשים?</h3><ul><li>איך נראות הידיים והאצבעות?</li><li>האם הטקסטים ברקע קריאים?</li><li>האם התאורה טבעית ועקבית?</li></ul></div>
+      <div class="guide-note"><b>למדריך:</b> להציג את התמונה מהשקף המקורי ולתת 30 שניות שקטות להתבוננות. אחר כך לבקש 2–3 סימנים.</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=10&toolbar=0&navpanes=0" title="שקף מקורי — כיתה עתידנית"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="14">
+    <div>
+      <h2>סיבוב 2: תמונה — תלמידים עובדים</h2>
+      <p class="question">אדם או AI?</p>
+      <div class="card cyan"><h3>מה בודקים?</h3><ul><li>הבעות פנים ומבטים.</li><li>מסכים, מקלדות וחפצים ברקע.</li><li>כפילויות מוזרות או דפוסים שחוזרים על עצמם.</li></ul></div>
+      <div class="guide-note"><b>למדריך:</b> להדגיש שגם אם תמונה נראית אמיתית ממבט ראשון, צריך לבדוק פרטים קטנים.</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=11&toolbar=0&navpanes=0" title="שקף מקורי — תלמידים עובדים"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="15">
+    <div>
+      <h2>סיבוב 3: טקסט רשמי</h2>
+      <div class="bubble">“בינה מלאכותית היא תחום טכנולוגי שבו מחשבים מבצעים משימות שדורשות יכולות כמו זיהוי דפוסים, הבנת שפה, יצירת תוכן וקבלת החלטות.”</div>
+      <p class="question">אדם או AI?</p>
+      <div class="guide-note"><b>למדריך:</b> לשאול: האם זה נשמע כמו תלמיד אמיתי? האם זה רשמי מדי? האם חסר קול אישי?</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=12&toolbar=0&navpanes=0" title="שקף מקורי — טקסט רשמי"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="16">
+    <div>
+      <h2>סיבוב 4: טקסט יומיומי</h2>
+      <div class="bubble">“אני חושב ש־AI זה כמו עוזר כזה במחשב, שיכול לתת רעיונות ולעזור ללמוד, אבל לפעמים הוא גם מחרטט אז צריך לבדוק אותו.”</div>
+      <p class="question">אדם או AI?</p>
+      <div class="guide-note"><b>למדריך:</b> נקודה חשובה: AI יכול לחקות גם סלנג וסגנון יומיומי. לכן לא מסתמכים רק על תחושה.</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=13&toolbar=0&navpanes=0" title="שקף מקורי — טקסט יומיומי"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="17">
+    <div>
+      <h2>סיבוב 5: סלוגן לפרסומת</h2>
+      <div class="bubble">“לומדים חכם. חושבים קדימה. יוצרים עם AI.”</div>
+      <p class="question">פרסומאי אנושי או צ׳אטבוט?</p>
+      <div class="guide-note"><b>למדריך:</b> להסביר שסלוגן קצר וקולע יכול להיווצר גם על ידי אדם וגם על ידי AI. השאלה החשובה היא איכות, הקשר והתאמה לקהל.</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=14&toolbar=0&navpanes=0" title="שקף מקורי — סלוגן"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="18">
+    <div>
+      <h2>סיכום המשחק: מה מחפשים?</h2>
+      <div class="grid2">
+        <div class="card green"><h3>בתמונות</h3><ul><li>טקסטים משובשים</li><li>אצבעות ואיברים מוזרים</li><li>צללים ופריטים “נמסים”</li></ul></div>
+        <div class="card cyan"><h3>בטקסטים</h3><ul><li>ניסוח כללי מדי</li><li>ביטחון בלי מקור</li><li>חוסר התאמה לקהל</li></ul></div>
+      </div>
+      <p class="lead">המטרה היא לא לנחש — המטרה היא לבדוק.</p>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=15&toolbar=0&navpanes=0" title="שקף מקורי — טעויות בתמונות"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="19">
+    <div>
+      <h2>איך שואלים AI נכון?</h2>
+      <p class="lead">גם בלי טלפונים אפשר ללמוד פרומפטים: מסתכלים על שאלה חלשה, מבינים מה חסר, ואז משפרים אותה.</p>
+      <div class="card orange"><h3>פרומפט חלש</h3><p>“תן לי רעיון לאפליקציה.”</p><p class="small">מה חסר? קהל יעד, בעיה, גיל, סגנון, מגבלות ופורמט.</p></div>
+      <div class="guide-note"><b>למדריך:</b> לשאול את הילדים: “איזה מידע הייתם מוסיפים כדי שה־AI יענה טוב יותר?”</div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=20&toolbar=0&navpanes=0" title="שקף מקורי — איך שואלים נכון"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="20">
+    <div>
+      <h2>דוגמה לפרומפט משופר</h2>
+      <div class="bubble">“תן לי רעיון לאפליקציה שתעזור לתלמידי כיתה ז׳ להתכונן למבחנים... הצע לי שם, שלושה מסכים, רעיון למשחק קצר ואיך AI משולב בה.”</div>
+      <div class="card green"><h3>מה השתפר?</h3><ul><li>קהל יעד ברור</li><li>דרישות מדויקות</li><li>פורמט תשובה ברור</li><li>התאמה לגיל</li></ul></div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=21&toolbar=0&navpanes=0" title="שקף מקורי — פרומפט משופר"></iframe>
+  </section>
+
+  <section class="slide workslide" data-num="21">
+    <div>
+      <h2>נוסחת פרומפט מנצחת</h2>
+      <div class="grid2">
+        <div class="card cyan"><h3>מה חייבים להכניס?</h3><ol><li>מטרה</li><li>קהל יעד</li><li>הקשר</li><li>מגבלות</li><li>פורמט</li></ol></div>
+        <div class="card orange"><h3>בלי טלפונים</h3><p>הילדים לא כותבים ל־AI בפועל. הם משתמשים בנוסחה כדי לחשוב ברור יותר על הרעיון שלהם בסוף.</p></div>
+      </div>
+    </div>
+    <iframe class="pdfshot" src="ai-starter-lab-original.pdf#page=22&toolbar=0&navpanes=0" title="שקף מקורי — נוסחת פרומפט"></iframe>
+  </section>
+
+  <section class="slide" data-num="22">
+    <h2>שלושת כללי הזהב</h2>
+    <div class="grid3">
+      <div class="card cyan center"><div class="icon">🎯</div><h3>שאלו ברור</h3><p>מטרה, קהל יעד, הקשר, מגבלות ופורמט.</p></div>
+      <div class="card orange center"><div class="icon">🔍</div><h3>בדקו תמיד</h3><p>AI יכול לטעות או להמציא בביטחון.</p></div>
+      <div class="card green center"><div class="icon">🛡️</div><h3>פעלו באחריות</h3><p>לא מעלים מידע פרטי ולא מעתיקים בלי להבין.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="23">
+    <h2>איך AI קשור להייטק?</h2>
+    <div class="grid2">
+      <div class="card"><h3>סייבר</h3><p>זיהוי פעילות חריגה והגנה על מידע.</p></div>
+      <div class="card"><h3>רפואה ובריאות</h3><p>זיהוי דפוסים בבדיקות ובנתונים.</p></div>
+      <div class="card"><h3>חינוך</h3><p>תרגול מותאם אישית לכל תלמיד.</p></div>
+      <div class="card"><h3>UX וחוויה</h3><p>להבין איפה משתמשים נתקעים ומה יעזור להם.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="24">
+    <h2>הייטק זה לא רק תכנות</h2>
+    <div class="grid3">
+      <div class="card purple center"><div class="icon">🎨</div><h3>עיצוב וחוויה</h3><p>איך מוצר נראה ומרגיש.</p></div>
+      <div class="card green center"><div class="icon">📊</div><h3>דאטה ומחקר</h3><p>להבין מידע ולקבל החלטות.</p></div>
+      <div class="card orange center"><div class="icon">📣</div><h3>שיווק וניהול</h3><p>להוביל רעיון ולהסביר אותו.</p></div>
+    </div>
+    <p class="lead">בסיור נאסוף “כוחות” שונים — וכל כוח שייך לעולם אחר בטכנולוגיה.</p>
+  </section>
+
+  <section class="slide cover" data-num="25">
+    <h1>הסיור: AI Quest</h1>
+    <h2>שתי אפשרויות להסבר קצר</h2>
+    <p>הסיור יכול להגיע אחרי פתיחה בחדר, או לפני סיכום בחדר. בשני המקרים הילדים אוספים כוחות AI בחוברת דרך ההסברים של המדריך הראשי.</p>
+  </section>
+
+  <section class="slide" data-num="26">
+    <h2>אפשרות 1: לפני הסיור</h2>
+    <p class="lead">“עוד מעט נצא לסיור AI Quest. במהלך הסיור לא יהיו תחנות פיזיות של חברות — אני אלווה אתכם ואספר בכל מקטע על חברה אחרת ועל כוח AI שהיא מייצגת.”</p>
+    <div class="grid2">
+      <div class="card cyan"><h3>מה הילדים עושים?</h3><ul><li>מקשיבים להסבר.</li><li>מזהים את כוח ה־AI של כל חברה.</li><li>מסמנים את הכוח בחוברת.</li><li>שומרים קלפי בונוס למשימה הסופית.</li></ul></div>
+      <div class="card green"><h3>מה המטרה?</h3><p>לאסוף רעיונות וכוחות שיעזרו בסוף לבנות רעיון קצר למערכת AI חכמה, שימושית ואחראית.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="27">
+    <h2>אפשרות 2: אחרי הסיור</h2>
+    <p class="lead">“עכשיו נחבר את מה שעשינו בסיור. לאורך המסלול שמענו על חברות שונות, וכל חברה נתנה לנו כוח AI אחר: ענן, חישוב, דאטה, אבטחה, חוויית משתמש, המלצות, אחריות ויצירה.”</p>
+    <div class="grid2">
+      <div class="card orange"><h3>מה כבר יש לנו?</h3><ul><li>כוחות שסימנו בחוברת.</li><li>קלפי בונוס שאספנו בדרך.</li><li>רעיונות מחברות אמיתיות.</li></ul></div>
+      <div class="card purple"><h3>מה עושים עכשיו?</h3><p>משתמשים במה שאספנו כדי להשלים כרטיס סיכום קצר: למי המערכת עוזרת, איזה כוחות נבחר, איזו שאלה היא תשאל, ואיך היא תשמור על אחריות ופרטיות.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="28">
+    <h2>מה עושים בסיור?</h2>
+    <div class="route">
+      <div>שומעים הסבר</div><div>מזהים כוח AI</div><div>מסמנים בחוברת</div><div>עוברים בעמדת בונוס</div><div>שומרים קלף לסיכום</div>
+    </div>
+    <p class="lead">החברות הן הדוגמאות. הכוחות הם מה שהילדים לוקחים איתם למשימה הסופית.</p>
+    <div class="grid2">
+      <div class="card"><h3>דוגמה</h3><p>Microsoft → ענן וכלי AI</p><p>NVIDIA → כוח חישוב</p><p>CyberArk → אבטחה וזהויות</p></div>
+      <div class="card"><h3>עמדות הבונוס</h3><p>שלוקים → למי המערכת עוזרת</p><p>חטיפים → שאלות ודאטה</p><p>קוד משימה → משפט סיום</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="29">
+    <h2>עמדות הבונוס בסיור</h2>
+    <table class="timeline">
+      <tr><th>מתי?</th><th>עמדה</th><th>מה מקבלים?</th><th>למה זה עוזר?</th></tr>
+      <tr><td>אחרי מקטע הסבר ראשון</td><td>טעינת אנרגיה</td><td>שלוק + קלף משתמש</td><td>למי מערכת ה־AI עוזרת?</td></tr>
+      <tr><td>אחרי מקטע הסבר שני</td><td>איסוף מידע</td><td>חטיף + קלף דאטה + קלף אחריות</td><td>איזה שאלות המערכת תשאל ואיך תשמור על פרטיות?</td></tr>
+      <tr><td>בסיום הסיור</td><td>קוד משימה</td><td>מדבקה + משפט סיום</td><td>איך מציגים את הרעיון במשפט ברור?</td></tr>
+    </table>
+  </section>
+
+  <section class="slide" data-num="30">
+    <h2>חוזרים לחדר: לא בונים מוצר מחדש</h2>
+    <p class="lead">עכשיו מחברים את מה שכבר אספנו. לא מתחילים פעילות חדשה — מסכמים את הכוחות והקלפים לרעיון קצר אחד.</p>
+    <div class="grid2">
+      <div class="card green"><h3>יש לנו כבר:</h3><ul><li>כוחות AI שסומנו בחוברת</li><li>קלף משתמש</li><li>קלף דאטה/אחריות</li><li>משפט סיום</li></ul></div>
+      <div class="card cyan"><h3>עכשיו רק מחברים:</h3><ul><li>למי זה עוזר?</li><li>איזה 3 כוחות נבחר?</li><li>מה המערכת תשאל?</li><li>איך היא תהיה בטוחה?</li></ul></div>
+    </div>
+  </section>
+
+  <section class="slide" data-num="31">
+    <h2>כרטיס סיכום צוותי</h2>
+    <div class="answerbox">
+      <p><b>שם הרעיון:</b> ______________________________________________</p>
+      <p><b>המערכת עוזרת ל:</b> __________________________________________</p>
+      <p><b>3 כוחות AI שבחרנו:</b> __________________ / __________________ / __________________</p>
+      <p><b>שאלה אחת שהמערכת תשאל:</b> __________________________________</p>
+      <p><b>כלל אחריות:</b> ______________________________________________</p>
+    </div>
+    <p class="small">זמן עבודה: 6–7 דקות. עובדים בצוות, בלי טלפונים.</p>
+  </section>
+
+  <section class="slide" data-num="32">
+    <h2>מיני פיץ׳ — 30 שניות לצוות</h2>
+    <p class="lead">רעיון טוב הוא רעיון שאפשר להסביר במשפט פשוט.</p>
+    <div class="answerbox big">המערכת שלנו עוזרת ל־__________ לגלות __________ בעזרת __________ תוך שמירה על __________.</div>
+    <p class="small">אם אין זמן לכל הצוותים: לבחור 2–3 צוותים לשיתוף.</p>
+  </section>
+
+  <section class="slide" data-num="33">
+    <h2>סיכום</h2>
+    <div class="grid3">
+      <div class="card cyan center"><div class="icon">🧠</div><h3>AI הוא כלי</h3><p>הוא יכול לעזור לחשוב, ליצור וללמוד.</p></div>
+      <div class="card orange center"><div class="icon">🔍</div><h3>בודקים</h3><p>לא מאמינים אוטומטית. בודקים סימנים ומקורות.</p></div>
+      <div class="card green center"><div class="icon">🛡️</div><h3>אחראים</h3><p>שומרים פרטיות, בחירה ושיקול דעת אנושי.</p></div>
+    </div>
+    <p class="lead center">AI לא מחליף אותנו — הוא נותן לנו כוח חדש לחשוב טוב יותר.</p>
+  </section>
+
+  <section class="slide" data-num="34">
+    <h2>נספח למדריך: אם הסדר הפוך</h2>
+    <div class="grid2">
+      <div class="card cyan"><h3>אם קודם הרצאה ואז סיור</h3><ol><li>לעשות פתיחה, AI בסיסי, Human or AI ופרומפטים.</li><li>לצאת לסיור ולאסוף כוחות.</li><li>לחזור לכרטיס סיכום קצר.</li></ol></div>
+      <div class="card orange"><h3>אם קודם סיור ואז הרצאה</h3><ol><li>להתחיל בפתיחה קצרה וכללי משחק בלבד.</li><li>לצאת לסיור ולאסוף כוחות.</li><li>בחדר לעשות Human or AI, פרומפטים וסיכום.</li></ol></div>
+    </div>
+    <p class="lead">בשני הסדרים: משימת הבנייה מופיעה פעם אחת בלבד — בסוף.</p>
+  </section>
+
+  <script>
+    const slides=[...document.querySelectorAll('.slide')];
+    function idx(){let y=scrollY+innerHeight/2;let best=0,bd=1e9;slides.forEach((s,i)=>{let d=Math.abs(s.offsetTop+s.offsetHeight/2-y);if(d<bd){bd=d;best=i}});return best}
+    function go(i){slides[Math.max(0,Math.min(slides.length-1,i))].scrollIntoView({behavior:'smooth'});}function nextSlide(){go(idx()+1)}function prevSlide(){go(idx()-1)}
+    addEventListener('keydown',e=>{if(['ArrowDown','ArrowLeft','PageDown',' '].includes(e.key)){e.preventDefault();nextSlide()} if(['ArrowUp','ArrowRight','PageUp'].includes(e.key)){e.preventDefault();prevSlide()}})
+  </script>
+</body>
+</html>

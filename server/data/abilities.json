@@ -1,0 +1,488 @@
+[
+  {
+    "id": "security",
+    "nameHe": "אבטחת מידע",
+    "nameAr": "أمن المعلومات",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "identity",
+    "nameHe": "הגנת זהויות",
+    "nameAr": "حماية الهويات",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "data",
+    "nameHe": "דאטה איכותי",
+    "nameAr": "بيانات جيدة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "analysis",
+    "nameHe": "ניתוח מידע",
+    "nameAr": "تحليل البيانات",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "cloud",
+    "nameHe": "ענן",
+    "nameAr": "سحابة",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "compute",
+    "nameHe": "כוח עיבוד",
+    "nameAr": "قدرة معالجة",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "hardware",
+    "nameHe": "חומרה ושבבים",
+    "nameAr": "عتاد ورقائق",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ux",
+    "nameHe": "חוויית משתמש",
+    "nameAr": "تجربة مستخدم",
+    "type": "ux",
+    "modelImpact": {
+      "ux": 20
+    }
+  },
+  {
+    "id": "product",
+    "nameHe": "מוצר דיגיטלי",
+    "nameAr": "منتج رقمي",
+    "type": "ux",
+    "modelImpact": {
+      "ux": 20
+    }
+  },
+  {
+    "id": "recommendation",
+    "nameHe": "מערכת המלצות",
+    "nameAr": "نظام توصيات",
+    "type": "recommendation",
+    "modelImpact": {
+      "recommendation": 20
+    }
+  },
+  {
+    "id": "communication",
+    "nameHe": "תקשורת",
+    "nameAr": "اتصالات",
+    "type": "communication",
+    "modelImpact": {
+      "communication": 20
+    }
+  },
+  {
+    "id": "content",
+    "nameHe": "תוכן ומדיה",
+    "nameAr": "محتوى وإعلام",
+    "type": "content",
+    "modelImpact": {
+      "content": 20
+    }
+  },
+  {
+    "id": "ethics",
+    "nameHe": "אתיקה ופרטיות",
+    "nameAr": "الأخلاقيات والخصوصية",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "human",
+    "nameHe": "בקרה אנושית",
+    "nameAr": "رقابة بشرية",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-4c2639c6",
+    "nameHe": "רפואה מותאמת אישית",
+    "nameAr": "طب شخصي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-36e511e0",
+    "nameHe": "אקוסיסטם תומך",
+    "nameAr": "منظومة داعمة",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-eb7be6ac",
+    "nameHe": "דאטה רפואי אחראי",
+    "nameAr": "بيانات طبية مسؤولة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-b071ea70",
+    "nameHe": "תקשורת ורשתות",
+    "nameAr": "اتصالات وشبكات",
+    "type": "communication",
+    "modelImpact": {
+      "communication": 20
+    }
+  },
+  {
+    "id": "ability-item-a1d1f0cf",
+    "nameHe": "מחקר וחדשנות",
+    "nameAr": "بحث وابتكار",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-716e9d98",
+    "nameHe": "מחקר ביולוגי",
+    "nameAr": "بحث بيولوجي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-65ac5ed1",
+    "nameHe": "רובוטיקה ותפעול חכם",
+    "nameAr": "روبوتات وتشغيل ذكي",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-a739e7d6",
+    "nameHe": "אבטחת מידע וזהויות",
+    "nameAr": "أمن معلومات وهويات",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "ability-item-50e42956",
+    "nameHe": "מחקר סייבר",
+    "nameAr": "بحث سيبراني",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "ability-item-58accb02",
+    "nameHe": "תשתיות מחשוב",
+    "nameAr": "بنية حوسبة تحتية",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-bffc19c3",
+    "nameHe": "מערכות חכמות",
+    "nameAr": "أنظمة ذكية",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-97b35d53",
+    "nameHe": "ניהול תוכן ומדיה",
+    "nameAr": "إدارة محتوى وإعلام",
+    "type": "content",
+    "modelImpact": {
+      "content": 20
+    }
+  },
+  {
+    "id": "ability-item-942ce053",
+    "nameHe": "פיננסים וסייבר",
+    "nameAr": "تمويل وسيبر",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "ability-item-9ae1b284",
+    "nameHe": "מוצר מבוסס דאטה",
+    "nameAr": "منتج قائم على البيانات",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-ai",
+    "nameHe": "ניתוח דאטה ו-AI",
+    "nameAr": "تحليل بيانات وذكاء اصطناعي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-5f4345de",
+    "nameHe": "יזמות ואקוסיסטם",
+    "nameAr": "ريادة أعمال ومنظومة ابتكار",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-36dd2639",
+    "nameHe": "שבבים וחומרה",
+    "nameAr": "رقائق وعتاد",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-262e22d7",
+    "nameHe": "מערכות ודאטה",
+    "nameAr": "أنظمة وبيانات",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-ai-24fcf",
+    "nameHe": "יצירה דיגיטלית עם AI",
+    "nameAr": "إبداع رقمي بالذكاء الاصطناعي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-57171461",
+    "nameHe": "טכנולוגיה כללית",
+    "nameAr": "تكنولوجيا عامة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-ai-1eebf",
+    "nameHe": "ענן וכלי AI",
+    "nameAr": "سحابة وأدوات ذكاء اصطناعي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-34c0aea6",
+    "nameHe": "הכשרה טכנולוגית",
+    "nameAr": "تدريب تكنولوجي",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-6c90a3af",
+    "nameHe": "טכנולוגיה רפואית",
+    "nameAr": "تكنولوجيا طبية",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-ai-68f0d",
+    "nameHe": "כוח עיבוד AI",
+    "nameAr": "قدرة معالجة للذكاء الاصطناعي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-da55b18a",
+    "nameHe": "דאטה וענן",
+    "nameAr": "بيانات وسحابة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-6ecd9bfb",
+    "nameHe": "פיתוח תוכנה",
+    "nameAr": "تطوير برمجيات",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-fb271243",
+    "nameHe": "ייעוץ טכנולוגי",
+    "nameAr": "استشارة تكنولوجية",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-e5cef07a",
+    "nameHe": "רובוטיקה ואוטומציה",
+    "nameAr": "روبوتات وأتمتة",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-0d95f1a8",
+    "nameHe": "הגנה על מערכות קריטיות",
+    "nameAr": "حماية أنظمة حرجة",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "ability-item-f58da2d1",
+    "nameHe": "אבטחת מערכות מתקדמות",
+    "nameAr": "أمن أنظمة متقدمة",
+    "type": "security",
+    "modelImpact": {
+      "security": 20
+    }
+  },
+  {
+    "id": "ability-it",
+    "nameHe": "תשתיות ושירותי IT",
+    "nameAr": "بنية تحتية وخدمات IT",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  },
+  {
+    "id": "ability-item-39b0ea36",
+    "nameHe": "מחקר ובריאות",
+    "nameAr": "بحث وصحة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-acc94bca",
+    "nameHe": "שיווק ותוכן",
+    "nameAr": "تسويق ومحتوى",
+    "type": "content",
+    "modelImpact": {
+      "content": 20
+    }
+  },
+  {
+    "id": "ability-item-091dd22e",
+    "nameHe": "שיווק דיגיטלי",
+    "nameAr": "تسويق رقمي",
+    "type": "content",
+    "modelImpact": {
+      "content": 20
+    }
+  },
+  {
+    "id": "ability-item-c6c72da8",
+    "nameHe": "אוטומציה",
+    "nameAr": "أتمتة",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-85141a89",
+    "nameHe": "מוצר מובייל",
+    "nameAr": "منتج للهواتف",
+    "type": "ux",
+    "modelImpact": {
+      "ux": 20
+    }
+  },
+  {
+    "id": "ability-item-28739596",
+    "nameHe": "הכשרה ותעסוקה",
+    "nameAr": "تدريب وتوظيف",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-item-39b20a69",
+    "nameHe": "חדשנות",
+    "nameAr": "ابتكار",
+    "type": "ethics",
+    "modelImpact": {
+      "ethics": 20
+    }
+  },
+  {
+    "id": "ability-ai-f37df",
+    "nameHe": "אחסון דאטה ל-AI",
+    "nameAr": "تخزين بيانات للذكاء الاصطناعي",
+    "type": "data",
+    "modelImpact": {
+      "data": 20
+    }
+  },
+  {
+    "id": "ability-item-67e30743",
+    "nameHe": "אנרגיה ותשתיות",
+    "nameAr": "طاقة وبنية تحتية",
+    "type": "infrastructure",
+    "modelImpact": {
+      "infrastructure": 20
+    }
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "event-gav-yam",
+    "name": "בוקר",
+    "code": "בוקר",
+    "active": true,
+    "availableLanguages": [
+      "he",
+      "ar"
+    ],
+    "availableDurations": [
+      60,
+      90,
+      135
+    ],
+    "selectedModelProblemId": "future-field",
+    "activeCompanyIds": [
+      "2bprecise",
+      "ecosystem",
+      "agmon-with-tulchinsky",
+      "altera-digital-health",
+      "audiocodes",
+      "bgn",
+      "brooks-keret",
+      "capow",
+      "cbg",
+      "cert",
+      "cyber-bgu",
+      "cyberark",
+      "cyberglobes",
+      "dalet",
+      "dcic",
+      "dell",
+      "drs-rada-technologies",
+      "energyteam",
+      "finsec-innovation-lab",
+      "hyperguest",
+      "ibm",
+      "ilanot",
+      "innovation-basecamp",
+      "intel",
+      "leidos",
+      "let",
+      "let-group-ltd-atmos",
+      "lightricks",
+      "liolan",
+      "mdclone",
+      "micro",
+      "microsoft",
+      "morphisec",
+      "nitzanim",
+      "novocure",
+      "nvidia",
+      "oracle",
+      "oz-software",
+      "penta-drone",
+      "pwc-israel",
+      "rad",
+      "rafael",
+      "retama",
+      "rezilion",
+      "ribbon",
+      "rsecurity",
+      "siga",
+      "sigmabit",
+      "signatureit",
+      "siraj",
+      "soundcampaign",
+      "spark-marketing-il",
+      "swiftness",
+      "taboola",
+      "tap-mobile",
+      "tech7",
+      "tech19",
+      "threedots-online",
+      "upnext-innovate-ltd",
+      "weka",
+      "wework",
+      "wix"
+    ],
+    "checkpointConfig": {
+      "type": "code",
+      "code": "AI2026",
+      "instructorCode": "AI2026",
+      "adminCode": "Admin1092",
+      "stops": [
+        {
+          "id": "cp-food-break",
+          "type": "food_photo",
+          "threshold": 4,
+          "title": "עצירת אוכל / טעינה",
+          "autoApprove": true,
+          "piece": ""
+        },
+        {
+          "id": "cp-leumi-funding",
+          "type": "instructor_approval",
+          "threshold": 7,
+          "title": "צ׳קפוינט מדריך 1",
+          "autoApprove": false,
+          "piece": "חלק 1",
+          "description": "קיבלתם מימון לחברה שלכם מבנק לאומי. צלמו או העלו לוגו של בנק לאומי כדי להמשיך."
+        },
+        {
+          "id": "cp-instructor-1",
+          "type": "funding_photo",
+          "threshold": 10,
+          "title": "מימון מבנק לאומי",
+          "piece": "",
+          "autoApprove": true
+        },
+        {
+          "id": "cp-instructor-2",
+          "type": "instructor_approval",
+          "threshold": 17,
+          "title": "צ׳קפוינט מדריך 2",
+          "piece": "חלק 3",
+          "autoApprove": false
+        },
+        {
+          "id": "cp-instructor-3",
+          "type": "instructor_approval",
+          "threshold": 24,
+          "title": "צ׳קפוינט מדריך 3",
+          "piece": "חלק 4",
+          "autoApprove": false
+        }
+      ]
+    },
+    "puzzleConfig": {
+      "enabled": false,
+      "pieceCount": 12,
+      "imageUrl": "",
+      "imageName": ""
+    },
+    "teamAccess": [
+      {
+        "id": "red",
+        "name": "צוות אדום",
+        "password": "R4821"
+      },
+      {
+        "id": "white",
+        "name": "צוות לבן",
+        "password": "W7394"
+      },
+      {
+        "id": "blue",
+        "name": "צוות כחול",
+        "password": "B5168"
+      },
+      {
+        "id": "green",
+        "name": "צוות ירוק",
+        "password": "G2947"
+      },
+      {
+        "id": "yellow",
+        "name": "צוות צהוב",
+        "password": "Y8635"
+      },
+      {
+        "id": "purple",
+        "name": "צוות סגול",
+        "password": "P1476"
+      }
+    ],
+    "gameStatus": "paused",
+    "pauseMessageHe": "המשחק נעצר זמנית על ידי המדריך. המתינו להנחיות להמשך.",
+    "pauseMessageAr": "تم إيقاف اللعبة مؤقتًا من قبل المرشد. انتظروا تعليمات المتابعة.",
+    "pausedAt": "2026-06-29T08:04:31.323Z"
+  },
+  {
+    "name": "צהריים",
+    "code": "צהריים",
+    "active": true,
+    "availableLanguages": [
+      "he",
+      "ar"
+    ],
+    "availableDurations": [
+      60,
+      90,
+      135
+    ],
+    "selectedModelProblemId": "future-field",
+    "activeCompanyIds": [
+      "2bprecise",
+      "ecosystem",
+      "agmon-with-tulchinsky",
+      "altera-digital-health",
+      "audiocodes",
+      "bgn",
+      "brooks-keret",
+      "capow",
+      "cbg",
+      "cert",
+      "cyber-bgu",
+      "cyberark",
+      "cyberglobes",
+      "dalet",
+      "dcic",
+      "dell",
+      "drs-rada-technologies",
+      "energyteam",
+      "finsec-innovation-lab",
+      "hyperguest",
+      "ibm",
+      "ilanot",
+      "innovation-basecamp",
+      "intel",
+      "leidos",
+      "let",
+      "let-group-ltd-atmos",
+      "lightricks",
+      "liolan",
+      "mdclone",
+      "micro",
+      "microsoft",
+      "morphisec",
+      "nitzanim",
+      "novocure",
+      "nvidia",
+      "oracle",
+      "oz-software",
+      "penta-drone",
+      "pwc-israel",
+      "rad",
+      "rafael",
+      "retama",
+      "rezilion",
+      "ribbon",
+      "rsecurity",
+      "siga",
+      "sigmabit",
+      "signatureit",
+      "siraj",
+      "soundcampaign",
+      "spark-marketing-il",
+      "swiftness",
+      "taboola",
+      "tap-mobile",
+      "tech7",
+      "tech19",
+      "threedots-online",
+      "upnext-innovate-ltd",
+      "weka",
+      "wework",
+      "wix"
+    ],
+    "checkpointConfig": {
+      "type": "code",
+      "code": "AI2026",
+      "instructorCode": "AI2026",
+      "adminCode": "Admin1092",
+      "stops": [
+        {
+          "id": "cp-food-break",
+          "type": "food_photo",
+          "threshold": 4,
+          "title": "עצירת אוכל / טעינה",
+          "autoApprove": true,
+          "piece": ""
+        },
+        {
+          "id": "cp-leumi-funding",
+          "type": "instructor_approval",
+          "threshold": 7,
+          "title": "צ׳קפוינט מדריך 1",
+          "autoApprove": false,
+          "piece": "חלק 1",
+          "description": "קיבלתם מימון לחברה שלכם מבנק לאומי. צלמו או העלו לוגו של בנק לאומי כדי להמשיך."
+        },
+        {
+          "id": "cp-instructor-1",
+          "type": "funding_photo",
+          "threshold": 10,
+          "title": "מימון מבנק לאומי",
+          "piece": "",
+          "autoApprove": true
+        },
+        {
+          "id": "cp-instructor-2",
+          "type": "instructor_approval",
+          "threshold": 17,
+          "title": "צ׳קפוינט מדריך 2",
+          "piece": "חלק 3",
+          "autoApprove": false
+        },
+        {
+          "id": "cp-instructor-3",
+          "type": "instructor_approval",
+          "threshold": 24,
+          "title": "צ׳קפוינט מדריך 3",
+          "piece": "חלק 4",
+          "autoApprove": false
+        }
+      ]
+    },
+    "puzzleConfig": {
+      "enabled": false,
+      "pieceCount": 12,
+      "imageUrl": "",
+      "imageName": ""
+    },
+    "teamAccess": [
+      {
+        "id": "red",
+        "name": "צוות אדום",
+        "password": "R4821"
+      },
+      {
+        "id": "white",
+        "name": "צוות לבן",
+        "password": "W7394"
+      },
+      {
+        "id": "blue",
+        "name": "צוות כחול",
+        "password": "B5168"
+      },
+      {
+        "id": "green",
+        "name": "צוות ירוק",
+        "password": "G2947"
+      },
+      {
+        "id": "yellow",
+        "name": "צוות צהוב",
+        "password": "Y8635"
+      },
+      {
+        "id": "purple",
+        "name": "צוות סגול",
+        "password": "P1476"
+      }
+    ],
+    "pauseMessageHe": "המשחק נעצר זמנית על ידי המדריך. המתינו להנחיות להמשך.",
+    "pauseMessageAr": "تم إيقاف اللعبة مؤقتًا من قبل المرشد. انتظروا تعليمات المتابعة.",
+    "gameStatus": "paused",
+    "id": "event-mqyu6r0i-kit7ti",
+    "pausedAt": "2026-06-29T09:21:51.502Z"
+  }
+]

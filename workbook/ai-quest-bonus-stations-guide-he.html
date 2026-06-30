@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Quest — חוברת נלוות לעמדות בונוס</title>
+  <style>
+    :root{--ink:#10243f;--muted:#5b708d;--cyan:#0ea5e9;--orange:#f97316;--purple:#7c3aed;--soft:#f5f8ff;--line:#d7e3f5}
+    *{box-sizing:border-box}
+    body{margin:0;background:#eaf1fb;color:var(--ink);font-family:Arial,'Noto Sans Hebrew',sans-serif;line-height:1.55}
+    .print{position:fixed;bottom:12px;left:12px;background:#0f172a;color:#fff;border-radius:999px;padding:10px 14px;box-shadow:0 8px 18px #0004;z-index:20;font-weight:800}
+    .sheet{width:210mm;min-height:297mm;margin:0 auto 18px;background:white;padding:15mm;box-shadow:0 12px 28px #0002;position:relative;overflow:hidden}
+    .cover{color:white;background:radial-gradient(circle at 12% 10%,#67e8f977,transparent 28%),linear-gradient(135deg,#071d38,#123d66 52%,#5628a8);display:flex;flex-direction:column;justify-content:space-between}
+    .cover h1{font-size:43px;line-height:1.05;margin:0 0 12px}.cover h2{font-size:24px;color:#b8eeff;margin:0 0 18px}.cover p{font-size:20px;max-width:780px}.pill{display:inline-block;background:#ffffff18;border:1px solid #ffffff55;border-radius:999px;padding:8px 14px;font-weight:900;margin-bottom:20px}
+    h1,h2,h3,h4{margin:0 0 10px}h2{font-size:28px;color:#123d66;border-bottom:4px solid #dbeafe;padding-bottom:8px;margin-bottom:14px}h3{font-size:22px;color:#123d66}h4{font-size:17px;color:#0f3c69;margin-top:12px}
+    p{margin:7px 0}ul,ol{margin:8px 0 10px;padding-right:22px}li{margin:4px 0}.lead{font-size:19px;font-weight:800;background:#fff7ed;border:2px solid #fed7aa;border-radius:20px;padding:14px;margin:12px 0 18px}.small{font-size:13px;color:var(--muted)}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.box{border:1px solid var(--line);border-radius:18px;background:var(--soft);padding:14px;margin-bottom:12px}.box strong{color:#123d66}
+    .timeline{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}td,th{border:1px solid #cbd5e1;padding:9px;vertical-align:top}th{background:#eaf3ff;color:#123d66}
+    .bonus{border:3px solid color-mix(in srgb,var(--c),white 42%);background:linear-gradient(135deg,#fff,#fffaf4);border-radius:26px;padding:16px;margin-bottom:16px;break-inside:avoid;page-break-inside:avoid}.bonus h2{color:var(--c);border-bottom-color:color-mix(in srgb,var(--c),white 70%)}
+    .script{background:#f8fafc;border-right:6px solid var(--c);border-radius:14px;padding:12px;margin:8px 0}.task{background:#ecfeff;border:1px solid #a5f3fc;border-radius:14px;padding:12px;margin:8px 0}.receive{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:14px;padding:12px;margin:8px 0}.note{background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:12px;margin:8px 0}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.card{border:2px dashed #94a3b8;border-radius:16px;padding:12px;background:white;min-height:92px;break-inside:avoid}.card b{color:#123d66}.ar{direction:rtl;text-align:right;font-family:Arial,'Noto Sans Arabic','Noto Sans Hebrew',sans-serif;font-size:18px}.cut{border-top:2px dashed #94a3b8;margin:14px -2px 0;padding-top:10px}.fill{border:2px dashed #94a3b8;border-radius:16px;padding:12px;min-height:64px;background:#fff;margin-top:8px}.team{background:#ffffff18;border:1px solid #ffffff55;border-radius:24px;padding:16px;font-size:18px}.team div{border-bottom:1px dashed #fff8;padding:9px}.footer{position:absolute;bottom:8mm;left:15mm;right:15mm;display:flex;justify-content:space-between;color:#64748b;font-size:11px}.sign{font-size:24px;font-weight:900;text-align:center;border:3px solid #123d66;border-radius:22px;padding:18px;margin:12px 0;background:#f8fbff}.iconrow{font-size:34px;text-align:center;letter-spacing:8px}
+    @media print{body{background:white}.sheet{margin:0;box-shadow:none;page-break-after:always}.print{display:none}.bonus,.card{break-inside:avoid;page-break-inside:avoid}}@page{size:A4;margin:0}
+  </style>
+</head>
+<body>
+  <div class="print">Ctrl/Cmd+P → Save as PDF / הדפסה</div>
+
+  <section class="sheet cover">
+    <div>
+      <span class="pill">AI Quest · חוברת נלוות למדריך הראשי</span>
+      <h1>עמדות בונוס ללא הסבר בעל־פה</h1>
+      <h2>מותאם לילדים דוברי ערבית ולעמדות שבהן מחלקים משימה כתובה/ויזואלית בלבד</h2>
+      <p>החוברת הזו מיועדת למצב שבו המדריך הראשי מלווה את הילדים לאורך כל הפעילות ומסביר בערבית. בעמדות הבונוס עומדים אנשי צוות שלא חייבים לדבר ערבית: הם מחלקים כרטיס משימה, שלוק/חטיף/מדבקה, ומסמנים שהצוות השלים את העמדה.</p>
+    </div>
+    <div class="team">
+      <div>שפה של הילדים: ערבית</div>
+      <div>תפקיד המדריך הראשי: להסביר, לתרגם, להוביל ולוודא הבנה</div>
+      <div>תפקיד איש צוות בעמדת הבונוס: לחלק כרטיס/פרס/חותמת לפי הסדר</div>
+      <div>אופי העמדות: ויזואלי, כתוב, קצר, בלי צורך בהסבר בעל־פה מצד העמדה</div>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <h2>חלוקת תפקידים ברורה</h2>
+    <p class="lead">חשוב: אין עמדות פיזיות לחברות. החברות הן חלק מהסיפור וההסברים של המדריך הראשי לאורך המסלול. העמדות הפיזיות היחידות כאן הן עמדות הבונוס: שלוקים, חטיפים וקוד משימה.</p>
+    <p class="lead">העמדות לא תלויות בשיחה עם איש צוות העמדה. המדריך הראשי, שמדבר את שפת הילדים, הוא זה שמסביר את המשימה. אנשי עמדות הבונוס מפעילים נקודת חלוקה מסודרת בלבד.</p>
+
+    <div class="grid2">
+      <div class="box">
+        <h3>המדריך הראשי — דובר ערבית</h3>
+        <ul>
+          <li>מלווה את הילדים בכל הסיור.</li>
+          <li>מסביר בערבית מה עושים בכל עמדת בונוס.</li>
+          <li>קורא עם הילדים את כרטיס המשימה בערבית.</li>
+          <li>בודק שהצוות כתב/בחר תשובה.</li>
+          <li>מכוון את הילדים איך להשתמש בקלף במשימה הסופית.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>איש צוות בעמדת הבונוס — חלוקה בלבד</h3>
+        <ul>
+          <li>מראה לילדים את שלט העמדה.</li>
+          <li>נותן כרטיס משימה כתוב/ויזואלי.</li>
+          <li>מחלק שלוק, חטיף או מדבקה.</li>
+          <li>נותן קלף משימה מתאים.</li>
+          <li>מסמן בוי/חותמת שהצוות עבר בעמדה.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>רצף קבוע בכל עמדת בונוס</h2>
+    <table class="timeline">
+      <tr><th>שלב</th><th>מי מוביל?</th><th>מה קורה בפועל?</th></tr>
+      <tr><td>1</td><td>איש צוות העמדה</td><td>מצביע על שלט העמדה ומוסר כרטיס משימה.</td></tr>
+      <tr><td>2</td><td>המדריך הראשי</td><td>מסביר בערבית לילדים מה המשימה.</td></tr>
+      <tr><td>3</td><td>הילדים</td><td>בוחרים/מסמנים/כותבים תשובה קצרה.</td></tr>
+      <tr><td>4</td><td>המדריך הראשי</td><td>מאשר שהצוות הבין והשלים.</td></tr>
+      <tr><td>5</td><td>איש צוות העמדה</td><td>מחלק שלוק/חטיף/מדבקה + קלף להמשך.</td></tr>
+    </table>
+
+    <h2>מיקום עמדות הבונוס במהלך הסיור</h2>
+    <table class="timeline">
+      <tr><th>מתי?</th><th>שם העמדה</th><th>מה מחלקים?</th><th>מה הילדים מקבלים למשימה הסופית?</th></tr>
+      <tr><td>אחרי מקטע ההסבר הראשון</td><td>טעינת ענן</td><td>שלוק + קלף משתמש</td><td>למי מערכת ה־AI עוזרת?</td></tr>
+      <tr><td>אחרי מקטע ההסבר השני</td><td>איסוף דאטה</td><td>חטיף + קלף דאטה + קלף אחריות</td><td>שאלות שהמערכת תשאל + כלל פרטיות</td></tr>
+      <tr><td>בסיום מקטע ההסבר האחרון</td><td>קוד המשימה</td><td>מדבקה/חותמת + קלף משפט סיום</td><td>משפט פרסומת ברור למערכת</td></tr>
+    </table>
+
+    <div class="note">
+      <h3>עיקרון הפעלה</h3>
+      <p>כל עמדה בנויה כך שגם אם איש הצוות בעמדה אינו מדבר ערבית, הילדים עדיין מבינים מה לעשות דרך המדריך הראשי וכרטיס משימה בערבית.</p>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>חלוקת תפקידים</span></div>
+  </section>
+
+  <section class="sheet">
+    <div class="bonus" style="--c:#0ea5e9">
+      <h2>עמדת בונוס 1: “טעינת ענן”</h2>
+      <p class="lead">מטרה: לבחור למי מערכת ה־AI של הצוות תעזור. העמדה כוללת שלוק/מים + קלף משתמש.</p>
+
+      <div class="sign ar">محطة شحن الطاقة ☁️<br>اختاروا: لمن يساعد نظام الذكاء الاصطناعي؟</div>
+      <div class="iconrow">👧🏽 👦🏽 🤖 ☁️ 🧃</div>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה מכינים בעמדה?</h3>
+          <ul>
+            <li>שלוקים/מים.</li>
+            <li>כרטיס משימה בערבית.</li>
+            <li>קלפי משתמש בערבית.</li>
+            <li>חותמת/מדבקה להשלמת העמדה.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה איש צוות העמדה עושה?</h3>
+          <ol>
+            <li>נותן לצוות כרטיס משימה.</li>
+            <li>מחכה לאישור מהמדריך הראשי.</li>
+            <li>מחלק שלוק + קלף משתמש.</li>
+            <li>מסמן שהעמדה הושלמה.</li>
+          </ol>
+        </div>
+      </div>
+
+      <h3>הסבר קצר למדריך הראשי בערבית</h3>
+      <div class="script ar" style="--c:#0ea5e9">هذه محطة قصيرة للطاقة. قبل أن تأخذوا المشروب، اختاروا لمن سيساعد نظام الذكاء الاصطناعي الذي ستبنونه في نهاية النشاط. اختاروا بطاقة واحدة واكتبوا في الكراسة: “نظامنا يساعد...”</div>
+
+      <h3>משימת הילדים</h3>
+      <div class="task ar">اختاروا مستخدمًا واحدًا: من هو الطالب أو الطالبة الذي يحتاج إلى مساعدة النظام؟ ضعوا دائرة حول بطاقة واحدة أو اكتبوا اختياركم في الكراسة.</div>
+
+      <h3>מה כותבים בחוברת?</h3>
+      <div class="fill ar">نظامنا يساعد: ____________________________________________________</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>עמדת שלוקים</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>קלפי משתמש בערבית — לגזירה</h2>
+    <p class="small">כל צוות מקבל קלף אחד. אפשר לבחור לפי רצון הצוות או לחלק אקראית.</p>
+    <div class="cards ar">
+      <div class="card"><b>بطاقة مستخدم</b><br>نظامنا يساعد طالبًا لا يعرف أي مجال تكنولوجي يناسبه.</div>
+      <div class="card"><b>بطاقة مستخدم</b><br>نظامنا يساعد طالبة تخجل من طرح الأسئلة.</div>
+      <div class="card"><b>بطاقة مستخدم</b><br>نظامنا يساعد طالبًا يحب الألعاب ويريد أن يعرف إذا كان ذلك يمكن أن يصبح مهنة.</div>
+      <div class="card"><b>بطاقة مستخدم</b><br>نظامنا يساعد طالبة تعتقد أن التكنولوجيا تعني البرمجة فقط.</div>
+      <div class="card"><b>بطاقة مستخدم</b><br>نظامنا يساعد طالبًا يريد أن يبدأ بتعلّم التكنولوجيا ولا يعرف من أين يبدأ.</div>
+      <div class="card"><b>بطاقة فارغة</b><br>نظامنا يساعد: __________________________________________</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>קלפי משתמש</span></div>
+  </section>
+
+  <section class="sheet">
+    <div class="bonus" style="--c:#f97316">
+      <h2>עמדת בונוס 2: “איסוף דאטה”</h2>
+      <p class="lead">מטרה: לבחור איזו שאלה מערכת ה־AI תשאל את התלמידים, ואיזה כלל אחריות ישמור עליהם. העמדה כוללת חטיף + קלף דאטה + קלף אחריות.</p>
+
+      <div class="sign ar">محطة جمع المعلومات 📊<br>اكتبوا سؤالًا واحدًا + اختاروا قاعدة أمان</div>
+      <div class="iconrow">🍪 📝 📊 🔐 ✅</div>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה מכינים בעמדה?</h3>
+          <ul>
+            <li>חטיפים אישיים.</li>
+            <li>כרטיס משימה בערבית.</li>
+            <li>קלפי דאטה בערבית.</li>
+            <li>קלפי אחריות בערבית.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה איש צוות העמדה עושה?</h3>
+          <ol>
+            <li>נותן כרטיס משימה ויזואלי.</li>
+            <li>מחכה שהמדריך הראשי יאשר שהילדים כתבו שאלה.</li>
+            <li>מחלק חטיף + קלף דאטה + קלף אחריות.</li>
+            <li>מסמן שהעמדה הושלמה.</li>
+          </ol>
+        </div>
+      </div>
+
+      <h3>הסבר קצר למדריך הראשי בערבית</h3>
+      <div class="script ar" style="--c:#f97316">الذكاء الاصطناعي الجيد يبدأ بأسئلة جيدة. قبل أن تأخذوا الوجبة الخفيفة، اكتبوا سؤالًا واحدًا سيسأله النظام للطالب حتى يساعده في اختيار مجال تكنولوجي. بعد ذلك اختاروا قاعدة أمان واحدة تحافظ على الخصوصية والاختيار الشخصي.</div>
+
+      <h3>משימת הילדים</h3>
+      <div class="task ar">1. اكتبوا سؤالًا واحدًا يسأله النظام للطالب.<br>2. اختاروا قاعدة أمان واحدة.<br>3. ضعوا البطاقات في الكراسة لاستخدامها في المهمة النهائية.</div>
+
+      <h3>מה כותבים בחוברת?</h3>
+      <div class="fill ar">سؤال يسأله النظام: _______________________________________________<br><br>قاعدة الأمان التي نختارها: __________________________________________</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>עמדת חטיפים</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>קלפי דאטה ואחריות בערבית — לגזירה</h2>
+    <h3>קלפי דאטה</h3>
+    <div class="cards ar">
+      <div class="card"><b>بطاقة معلومات</b><br>النظام يسأل عن الاهتمامات: ألعاب، تصميم، روبوتات، طب، أمن، فن، علوم.</div>
+      <div class="card"><b>بطاقة معلومات</b><br>النظام يسأل عن طريقة التعلّم: مشاهدة، تجربة، قراءة، سماع، أو عمل جماعي.</div>
+      <div class="card"><b>بطاقة معلومات</b><br>النظام يسأل: ماذا تحب أن تفعل في وقت الفراغ؟</div>
+      <div class="card"><b>بطاقة معلومات</b><br>النظام يسأل: أي موضوع في المدرسة يثير اهتمامك أكثر؟</div>
+      <div class="card"><b>بطاقة معلومات</b><br>النظام يسأل: هل تفضّل العمل وحدك أم ضمن فريق؟</div>
+      <div class="card"><b>بطاقة فارغة</b><br>النظام يسأل: ______________________________________________</div>
+    </div>
+
+    <div class="cut"></div>
+    <h3>קלפי אחריות</h3>
+    <div class="cards ar">
+      <div class="card"><b>قاعدة أمان</b><br>النظام يحفظ المعلومات الشخصية فقط بعد موافقة.</div>
+      <div class="card"><b>قاعدة أمان</b><br>النظام يقترح ولا يقرر بدل الطالب.</div>
+      <div class="card"><b>قاعدة أمان</b><br>النظام يشرح لماذا أعطى هذه التوصية.</div>
+      <div class="card"><b>قاعدة أمان</b><br>يمكن دائمًا تغيير الإجابات والحصول على توصية جديدة.</div>
+      <div class="card"><b>قاعدة أمان</b><br>يمكن للمرشد أو المعلم مراجعة التوصية.</div>
+      <div class="card"><b>بطاقة فارغة</b><br>قاعدة الأمان الخاصة بنا: ____________________________________</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>קלפי דאטה ואחריות</span></div>
+  </section>
+
+  <section class="sheet">
+    <div class="bonus" style="--c:#7c3aed">
+      <h2>עמדת בונוס 3: “קוד המשימה הסופי”</h2>
+      <p class="lead">מטרה: לתת לילדים תבנית כתובה בערבית שתעזור להם לנסח את הרעיון הסופי שלהם. העמדה כוללת מדבקה/חותמת + קלף משפט סיום.</p>
+
+      <div class="sign ar">محطة الكود النهائي 🧩<br>أكملوا جملة النظام الذكي</div>
+      <div class="iconrow">🧩 🤖 ✨ 🏁 ✅</div>
+
+      <div class="grid2">
+        <div class="box">
+          <h3>מה מכינים בעמדה?</h3>
+          <ul>
+            <li>קלפי משפט סיום בערבית.</li>
+            <li>מדבקות או חותמות.</li>
+            <li>כרטיס “סוכן AI מוסמך” אם רוצים.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>מה איש צוות העמדה עושה?</h3>
+          <ol>
+            <li>נותן קלף משפט סיום.</li>
+            <li>מחכה לאישור מהמדריך הראשי.</li>
+            <li>מחלק מדבקה/חותמת.</li>
+            <li>מסמן שהצוות מוכן לעבודה הסופית.</li>
+          </ol>
+        </div>
+      </div>
+
+      <h3>הסבר קצר למדריך הראשי בערבית</h3>
+      <div class="script ar" style="--c:#7c3aed">الآن نحول كل ما جمعتموه إلى فكرة واحدة واضحة. اختاروا بطاقة جملة نهائية وأكملوا الجملة: من يساعد النظام؟ كيف يساعد؟ وكيف يحافظ على الأمان والاختيار؟</div>
+
+      <h3>משימת הילדים</h3>
+      <div class="task ar">أكملوا جملة واحدة عن النظام الذي بنيتموه. استخدموا بطاقة المستخدم، بطاقة المعلومات، وبطاقة الأمان التي جمعتموها.</div>
+
+      <h3>דוגמה למדריך הראשי</h3>
+      <div class="fill ar">نظامنا يساعد الطلاب المترددين على اكتشاف المجال التكنولوجي المناسب لهم، بواسطة توصيات ذكية، مع الحفاظ على الخصوصية وحرية الاختيار.</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>עמדת סיום</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>קלפי משפט סיום בערבית — לגזירה</h2>
+    <div class="cards ar">
+      <div class="card"><b>جملة نهائية</b><br>نظامنا يساعد __________ على اكتشاف __________ بواسطة __________ مع الحفاظ على __________.</div>
+      <div class="card"><b>جملة نهائية</b><br>بواسطة نظامنا، يستطيع الطلاب __________، والحصول على __________، ثم اتخاذ قرار __________.</div>
+      <div class="card"><b>جملة نهائية</b><br>هذا ليس ذكاءً اصطناعيًا يقرر بدل الطالب، بل ذكاء اصطناعي يساعد الطالب على __________.</div>
+      <div class="card"><b>جملة نهائية</b><br>نظامنا يجمع بين __________ و__________ و__________ ليساعد الطلاب على الاختيار بذكاء.</div>
+      <div class="card"><b>جملة نهائية</b><br>نظامنا آمن لأنه __________، ومفيد لأنه __________، وذكي لأنه __________.</div>
+      <div class="card"><b>بطاقة فارغة</b><br>نظامنا ______________________________________________________</div>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>קלפי משפט סיום</span></div>
+  </section>
+
+  <section class="sheet">
+    <h2>דף תפעול קצר לאיש צוות העמדה</h2>
+    <p class="lead">דף זה מיועד לאנשי הצוות בעמדות שאינם חייבים לדבר ערבית. עובדים לפי סימנים, כרטיסים וחלוקה.</p>
+
+    <table class="timeline">
+      <tr><th>עמדה</th><th>לתת לילדים</th><th>לחכות ל...</th><th>לחלק בסוף</th></tr>
+      <tr><td>טעינת ענן</td><td>כרטיס משימה + קלף משתמש</td><td>אישור מהמדריך הראשי</td><td>שלוק/מים + חותמת</td></tr>
+      <tr><td>איסוף דאטה</td><td>כרטיס משימה + קלפי דאטה/אחריות</td><td>הילדים כתבו שאלה וכלל</td><td>חטיף + חותמת</td></tr>
+      <tr><td>קוד המשימה</td><td>קלף משפט סיום</td><td>הילדים השלימו משפט</td><td>מדבקה/חותמת</td></tr>
+    </table>
+
+    <div class="grid2">
+      <div class="box">
+        <h3>שלטים מומלצים לעמדות</h3>
+        <ul class="ar">
+          <li>محطة شحن الطاقة ☁️</li>
+          <li>محطة جمع المعلومات 📊</li>
+          <li>محطة الكود النهائي 🧩</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>סימני יד פשוטים</h3>
+        <ul>
+          <li>להצביע על הכרטיס.</li>
+          <li>להצביע על המקום לכתיבה בחוברת.</li>
+          <li>להרים חותמת/מדבקה אחרי אישור.</li>
+          <li>להצביע לכיוון המשך המסלול.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>צ׳ק ליסט הכנה</h2>
+    <ul>
+      <li>להדפיס שלטים בערבית לכל עמדה.</li>
+      <li>להדפיס קלפי משתמש בערבית.</li>
+      <li>להדפיס קלפי דאטה ואחריות בערבית.</li>
+      <li>להדפיס קלפי משפט סיום בערבית.</li>
+      <li>לתדרך את אנשי עמדות הבונוס: הם מחלקים לפי רצף, המדריך הראשי מסביר.</li>
+      <li>לוודא שלמדריך הראשי יש עותק מהחוברת הזו.</li>
+    </ul>
+
+    <div class="note">
+      <h3>הפעלה מומלצת</h3>
+      <p>המדריך הראשי מוביל את הקבוצה לעמדה, מסביר בערבית, נותן לילדים להשלים את הפעולה, ואז מסמן לאיש העמדה לחלק את הפרס והקלף. כך נשמרת זרימה גם כשאנשי עמדות הבונוס אינם דוברי השפה.</p>
+    </div>
+    <div class="footer"><span>AI Quest</span><span>דף תפעול</span></div>
+  </section>
+</body>
+</html>
