@@ -10,7 +10,7 @@ const store = new JsonStore(join(root, 'server/data'));
 const uploadDir = join(root, 'server/uploads/logos');
 const puzzleUploadDir = join(root, 'server/uploads/puzzles');
 const uid = p => `${p}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
-const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.json':'application/json; charset=utf-8', '.pdf':'application/pdf', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.webp':'image/webp', '.svg':'image/svg+xml; charset=utf-8' };
+const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.jsx':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.json':'application/json; charset=utf-8', '.pdf':'application/pdf', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.webp':'image/webp', '.svg':'image/svg+xml; charset=utf-8' };
 
 await store.ensure();
 await mkdir(uploadDir, { recursive: true });
@@ -23,6 +23,7 @@ function send(res, status, body, headers = {}) {
 }
 function notFound(res) { send(res, 404, { error: 'not_found' }); }
 function bad(res, error, status = 400) { send(res, status, { error }); }
+async function exists(file) { try { await stat(file); return true; } catch { return false; } }
 
 const rateBuckets = new Map();
 const apiRateLimit = { name: 'api', limit: Number(process.env.AI_QUEST_API_RATE_LIMIT || 600), windowMs: Number(process.env.AI_QUEST_API_RATE_WINDOW_MS || 60_000) };
@@ -122,7 +123,7 @@ async function requireStaff(req, res, role = 'instructor') {
 }
 function parseUrl(req) {
   const url = new URL(req.url, 'http://localhost');
-  const prefixes = ['/apps/eduapp/ai-quest'];
+  const prefixes = ['/apps/eduapp/ai-quest-react', '/apps/eduapp/ai-quest'];
   for (const prefix of prefixes) {
     if (url.pathname === prefix) url.pathname = '/';
     else if (url.pathname.startsWith(`${prefix}/`)) url.pathname = url.pathname.slice(prefix.length) || '/';
@@ -867,7 +868,13 @@ async function serveStatic(req, res, url) {
     return stream.pipe(res);
   }
   const file = pathname === '/' ? '/index.html' : pathname;
-  const allowedPublicAsset = file === '/index.html' || file === '/styles.css' || file === '/ai-quest-team-workbook.html' || file === '/ai-quest-guided-workbook.html' || file.startsWith('/workbook/') || file.startsWith('/src/') || file.startsWith('/assets/company-logos/') || file.startsWith('/assets/brand/');
+  const distPath = normalize(join(root, 'dist', file));
+  if (distPath.startsWith(join(root, 'dist')) && await exists(distPath)) {
+    const body = await readFile(distPath);
+    res.writeHead(200, { 'content-type': types[extname(distPath).toLowerCase()] || 'application/octet-stream' });
+    return res.end(body);
+  }
+  const allowedPublicAsset = file === '/index.html' || file === '/styles.css' || file === '/ai-quest-team-workbook.html' || file === '/ai-quest-guided-workbook.html' || file.startsWith('/workbook/') || file.startsWith('/src/') || file.startsWith('/build-assets/') || file.startsWith('/assets/company-logos/') || file.startsWith('/assets/brand/');
   if (!allowedPublicAsset) return notFound(res);
   const path = normalize(join(root, file));
   if (!path.startsWith(root)) return notFound(res);
