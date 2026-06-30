@@ -12,23 +12,23 @@ async function text(file) {
 test('mobile-first CSS keeps all primary surfaces usable on phones', async () => {
   const css = await text('styles.css');
   assert.match(css, /Mobile-first hardening pass/);
-  assert.match(css, /@media\(max-width:700px\)/);
-  assert.match(css, /@media\(max-width:420px\)/);
+  assert.match(css, /@media\(max-width:43\.75rem\)/);
+  assert.match(css, /@media\(max-width:26\.25rem\)/);
   assert.match(css, /\.company-grid\{grid-template-columns:1fr!important/);
   assert.match(css, /\.team-board,\.photo-board\{grid-template-columns:1fr!important/);
   assert.match(css, /\.admin-grid,\.questions-admin\{grid-template-columns:1fr!important/);
   assert.match(css, /\.sticky-actions\{position:sticky/);
-  assert.match(css, /input,select,textarea\{font-size:16px/);
+  assert.match(css, /input,select,textarea\{font-size:1rem/);
   assert.match(css, /\.language-switch/);
   assert.match(css, /Student Mobile Redesign Pass/);
   assert.match(css, /\.student-stats/);
   assert.match(css, /\.grid-main aside\{order:2!important\}/);
   assert.match(css, /grid-template-areas:'logo top' 'logo title' 'hint hint' 'button button'/);
-  assert.match(css, /@media\(max-width:380px\)/);
+  assert.match(css, /@media\(max-width:23\.75rem\)/);
   assert.match(css, /Mobile Logo Visibility Pass/);
-  assert.match(css, /grid-template-columns:86px minmax\(0,1fr\)!important/);
-  assert.match(css, /\.company-logo\.card\{[\s\S]*width:86px!important;[\s\S]*height:86px!important/);
-  assert.match(css, /\.company-logo\.hero\{width:112px!important;height:112px!important/);
+  assert.match(css, /grid-template-columns:5\.375rem minmax\(0,1fr\)!important/);
+  assert.match(css, /\.company-logo\.card\{[\s\S]*width:5\.375rem!important;[\s\S]*height:5\.375rem!important/);
+  assert.match(css, /\.company-logo\.hero\{width:7rem!important;height:7rem!important/);
   assert.match(css, /Mobile Company Card Deck/);
   assert.match(css, /grid-template-areas:'status' 'logo' 'title'!important/);
   assert.match(css, /\.company-card \.no-spoiler,[\s\S]*\.company-card button\{[\s\S]*display:none!important/);
@@ -39,7 +39,7 @@ test('mobile-first CSS keeps all primary surfaces usable on phones', async () =>
   assert.match(css, /\.task-screen>#backCompanies\{[\s\S]*width:100%!important/);
   assert.match(css, /\.task-screen>#backCompanies::before/);
   assert.match(css, /Mobile Ability Preview/);
-  assert.match(css, /\.ability-preview \.chips span\{[\s\S]*font-size:20px!important/);
+  assert.match(css, /\.ability-preview \.chips span\{[\s\S]*font-size:1\.25rem!important/);
   assert.match(css, /\.ability-preview \.chips span\{[\s\S]*font-weight:900!important/);
 });
 

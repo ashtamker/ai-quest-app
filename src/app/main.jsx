@@ -4,6 +4,7 @@ import { createRepository } from '../data/repositories/ApiRepositories.js';
 import { StudentApp } from '../presentation/student/StudentApp.js';
 import { InstructorApp } from '../presentation/instructor/InstructorApp.js';
 import { AdminApp } from '../presentation/admin/AdminApp.js';
+import { StudentReactApp } from '../presentation/react/StudentReactApp.jsx';
 import { t } from '../infrastructure/i18n/translations.js';
 import '../../styles.css';
 import '../presentation/react/mobile-polish.css';
@@ -166,11 +167,14 @@ function App() {
     };
   }, []);
 
-  const navItems = useMemo(() => [
-    ['student', t(lang, 'student')],
-    ['instructor', t(lang, 'instructor')],
-    ['admin', t(lang, 'admin')]
-  ], [lang]);
+  const navItems = useMemo(() => {
+    if (route === 'student') return [['student', t(lang, 'student')]];
+    return [
+      ['student', t(lang, 'student')],
+      ['instructor', t(lang, 'instructor')],
+      ['admin', t(lang, 'admin')]
+    ];
+  }, [lang, route]);
 
   function logoutStaff() {
     sessionStorage.removeItem('aiQuest.staffCode');
@@ -185,6 +189,8 @@ function App() {
     content = <div id="screen"><StaffAccessGate key={`instructor-${accessVersion}`} role="instructor" lang={lang} repo={repo} onSuccess={() => setAccessVersion((v) => v + 1)} /></div>;
   } else if (route === 'admin' && !hasStaffAccess('admin')) {
     content = <div id="screen"><StaffAccessGate key={`admin-${accessVersion}`} role="admin" lang={lang} repo={repo} onSuccess={() => setAccessVersion((v) => v + 1)} /></div>;
+  } else if (route === 'student') {
+    content = <div id="screen"><StudentReactApp repo={repo} lang={lang} onLanguageChange={setLang} /></div>;
   } else {
     content = <LegacyScreen key={`${route}-${accessVersion}`} route={route} repo={repo} lang={lang} />;
   }
@@ -193,6 +199,13 @@ function App() {
     <main className={`app-shell react-shell route-${route}`}>
       <nav className={`tabs app-tabs route-${route} react-tabs`}>
         {navItems.map(([id, label]) => <a key={id} href={`#${id}`} className={route === id ? 'active' : ''}>{label}</a>)}
+        {route === 'student' ? (
+          <div className="staff-entry-panel" aria-label="כניסת צוות">
+            <span>כניסת צוות</span>
+            <a href="#instructor">מדריך</a>
+            <a href="#admin">אדמין</a>
+          </div>
+        ) : null}
         <label className="language-switch">
           <span>{t(lang, 'language')}</span>
           <select id="appLanguage" value={lang} onChange={(e) => setLang(e.target.value)}>
