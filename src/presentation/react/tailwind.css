@@ -1,0 +1,310 @@
+/* Tailwind CSS integration layer — intentionally imported before the legacy CSS.
+   Phase 1 only enables Tailwind utilities for upcoming React components.
+   We intentionally skip Tailwind preflight to avoid changing the current live visual baseline. */
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+@source "./**/*.{js,jsx}";
+@source "../../app/**/*.{js,jsx}";
+
+@theme {
+  /* AI Quest palette from https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff */
+  --color-quest-deep: #022b3a;
+  --color-quest-teal: #1f7a8c;
+  --color-quest-sky: #bfdbf7;
+  --color-quest-mist: #e1e5f2;
+  --color-quest-white: #ffffff;
+
+  /* Semantic aliases for upcoming game UI components. */
+  --color-quest-bg: #022b3a;
+  --color-quest-primary: #1f7a8c;
+  --color-quest-accent: #bfdbf7;
+  --color-quest-surface: #e1e5f2;
+  --color-quest-foreground: #ffffff;
+
+  --radius-quest-sm: 0.75rem;
+  --radius-quest-md: 1rem;
+  --radius-quest-lg: 1.5rem;
+  --radius-quest-xl: 2rem;
+
+  --shadow-quest-card: 0 1rem 2.5rem rgb(2 43 58 / 0.22);
+  --shadow-quest-glow: 0 0 2rem rgb(191 219 247 / 0.35);
+}
+
+/* Stage 3 visual bridge: apply the AI Quest palette across existing React screens
+   without changing API behavior or enabling Tailwind preflight. Mobile polish remains
+   imported after this file, so phone-specific safety rules still win. */
+.react-student-home,
+.react-companies-screen,
+.react-task-screen,
+.react-student-join,
+.react-instructor-shell,
+.react-admin-shell {
+  color: var(--color-quest-foreground);
+}
+
+.react-student-home .card,
+.react-companies-screen .card,
+.react-task-screen .card,
+.react-student-join,
+.react-instructor-shell .card,
+.react-instructor-shell .team-card,
+.react-instructor-shell .photo-review,
+.react-admin-shell .admin-editor,
+.react-admin-shell .admin-list,
+.react-admin-shell .admin-row,
+.react-admin-shell .react-admin-tools {
+  border-color: rgb(191 219 247 / 0.24);
+  background: linear-gradient(180deg, rgb(2 43 58 / 0.88), rgb(31 122 140 / 0.18));
+  box-shadow: var(--shadow-quest-card);
+}
+
+.react-student-home .student-hero,
+.react-companies-screen .section-head,
+.react-task-screen .task-hero,
+.react-instructor-shell .instructor-hero,
+.react-admin-shell .admin-hero {
+  border: 1px solid rgb(191 219 247 / 0.28);
+  background:
+    radial-gradient(circle at 12% 20%, rgb(191 219 247 / 0.22), transparent 32%),
+    linear-gradient(135deg, rgb(2 43 58 / 0.96), rgb(31 122 140 / 0.62));
+  box-shadow: var(--shadow-quest-glow);
+}
+
+.react-student-home button,
+.react-companies-screen button,
+.react-task-screen button,
+.react-student-join button,
+.react-instructor-shell button,
+.react-admin-shell button {
+  border: 1px solid rgb(191 219 247 / 0.22);
+  background: rgb(2 43 58 / 0.72);
+  color: var(--color-quest-white);
+  box-shadow: 0 0.5rem 1.25rem rgb(2 43 58 / 0.18);
+  transition: transform 150ms ease, filter 150ms ease, border-color 150ms ease, background 150ms ease;
+}
+
+.react-student-home button:hover,
+.react-companies-screen button:hover,
+.react-task-screen button:hover,
+.react-student-join button:hover,
+.react-instructor-shell button:hover,
+.react-admin-shell button:hover {
+  border-color: rgb(191 219 247 / 0.46);
+  filter: brightness(1.08);
+  transform: translateY(-0.0625rem);
+}
+
+.react-student-home button.primary,
+.react-companies-screen button.primary,
+.react-task-screen button.primary,
+.react-student-join button.primary,
+.react-instructor-shell button.primary,
+.react-admin-shell button.primary,
+.react-admin-shell .admin-tabs button.active,
+.react-instructor-shell .dash-tabs button.active {
+  border-color: rgb(191 219 247 / 0.42);
+  background: linear-gradient(135deg, var(--color-quest-teal), var(--color-quest-sky));
+  color: var(--color-quest-deep);
+  box-shadow: var(--shadow-quest-glow);
+}
+
+.react-student-home button.ghost,
+.react-companies-screen button.ghost,
+.react-task-screen button.ghost {
+  background: rgb(225 229 242 / 0.08);
+  color: var(--color-quest-mist);
+}
+
+.react-instructor-shell button.danger,
+.react-admin-shell button.danger,
+.react-admin-shell .danger {
+  border-color: rgb(248 113 113 / 0.42);
+  background: linear-gradient(135deg, #7f1d1d, #b91c1c) !important;
+  color: #fff;
+}
+
+.react-student-home .pill,
+.react-student-home .level,
+.react-student-home .status,
+.react-companies-screen .level,
+.react-companies-screen .status,
+.react-task-screen .level,
+.react-instructor-shell .status-badge,
+.react-admin-shell .status-badge,
+.react-admin-shell .level,
+.react-admin-shell .admin-kpis span {
+  border-color: rgb(191 219 247 / 0.32);
+  background: rgb(191 219 247 / 0.14);
+  color: var(--color-quest-mist);
+}
+
+.react-companies-screen .company-card,
+.react-task-screen .task-block,
+.react-task-screen .ability-preview,
+.react-instructor-shell .queue-panel,
+.react-instructor-shell .leaderboard-panel,
+.react-admin-shell fieldset,
+.react-admin-shell .company-pick {
+  border-color: rgb(191 219 247 / 0.22);
+  background: rgb(2 43 58 / 0.48);
+}
+
+.react-companies-screen .company-card.open {
+  border-color: rgb(191 219 247 / 0.62);
+  background: linear-gradient(180deg, rgb(191 219 247 / 0.18), rgb(2 43 58 / 0.62));
+}
+
+.react-companies-screen .company-card.done,
+.react-instructor-shell .status-badge.ok,
+.react-admin-shell .status-badge.ok {
+  border-color: rgb(52 211 153 / 0.62);
+  background: linear-gradient(180deg, rgb(52 211 153 / 0.2), rgb(2 43 58 / 0.58));
+}
+
+.react-companies-screen .company-card.needs-fix,
+.react-instructor-shell .status-badge.warn,
+.react-admin-shell .status-badge.warn {
+  border-color: rgb(251 191 36 / 0.66);
+  background: linear-gradient(180deg, rgb(251 191 36 / 0.2), rgb(2 43 58 / 0.58));
+}
+
+.react-student-home input,
+.react-student-home select,
+.react-student-home textarea,
+.react-companies-screen input,
+.react-companies-screen select,
+.react-companies-screen textarea,
+.react-task-screen input,
+.react-task-screen select,
+.react-task-screen textarea,
+.react-student-join input,
+.react-student-join select,
+.react-student-join textarea,
+.react-instructor-shell input,
+.react-instructor-shell select,
+.react-instructor-shell textarea,
+.react-admin-shell input,
+.react-admin-shell select,
+.react-admin-shell textarea {
+  border-color: rgb(191 219 247 / 0.26);
+  background: rgb(2 43 58 / 0.72);
+  color: var(--color-quest-white);
+}
+
+.react-student-home input:focus,
+.react-student-home select:focus,
+.react-student-home textarea:focus,
+.react-companies-screen input:focus,
+.react-companies-screen select:focus,
+.react-companies-screen textarea:focus,
+.react-task-screen input:focus,
+.react-task-screen select:focus,
+.react-task-screen textarea:focus,
+.react-student-join input:focus,
+.react-student-join select:focus,
+.react-student-join textarea:focus,
+.react-instructor-shell input:focus,
+.react-instructor-shell select:focus,
+.react-instructor-shell textarea:focus,
+.react-admin-shell input:focus,
+.react-admin-shell select:focus,
+.react-admin-shell textarea:focus {
+  border-color: var(--color-quest-sky);
+  outline: 2px solid rgb(191 219 247 / 0.24);
+}
+
+/* Student deep redesign pass — first real usage of the shadcn-style foundation. */
+.react-companies-screen .react-game-company-card {
+  position: relative;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: rgb(191 219 247 / 0.28);
+  background:
+    radial-gradient(circle at 18% 0%, rgb(191 219 247 / 0.2), transparent 34%),
+    linear-gradient(180deg, rgb(2 43 58 / 0.9), rgb(31 122 140 / 0.2));
+  box-shadow: var(--shadow-quest-card);
+}
+
+.react-companies-screen .react-game-company-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgb(255 255 255 / 0.14), transparent 28%, rgb(191 219 247 / 0.08));
+  opacity: 0.72;
+}
+
+.react-companies-screen .react-game-company-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.react-companies-screen .react-game-company-card.open:hover,
+.react-companies-screen .react-game-company-card.needs-fix:hover {
+  border-color: rgb(191 219 247 / 0.72);
+  box-shadow: var(--shadow-quest-glow);
+}
+
+.react-companies-screen .react-game-company-card .company-logo.card {
+  border-color: rgb(191 219 247 / 0.38);
+  background: rgb(225 229 242 / 0.12);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.16), 0 0.75rem 1.75rem rgb(2 43 58 / 0.22);
+}
+
+.react-companies-screen .react-game-company-card h3 {
+  color: var(--color-quest-white);
+  text-shadow: 0 0.25rem 1rem rgb(2 43 58 / 0.45);
+}
+
+.react-companies-screen .react-game-company-card .no-spoiler {
+  color: rgb(225 229 242 / 0.78);
+}
+
+.react-companies-screen .react-game-status {
+  min-height: 1.75rem;
+  color: var(--color-quest-white);
+}
+
+.react-task-screen .react-game-task-hero {
+  position: relative;
+  overflow: hidden;
+  border-color: rgb(191 219 247 / 0.34);
+  background:
+    radial-gradient(circle at 10% 20%, rgb(191 219 247 / 0.24), transparent 32%),
+    radial-gradient(circle at 88% 14%, rgb(31 122 140 / 0.34), transparent 30%),
+    linear-gradient(135deg, rgb(2 43 58 / 0.96), rgb(31 122 140 / 0.5));
+}
+
+.react-task-screen .react-game-task-hero h1 {
+  color: var(--color-quest-white);
+  text-shadow: 0 0.5rem 1.5rem rgb(2 43 58 / 0.45);
+}
+
+.react-task-screen .react-game-task-block {
+  border-color: rgb(191 219 247 / 0.28);
+  background: linear-gradient(180deg, rgb(2 43 58 / 0.86), rgb(31 122 140 / 0.16));
+  box-shadow: var(--shadow-quest-card);
+}
+
+.react-task-screen .react-game-question-zone .question-card {
+  border-color: rgb(191 219 247 / 0.25);
+  background: rgb(2 43 58 / 0.58);
+}
+
+.react-task-screen .react-game-question-zone .option {
+  border: 1px solid rgb(191 219 247 / 0.16);
+  background: rgb(225 229 242 / 0.06);
+}
+
+.react-task-screen .react-game-question-zone .option:has(input:checked) {
+  border-color: rgb(191 219 247 / 0.58);
+  background: rgb(191 219 247 / 0.16);
+  box-shadow: 0 0 0 0.125rem rgb(191 219 247 / 0.12);
+}
+
+.react-task-screen .react-sticky-actions {
+  border-color: rgb(191 219 247 / 0.3);
+  background: rgb(2 43 58 / 0.88);
+  box-shadow: var(--shadow-quest-glow);
+}

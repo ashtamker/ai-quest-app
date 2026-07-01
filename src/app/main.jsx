@@ -9,6 +9,7 @@ import { InstructorReactApp } from '../presentation/react/InstructorReactApp.jsx
 import { AdminReactApp } from '../presentation/react/AdminReactApp.jsx';
 import { t } from '../infrastructure/i18n/translations.js';
 import '../../styles.css';
+import '../presentation/react/tailwind.css';
 import '../presentation/react/mobile-polish.css';
 
 function getLang() {

@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { StudentApp } from '../student/StudentApp.js';
 import { CalculateModelQuality, CompleteCompany, CreateTeamSession, GenerateBase44Prompt, RepairModel, RequestCheckpoint, RequestFoodBreak, checkpointPlan, finalMissionOpen, finalMissionReadiness, nextCheckpoint, nextFoodBreak, puzzlePieces, selectCompaniesForDuration } from '../../domain/use-cases/useCases.js';
 import { t } from '../../infrastructure/i18n/translations.js';
+import { Badge, Button, Card, CardContent, CardHeader, CardTitle } from './ui/index.js';
 
 const fallbackTeams = [
   { id: 'red', name: 'צוות אדום' },
@@ -389,13 +390,13 @@ function StudentCompaniesScreen({ repo, lang, teamId, onBackHome, onOpenCompany 
             const status = needsFix ? t(l, 'needsFixStatus') : done ? t(l, 'completedStatus') : t(l, 'openStatus');
             const displayName = l === 'ar' ? (company.nameAr || company.nameHe) : company.nameHe;
             return (
-              <article key={company.id} className={`company-card react-company-card ${stateClass}`} onClick={() => { if (!done || needsFix) onOpenCompany(company.id); }}>
-                <div className="company-card-top"><span className={`company-state-dot ${stateClass}`} /><span className="status">{status}</span></div>
+              <Card key={company.id} className={`company-card react-company-card react-game-company-card ${stateClass}`} onClick={() => { if (!done || needsFix) onOpenCompany(company.id); }}>
+                <div className="company-card-top"><span className={`company-state-dot ${stateClass}`} /><Badge className="status react-game-status">{status}</Badge></div>
                 <CompanyLogo company={company} lang={l} />
                 <h3>{displayName}</h3>
                 <p className="no-spoiler">{t(l, 'noSpoiler')}</p>
-                <button type="button" disabled={done && !needsFix} onClick={(event) => { event.stopPropagation(); onOpenCompany(company.id); }}>{needsFix ? t(l, 'retakePhoto') : done ? t(l, 'completedStatus') : t(l, 'openCompanyTask')}</button>
-              </article>
+                <Button type="button" variant={needsFix ? 'secondary' : done ? 'success' : 'primary'} disabled={done && !needsFix} onClick={(event) => { event.stopPropagation(); onOpenCompany(company.id); }}>{needsFix ? t(l, 'retakePhoto') : done ? t(l, 'completedStatus') : t(l, 'openCompanyTask')}</Button>
+              </Card>
             );
           }) : <div className="empty-state"><h3>{t(l, 'noCompanies')}</h3><p>{t(l, 'noCompaniesHint')}</p></div>}
         </div>
@@ -643,7 +644,7 @@ function StudentCompanyTaskScreen({ repo, lang, teamId, companyId, onBackCompani
       <div className="react-task-actions-top">
         <button className="ghost" onClick={onBackCompanies}>{t(l, 'backToCompanies')}</button>
       </div>
-      <section className="task-hero react-task-hero">
+      <Card className="task-hero react-task-hero react-game-task-hero">
         <div>
           <span className="level">{t(l, 'companyMission')} · {t(l, 'level')} {company.level}</span>
           <h1>{companyName}</h1>
@@ -651,9 +652,9 @@ function StudentCompanyTaskScreen({ repo, lang, teamId, companyId, onBackCompani
           <p>{l === 'ar' ? company.descriptionAr : company.descriptionHe}</p>
         </div>
         <div className="task-logo-panel"><CompanyLogo company={company} lang={l} /><small>{t(l, 'referenceLogoOnly')}</small></div>
-      </section>
+      </Card>
 
-      <section className="task-block company-ai-helper react-company-ai-helper">
+      <Card className="task-block company-ai-helper react-company-ai-helper react-game-task-block">
         <h2>עוזר AI לחברה הזו</h2>
         <p>נתקעתם? שאלו שאלה קצרה על החברה או על הקשר שלה ל-AI. העוזר מכוון לחשיבה ולא מחליף את עבודת הצוות.</p>
         <form className="form-grid" onSubmit={askAi}>
@@ -661,11 +662,12 @@ function StudentCompanyTaskScreen({ repo, lang, teamId, companyId, onBackCompani
           <button type="submit" className="primary" disabled={aiLoading}>{aiLoading ? 'שואל...' : 'שאלו על החברה הזו'}</button>
         </form>
         {aiAnswer ? <div className="notice ok"><b>תשובת העוזר</b><p>{aiAnswer}</p></div> : null}
-      </section>
+      </Card>
 
       <form className="task-form" onSubmit={submit}>
-        <section className="task-block">
-          <h2>1. {t(l, 'photographLogo')}</h2>
+        <Card className="task-block react-game-task-block">
+          <CardHeader><CardTitle>1. {t(l, 'photographLogo')}</CardTitle></CardHeader>
+          <CardContent>
           <p>{t(l, 'photoInstructorHint')}</p>
           <p className="notice">{t(l, 'realLogoRequired')}</p>
           <label className="upload-box react-upload-box">
@@ -674,21 +676,24 @@ function StudentCompanyTaskScreen({ repo, lang, teamId, companyId, onBackCompani
             {photoPreview ? <img src={photoPreview} alt="תצוגה מקדימה" /> : null}
           </label>
           <small>לא חובה להעלות לוגו כדי לסיים חברה; מי שמעלה צילום תקין מקבל בונוס.</small>
-        </section>
+          </CardContent>
+        </Card>
 
-        <section className="task-block">
-          <h2>2. {t(l, 'answerQuestions')}</h2>
+        <Card className="task-block react-game-task-block react-game-question-zone">
+          <CardHeader><CardTitle>2. {t(l, 'answerQuestions')}</CardTitle></CardHeader>
+          <CardContent>
           {questions.map((question, idx) => <QuestionInput key={question.id} question={question} idx={idx} lang={l} value={answers[question.id] || ''} onChange={(value) => setAnswer(question.id, value)} />)}
-        </section>
+          </CardContent>
+        </Card>
 
-        <section className="task-block ability-preview">
-          <h2>3. {l === 'ar' ? 'أنهوا المهمة' : 'סיום המשימה'}</h2>
-          <p>{l === 'ar' ? 'بعد الإجابة وإرسال المهمة ستظهر لكم نتيجة المحطة وما أضافته للفريق.' : 'אחרי שתענו ותשלחו את המשימה תראו מה התחנה הוסיפה לצוות.'}</p>
-        </section>
+        <Card className="task-block ability-preview react-game-task-block">
+          <CardHeader><CardTitle>3. {l === 'ar' ? 'أنهوا المهمة' : 'סיום המשימה'}</CardTitle></CardHeader>
+          <CardContent><p>{l === 'ar' ? 'بعد الإجابة وإرسال المهمة ستظهر لكم نتيجة المحطة وما أضافته للفريق.' : 'אחרי שתענו ותשלחו את המשימה תראו מה התחנה הוסיפה לצוות.'}</p></CardContent>
+        </Card>
 
         <div className="sticky-actions react-sticky-actions">
-          <button type="button" onClick={onBackCompanies}>{t(l, 'cancel')}</button>
-          <button className="primary" disabled={submitting}>{submitting ? 'שומר...' : t(l, 'finishedCompany')}</button>
+          <Button type="button" variant="ghost" onClick={onBackCompanies}>{t(l, 'cancel')}</Button>
+          <Button disabled={submitting}>{submitting ? 'שומר...' : t(l, 'finishedCompany')}</Button>
         </div>
       </form>
     </main>
