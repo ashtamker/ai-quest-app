@@ -5,6 +5,8 @@ import { StudentApp } from '../presentation/student/StudentApp.js';
 import { InstructorApp } from '../presentation/instructor/InstructorApp.js';
 import { AdminApp } from '../presentation/admin/AdminApp.js';
 import { StudentReactApp } from '../presentation/react/StudentReactApp.jsx';
+import { InstructorReactApp } from '../presentation/react/InstructorReactApp.jsx';
+import { AdminReactApp } from '../presentation/react/AdminReactApp.jsx';
 import { t } from '../infrastructure/i18n/translations.js';
 import '../../styles.css';
 import '../presentation/react/mobile-polish.css';
@@ -191,6 +193,10 @@ function App() {
     content = <div id="screen"><StaffAccessGate key={`admin-${accessVersion}`} role="admin" lang={lang} repo={repo} onSuccess={() => setAccessVersion((v) => v + 1)} /></div>;
   } else if (route === 'student') {
     content = <div id="screen"><StudentReactApp repo={repo} lang={lang} onLanguageChange={setLang} /></div>;
+  } else if (route === 'instructor') {
+    content = <div id="screen"><InstructorReactApp repo={repo} lang={lang} /></div>;
+  } else if (route === 'admin') {
+    content = <div id="screen"><AdminReactApp repo={repo} lang={lang} /></div>;
   } else {
     content = <LegacyScreen key={`${route}-${accessVersion}`} route={route} repo={repo} lang={lang} />;
   }

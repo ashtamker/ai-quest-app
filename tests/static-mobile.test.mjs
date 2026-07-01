@@ -63,6 +63,13 @@ test('photo-fix labels explain that the instructor rejected the photo', async ()
   assert.doesNotMatch(i18n, /needsFixStatus: 'דורשת צילום מחדש'/);
 });
 
+test('instructor photo board does not show already approved photos', async () => {
+  const instructor = await text('src/presentation/instructor/InstructorApp.js');
+  assert.match(instructor, /const pendingPhotos = subs\.filter\(s => s\.instructorReviewStatus === 'pending'\)/);
+  assert.match(instructor, /if \(this\.filter === 'photos'\) return this\.photos\(data\.pendingPhotos, data, tr\)/);
+  assert.doesNotMatch(instructor, /this\.photos\(data\.pendingPhotos\.length \? data\.pendingPhotos : data\.subs/);
+});
+
 test('task back button clearly returns to all companies', async () => {
   const i18n = await text('src/infrastructure/i18n/translations.js');
   assert.match(i18n, /backToCompanies: 'חזרה לכל החברות'/);

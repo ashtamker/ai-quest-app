@@ -861,7 +861,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
-      "descriptionAr": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
+      "descriptionAr": "صحة رقمية / طب ملائم شخصيًا. يمكن للذكاء الاصطناعي أن يساعد في ملاءمة علاج أو توصية، لكن يجب على مختص فحص ذلك.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -879,7 +879,7 @@ export const seed = {
     {
       "id": "ecosystem",
       "nameHe": "מרכז חדשנות",
-      "nameAr": "מרכז חדשנות",
+      "nameAr": "مركز الابتكار",
       "nameEn": "Innovation Center",
       "field": "אקוסיסטם",
       "level": 3,
@@ -888,7 +888,7 @@ export const seed = {
         "ethics"
       ],
       "descriptionHe": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
-      "descriptionAr": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
+      "descriptionAr": "محطة منظومة تربط بين الشركات والطلاب والمبادرين والمجتمع.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "",
       "aliases": [
@@ -913,7 +913,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "خدمات قانونية / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -939,7 +939,7 @@ export const seed = {
         "ability-item-eb7be6ac"
       ],
       "descriptionHe": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
-      "descriptionAr": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+      "descriptionAr": "صحة رقمية. النموذج في مجال الصحة يحتاج معلومات جيدة وحماية عالية للخصوصية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -965,7 +965,7 @@ export const seed = {
         "ability-item-b071ea70"
       ],
       "descriptionHe": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-      "descriptionAr": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+      "descriptionAr": "اتصال وصوت. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -991,7 +991,7 @@ export const seed = {
         "ability-item-a1d1f0cf"
       ],
       "descriptionHe": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
-      "descriptionAr": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
+      "descriptionAr": "تسويق البحث / جامعة. البحث يحوّل الفكرة إلى معرفة يمكن تطوير حلول منها.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1017,7 +1017,7 @@ export const seed = {
         "ability-item-716e9d98"
       ],
       "descriptionHe": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
-      "descriptionAr": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
+      "descriptionAr": "بيوتك / صحة. البيانات والبحث يمكن أن يساعدا في إيجاد أنماط في عالم الصحة.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1042,7 +1042,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "تمويل / إدارة شركات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1068,7 +1068,7 @@ export const seed = {
         "ability-item-65ac5ed1"
       ],
       "descriptionHe": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
-      "descriptionAr": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
+      "descriptionAr": "روبوتات / طاقة / تشغيل. يمكن للذكاء الاصطناعي أن يساعد الأنظمة على العمل بكفاءة في بيئة حقيقية.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1094,7 +1094,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "منظومة / خدمات تجارية. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1120,7 +1120,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر / تدريب / ثقة رقمية. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1145,7 +1145,7 @@ export const seed = {
         "ability-item-50e42956"
       ],
       "descriptionHe": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
-      "descriptionAr": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
+      "descriptionAr": "بحث سايبر / أكاديمية. البحث يساعد على فهم تهديدات جديدة وتطوير حلول أفضل.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1171,7 +1171,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر وهويات. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1199,7 +1199,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر / استخبارات / منظومة. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1225,7 +1225,7 @@ export const seed = {
         "ability-item-97b35d53"
       ],
       "descriptionHe": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
-      "descriptionAr": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
+      "descriptionAr": "إعلام ومحتوى. يمكن للذكاء الاصطناعي أن يساعد في تنظيم المحتوى والبحث عنه والتوصية به.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1251,7 +1251,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "ابتكار / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1276,7 +1276,7 @@ export const seed = {
         "ability-item-58accb02"
       ],
       "descriptionHe": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
-      "descriptionAr": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
+      "descriptionAr": "بنى حوسبة / خوادم. يحتاج نموذج الذكاء الاصطناعي إلى خوادم وتخزين وقوة حوسبة كي يعمل على نطاق واسع.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1302,7 +1302,7 @@ export const seed = {
         "ability-item-bffc19c3"
       ],
       "descriptionHe": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
-      "descriptionAr": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+      "descriptionAr": "أمن / أنظمة ذكية. يمكن للذكاء الاصطناعي أن يندمج في أنظمة متقدمة، لكنه يحتاج فحوصات ومسؤولية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1328,7 +1328,7 @@ export const seed = {
         "ability-item-67e30743"
       ],
       "descriptionHe": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
-      "descriptionAr": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
+      "descriptionAr": "طاقة / بنى تحتية. الأنظمة الذكية يمكن أن تساعد في إدارة الموارد بشكل أفضل.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1353,7 +1353,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "منظومة / ابتكار. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1378,7 +1378,7 @@ export const seed = {
         "ability-item-942ce053"
       ],
       "descriptionHe": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
-      "descriptionAr": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
+      "descriptionAr": "فينتك / سايبر / ابتكار. الأنظمة المالية تحتاج ثقة وحماية وفحص مخاطر.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1404,7 +1404,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
-      "descriptionAr": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
+      "descriptionAr": "سياحة / منصة رقمية. المنتج الجيد يستخدم المعلومات كي يعطي قيمة للمستخدم.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1429,7 +1429,7 @@ export const seed = {
         "ability-ai"
       ],
       "descriptionHe": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
-      "descriptionAr": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
+      "descriptionAr": "ذكاء اصطناعي / بيانات / سحابة. النموذج الجيد يجب أن يكتشف أنماطًا في المعلومات ويشرحها بطريقة مفيدة.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1455,7 +1455,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "منظومة / خدمات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1481,7 +1481,7 @@ export const seed = {
         "ability-item-5f4345de"
       ],
       "descriptionHe": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
-      "descriptionAr": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+      "descriptionAr": "مبادرة / ابتكار. الأفكار التكنولوجية تحتاج مجتمعًا ودعمًا وشركاء ومستثمرين.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1506,7 +1506,7 @@ export const seed = {
         "ability-item-36dd2639"
       ],
       "descriptionHe": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
-      "descriptionAr": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
+      "descriptionAr": "رقائق / عتاد. قدرة الحوسبة في النموذج تعتمد أيضًا على العتاد الذي يشغّله.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1532,7 +1532,7 @@ export const seed = {
         "ability-item-262e22d7"
       ],
       "descriptionHe": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
-      "descriptionAr": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
+      "descriptionAr": "أنظمة تكنولوجية / بيانات. الحلول الكبيرة تحتاج دمجًا بين البرمجيات والبيانات والتشغيل.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1558,7 +1558,7 @@ export const seed = {
         "product"
       ],
       "descriptionHe": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
-      "descriptionAr": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+      "descriptionAr": "منتج / خدمة رقمية. يجب تحويل التكنولوجيا إلى حل واضح للمستخدم.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1583,7 +1583,7 @@ export const seed = {
         "product"
       ],
       "descriptionHe": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
-      "descriptionAr": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+      "descriptionAr": "منتج / منصة رقمية. يجب تحويل التكنولوجيا إلى حل واضح للمستخدم.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1610,7 +1610,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
-      "descriptionAr": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
+      "descriptionAr": "إبداع رقمي / ذكاء اصطناعي إبداعي. يمكن للذكاء الاصطناعي أن يساعد في الإبداع، لكن الإنسان ما زال يختار الأسلوب والرسالة والمسؤولية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1635,7 +1635,7 @@ export const seed = {
         "ability-item-57171461"
       ],
       "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-      "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+      "descriptionAr": "تكنولوجيا / خدمات. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1660,7 +1660,7 @@ export const seed = {
         "ability-item-eb7be6ac"
       ],
       "descriptionHe": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
-      "descriptionAr": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+      "descriptionAr": "بيانات طبية. النموذج في مجال الصحة يحتاج معلومات جيدة وحماية عالية للخصوصية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1686,7 +1686,7 @@ export const seed = {
         "ability-item-57171461"
       ],
       "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-      "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+      "descriptionAr": "تكنولوجيا / خدمات. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1712,7 +1712,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
-      "descriptionAr": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
+      "descriptionAr": "سحابة / ذكاء اصطناعي / برمجيات. أدوات الذكاء الاصطناعي تحتاج بنية تحتية وخدمات وأمانًا كي تعمل لمستخدمين كثيرين.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1738,7 +1738,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1764,7 +1764,7 @@ export const seed = {
         "ability-item-34c0aea6"
       ],
       "descriptionHe": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
-      "descriptionAr": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
+      "descriptionAr": "تدريب / تعليم تكنولوجي. تقليص الفجوات يبدأ بتعلم متاح وواضح.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1789,7 +1789,7 @@ export const seed = {
         "ability-item-6c90a3af"
       ],
       "descriptionHe": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
-      "descriptionAr": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
+      "descriptionAr": "صحة / تكنولوجيا طبية. يمكن للذكاء الاصطناعي أن يساعد في تحليل المعلومات الطبية، لكنه لا يستبدل المختصين.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1814,7 +1814,7 @@ export const seed = {
         "ability-ai-68f0d"
       ],
       "descriptionHe": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
-      "descriptionAr": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
+      "descriptionAr": "ذكاء اصطناعي / رقائق / قدرة معالجة. الذكاء الاصطناعي يحتاج حسابات كثيرة ولذلك يحتاج عتادًا قويًا.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1840,7 +1840,7 @@ export const seed = {
         "ability-item-da55b18a"
       ],
       "descriptionHe": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
-      "descriptionAr": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
+      "descriptionAr": "بيانات / قواعد بيانات / سحابة. يحتاج نموذج الذكاء الاصطناعي معلومات منظمة وبنية تتيح العمل عليها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1866,7 +1866,7 @@ export const seed = {
         "ability-item-6ecd9bfb"
       ],
       "descriptionHe": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
-      "descriptionAr": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
+      "descriptionAr": "تطوير برمجيات. يمكن للذكاء الاصطناعي أن يساعد المطورين، لكن الكود ما زال يحتاج فحصًا وفهمًا.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1892,7 +1892,7 @@ export const seed = {
         "ability-item-e5cef07a"
       ],
       "descriptionHe": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
-      "descriptionAr": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
+      "descriptionAr": "طائرات مسيّرة / روبوتات. يمكن للذكاء الاصطناعي أن يساعد الآلات على اتخاذ قرارات في العالم المادي.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1919,7 +1919,7 @@ export const seed = {
         "ability-item-fb271243"
       ],
       "descriptionHe": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
-      "descriptionAr": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
+      "descriptionAr": "استشارة تجارية / تكنولوجية. المستشارون يساعدون المؤسسات على اختيار حلول وتطبيقها بشكل صحيح.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1945,7 +1945,7 @@ export const seed = {
         "ability-item-b071ea70"
       ],
       "descriptionHe": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-      "descriptionAr": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+      "descriptionAr": "اتصال وبنى تحتية. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1971,7 +1971,7 @@ export const seed = {
         "ability-item-bffc19c3"
       ],
       "descriptionHe": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
-      "descriptionAr": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+      "descriptionAr": "أمن / أنظمة متقدمة. يمكن للذكاء الاصطناعي أن يندمج في أنظمة متقدمة، لكنه يحتاج فحوصات ومسؤولية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -1998,7 +1998,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "منظومة / خدمات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2023,7 +2023,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر / أمن برمجيات. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2049,7 +2049,7 @@ export const seed = {
         "ability-item-b071ea70"
       ],
       "descriptionHe": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-      "descriptionAr": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+      "descriptionAr": "اتصال / شبكات. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2075,7 +2075,7 @@ export const seed = {
         "ability-item-a739e7d6"
       ],
       "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-      "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+      "descriptionAr": "سايبر. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2100,7 +2100,7 @@ export const seed = {
         "ability-item-0d95f1a8"
       ],
       "descriptionHe": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
-      "descriptionAr": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
+      "descriptionAr": "سايبر صناعي / OT. نموذج الذكاء الاصطناعي لا يعمل فقط على الشاشة؛ أحيانًا يكون مرتبطًا بأنظمة حقيقية يجب حمايتها.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2125,7 +2125,7 @@ export const seed = {
         "ability-item-f58da2d1"
       ],
       "descriptionHe": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
-      "descriptionAr": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
+      "descriptionAr": "أمن / سايبر / برمجيات. الأنظمة المعقدة تحتاج حماية وفحوصات ومسؤولية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2150,7 +2150,7 @@ export const seed = {
         "ability-it"
       ],
       "descriptionHe": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
-      "descriptionAr": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
+      "descriptionAr": "خدمات IT / بنى تحتية. كي يعمل النظام، نحتاج صيانة وأمانًا ودعمًا.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2175,7 +2175,7 @@ export const seed = {
         "ability-item-57171461"
       ],
       "descriptionHe": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-      "descriptionAr": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+      "descriptionAr": "تكنولوجيا / خدمات رقمية. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2201,7 +2201,7 @@ export const seed = {
         "ability-item-39b0ea36"
       ],
       "descriptionHe": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
-      "descriptionAr": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
+      "descriptionAr": "صحة / بحث طبي. دمج الطب والبيانات يمكن أن يحسن القرارات، لكنه يحتاج مسؤولية.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2226,7 +2226,7 @@ export const seed = {
         "ability-item-acc94bca"
       ],
       "descriptionHe": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
-      "descriptionAr": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
+      "descriptionAr": "موسيقى / تسويق رقمي. يمكن للذكاء الاصطناعي أن يساعد في إنشاء حملة، لكن يجب فحص أن الرسالة موثوقة ومناسبة.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2251,7 +2251,7 @@ export const seed = {
         "ability-item-091dd22e"
       ],
       "descriptionHe": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
-      "descriptionAr": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
+      "descriptionAr": "تسويق رقمي. البيانات والذكاء الاصطناعي يمكن أن يساعدا في فهم الجماهير، لكن لا يجوز المساس بالخصوصية.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2277,7 +2277,7 @@ export const seed = {
         "ability-item-c6c72da8"
       ],
       "descriptionHe": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
-      "descriptionAr": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
+      "descriptionAr": "برمجيات / أتمتة. يمكن للذكاء الاصطناعي أن يوفر أعمالًا متكررة، لكن يجب تعريف القواعد بشكل صحيح.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2302,7 +2302,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
-      "descriptionAr": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
+      "descriptionAr": "توصيات محتوى / بيانات. يمكن للنموذج أن يوصي، لكن يجب الحذر من الفقاعة ومن المعلومات الجزئية.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2328,7 +2328,7 @@ export const seed = {
         "ability-item-85141a89"
       ],
       "descriptionHe": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
-      "descriptionAr": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
+      "descriptionAr": "موبايل / منتج / مستخدمون. كثير من حلول الذكاء الاصطناعي تصل إلى المستخدم عبر تطبيق بسيط في الهاتف.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2354,7 +2354,7 @@ export const seed = {
         "ability-item-5f4345de"
       ],
       "descriptionHe": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
-      "descriptionAr": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+      "descriptionAr": "منظومة ستارت أبات. الأفكار التكنولوجية تحتاج مجتمعًا ودعمًا وشركاء ومستثمرين.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2381,7 +2381,7 @@ export const seed = {
         "ability-item-28739596"
       ],
       "descriptionHe": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
-      "descriptionAr": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
+      "descriptionAr": "تدريب / تشغيل تكنولوجي. يساعد في ربط الطلاب والعاملين بعالم التكنولوجيا.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2408,7 +2408,7 @@ export const seed = {
         "product"
       ],
       "descriptionHe": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
-      "descriptionAr": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
+      "descriptionAr": "رقمي / منتج أونلاين. القيمة تأتي عندما نربط التكنولوجيا بحاجة حقيقية.",
       "modelRelevance": "ניקוד + השראה",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2433,7 +2433,7 @@ export const seed = {
         "ability-item-39b20a69"
       ],
       "descriptionHe": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
-      "descriptionAr": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
+      "descriptionAr": "ابتكار / ستارت أب. الابتكار يربط بين مشكلة وفكرة وتكنولوجيا ومستخدمين.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2458,7 +2458,7 @@ export const seed = {
         "ability-ai-f37df"
       ],
       "descriptionHe": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
-      "descriptionAr": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
+      "descriptionAr": "تخزين بيانات / بنى ذكاء اصطناعي. كي يعمل النموذج بسرعة وبجودة، يجب إدارة كميات كبيرة من المعلومات.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2484,7 +2484,7 @@ export const seed = {
         "ability-item-36e511e0"
       ],
       "descriptionHe": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-      "descriptionAr": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+      "descriptionAr": "مساحات عمل / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
       "modelRelevance": "עקיף / אקוסיסטם",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2511,7 +2511,7 @@ export const seed = {
         "recommendation"
       ],
       "descriptionHe": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
-      "descriptionAr": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
+      "descriptionAr": "مواقع / منتج / تجربة مستخدم. حتى النموذج الذكي لن يساعد إذا لم يفهم المستخدمون كيف يستخدمونه.",
       "modelRelevance": "ישיר",
       "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
       "aliases": [
@@ -2533,7 +2533,7 @@ export const seed = {
       "companyId": "2bprecise",
       "type": "single",
       "textHe": "מה המשמעות של רפואה מותאמת אישית?",
-      "textAr": "מה המשמעות של רפואה מותאמת אישית?",
+      "textAr": "ما معنى الطب الملائم بشكل شخصي؟",
       "optionsHe": [
         "לתת לכולם בדיוק אותו טיפול",
         "לבחור טיפול לפי צבע אהוב",
@@ -2541,14 +2541,14 @@ export const seed = {
         "התאמת טיפול או המלצה לפי מאפיינים של האדם"
       ],
       "optionsAr": [
-        "לתת לכולם בדיוק אותו טיפול",
-        "לבחור טיפול לפי צבע אהוב",
-        "להחליף בדיקת רופא במשחק",
-        "התאמת טיפול או המלצה לפי מאפיינים של האדם"
+        "إعطاء الجميع العلاج نفسه تمامًا",
+        "اختيار علاج حسب اللون المفضل",
+        "استبدال فحص الطبيب بلعبة",
+        "ملاءمة علاج أو توصية حسب خصائص الشخص"
       ],
       "correctAnswer": 3,
       "explanationHe": "רפואה מותאמת משתמשת במידע כדי להתאים החלטות לאדם מסוים.",
-      "explanationAr": "רפואה מותאמת משתמשת במידע כדי להתאים החלטות לאדם מסוים.",
+      "explanationAr": "الطب الملائم يستخدم المعلومات كي يكيّف القرارات لشخص معيّن.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2559,7 +2559,7 @@ export const seed = {
       "companyId": "2bprecise",
       "type": "single",
       "textHe": "מה הסיכון אם מערכת רפואית מתאימה המלצה בלי מספיק מידע?",
-      "textAr": "מה הסיכון אם מערכת רפואית מתאימה המלצה בלי מספיק מידע?",
+      "textAr": "ما الخطر إذا قدّم نظام طبي توصية مخصّصة بدون معلومات كافية؟",
       "optionsHe": [
         "ההמלצה תמיד תהיה טובה יותר",
         "ההמלצה עלולה לא להתאים לאדם",
@@ -2567,14 +2567,14 @@ export const seed = {
         "המערכת תהפוך לאתר"
       ],
       "optionsAr": [
-        "ההמלצה תמיד תהיה טובה יותר",
-        "ההמלצה עלולה לא להתאים לאדם",
-        "אין שום סיכון",
-        "המערכת תהפוך לאתר"
+        "ستكون التوصية دائمًا أفضل",
+        "قد لا تلائم التوصية الشخص",
+        "لا يوجد أي خطر",
+        "سيتحول النظام إلى موقع"
       ],
       "correctAnswer": 1,
       "explanationHe": "התאמה אישית דורשת מידע איכותי ובדיקה מקצועית.",
-      "explanationAr": "התאמה אישית דורשת מידע איכותי ובדיקה מקצועית.",
+      "explanationAr": "الملاءمة الشخصية تتطلب معلومات جيدة وفحصًا مهنيًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2585,7 +2585,7 @@ export const seed = {
       "companyId": "agmon-with-tulchinsky",
       "type": "single",
       "textHe": "למה חברת הייטק צריכה גם ייעוץ משפטי?",
-      "textAr": "למה חברת הייטק צריכה גם ייעוץ משפטי?",
+      "textAr": "لماذا تحتاج شركة هاي تك أيضًا إلى استشارة قانونية؟",
       "optionsHe": [
         "כדי לכתוב קוד מהר יותר",
         "כדי להגן על זכויות, חוזים, פרטיות ושימוש נכון במידע",
@@ -2593,14 +2593,14 @@ export const seed = {
         "כדי לא לבדוק סיכונים"
       ],
       "optionsAr": [
-        "כדי לכתוב קוד מהר יותר",
-        "כדי להגן על זכויות, חוזים, פרטיות ושימוש נכון במידע",
-        "כדי להחליף את המשתמשים",
-        "כדי לא לבדוק סיכונים"
+        "لكتابة الكود بسرعة أكبر",
+        "لحماية الحقوق والعقود والخصوصية والاستخدام الصحيح للمعلومات",
+        "لاستبدال المستخدمين",
+        "كي لا نفحص المخاطر"
       ],
       "correctAnswer": 1,
       "explanationHe": "טכנולוגיה פועלת בתוך עולם של חוקים, זכויות והסכמים.",
-      "explanationAr": "טכנולוגיה פועלת בתוך עולם של חוקים, זכויות והסכמים.",
+      "explanationAr": "التكنولوجيا تعمل داخل عالم من القوانين والحقوق والاتفاقيات.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2611,7 +2611,7 @@ export const seed = {
       "companyId": "agmon-with-tulchinsky",
       "type": "single",
       "textHe": "איזו שאלה משפטית יכולה לעלות במוצר AI?",
-      "textAr": "איזו שאלה משפטית יכולה לעלות במוצר AI?",
+      "textAr": "ما سؤال قانوني يمكن أن يظهر في منتج ذكاء اصطناعي؟",
       "optionsHe": [
         "איזה צבע הכי יפה?",
         "כמה מהר עובד המעבד?",
@@ -2619,14 +2619,14 @@ export const seed = {
         "מה שם הצוות?"
       ],
       "optionsAr": [
-        "איזה צבע הכי יפה?",
-        "כמה מהר עובד המעבד?",
-        "האם מותר לאסוף את המידע הזה מהמשתמשים?",
-        "מה שם הצוות?"
+        "أي لون هو الأجمل؟",
+        "كم يعمل المعالج بسرعة؟",
+        "هل يُسمح بجمع هذه المعلومات من المستخدمين؟",
+        "ما اسم الفريق؟"
       ],
       "correctAnswer": 2,
       "explanationHe": "איסוף ושימוש במידע אישי דורשים כללים ואחריות.",
-      "explanationAr": "איסוף ושימוש במידע אישי דורשים כללים ואחריות.",
+      "explanationAr": "جمع المعلومات الشخصية واستخدامها يحتاجان قواعد ومسؤولية.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2637,7 +2637,7 @@ export const seed = {
       "companyId": "altera-digital-health",
       "type": "single",
       "textHe": "למה מערכות בריאות דיגיטליות צריכות להיות מדויקות במיוחד?",
-      "textAr": "למה מערכות בריאות דיגיטליות צריכות להיות מדויקות במיוחד?",
+      "textAr": "لماذا يجب أن تكون أنظمة الصحة الرقمية دقيقة جدًا؟",
       "optionsHe": [
         "כי הן עוסקות במידע שיכול להשפיע על טיפול באנשים",
         "כי הן תמיד משחק",
@@ -2645,14 +2645,14 @@ export const seed = {
         "כי אין צורך בפרטיות"
       ],
       "optionsAr": [
-        "כי הן עוסקות במידע שיכול להשפיע על טיפול באנשים",
-        "כי הן תמיד משחק",
-        "כי בריאות לא קשורה לדאטה",
-        "כי אין צורך בפרטיות"
+        "لأنها تتعامل مع معلومات قد تؤثر على علاج الناس",
+        "لأنها دائمًا لعبة",
+        "لأن الصحة لا علاقة لها بالبيانات",
+        "لأنه لا حاجة إلى الخصوصية"
       ],
       "correctAnswer": 0,
       "explanationHe": "בתחום הבריאות חשוב מאוד לשמור על דיוק, פרטיות ובקרה מקצועית.",
-      "explanationAr": "בתחום הבריאות חשוב מאוד לשמור על דיוק, פרטיות ובקרה מקצועית.",
+      "explanationAr": "في مجال الصحة من المهم جدًا الحفاظ على الدقة والخصوصية والرقابة المهنية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2663,7 +2663,7 @@ export const seed = {
       "companyId": "altera-digital-health",
       "type": "single",
       "textHe": "מי צריך לבדוק המלצה רפואית שמגיעה ממערכת חכמה?",
-      "textAr": "מי צריך לבדוק המלצה רפואית שמגיעה ממערכת חכמה?",
+      "textAr": "من يجب أن يفحص توصية طبية تأتي من نظام ذكي؟",
       "optionsHe": [
         "איש מקצוע רפואי",
         "רק המחשב",
@@ -2671,14 +2671,14 @@ export const seed = {
         "מי שסיים ראשון"
       ],
       "optionsAr": [
-        "איש מקצוע רפואי",
-        "רק המחשב",
-        "כל תלמיד",
-        "מי שסיים ראשון"
+        "مختص طبي",
+        "الحاسوب فقط",
+        "كل طالب",
+        "من أنهى أولًا"
       ],
       "correctAnswer": 0,
       "explanationHe": "AI יכול לסייע, אך החלטות רפואיות דורשות איש מקצוע ואחריות.",
-      "explanationAr": "AI יכול לסייע, אך החלטות רפואיות דורשות איש מקצוע ואחריות.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد، لكن القرارات الطبية تحتاج مختصًا ومسؤولية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2689,7 +2689,7 @@ export const seed = {
       "companyId": "audiocodes",
       "type": "single",
       "textHe": "למה איכות קול חשובה בשיחה דיגיטלית?",
-      "textAr": "למה איכות קול חשובה בשיחה דיגיטלית?",
+      "textAr": "لماذا جودة الصوت مهمة في محادثة رقمية؟",
       "optionsHe": [
         "כי זה מחליף את האינטרנט",
         "כי כל שיחה הופכת ל-AI",
@@ -2697,14 +2697,14 @@ export const seed = {
         "כי אם לא שומעים ברור, קשה להבין ולתקשר"
       ],
       "optionsAr": [
-        "כי זה מחליף את האינטרנט",
-        "כי כל שיחה הופכת ל-AI",
-        "כי אין צורך באבטחה",
-        "כי אם לא שומעים ברור, קשה להבין ולתקשר"
+        "لأن ذلك يستبدل الإنترنت",
+        "لأن كل محادثة تتحول إلى ذكاء اصطناعي",
+        "لأنه لا حاجة إلى الأمان",
+        "لأنه إذا لم نسمع بوضوح فمن الصعب الفهم والتواصل"
       ],
       "correctAnswer": 3,
       "explanationHe": "תקשורת קולית ברורה חשובה ללמידה, עבודה ושירותים דיגיטליים.",
-      "explanationAr": "תקשורת קולית ברורה חשובה ללמידה, עבודה ושירותים דיגיטליים.",
+      "explanationAr": "الاتصال الصوتي الواضح مهم للتعلم والعمل والخدمات الرقمية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2715,7 +2715,7 @@ export const seed = {
       "companyId": "audiocodes",
       "type": "single",
       "textHe": "איך AI יכול להשתלב במערכות קול?",
-      "textAr": "איך AI יכול להשתלב במערכות קול?",
+      "textAr": "كيف يمكن للذكاء الاصطناعي أن يندمج في أنظمة الصوت؟",
       "optionsHe": [
         "לתמלל, לזהות מילים או לסייע בשירות קולי",
         "למחוק את כל ההקלטות",
@@ -2723,14 +2723,14 @@ export const seed = {
         "להחליף את המשתמש"
       ],
       "optionsAr": [
-        "לתמלל, לזהות מילים או לסייע בשירות קולי",
-        "למחוק את כל ההקלטות",
-        "להפוך קול לתמונה בלבד",
-        "להחליף את המשתמש"
+        "تفريغ الكلام، التعرف على كلمات أو المساعدة في خدمة صوتية",
+        "حذف كل التسجيلات",
+        "تحويل الصوت إلى صورة فقط",
+        "استبدال المستخدم"
       ],
       "correctAnswer": 0,
       "explanationHe": "AI יכול לעזור בעיבוד שפה ודיבור, למשל תמלול או זיהוי כוונה.",
-      "explanationAr": "AI יכול לעזור בעיבוד שפה ודיבור, למשל תמלול או זיהוי כוונה.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد في معالجة اللغة والكلام، مثل التفريغ النصي أو فهم النية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2741,7 +2741,7 @@ export const seed = {
       "companyId": "bgn",
       "type": "single",
       "textHe": "מה יכול לקרות לרעיון שמתחיל במחקר באוניברסיטה?",
-      "textAr": "מה יכול לקרות לרעיון שמתחיל במחקר באוניברסיטה?",
+      "textAr": "ماذا يمكن أن يحدث لفكرة تبدأ من بحث في الجامعة؟",
       "optionsHe": [
         "הוא חייב להישאר בכיתה",
         "אסור להשתמש בו",
@@ -2749,14 +2749,14 @@ export const seed = {
         "הוא יכול להפוך לטכנולוגיה או חברה חדשה"
       ],
       "optionsAr": [
-        "הוא חייב להישאר בכיתה",
-        "אסור להשתמש בו",
-        "הוא הופך אוטומטית למשחק",
-        "הוא יכול להפוך לטכנולוגיה או חברה חדשה"
+        "يجب أن يبقى في الصف",
+        "يُمنع استخدامه",
+        "يتحول تلقائيًا إلى لعبة",
+        "يمكن أن يتحول إلى تكنولوجيا أو شركة جديدة"
       ],
       "correctAnswer": 3,
       "explanationHe": "מחקר יכול להיות בסיס לפיתוחים טכנולוגיים וסטארטאפים.",
-      "explanationAr": "מחקר יכול להיות בסיס לפיתוחים טכנולוגיים וסטארטאפים.",
+      "explanationAr": "يمكن أن يكون البحث أساسًا لتطويرات تكنولوجية وستارت أبات.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2767,7 +2767,7 @@ export const seed = {
       "companyId": "bgn",
       "type": "single",
       "textHe": "למה חיבור בין אוניברסיטה לתעשייה חשוב?",
-      "textAr": "למה חיבור בין אוניברסיטה לתעשייה חשוב?",
+      "textAr": "لماذا الربط بين الجامعة والصناعة مهم؟",
       "optionsHe": [
         "כי חברות לא צריכות רעיונות",
         "כי ידע מחקרי יכול להפוך לפתרונות בעולם האמיתי",
@@ -2775,14 +2775,14 @@ export const seed = {
         "כי מחקר ותעשייה תמיד נפרדים"
       ],
       "optionsAr": [
-        "כי חברות לא צריכות רעיונות",
-        "כי ידע מחקרי יכול להפוך לפתרונות בעולם האמיתי",
-        "כי תלמידים לא קשורים לטכנולוגיה",
-        "כי מחקר ותעשייה תמיד נפרדים"
+        "لأن الشركات لا تحتاج أفكارًا",
+        "لأن المعرفة البحثية يمكن أن تتحول إلى حلول في العالم الحقيقي",
+        "لأن الطلاب غير مرتبطين بالتكنولوجيا",
+        "لأن البحث والصناعة منفصلان دائمًا"
       ],
       "correctAnswer": 1,
       "explanationHe": "שיתוף פעולה בין מחקר לתעשייה עוזר לחדשנות להתקדם.",
-      "explanationAr": "שיתוף פעולה בין מחקר לתעשייה עוזר לחדשנות להתקדם.",
+      "explanationAr": "التعاون بين البحث والصناعة يساعد الابتكار على التقدّم.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2845,7 +2845,7 @@ export const seed = {
       "companyId": "brooks-keret",
       "type": "single",
       "textHe": "למה סטארטאפ צריך לנהל כסף בצורה מסודרת?",
-      "textAr": "למה סטארטאפ צריך לנהל כסף בצורה מסודרת?",
+      "textAr": "لماذا يحتاج الستارت أب إلى إدارة المال بشكل منظم؟",
       "optionsHe": [
         "כדי שלא יצטרך לקוחות",
         "כדי לא לבנות מוצר",
@@ -2853,14 +2853,14 @@ export const seed = {
         "כדי לדעת כמה הוא מוציא, מרוויח ויכול להשקיע"
       ],
       "optionsAr": [
-        "כדי שלא יצטרך לקוחות",
-        "כדי לא לבנות מוצר",
-        "כדי להסתיר החלטות",
-        "כדי לדעת כמה הוא מוציא, מרוויח ויכול להשקיע"
+        "كي لا يحتاج إلى زبائن",
+        "كي لا يبني منتجًا",
+        "لإخفاء القرارات",
+        "لمعرفة كم يصرف ويربح ويستطيع أن يستثمر"
       ],
       "correctAnswer": 3,
       "explanationHe": "גם רעיון טכנולוגי צריך ניהול כספי כדי לשרוד ולצמוח.",
-      "explanationAr": "גם רעיון טכנולוגי צריך ניהול כספי כדי לשרוד ולצמוח.",
+      "explanationAr": "حتى الفكرة التكنولوجية تحتاج إدارة مالية كي تستمر وتنمو.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2871,7 +2871,7 @@ export const seed = {
       "companyId": "brooks-keret",
       "type": "single",
       "textHe": "מה יכול לקרות לחברה עם מוצר טוב אבל בלי ניהול כספי?",
-      "textAr": "מה יכול לקרות לחברה עם מוצר טוב אבל בלי ניהול כספי?",
+      "textAr": "ماذا قد يحدث لشركة لديها منتج جيد ولكن بدون إدارة مالية؟",
       "optionsHe": [
         "היא עלולה להיגמר לפני שהמוצר מצליח",
         "היא תמיד תצליח",
@@ -2879,14 +2879,14 @@ export const seed = {
         "היא תהפוך מיד לחברת AI"
       ],
       "optionsAr": [
-        "היא עלולה להיגמר לפני שהמוצר מצליח",
-        "היא תמיד תצליח",
-        "היא לא צריכה צוות",
-        "היא תהפוך מיד לחברת AI"
+        "قد تنتهي قبل أن ينجح المنتج",
+        "ستنجح دائمًا",
+        "لا تحتاج إلى فريق",
+        "ستتحول فورًا إلى شركة ذكاء اصطناعي"
       ],
       "correctAnswer": 0,
       "explanationHe": "ניהול תקציב הוא חלק חשוב מהצלחה עסקית.",
-      "explanationAr": "ניהול תקציב הוא חלק חשוב מהצלחה עסקית.",
+      "explanationAr": "إدارة الميزانية جزء مهم من النجاح التجاري.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2897,7 +2897,7 @@ export const seed = {
       "companyId": "capow",
       "type": "single",
       "textHe": "למה רובוטים ומערכות אוטומטיות צריכים אספקת אנרגיה אמינה?",
-      "textAr": "למה רובוטים ומערכות אוטומטיות צריכים אספקת אנרגיה אמינה?",
+      "textAr": "لماذا تحتاج الروبوتات والأنظمة الآلية إلى مصدر طاقة موثوق؟",
       "optionsHe": [
         "כדי לא להשתמש בתוכנה",
         "כדי למחוק חיישנים",
@@ -2905,14 +2905,14 @@ export const seed = {
         "כדי לעבוד לאורך זמן בלי עצירות מיותרות"
       ],
       "optionsAr": [
-        "כדי לא להשתמש בתוכנה",
-        "כדי למחוק חיישנים",
-        "כדי להחליף משתמשים",
-        "כדי לעבוד לאורך זמן בלי עצירות מיותרות"
+        "كي لا يستخدم البرمجيات",
+        "لحذف الحساسات",
+        "لاستبدال المستخدمين",
+        "للعمل وقتًا طويلًا بدون توقفات غير ضرورية"
       ],
       "correctAnswer": 3,
       "explanationHe": "מערכות פיזיות צריכות אנרגיה ותפעול יציב כדי לעבוד בסביבה אמיתית.",
-      "explanationAr": "מערכות פיזיות צריכות אנרגיה ותפעול יציב כדי לעבוד בסביבה אמיתית.",
+      "explanationAr": "الأنظمة المادية تحتاج طاقة وتشغيلًا مستقرًا كي تعمل في بيئة حقيقية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2923,7 +2923,7 @@ export const seed = {
       "companyId": "capow",
       "type": "single",
       "textHe": "איך AI יכול לעזור בתפעול מערכת פיזית?",
-      "textAr": "איך AI יכול לעזור בתפעול מערכת פיזית?",
+      "textAr": "كيف يمكن للذكاء الاصطناعي أن يساعد في تشغيل نظام مادي؟",
       "optionsHe": [
         "לבטל את הצורך בחשמל",
         "להסתיר תקלות",
@@ -2931,14 +2931,14 @@ export const seed = {
         "להפוך רובוט לאתר"
       ],
       "optionsAr": [
-        "לבטל את הצורך בחשמל",
-        "להסתיר תקלות",
-        "לזהות דפוסים, לחזות בעיות ולייעל פעולה",
-        "להפוך רובוט לאתר"
+        "إلغاء الحاجة إلى الكهرباء",
+        "إخفاء الأعطال",
+        "اكتشاف أنماط، توقع مشاكل وتحسين العمل",
+        "تحويل روبوت إلى موقع"
       ],
       "correctAnswer": 2,
       "explanationHe": "AI יכול לסייע בניתוח מצב המערכת ובשיפור הביצועים.",
-      "explanationAr": "AI יכול לסייע בניתוח מצב המערכת ובשיפור הביצועים.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد في تحليل حالة النظام وتحسين الأداء.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2949,7 +2949,7 @@ export const seed = {
       "companyId": "cbg",
       "type": "single",
       "textHe": "למה חברה טכנולוגית צריכה גם תמיכה עסקית?",
-      "textAr": "למה חברה טכנולוגית צריכה גם תמיכה עסקית?",
+      "textAr": "لماذا تحتاج شركة تكنولوجية أيضًا إلى دعم تجاري؟",
       "optionsHe": [
         "כי טכנולוגיה לבד תמיד מספיקה",
         "כי אין צורך במשתמשים",
@@ -2957,14 +2957,14 @@ export const seed = {
         "כי מוצר טוב צריך גם לקוחות, תכנון וניהול"
       ],
       "optionsAr": [
-        "כי טכנולוגיה לבד תמיד מספיקה",
-        "כי אין צורך במשתמשים",
-        "כי קוד מחליף עסק",
-        "כי מוצר טוב צריך גם לקוחות, תכנון וניהול"
+        "لأن التكنولوجيا وحدها تكفي دائمًا",
+        "لأنه لا حاجة إلى المستخدمين",
+        "لأن الكود يستبدل العمل التجاري",
+        "لأن المنتج الجيد يحتاج أيضًا زبائن وتخطيطًا وإدارة"
       ],
       "correctAnswer": 3,
       "explanationHe": "כדי שחברה תצליח, היא צריכה גם מוצר, שוק, ניהול ולקוחות.",
-      "explanationAr": "כדי שחברה תצליח, היא צריכה גם מוצר, שוק, ניהול ולקוחות.",
+      "explanationAr": "لكي تنجح شركة، فهي تحتاج أيضًا إلى منتج وسوق وإدارة وزبائن.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -2975,7 +2975,7 @@ export const seed = {
       "companyId": "cbg",
       "type": "single",
       "textHe": "מה יכול להפיל מוצר טוב גם אם הטכנולוגיה עובדת?",
-      "textAr": "מה יכול להפיל מוצר טוב גם אם הטכנולוגיה עובדת?",
+      "textAr": "ما الذي قد يُفشل منتجًا جيدًا حتى لو كانت التكنولوجيا تعمل؟",
       "optionsHe": [
         "יותר מדי בדיקות",
         "שם קצר",
@@ -2983,14 +2983,14 @@ export const seed = {
         "שימוש בצוות"
       ],
       "optionsAr": [
-        "יותר מדי בדיקות",
-        "שם קצר",
-        "חוסר הבנה של המשתמשים או השוק",
-        "שימוש בצוות"
+        "فحوصات أكثر من اللازم",
+        "اسم قصير",
+        "عدم فهم المستخدمين أو السوق",
+        "استخدام فريق"
       ],
       "correctAnswer": 2,
       "explanationHe": "טכנולוגיה צריכה להתאים לצורך אמיתי ולמודל עבודה נכון.",
-      "explanationAr": "טכנולוגיה צריכה להתאים לצורך אמיתי ולמודל עבודה נכון.",
+      "explanationAr": "يجب أن تلائم التكنولوجيا حاجة حقيقية ونموذج عمل صحيح.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3053,7 +3053,7 @@ export const seed = {
       "companyId": "cyber-bgu",
       "type": "single",
       "textHe": "למה אוניברסיטה חשובה לאזור הייטק?",
-      "textAr": "למה אוניברסיטה חשובה לאזור הייטק?",
+      "textAr": "لماذا الجامعة مهمة لمنطقة هاي تك؟",
       "optionsHe": [
         "היא מפתחת ידע, חוקרים ובוגרים שיכולים להשתלב בתעשייה",
         "היא רק מקום למבחנים",
@@ -3061,14 +3061,14 @@ export const seed = {
         "היא מחליפה את כל החברות"
       ],
       "optionsAr": [
-        "היא מפתחת ידע, חוקרים ובוגרים שיכולים להשתלב בתעשייה",
-        "היא רק מקום למבחנים",
-        "היא לא קשורה לטכנולוגיה",
-        "היא מחליפה את כל החברות"
+        "هي تطور معرفة وباحثين وخريجين يمكنهم الاندماج في الصناعة",
+        "هي فقط مكان للامتحانات",
+        "لا علاقة لها بالتكنولوجيا",
+        "هي تستبدل كل الشركات"
       ],
       "correctAnswer": 0,
       "explanationHe": "אקדמיה מספקת ידע, מחקר וכוח אדם איכותי לאקוסיסטם.",
-      "explanationAr": "אקדמיה מספקת ידע, מחקר וכוח אדם איכותי לאקוסיסטם.",
+      "explanationAr": "توفر الأكاديمية معرفة وبحثًا وقوة بشرية جيدة للمنظومة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3079,7 +3079,7 @@ export const seed = {
       "companyId": "cyber-bgu",
       "type": "single",
       "textHe": "מה ההבדל בין ללמוד עובדה לבין לעשות מחקר?",
-      "textAr": "מה ההבדל בין ללמוד עובדה לבין לעשות מחקר?",
+      "textAr": "ما الفرق بين تعلّم حقيقة وبين إجراء بحث؟",
       "optionsHe": [
         "מחקר הוא רק שינון",
         "מחקר לא דורש בדיקה",
@@ -3087,14 +3087,14 @@ export const seed = {
         "מחקר שואל שאלות חדשות ומנסה לגלות ידע חדש"
       ],
       "optionsAr": [
-        "מחקר הוא רק שינון",
-        "מחקר לא דורש בדיקה",
-        "אין הבדל",
-        "מחקר שואל שאלות חדשות ומנסה לגלות ידע חדש"
+        "البحث هو حفظ فقط",
+        "البحث لا يحتاج فحصًا",
+        "لا يوجد فرق",
+        "البحث يطرح أسئلة جديدة ويحاول اكتشاف معرفة جديدة"
       ],
       "correctAnswer": 3,
       "explanationHe": "מחקר עוסק בגילוי, ניסוי ובדיקת רעיונות.",
-      "explanationAr": "מחקר עוסק בגילוי, ניסוי ובדיקת רעיונות.",
+      "explanationAr": "البحث يتناول الاكتشاف والتجربة وفحص الأفكار.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3105,7 +3105,7 @@ export const seed = {
       "companyId": "cyberark",
       "type": "single",
       "textHe": "למה חשוב שמערכת AI תדע מי המשתמש שמבקש גישה למידע?",
-      "textAr": "למה חשוב שמערכת AI תדע מי המשתמש שמבקש גישה למידע?",
+      "textAr": "لماذا من المهم أن يعرف نظام الذكاء الاصطناعي من هو المستخدم الذي يطلب الوصول إلى المعلومات؟",
       "optionsHe": [
         "כדי לבחור לו צבע רקע",
         "כדי לשלוח לו יותר פרסומות",
@@ -3113,14 +3113,14 @@ export const seed = {
         "כדי לוודא שרק מי שמורשה יראה מידע רגיש"
       ],
       "optionsAr": [
-        "כדי לבחור לו צבע רקע",
-        "כדי לשלוח לו יותר פרסומות",
-        "כדי למחוק לו את החשבון",
-        "כדי לוודא שרק מי שמורשה יראה מידע רגיש"
+        "لاختيار لون خلفية له",
+        "لإرسال إعلانات أكثر له",
+        "لحذف حسابه",
+        "للتأكد من أن المصرّح لهم فقط يرون معلومات حساسة"
       ],
       "correctAnswer": 3,
       "explanationHe": "ניהול זהויות והרשאות מגן על מידע רגיש ומונע גישה לא מורשית.",
-      "explanationAr": "ניהול זהויות והרשאות מגן על מידע רגיש ומונע גישה לא מורשית.",
+      "explanationAr": "إدارة الهويات والصلاحيات تحمي المعلومات الحساسة وتمنع الوصول غير المصرّح.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3131,7 +3131,7 @@ export const seed = {
       "companyId": "cyberark",
       "type": "single",
       "textHe": "איזה מצב הוא סיכון אבטחה?",
-      "textAr": "איזה מצב הוא סיכון אבטחה?",
+      "textAr": "أي حالة تُعد خطرًا أمنيًا؟",
       "optionsHe": [
         "המסך נטען מהר",
         "משתמש רגיל מקבל גישה למידע של מנהל",
@@ -3139,14 +3139,14 @@ export const seed = {
         "יש כפתור ברור"
       ],
       "optionsAr": [
-        "המסך נטען מהר",
-        "משתמש רגיל מקבל גישה למידע של מנהל",
-        "השאלה כתובה בעברית",
-        "יש כפתור ברור"
+        "الشاشة تُحمّل بسرعة",
+        "مستخدم عادي يحصل على وصول لمعلومات المدير",
+        "السؤال مكتوب بالعبرية",
+        "يوجد زر واضح"
       ],
       "correctAnswer": 1,
       "explanationHe": "הרשאות לא נכונות יכולות לאפשר גישה למידע שלא אמור להיות חשוף.",
-      "explanationAr": "הרשאות לא נכונות יכולות לאפשר גישה למידע שלא אמור להיות חשוף.",
+      "explanationAr": "الصلاحيات غير الصحيحة قد تسمح بالوصول إلى معلومات لا يجب أن تكون مكشوفة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3157,7 +3157,7 @@ export const seed = {
       "companyId": "cyberark",
       "type": "single",
       "textHe": "איזו יכולת CyberArk מוסיפה למודל?",
-      "textAr": "איזו יכולת CyberArk מוסיפה למודל?",
+      "textAr": "ما القدرة التي تضيفها CyberArk إلى النموذج؟",
       "optionsHe": [
         "אבטחת זהויות והרשאות",
         "יצירת מוזיקה",
@@ -3165,14 +3165,14 @@ export const seed = {
         "עיצוב דמויות"
       ],
       "optionsAr": [
-        "אבטחת זהויות והרשאות",
-        "יצירת מוזיקה",
-        "חיזוי מזג אוויר",
-        "עיצוב דמויות"
+        "حماية الهويات والصلاحيات",
+        "إنشاء موسيقى",
+        "توقع الطقس",
+        "تصميم شخصيات"
       ],
       "correctAnswer": 0,
       "explanationHe": "היכולת המרכזית היא שמירה על גישה נכונה ובטוחה למידע ולמערכות.",
-      "explanationAr": "היכולת המרכזית היא שמירה על גישה נכונה ובטוחה למידע ולמערכות.",
+      "explanationAr": "القدرة المركزية هي الحفاظ على وصول صحيح وآمن إلى المعلومات والأنظمة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3183,7 +3183,7 @@ export const seed = {
       "companyId": "cyberglobes",
       "type": "single",
       "textHe": "מה היתרון באיסוף מידע ממקורות פתוחים?",
-      "textAr": "מה היתרון באיסוף מידע ממקורות פתוחים?",
+      "textAr": "ما فائدة جمع معلومات من مصادر مفتوحة؟",
       "optionsHe": [
         "אפשר להעתיק סיסמאות",
         "אפשר לדעת הכול בוודאות",
@@ -3191,14 +3191,14 @@ export const seed = {
         "אפשר לזהות סיכונים ודפוסים בלי לפרוץ למערכות"
       ],
       "optionsAr": [
-        "אפשר להעתיק סיסמאות",
-        "אפשר לדעת הכול בוודאות",
-        "אפשר לבטל פרטיות",
-        "אפשר לזהות סיכונים ודפוסים בלי לפרוץ למערכות"
+        "يمكن نسخ كلمات السر",
+        "يمكن معرفة كل شيء بيقين",
+        "يمكن إلغاء الخصوصية",
+        "يمكن اكتشاف مخاطر وأنماط بدون اختراق الأنظمة"
       ],
       "correctAnswer": 3,
       "explanationHe": "מידע גלוי יכול לעזור להבין מגמות ואיומים, אבל צריך לנתח אותו בזהירות.",
-      "explanationAr": "מידע גלוי יכול לעזור להבין מגמות ואיומים, אבל צריך לנתח אותו בזהירות.",
+      "explanationAr": "المعلومات المفتوحة يمكن أن تساعد في فهم الاتجاهات والتهديدات، لكن يجب تحليلها بحذر.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3209,7 +3209,7 @@ export const seed = {
       "companyId": "cyberglobes",
       "type": "single",
       "textHe": "למה צריך לבדוק אמינות של מידע שמוצאים ברשת?",
-      "textAr": "למה צריך לבדוק אמינות של מידע שמוצאים ברשת?",
+      "textAr": "لماذا يجب فحص موثوقية المعلومات التي نجدها على الشبكة؟",
       "optionsHe": [
         "כי כל מידע ברשת נכון",
         "כי מידע פתוח יכול להיות שגוי, ישן או מטעה",
@@ -3217,14 +3217,14 @@ export const seed = {
         "כי בדיקה מאטה את החשיבה"
       ],
       "optionsAr": [
-        "כי כל מידע ברשת נכון",
-        "כי מידע פתוח יכול להיות שגוי, ישן או מטעה",
-        "כי AI לא משתמש במידע",
-        "כי בדיקה מאטה את החשיבה"
+        "لأن كل معلومات الشبكة صحيحة",
+        "لأن المعلومات المفتوحة قد تكون خاطئة أو قديمة أو مضللة",
+        "لأن الذكاء الاصطناعي لا يستخدم المعلومات",
+        "لأن الفحص يبطئ التفكير"
       ],
       "correctAnswer": 1,
       "explanationHe": "בדיקת אמינות חשובה במיוחד כשמשתמשים במידע כדי לקבל החלטות.",
-      "explanationAr": "בדיקת אמינות חשובה במיוחד כשמשתמשים במידע כדי לקבל החלטות.",
+      "explanationAr": "فحص الموثوقية مهم خصوصًا عندما نستخدم المعلومات لاتخاذ قرارات.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3235,7 +3235,7 @@ export const seed = {
       "companyId": "dalet",
       "type": "single",
       "textHe": "איך AI יכול לעזור בעולם המדיה?",
-      "textAr": "איך AI יכול לעזור בעולם המדיה?",
+      "textAr": "كيف يمكن للذكاء الاصطناعي أن يساعد في عالم الإعلام؟",
       "optionsHe": [
         "לסדר, לחפש ולתייג קטעי וידאו או תוכן",
         "לגרום לכל סרטון להיות נכון",
@@ -3243,14 +3243,14 @@ export const seed = {
         "למחוק את הצורך בעורכים"
       ],
       "optionsAr": [
-        "לסדר, לחפש ולתייג קטעי וידאו או תוכן",
-        "לגרום לכל סרטון להיות נכון",
-        "לבטל זכויות יוצרים",
-        "למחוק את הצורך בעורכים"
+        "ترتيب وبحث ووسم مقاطع فيديو أو محتوى",
+        "جعل كل فيديو صحيحًا",
+        "إلغاء حقوق النشر",
+        "حذف الحاجة إلى محررين"
       ],
       "correctAnswer": 0,
       "explanationHe": "AI יכול לעזור לנהל כמויות תוכן גדולות, אך אנשים עדיין בודקים את התוצאה.",
-      "explanationAr": "AI יכול לעזור לנהל כמויות תוכן גדולות, אך אנשים עדיין בודקים את התוצאה.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد في إدارة كميات كبيرة من المحتوى، لكن البشر ما زالوا يفحصون النتيجة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3261,7 +3261,7 @@ export const seed = {
       "companyId": "dalet",
       "type": "single",
       "textHe": "למה חשוב לתייג תוכן בצורה טובה?",
-      "textAr": "למה חשוב לתייג תוכן בצורה טובה?",
+      "textAr": "لماذا من المهم وسم المحتوى بطريقة جيدة؟",
       "optionsHe": [
         "כדי להסתיר אותו",
         "כדי שלא יהיה צורך בחיפוש",
@@ -3269,14 +3269,14 @@ export const seed = {
         "כדי שכל הסרטונים יהיו זהים"
       ],
       "optionsAr": [
-        "כדי להסתיר אותו",
-        "כדי שלא יהיה צורך בחיפוש",
-        "כדי שיהיה קל למצוא אותו ולהבין מה יש בו",
-        "כדי שכל הסרטונים יהיו זהים"
+        "لإخفائه",
+        "كي لا تكون هناك حاجة للبحث",
+        "كي يكون من السهل إيجاده وفهم ما فيه",
+        "كي تكون كل الفيديوهات متشابهة"
       ],
       "correctAnswer": 2,
       "explanationHe": "תיוג טוב עוזר לחיפוש, ארגון והמלצה על תוכן.",
-      "explanationAr": "תיוג טוב עוזר לחיפוש, ארגון והמלצה על תוכן.",
+      "explanationAr": "الوسم الجيد يساعد في البحث والتنظيم والتوصية بالمحتوى.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3313,7 +3313,7 @@ export const seed = {
       "companyId": "dell",
       "type": "single",
       "textHe": "מה תפקיד שרתים במערכת דיגיטלית גדולה?",
-      "textAr": "מה תפקיד שרתים במערכת דיגיטלית גדולה?",
+      "textAr": "ما دور الخوادم في نظام رقمي كبير؟",
       "optionsHe": [
         "להחליף את כל התוכנה",
         "לכתוב סיסמאות על המסך",
@@ -3321,14 +3321,14 @@ export const seed = {
         "להפוך את האפליקציה למשחק"
       ],
       "optionsAr": [
-        "להחליף את כל התוכנה",
-        "לכתוב סיסמאות על המסך",
-        "להריץ שירותים ולשרת הרבה משתמשים במקביל",
-        "להפוך את האפליקציה למשחק"
+        "استبدال كل البرمجيات",
+        "كتابة كلمات السر على الشاشة",
+        "تشغيل خدمات وخدمة مستخدمين كثيرين في الوقت نفسه",
+        "تحويل التطبيق إلى لعبة"
       ],
       "correctAnswer": 2,
       "explanationHe": "שרתים ותשתיות מחשוב מאפשרים למערכות לעבוד בצורה יציבה עבור משתמשים רבים.",
-      "explanationAr": "שרתים ותשתיות מחשוב מאפשרים למערכות לעבוד בצורה יציבה עבור משתמשים רבים.",
+      "explanationAr": "الخوادم وبنى الحوسبة تتيح للأنظمة العمل بثبات لعدد كبير من المستخدمين.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3339,7 +3339,7 @@ export const seed = {
       "companyId": "dell",
       "type": "single",
       "textHe": "למה מערכת AI שמשרתת מאות תלמידים צריכה תשתית יציבה?",
-      "textAr": "למה מערכת AI שמשרתת מאות תלמידים צריכה תשתית יציבה?",
+      "textAr": "لماذا يحتاج نظام ذكاء اصطناعي يخدم مئات الطلاب إلى بنية تحتية مستقرة؟",
       "optionsHe": [
         "כדי שלא תקרוס כשכולם משתמשים בה יחד",
         "כדי לא לשאול שאלות",
@@ -3347,14 +3347,14 @@ export const seed = {
         "כדי שכל תלמיד יקבל אותה תשובה"
       ],
       "optionsAr": [
-        "כדי שלא תקרוס כשכולם משתמשים בה יחד",
-        "כדי לא לשאול שאלות",
-        "כדי לבטל את הצורך במדריך",
-        "כדי שכל תלמיד יקבל אותה תשובה"
+        "كي لا تنهار عندما يستخدمها الجميع معًا",
+        "كي لا نطرح أسئلة",
+        "لإلغاء الحاجة إلى المرشد",
+        "كي يحصل كل طالب على الإجابة نفسها"
       ],
       "correctAnswer": 0,
       "explanationHe": "עומס משתמשים דורש תשתית אמינה וחזקה.",
-      "explanationAr": "עומס משתמשים דורש תשתית אמינה וחזקה.",
+      "explanationAr": "ضغط المستخدمين يحتاج بنية تحتية موثوقة وقوية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3365,7 +3365,7 @@ export const seed = {
       "companyId": "drs-rada-technologies",
       "type": "single",
       "textHe": "איך חיישנים יכולים לעזור למערכת חכמה?",
-      "textAr": "איך חיישנים יכולים לעזור למערכת חכמה?",
+      "textAr": "كيف يمكن للحساسات أن تساعد نظامًا ذكيًا؟",
       "optionsHe": [
         "הם מחליפים את כל התוכנה",
         "הם כותבים פרומפטים",
@@ -3373,14 +3373,14 @@ export const seed = {
         "הם אוספים מידע מהסביבה"
       ],
       "optionsAr": [
-        "הם מחליפים את כל התוכנה",
-        "הם כותבים פרומפטים",
-        "הם מבטלים צורך בדאטה",
-        "הם אוספים מידע מהסביבה"
+        "هي تستبدل كل البرمجيات",
+        "هي تكتب برومبتات",
+        "هي تلغي الحاجة إلى البيانات",
+        "هي تجمع معلومات من البيئة"
       ],
       "correctAnswer": 3,
       "explanationHe": "חיישנים נותנים למערכת מידע על מה שקורה בעולם האמיתי.",
-      "explanationAr": "חיישנים נותנים למערכת מידע על מה שקורה בעולם האמיתי.",
+      "explanationAr": "الحساسات تعطي النظام معلومات عما يحدث في العالم الحقيقي.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3391,7 +3391,7 @@ export const seed = {
       "companyId": "drs-rada-technologies",
       "type": "single",
       "textHe": "מה ההבדל בין חיישן לבין מודל AI?",
-      "textAr": "מה ההבדל בין חיישן לבין מודל AI?",
+      "textAr": "ما الفرق بين الحساس ونموذج الذكاء الاصطناعي؟",
       "optionsHe": [
         "שניהם בדיוק אותו דבר",
         "מודל AI מצלם תמונות בלבד",
@@ -3399,14 +3399,14 @@ export const seed = {
         "חיישן אוסף מידע, המודל מנתח אותו ומנסה להסיק מסקנות"
       ],
       "optionsAr": [
-        "שניהם בדיוק אותו דבר",
-        "מודל AI מצלם תמונות בלבד",
-        "חיישן תמיד מקבל החלטה לבד",
-        "חיישן אוסף מידע, המודל מנתח אותו ומנסה להסיק מסקנות"
+        "كلاهما الشيء نفسه تمامًا",
+        "نموذج الذكاء الاصطناعي يصوّر صورًا فقط",
+        "الحساس يتخذ دائمًا القرار وحده",
+        "الحساس يجمع معلومات، والنموذج يحللها ويحاول استخلاص استنتاجات"
       ],
       "correctAnswer": 3,
       "explanationHe": "חיישנים מספקים נתונים, והמודל משתמש בהם כדי לזהות דפוסים או לקבל החלטות.",
-      "explanationAr": "חיישנים מספקים נתונים, והמודל משתמש בהם כדי לזהות דפוסים או לקבל החלטות.",
+      "explanationAr": "الحساسات توفر بيانات، والنموذج يستخدمها لاكتشاف أنماط أو اتخاذ قرارات.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3571,7 +3571,7 @@ export const seed = {
       "companyId": "ibm",
       "type": "single",
       "textHe": "למה ארגון גדול צריך מערכת שמסוגלת לנתח הרבה מידע?",
-      "textAr": "למה ארגון גדול צריך מערכת שמסוגלת לנתח הרבה מידע?",
+      "textAr": "لماذا تحتاج مؤسسة كبيرة إلى نظام قادر على تحليل معلومات كثيرة؟",
       "optionsHe": [
         "כדי להסתיר את המידע מהעובדים",
         "כדי לבטל את הצורך באנשים",
@@ -3579,14 +3579,14 @@ export const seed = {
         "כדי שהמחשב יעבוד בלי חשמל"
       ],
       "optionsAr": [
-        "כדי להסתיר את המידע מהעובדים",
-        "כדי לבטל את הצורך באנשים",
-        "כדי למצוא דפוסים ולעזור בקבלת החלטות",
-        "כדי שהמחשב יעבוד בלי חשמל"
+        "لإخفاء المعلومات عن الموظفين",
+        "لإلغاء الحاجة إلى البشر",
+        "لإيجاد أنماط والمساعدة في اتخاذ قرارات",
+        "كي يعمل الحاسوب بدون كهرباء"
       ],
       "correctAnswer": 2,
       "explanationHe": "ניתוח מידע עוזר להבין בעיות, לזהות דפוסים ולקבל החלטות טובות יותר.",
-      "explanationAr": "ניתוח מידע עוזר להבין בעיות, לזהות דפוסים ולקבל החלטות טובות יותר.",
+      "explanationAr": "تحليل المعلومات يساعد على فهم المشكلات واكتشاف الأنماط واتخاذ قرارات أفضل.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3597,7 +3597,7 @@ export const seed = {
       "companyId": "ibm",
       "type": "single",
       "textHe": "מה חשוב לבדוק כשמערכת AI נותנת המלצה לארגון?",
-      "textAr": "מה חשוב לבדוק כשמערכת AI נותנת המלצה לארגון?",
+      "textAr": "ما المهم فحصه عندما يعطي نظام ذكاء اصطناعي توصية لمؤسسة؟",
       "optionsHe": [
         "אם היא כתבה את התשובה הכי מהר",
         "אם הצבע של המסך יפה",
@@ -3605,14 +3605,14 @@ export const seed = {
         "אם אפשר להעתיק בלי להבין"
       ],
       "optionsAr": [
-        "אם היא כתבה את התשובה הכי מהר",
-        "אם הצבע של המסך יפה",
-        "על איזה מידע היא הסתמכה והאם ההמלצה הגיונית",
-        "אם אפשר להעתיק בלי להבין"
+        "إذا كتبت الإجابة بسرعة أكبر",
+        "إذا كان لون الشاشة جميلًا",
+        "على أي معلومات اعتمدت وهل التوصية منطقية",
+        "إذا كان يمكن النسخ بدون فهم"
       ],
       "correctAnswer": 2,
       "explanationHe": "המלצה של AI צריכה להיות ניתנת לבדיקה ולהבנה, במיוחד בארגונים.",
-      "explanationAr": "המלצה של AI צריכה להיות ניתנת לבדיקה ולהבנה, במיוחד בארגונים.",
+      "explanationAr": "توصية الذكاء الاصطناعي يجب أن تكون قابلة للفحص والفهم، خصوصًا في المؤسسات.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3623,7 +3623,7 @@ export const seed = {
       "companyId": "ilanot",
       "type": "single",
       "textHe": "למה חשוב לפתוח הזדמנויות טכנולוגיות לקהלים שונים?",
-      "textAr": "למה חשוב לפתוח הזדמנויות טכנולוגיות לקהלים שונים?",
+      "textAr": "لماذا من المهم فتح فرص تكنولوجية لجماهير مختلفة؟",
       "optionsHe": [
         "כדי שרק קבוצה אחת תתקדם",
         "כדי לבטל בתי ספר",
@@ -3631,14 +3631,14 @@ export const seed = {
         "כי טכנולוגיה לא דורשת למידה"
       ],
       "optionsAr": [
-        "כדי שרק קבוצה אחת תתקדם",
-        "כדי לבטל בתי ספר",
-        "כדי לצמצם פערים ולאפשר ליותר אנשים להשתלב",
-        "כי טכנולוגיה לא דורשת למידה"
+        "كي تتقدم مجموعة واحدة فقط",
+        "لإلغاء المدارس",
+        "لتقليل الفجوات وتمكين أشخاص أكثر من الاندماج",
+        "لأن التكنولوجيا لا تحتاج تعلمًا"
       ],
       "correctAnswer": 2,
       "explanationHe": "נגישות ללמידה טכנולוגית יכולה לפתוח דלתות לעתיד.",
-      "explanationAr": "נגישות ללמידה טכנולוגית יכולה לפתוח דלתות לעתיד.",
+      "explanationAr": "إتاحة التعلم التكنولوجي يمكن أن تفتح أبوابًا للمستقبل.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3649,7 +3649,7 @@ export const seed = {
       "companyId": "ilanot",
       "type": "single",
       "textHe": "מה עוזר לתלמיד להיכנס לעולם טכנולוגי?",
-      "textAr": "מה עוזר לתלמיד להיכנס לעולם טכנולוגי?",
+      "textAr": "ما الذي يساعد الطالب على دخول عالم التكنولوجيا؟",
       "optionsHe": [
         "לדעת הכול מראש",
         "להימנע משאלות",
@@ -3657,14 +3657,14 @@ export const seed = {
         "להעתיק תשובות"
       ],
       "optionsAr": [
-        "לדעת הכול מראש",
-        "להימנע משאלות",
-        "סקרנות, תרגול, תמיכה והתנסות",
-        "להעתיק תשובות"
+        "معرفة كل شيء مسبقًا",
+        "تجنب الأسئلة",
+        "فضول، تدريب، دعم وتجربة",
+        "نسخ إجابات"
       ],
       "correctAnswer": 2,
       "explanationHe": "למידה טכנולוגית מתחילה מסקרנות והתנסות, לא מידע מושלם מראש.",
-      "explanationAr": "למידה טכנולוגית מתחילה מסקרנות והתנסות, לא מידע מושלם מראש.",
+      "explanationAr": "التعلم التكنولوجي يبدأ من الفضول والتجربة، وليس من معرفة كاملة مسبقًا.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3727,7 +3727,7 @@ export const seed = {
       "companyId": "intel",
       "type": "single",
       "textHe": "מה הקשר בין שבבים לבין AI?",
-      "textAr": "מה הקשר בין שבבים לבין AI?",
+      "textAr": "ما العلاقة بين الرقائق والذكاء الاصطناعي؟",
       "optionsHe": [
         "שבבים מריצים את החישובים שהמודל צריך",
         "שבבים כותבים את כל התוכן לבד",
@@ -3735,14 +3735,14 @@ export const seed = {
         "אין קשר בין שבבים ל-AI"
       ],
       "optionsAr": [
-        "שבבים מריצים את החישובים שהמודל צריך",
-        "שבבים כותבים את כל התוכן לבד",
-        "שבבים מחליפים את המשתמשים",
-        "אין קשר בין שבבים ל-AI"
+        "الرقائق تشغّل الحسابات التي يحتاجها النموذج",
+        "الرقائق تكتب كل المحتوى وحدها",
+        "الرقائق تستبدل المستخدمين",
+        "لا توجد علاقة بين الرقائق والذكاء الاصطناعي"
       ],
       "correctAnswer": 0,
       "explanationHe": "שבבים הם חלק מהחומרה שמריצה את החישובים הדרושים למערכות AI.",
-      "explanationAr": "שבבים הם חלק מהחומרה שמריצה את החישובים הדרושים למערכות AI.",
+      "explanationAr": "الرقائق جزء من العتاد الذي يشغّل الحسابات المطلوبة لأنظمة الذكاء الاصطناعي.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3753,7 +3753,7 @@ export const seed = {
       "companyId": "intel",
       "type": "single",
       "textHe": "למה חשוב שמערכות AI ירוצו על חומרה יעילה?",
-      "textAr": "למה חשוב שמערכות AI ירוצו על חומרה יעילה?",
+      "textAr": "لماذا من المهم أن تعمل أنظمة الذكاء الاصطناعي على عتاد فعّال؟",
       "optionsHe": [
         "כדי שלא נצטרך להגדיר מטרה",
         "כדי לחסוך זמן, אנרגיה ומשאבים",
@@ -3761,14 +3761,14 @@ export const seed = {
         "כדי שהמודל לא ישתמש בדאטה"
       ],
       "optionsAr": [
-        "כדי שלא נצטרך להגדיר מטרה",
-        "כדי לחסוך זמן, אנרגיה ומשאבים",
-        "כדי שכל תשובה תהיה נכונה",
-        "כדי שהמודל לא ישתמש בדאטה"
+        "كي لا نحتاج إلى تحديد هدف",
+        "لتوفير الوقت والطاقة والموارد",
+        "كي تكون كل إجابة صحيحة",
+        "كي لا يستخدم النموذج البيانات"
       ],
       "correctAnswer": 1,
       "explanationHe": "יעילות חומרה משפיעה על מהירות, עלות ויכולת להפעיל מערכות בקנה מידה רחב.",
-      "explanationAr": "יעילות חומרה משפיעה על מהירות, עלות ויכולת להפעיל מערכות בקנה מידה רחב.",
+      "explanationAr": "كفاءة العتاد تؤثر على السرعة والتكلفة والقدرة على تشغيل الأنظمة على نطاق واسع.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3779,7 +3779,7 @@ export const seed = {
       "companyId": "leidos",
       "type": "single",
       "textHe": "למה מערכות גדולות צריכות שילוב בין תוכנה, דאטה ותפעול?",
-      "textAr": "למה מערכות גדולות צריכות שילוב בין תוכנה, דאטה ותפעול?",
+      "textAr": "لماذا تحتاج الأنظمة الكبيرة إلى دمج بين البرمجيات والبيانات والتشغيل؟",
       "optionsHe": [
         "כי בעיות גדולות דורשות כמה חלקים שעובדים יחד",
         "כי מספיק רק רעיון יפה",
@@ -3787,14 +3787,14 @@ export const seed = {
         "כי דאטה לא חשוב"
       ],
       "optionsAr": [
-        "כי בעיות גדולות דורשות כמה חלקים שעובדים יחד",
-        "כי מספיק רק רעיון יפה",
-        "כי אין צורך בבדיקות",
-        "כי דאטה לא חשוב"
+        "لأن المشكلات الكبيرة تحتاج عدة أجزاء تعمل معًا",
+        "لأن فكرة جميلة وحدها تكفي",
+        "لأنه لا حاجة إلى فحوصات",
+        "لأن البيانات غير مهمة"
       ],
       "correctAnswer": 0,
       "explanationHe": "מערכת מורכבת כוללת רכיבים רבים שצריכים לתקשר ולעבוד יחד.",
-      "explanationAr": "מערכת מורכבת כוללת רכיבים רבים שצריכים לתקשר ולעבוד יחד.",
+      "explanationAr": "النظام المعقد يتضمن مكوّنات كثيرة يجب أن تتواصل وتعمل معًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3805,7 +3805,7 @@ export const seed = {
       "companyId": "leidos",
       "type": "single",
       "textHe": "מה חשוב לעשות לפני שמפעילים מערכת טכנולוגית גדולה?",
-      "textAr": "מה חשוב לעשות לפני שמפעילים מערכת טכנולוגית גדולה?",
+      "textAr": "ما المهم فعله قبل تشغيل نظام تكنولوجي كبير؟",
       "optionsHe": [
         "לשלוח אותה מיד לכל העולם",
         "להסתיר אותה מהמשתמשים",
@@ -3813,14 +3813,14 @@ export const seed = {
         "לבטל את תהליך הבדיקות"
       ],
       "optionsAr": [
-        "לשלוח אותה מיד לכל העולם",
-        "להסתיר אותה מהמשתמשים",
-        "לבדוק שהיא אמינה, בטוחה ומתאימה למטרה",
-        "לבטל את תהליך הבדיקות"
+        "إرسالها فورًا إلى كل العالم",
+        "إخفاؤها عن المستخدمين",
+        "فحص أنها موثوقة وآمنة وملائمة للهدف",
+        "إلغاء عملية الفحص"
       ],
       "correctAnswer": 2,
       "explanationHe": "מערכות גדולות דורשות בדיקות ותכנון כדי למנוע תקלות וסיכונים.",
-      "explanationAr": "מערכות גדולות דורשות בדיקות ותכנון כדי למנוע תקלות וסיכונים.",
+      "explanationAr": "الأنظمة الكبيرة تحتاج فحوصات وتخطيطًا لمنع الأعطال والمخاطر.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3857,7 +3857,7 @@ export const seed = {
       "companyId": "let-group-ltd-atmos",
       "type": "single",
       "textHe": "מהי פלטפורמה דיגיטלית?",
-      "textAr": "מהי פלטפורמה דיגיטלית?",
+      "textAr": "ما هي المنصة الرقمية؟",
       "optionsHe": [
         "קובץ תמונה בלבד",
         "מחשב בלי אינטרנט",
@@ -3865,14 +3865,14 @@ export const seed = {
         "שם אחר ללוגו"
       ],
       "optionsAr": [
-        "קובץ תמונה בלבד",
-        "מחשב בלי אינטרנט",
-        "מערכת שמחברת משתמשים, מידע או שירותים במקום אחד",
-        "שם אחר ללוגו"
+        "ملف صورة فقط",
+        "حاسوب بدون إنترنت",
+        "نظام يربط مستخدمين أو معلومات أو خدمات في مكان واحد",
+        "اسم آخر للشعار"
       ],
       "correctAnswer": 2,
       "explanationHe": "פלטפורמות דיגיטליות מרכזות פעולות או מידע ומאפשרות למשתמשים לעבוד בצורה נוחה.",
-      "explanationAr": "פלטפורמות דיגיטליות מרכזות פעולות או מידע ומאפשרות למשתמשים לעבוד בצורה נוחה.",
+      "explanationAr": "المنصات الرقمية تجمع عمليات أو معلومات وتتيح للمستخدمين العمل بسهولة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3883,7 +3883,7 @@ export const seed = {
       "companyId": "let-group-ltd-atmos",
       "type": "single",
       "textHe": "מה חשוב בפלטפורמה שמשרתת הרבה משתמשים?",
-      "textAr": "מה חשוב בפלטפורמה שמשרתת הרבה משתמשים?",
+      "textAr": "ما المهم في منصة تخدم عددًا كبيرًا من المستخدمين؟",
       "optionsHe": [
         "סדר, הרשאות, אבטחה וחוויית שימוש ברורה",
         "כמה שיותר כפתורים מוסתרים",
@@ -3891,14 +3891,14 @@ export const seed = {
         "ללא תיעוד"
       ],
       "optionsAr": [
-        "סדר, הרשאות, אבטחה וחוויית שימוש ברורה",
-        "כמה שיותר כפתורים מוסתרים",
-        "איסוף מידע בלי הסבר",
-        "ללא תיעוד"
+        "تنظيم، صلاحيات، أمان وتجربة استخدام واضحة",
+        "أكبر عدد ممكن من الأزرار المخفية",
+        "جمع معلومات بدون شرح",
+        "بدون توثيق"
       ],
       "correctAnswer": 0,
       "explanationHe": "פלטפורמה טובה צריכה להיות אמינה, בטוחה וקלה לשימוש.",
-      "explanationAr": "פלטפורמה טובה צריכה להיות אמינה, בטוחה וקלה לשימוש.",
+      "explanationAr": "المنصة الجيدة يجب أن تكون موثوقة وآمنة وسهلة الاستخدام.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -3987,7 +3987,7 @@ export const seed = {
       "companyId": "mdclone",
       "type": "single",
       "textHe": "למה קשה לעבוד עם דאטה רפואי?",
-      "textAr": "למה קשה לעבוד עם דאטה רפואי?",
+      "textAr": "لماذا من الصعب العمل مع بيانات طبية؟",
       "optionsHe": [
         "כי הוא תמיד לא נכון",
         "כי הוא רגיש, אישי וחייב להיות מוגן",
@@ -3995,14 +3995,14 @@ export const seed = {
         "כי הוא מתאים רק למשחקים"
       ],
       "optionsAr": [
-        "כי הוא תמיד לא נכון",
-        "כי הוא רגיש, אישי וחייב להיות מוגן",
-        "כי אין בו דפוסים",
-        "כי הוא מתאים רק למשחקים"
+        "لأنه دائمًا غير صحيح",
+        "لأنه حساس وشخصي ويجب حمايته",
+        "لأنه لا توجد فيه أنماط",
+        "لأنه مناسب للألعاب فقط"
       ],
       "correctAnswer": 1,
       "explanationHe": "מידע רפואי דורש פרטיות, אבטחה ושימוש אחראי.",
-      "explanationAr": "מידע רפואי דורש פרטיות, אבטחה ושימוש אחראי.",
+      "explanationAr": "المعلومات الطبية تحتاج خصوصية وأمانًا واستخدامًا مسؤولًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4013,7 +4013,7 @@ export const seed = {
       "companyId": "mdclone",
       "type": "single",
       "textHe": "מה היתרון בדאטה רפואי שמנוהל בצורה אחראית?",
-      "textAr": "מה היתרון בדאטה רפואי שמנוהל בצורה אחראית?",
+      "textAr": "ما فائدة البيانات الطبية عندما تُدار بمسؤولية؟",
       "optionsHe": [
         "אפשר לפרסם אותו לכל אחד",
         "אפשר ללמוד ממנו בלי לפגוע בפרטיות המטופלים",
@@ -4021,14 +4021,14 @@ export const seed = {
         "המודל תמיד יחליט לבד"
       ],
       "optionsAr": [
-        "אפשר לפרסם אותו לכל אחד",
-        "אפשר ללמוד ממנו בלי לפגוע בפרטיות המטופלים",
-        "לא צריך רופאים",
-        "המודל תמיד יחליט לבד"
+        "يمكن نشره لأي شخص",
+        "يمكن التعلم منه بدون المساس بخصوصية المرضى",
+        "لا حاجة إلى أطباء",
+        "النموذج سيقرر دائمًا وحده"
       ],
       "correctAnswer": 1,
       "explanationHe": "ניהול נכון מאפשר מחקר ושיפור שירותי בריאות תוך שמירה על פרטיות.",
-      "explanationAr": "ניהול נכון מאפשר מחקר ושיפור שירותי בריאות תוך שמירה על פרטיות.",
+      "explanationAr": "الإدارة الصحيحة تتيح البحث وتحسين خدمات الصحة مع الحفاظ على الخصوصية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4065,7 +4065,7 @@ export const seed = {
       "companyId": "microsoft",
       "type": "single",
       "textHe": "איך שירותי ענן יכולים לעזור לאפליקציית AI?",
-      "textAr": "איך שירותי ענן יכולים לעזור לאפליקציית AI?",
+      "textAr": "كيف يمكن لخدمات السحابة أن تساعد تطبيق ذكاء اصطناعي؟",
       "optionsHe": [
         "לגרום ל-AI להיות תמיד צודק",
         "לאפשר להרבה משתמשים לעבוד עם המערכת מכל מקום",
@@ -4073,14 +4073,14 @@ export const seed = {
         "להפוך כל טלפון לרובוט"
       ],
       "optionsAr": [
-        "לגרום ל-AI להיות תמיד צודק",
-        "לאפשר להרבה משתמשים לעבוד עם המערכת מכל מקום",
-        "לבטל את הצורך בסיסמאות",
-        "להפוך כל טלפון לרובוט"
+        "جعل الذكاء الاصطناعي دائمًا على حق",
+        "تمكين مستخدمين كثيرين من العمل مع النظام من أي مكان",
+        "إلغاء الحاجة إلى كلمات السر",
+        "تحويل كل هاتف إلى روبوت"
       ],
       "correctAnswer": 1,
       "explanationHe": "ענן מאפשר להריץ שירותים, לשמור מידע ולשרת משתמשים רבים דרך האינטרנט.",
-      "explanationAr": "ענן מאפשר להריץ שירותים, לשמור מידע ולשרת משתמשים רבים דרך האינטרנט.",
+      "explanationAr": "السحابة تتيح تشغيل خدمات وحفظ معلومات وخدمة مستخدمين كثيرين عبر الإنترنت.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4091,7 +4091,7 @@ export const seed = {
       "companyId": "microsoft",
       "type": "single",
       "textHe": "מה עדיין חייבים לעשות גם כשמשתמשים בכלי AI חזקים?",
-      "textAr": "מה עדיין חייבים לעשות גם כשמשתמשים בכלי AI חזקים?",
+      "textAr": "ماذا يجب أن نفعل أيضًا حتى عند استخدام أدوات ذكاء اصطناعي قوية؟",
       "optionsHe": [
         "לקבל כל תשובה בלי לחשוב",
         "לשתף מידע אישי",
@@ -4099,14 +4099,14 @@ export const seed = {
         "לבדוק דיוק, פרטיות והתאמה למטרה"
       ],
       "optionsAr": [
-        "לקבל כל תשובה בלי לחשוב",
-        "לשתף מידע אישי",
-        "להפסיק לשאול שאלות",
-        "לבדוק דיוק, פרטיות והתאמה למטרה"
+        "قبول كل إجابة بدون تفكير",
+        "مشاركة معلومات شخصية",
+        "التوقف عن طرح الأسئلة",
+        "فحص الدقة والخصوصية والملاءمة للهدف"
       ],
       "correctAnswer": 3,
       "explanationHe": "כלי AI יכולים לעזור מאוד, אבל הם עדיין דורשים בדיקה ושימוש אחראי.",
-      "explanationAr": "כלי AI יכולים לעזור מאוד, אבל הם עדיין דורשים בדיקה ושימוש אחראי.",
+      "explanationAr": "أدوات الذكاء الاصطناعي يمكن أن تساعد كثيرًا، لكنها ما زالت تحتاج فحصًا واستخدامًا مسؤولًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4117,7 +4117,7 @@ export const seed = {
       "companyId": "morphisec",
       "type": "single",
       "textHe": "למה חשוב לזהות תקיפה לפני שהיא גורמת נזק?",
-      "textAr": "למה חשוב לזהות תקיפה לפני שהיא גורמת נזק?",
+      "textAr": "لماذا من المهم اكتشاف الهجوم قبل أن يسبب ضررًا؟",
       "optionsHe": [
         "כדי להגדיל את הלוגו",
         "כדי לעצור אותה בזמן ולהגן על המערכת",
@@ -4125,14 +4125,14 @@ export const seed = {
         "כדי להאט את האפליקציה"
       ],
       "optionsAr": [
-        "כדי להגדיל את הלוגו",
-        "כדי לעצור אותה בזמן ולהגן על המערכת",
-        "כדי לא לשמור מידע",
-        "כדי להאט את האפליקציה"
+        "لتكبير الشعار",
+        "لإيقافها في الوقت المناسب وحماية النظام",
+        "كي لا نحفظ معلومات",
+        "لإبطاء التطبيق"
       ],
       "correctAnswer": 1,
       "explanationHe": "זיהוי מוקדם של תקיפות מאפשר להגיב לפני שנגרם נזק משמעותי.",
-      "explanationAr": "זיהוי מוקדם של תקיפות מאפשר להגיב לפני שנגרם נזק משמעותי.",
+      "explanationAr": "الاكتشاف المبكر للهجمات يتيح الرد قبل حدوث ضرر كبير.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4143,7 +4143,7 @@ export const seed = {
       "companyId": "morphisec",
       "type": "single",
       "textHe": "אם מחשב במערכת נדבק בתוכנה זדונית, מה הסיכון?",
-      "textAr": "אם מחשב במערכת נדבק בתוכנה זדונית, מה הסיכון?",
+      "textAr": "إذا أُصيب حاسوب في النظام ببرمجية خبيثة، ما الخطر؟",
       "optionsHe": [
         "המסך יהיה צבעוני יותר",
         "המשתמש יקבל יותר נקודות",
@@ -4151,14 +4151,14 @@ export const seed = {
         "AI יפסיק לטעות"
       ],
       "optionsAr": [
-        "המסך יהיה צבעוני יותר",
-        "המשתמש יקבל יותר נקודות",
-        "מידע עלול להיגנב או המערכת עלולה להיפגע",
-        "AI יפסיק לטעות"
+        "ستصبح الشاشة أكثر ألوانًا",
+        "سيحصل المستخدم على نقاط أكثر",
+        "قد تُسرق معلومات أو يتضرر النظام",
+        "سيتوقف الذكاء الاصطناعي عن الخطأ"
       ],
       "correctAnswer": 2,
       "explanationHe": "תוכנה זדונית יכולה לפגוע במידע, במשתמשים ובפעילות המערכת.",
-      "explanationAr": "תוכנה זדונית יכולה לפגוע במידע, במשתמשים ובפעילות המערכת.",
+      "explanationAr": "البرمجية الخبيثة قد تضر بالمعلومات والمستخدمين وعمل النظام.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4247,7 +4247,7 @@ export const seed = {
       "companyId": "nvidia",
       "type": "single",
       "textHe": "למה מערכות AI מתקדמות צריכות חומרה חזקה?",
-      "textAr": "למה מערכות AI מתקדמות צריכות חומרה חזקה?",
+      "textAr": "لماذا تحتاج أنظمة الذكاء الاصطناعي المتقدمة إلى عتاد قوي؟",
       "optionsHe": [
         "כדי שהמסך יהיה גדול יותר",
         "כדי למחוק מידע ישן",
@@ -4255,14 +4255,14 @@ export const seed = {
         "כדי שלא יהיה צורך בדאטה"
       ],
       "optionsAr": [
-        "כדי שהמסך יהיה גדול יותר",
-        "כדי למחוק מידע ישן",
-        "כדי לבצע הרבה חישובים ולעבד מידע במהירות",
-        "כדי שלא יהיה צורך בדאטה"
+        "كي تكون الشاشة أكبر",
+        "لحذف معلومات قديمة",
+        "لتنفيذ حسابات كثيرة ومعالجة المعلومات بسرعة",
+        "كي لا تكون هناك حاجة إلى البيانات"
       ],
       "correctAnswer": 2,
       "explanationHe": "מודלים של AI עובדים עם הרבה מידע וחישובים. חומרה חזקה מאפשרת להם לעבוד מהר ובקנה מידה גדול.",
-      "explanationAr": "מודלים של AI עובדים עם הרבה מידע וחישובים. חומרה חזקה מאפשרת להם לעבוד מהר ובקנה מידה גדול.",
+      "explanationAr": "نماذج الذكاء الاصطناعي تعمل مع معلومات وحسابات كثيرة. العتاد القوي يساعدها على العمل بسرعة وعلى نطاق واسع.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4273,7 +4273,7 @@ export const seed = {
       "companyId": "nvidia",
       "type": "single",
       "textHe": "מה יקרה למודל AI אם אין לו מספיק כוח עיבוד?",
-      "textAr": "מה יקרה למודל AI אם אין לו מספיק כוח עיבוד?",
+      "textAr": "ماذا سيحدث لنموذج ذكاء اصطناعي إذا لم تكن لديه قدرة معالجة كافية؟",
       "optionsHe": [
         "הוא תמיד יהיה מדויק יותר",
         "הוא לא יצטרך בדיקה",
@@ -4281,14 +4281,14 @@ export const seed = {
         "הוא עלול לעבוד לאט או לא להתמודד עם עומס משתמשים"
       ],
       "optionsAr": [
-        "הוא תמיד יהיה מדויק יותר",
-        "הוא לא יצטרך בדיקה",
-        "הוא יוכל ללמוד בלי מידע",
-        "הוא עלול לעבוד לאט או לא להתמודד עם עומס משתמשים"
+        "سيكون دائمًا أدق",
+        "لن يحتاج إلى فحص",
+        "سيستطيع التعلم بدون معلومات",
+        "قد يعمل ببطء أو لا يتعامل مع ضغط المستخدمين"
       ],
       "correctAnswer": 3,
       "explanationHe": "כוח עיבוד משפיע על מהירות, זמינות ויכולת להריץ מודלים גדולים.",
-      "explanationAr": "כוח עיבוד משפיע על מהירות, זמינות ויכולת להריץ מודלים גדולים.",
+      "explanationAr": "قدرة المعالجة تؤثر على السرعة والتوفر والقدرة على تشغيل نماذج كبيرة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4299,7 +4299,7 @@ export const seed = {
       "companyId": "nvidia",
       "type": "single",
       "textHe": "איזה רכיב במודל מתחזק בזכות NVIDIA?",
-      "textAr": "איזה רכיב במודל מתחזק בזכות NVIDIA?",
+      "textAr": "أي جزء في النموذج يتقوّى بفضل NVIDIA؟",
       "optionsHe": [
         "עיצוב לוגו",
         "יכולת חישוב והרצת מודלים",
@@ -4307,14 +4307,14 @@ export const seed = {
         "חללי עבודה"
       ],
       "optionsAr": [
-        "עיצוב לוגו",
-        "יכולת חישוב והרצת מודלים",
-        "משפטים וחוזים",
-        "חללי עבודה"
+        "تصميم شعار",
+        "قدرة حوسبة وتشغيل نماذج",
+        "قوانين وعقود",
+        "مساحات عمل"
       ],
       "correctAnswer": 1,
       "explanationHe": "החברה מייצגת יכולת חישוב חזקה שמאפשרת להפעיל מערכות AI מתקדמות.",
-      "explanationAr": "החברה מייצגת יכולת חישוב חזקה שמאפשרת להפעיל מערכות AI מתקדמות.",
+      "explanationAr": "تمثل الشركة قدرة حوسبة قوية تتيح تشغيل أنظمة ذكاء اصطناعي متقدمة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4325,7 +4325,7 @@ export const seed = {
       "companyId": "oracle",
       "type": "single",
       "textHe": "למה בסיס נתונים חשוב למערכת AI?",
-      "textAr": "למה בסיס נתונים חשוב למערכת AI?",
+      "textAr": "لماذا قاعدة البيانات مهمة لنظام ذكاء اصطناعي؟",
       "optionsHe": [
         "כי הוא מחליף את כל המשתמשים",
         "כי הוא בוחר צבעים לאפליקציה",
@@ -4333,14 +4333,14 @@ export const seed = {
         "כי הוא יוצר תמונות בלבד"
       ],
       "optionsAr": [
-        "כי הוא מחליף את כל המשתמשים",
-        "כי הוא בוחר צבעים לאפליקציה",
-        "כי הוא שומר ומארגן מידע שהמערכת צריכה",
-        "כי הוא יוצר תמונות בלבד"
+        "لأنه يستبدل كل المستخدمين",
+        "لأنه يختار ألوانًا للتطبيق",
+        "لأنه يحفظ وينظم المعلومات التي يحتاجها النظام",
+        "لأنه ينشئ صورًا فقط"
       ],
       "correctAnswer": 2,
       "explanationHe": "מערכת AI צריכה מידע מסודר ואמין כדי לפעול בצורה טובה.",
-      "explanationAr": "מערכת AI צריכה מידע מסודר ואמין כדי לפעול בצורה טובה.",
+      "explanationAr": "يحتاج نظام الذكاء الاصطناعي معلومات منظمة وموثوقة كي يعمل جيدًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4351,7 +4351,7 @@ export const seed = {
       "companyId": "oracle",
       "type": "single",
       "textHe": "מה עלול לקרות אם המידע במערכת לא מאורגן?",
-      "textAr": "מה עלול לקרות אם המידע במערכת לא מאורגן?",
+      "textAr": "ماذا قد يحدث إذا كانت المعلومات في النظام غير منظمة؟",
       "optionsHe": [
         "המודל יהיה יצירתי יותר בהכרח",
         "לא צריך אבטחה",
@@ -4359,14 +4359,14 @@ export const seed = {
         "קשה למצוא מידע נכון והמודל עלול לטעות"
       ],
       "optionsAr": [
-        "המודל יהיה יצירתי יותר בהכרח",
-        "לא צריך אבטחה",
-        "המשתמשים יקבלו תמיד אותה תשובה",
-        "קשה למצוא מידע נכון והמודל עלול לטעות"
+        "سيكون النموذج أكثر إبداعًا بالضرورة",
+        "لا حاجة إلى الأمان",
+        "سيحصل المستخدمون دائمًا على الإجابة نفسها",
+        "يصعب العثور على معلومات صحيحة وقد يخطئ النموذج"
       ],
       "correctAnswer": 3,
       "explanationHe": "דאטה לא מסודר מקשה על ניתוח ויכול לפגוע באיכות ההמלצות.",
-      "explanationAr": "דאטה לא מסודר מקשה על ניתוח ויכול לפגוע באיכות ההמלצות.",
+      "explanationAr": "البيانات غير المنظمة تصعّب التحليل وقد تضر بجودة التوصيات.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4429,7 +4429,7 @@ export const seed = {
       "companyId": "penta-drone",
       "type": "single",
       "textHe": "מה מיוחד ברחפן לעומת אפליקציה רגילה?",
-      "textAr": "מה מיוחד ברחפן לעומת אפליקציה רגילה?",
+      "textAr": "ما المميز في الطائرة المسيّرة مقارنة بتطبيق عادي؟",
       "optionsHe": [
         "רחפן לא צריך תוכנה",
         "רחפן עובד בלי חיישנים",
@@ -4437,14 +4437,14 @@ export const seed = {
         "רחפן לא יכול לטעות"
       ],
       "optionsAr": [
-        "רחפן לא צריך תוכנה",
-        "רחפן עובד בלי חיישנים",
-        "רחפן פועל בעולם הפיזי ולכן צריך בטיחות ושליטה מדויקת",
-        "רחפן לא יכול לטעות"
+        "الطائرة المسيّرة لا تحتاج برمجيات",
+        "الطائرة المسيّرة تعمل بدون حساسات",
+        "الطائرة المسيّرة تعمل في العالم المادي ولذلك تحتاج سلامة وتحكمًا دقيقًا",
+        "الطائرة المسيّرة لا يمكن أن تخطئ"
       ],
       "correctAnswer": 2,
       "explanationHe": "מערכות פיזיות כמו רחפנים דורשות תכנון, חיישנים ובטיחות גבוהה.",
-      "explanationAr": "מערכות פיזיות כמו רחפנים דורשות תכנון, חיישנים ובטיחות גבוהה.",
+      "explanationAr": "الأنظمة المادية مثل الطائرات المسيّرة تحتاج تخطيطًا وحساسات وسلامة عالية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4455,7 +4455,7 @@ export const seed = {
       "companyId": "penta-drone",
       "type": "single",
       "textHe": "איך AI יכול לעזור לרחפן?",
-      "textAr": "איך AI יכול לעזור לרחפן?",
+      "textAr": "كيف يمكن للذكاء الاصطناعي أن يساعد الطائرة المسيّرة؟",
       "optionsHe": [
         "לבטל את כוח הכבידה",
         "לנתח מידע מחיישנים ולעזור להבין את הסביבה",
@@ -4463,14 +4463,14 @@ export const seed = {
         "לעבוד בלי אנרגיה"
       ],
       "optionsAr": [
-        "לבטל את כוח הכבידה",
-        "לנתח מידע מחיישנים ולעזור להבין את הסביבה",
-        "להחליף את כל החוקים",
-        "לעבוד בלי אנרגיה"
+        "إلغاء الجاذبية",
+        "تحليل معلومات من الحساسات والمساعدة في فهم البيئة",
+        "استبدال كل القوانين",
+        "العمل بدون طاقة"
       ],
       "correctAnswer": 1,
       "explanationHe": "AI יכול לעזור בזיהוי עצמים, ניווט וניתוח סביבה.",
-      "explanationAr": "AI יכול לעזור בזיהוי עצמים, ניווט וניתוח סביבה.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد في التعرف على الأجسام والملاحة وتحليل البيئة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4481,7 +4481,7 @@ export const seed = {
       "companyId": "pwc-israel",
       "type": "single",
       "textHe": "למה ארגון יכול להיעזר ביועצים טכנולוגיים?",
-      "textAr": "למה ארגון יכול להיעזר ביועצים טכנולוגיים?",
+      "textAr": "لماذا يمكن لمؤسسة أن تستعين بمستشارين تكنولوجيين؟",
       "optionsHe": [
         "כדי לבחור פתרון מתאים ולנהל שינוי נכון",
         "כדי לא להבין את הבעיה",
@@ -4489,14 +4489,14 @@ export const seed = {
         "כדי שכל מערכת תהיה משחק"
       ],
       "optionsAr": [
-        "כדי לבחור פתרון מתאים ולנהל שינוי נכון",
-        "כדי לא להבין את הבעיה",
-        "כדי להפסיק לבדוק תוצאות",
-        "כדי שכל מערכת תהיה משחק"
+        "لاختيار حل مناسب وإدارة التغيير بشكل صحيح",
+        "كي لا نفهم المشكلة",
+        "للتوقف عن فحص النتائج",
+        "كي يكون كل نظام لعبة"
       ],
       "correctAnswer": 0,
       "explanationHe": "ייעוץ עוזר לארגונים לתכנן, לבדוק סיכונים וליישם פתרונות.",
-      "explanationAr": "ייעוץ עוזר לארגונים לתכנן, לבדוק סיכונים וליישם פתרונות.",
+      "explanationAr": "الاستشارة تساعد المؤسسات على التخطيط وفحص المخاطر وتطبيق الحلول.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4507,7 +4507,7 @@ export const seed = {
       "companyId": "pwc-israel",
       "type": "single",
       "textHe": "מה חשוב לעשות לפני שמכניסים AI לארגון?",
-      "textAr": "מה חשוב לעשות לפני שמכניסים AI לארגון?",
+      "textAr": "ما المهم فعله قبل إدخال الذكاء الاصطناعي إلى مؤسسة؟",
       "optionsHe": [
         "להוסיף AI לכל מסך",
         "לא לשאול עובדים",
@@ -4515,14 +4515,14 @@ export const seed = {
         "להבין מטרה, סיכונים, מידע ומשתמשים"
       ],
       "optionsAr": [
-        "להוסיף AI לכל מסך",
-        "לא לשאול עובדים",
-        "למחוק נהלים",
-        "להבין מטרה, סיכונים, מידע ומשתמשים"
+        "إضافة ذكاء اصطناعي إلى كل شاشة",
+        "عدم سؤال الموظفين",
+        "حذف الإجراءات",
+        "فهم الهدف والمخاطر والمعلومات والمستخدمين"
       ],
       "correctAnswer": 3,
       "explanationHe": "שימוש ב-AI דורש תכנון, מדיניות והבנת הצורך.",
-      "explanationAr": "שימוש ב-AI דורש תכנון, מדיניות והבנת הצורך.",
+      "explanationAr": "استخدام الذكاء الاصطناعي يحتاج تخطيطًا وسياسة وفهمًا للحاجة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4533,7 +4533,7 @@ export const seed = {
       "companyId": "rad",
       "type": "single",
       "textHe": "למה רשת תקשורת יציבה חשובה למערכת AI?",
-      "textAr": "למה רשת תקשורת יציבה חשובה למערכת AI?",
+      "textAr": "لماذا شبكة اتصال مستقرة مهمة لنظام ذكاء اصطناعي؟",
       "optionsHe": [
         "כי AI לא צריך מידע",
         "כי רשת מחליפה דאטה",
@@ -4541,14 +4541,14 @@ export const seed = {
         "כי היא מבטלת טעויות"
       ],
       "optionsAr": [
-        "כי AI לא צריך מידע",
-        "כי רשת מחליפה דאטה",
-        "כי מידע צריך לעבור בין משתמשים, שרתים ומערכות",
-        "כי היא מבטלת טעויות"
+        "لأن الذكاء الاصطناعي لا يحتاج معلومات",
+        "لأن الشبكة تستبدل البيانات",
+        "لأن المعلومات يجب أن تنتقل بين المستخدمين والخوادم والأنظمة",
+        "لأنها تلغي الأخطاء"
       ],
       "correctAnswer": 2,
       "explanationHe": "מערכות דיגיטליות רבות תלויות בהעברת מידע מהירה ויציבה.",
-      "explanationAr": "מערכות דיגיטליות רבות תלויות בהעברת מידע מהירה ויציבה.",
+      "explanationAr": "كثير من الأنظمة الرقمية تعتمد على نقل معلومات سريع ومستقر.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4559,7 +4559,7 @@ export const seed = {
       "companyId": "rad",
       "type": "single",
       "textHe": "מה יכול לקרות אם הרשת לא יציבה בזמן פעילות דיגיטלית?",
-      "textAr": "מה יכול לקרות אם הרשת לא יציבה בזמן פעילות דיגיטלית?",
+      "textAr": "ماذا قد يحدث إذا لم تكن الشبكة مستقرة أثناء نشاط رقمي؟",
       "optionsHe": [
         "תשובות לא יישמרו או שהמערכת תתנתק",
         "כל התשובות יהיו נכונות",
@@ -4567,14 +4567,14 @@ export const seed = {
         "המודל ילמד מהר יותר"
       ],
       "optionsAr": [
-        "תשובות לא יישמרו או שהמערכת תתנתק",
-        "כל התשובות יהיו נכונות",
-        "לא יהיה צורך במדריך",
-        "המודל ילמד מהר יותר"
+        "قد لا تُحفظ الإجابات أو قد ينقطع النظام",
+        "ستكون كل الإجابات صحيحة",
+        "لن تكون هناك حاجة إلى المرشد",
+        "سيتعلم النموذج بسرعة أكبر"
       ],
       "correctAnswer": 0,
       "explanationHe": "חיבור לא יציב פוגע בחוויית המשתמש ובאמינות המערכת.",
-      "explanationAr": "חיבור לא יציב פוגע בחוויית המשתמש ובאמינות המערכת.",
+      "explanationAr": "الاتصال غير المستقر يضر بتجربة المستخدم وبموثوقية النظام.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4585,7 +4585,7 @@ export const seed = {
       "companyId": "rafael",
       "type": "single",
       "textHe": "למה אמינות חשובה במיוחד במערכת טכנולוגית קריטית?",
-      "textAr": "למה אמינות חשובה במיוחד במערכת טכנולוגית קריטית?",
+      "textAr": "لماذا الموثوقية مهمة جدًا في نظام تكنولوجي حرج؟",
       "optionsHe": [
         "כי אמינות קשורה רק לעיצוב",
         "כי מערכת קריטית לא משתמשת בדאטה",
@@ -4593,14 +4593,14 @@ export const seed = {
         "כי אין צורך בבני אדם"
       ],
       "optionsAr": [
-        "כי אמינות קשורה רק לעיצוב",
-        "כי מערכת קריטית לא משתמשת בדאטה",
-        "כי תקלה עלולה להשפיע על אנשים או משימה חשובה",
-        "כי אין צורך בבני אדם"
+        "لأن الموثوقية مرتبطة بالتصميم فقط",
+        "لأن النظام الحرج لا يستخدم البيانات",
+        "لأن العطل قد يؤثر على أشخاص أو على مهمة مهمة",
+        "لأنه لا حاجة إلى البشر"
       ],
       "correctAnswer": 2,
       "explanationHe": "מערכות קריטיות חייבות לעבוד בצורה מדויקת ובטוחה.",
-      "explanationAr": "מערכות קריטיות חייבות לעבוד בצורה מדויקת ובטוחה.",
+      "explanationAr": "الأنظمة الحرجة يجب أن تعمل بدقة وأمان.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4611,7 +4611,7 @@ export const seed = {
       "companyId": "rafael",
       "type": "single",
       "textHe": "איזה עיקרון מתאים למערכת AI בתחום רגיש?",
-      "textAr": "איזה עיקרון מתאים למערכת AI בתחום רגיש?",
+      "textAr": "أي مبدأ يناسب نظام ذكاء اصطناعي في مجال حساس؟",
       "optionsHe": [
         "מהירות בלבד",
         "בדיקות, הסבר ובקרה אנושית",
@@ -4619,14 +4619,14 @@ export const seed = {
         "איסוף מידע בלי הסכמה"
       ],
       "optionsAr": [
-        "מהירות בלבד",
-        "בדיקות, הסבר ובקרה אנושית",
-        "החלטה אוטומטית בלי בדיקה",
-        "איסוף מידע בלי הסכמה"
+        "السرعة فقط",
+        "فحوصات، شرح ورقابة بشرية",
+        "قرار تلقائي بدون فحص",
+        "جمع معلومات بدون موافقة"
       ],
       "correctAnswer": 1,
       "explanationHe": "תחומים רגישים דורשים אחריות, שקיפות ובדיקות.",
-      "explanationAr": "תחומים רגישים דורשים אחריות, שקיפות ובדיקות.",
+      "explanationAr": "المجالات الحساسة تحتاج مسؤولية وشفافية وفحوصات.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4741,7 +4741,7 @@ export const seed = {
       "companyId": "ribbon",
       "type": "single",
       "textHe": "מה המשמעות של תקשורת בין מערכות?",
-      "textAr": "מה המשמעות של תקשורת בין מערכות?",
+      "textAr": "ما معنى التواصل بين الأنظمة؟",
       "optionsHe": [
         "מערכות שונות מעבירות ביניהן מידע בצורה מסודרת",
         "כל מערכת עובדת לבד בלי קשר",
@@ -4749,14 +4749,14 @@ export const seed = {
         "רק בני אדם מדברים"
       ],
       "optionsAr": [
-        "מערכות שונות מעבירות ביניהן מידע בצורה מסודרת",
-        "כל מערכת עובדת לבד בלי קשר",
-        "אין צורך בפרוטוקולים",
-        "רק בני אדם מדברים"
+        "أنظمة مختلفة تنقل المعلومات فيما بينها بشكل منظم",
+        "كل نظام يعمل وحده بدون ارتباط",
+        "لا حاجة إلى بروتوكولات",
+        "البشر فقط يتحدثون"
       ],
       "correctAnswer": 0,
       "explanationHe": "מערכות טכנולוגיות צריכות להעביר מידע זו לזו בצורה בטוחה וברורה.",
-      "explanationAr": "מערכות טכנולוגיות צריכות להעביר מידע זו לזו בצורה בטוחה וברורה.",
+      "explanationAr": "الأنظمة التكنولوجية يجب أن تنقل المعلومات فيما بينها بطريقة آمنة وواضحة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4767,7 +4767,7 @@ export const seed = {
       "companyId": "ribbon",
       "type": "single",
       "textHe": "למה תקשורת בין מערכות צריכה להיות גם מאובטחת?",
-      "textAr": "למה תקשורת בין מערכות צריכה להיות גם מאובטחת?",
+      "textAr": "لماذا يجب أن يكون التواصل بين الأنظمة آمنًا أيضًا؟",
       "optionsHe": [
         "כי מידע שעובר בין מערכות עלול להיות רגיש",
         "כי אבטחה מאטה הכול בלי סיבה",
@@ -4775,14 +4775,14 @@ export const seed = {
         "כי כל מידע מותר לפרסום"
       ],
       "optionsAr": [
-        "כי מידע שעובר בין מערכות עלול להיות רגיש",
-        "כי אבטחה מאטה הכול בלי סיבה",
-        "כי תקשורת לא קשורה למידע",
-        "כי כל מידע מותר לפרסום"
+        "لأن المعلومات التي تنتقل بين الأنظمة قد تكون حساسة",
+        "لأن الأمان يبطئ كل شيء بدون سبب",
+        "لأن الاتصال لا علاقة له بالمعلومات",
+        "لأن كل المعلومات مسموح نشرها"
       ],
       "correctAnswer": 0,
       "explanationHe": "מידע שעובר ברשת צריך להיות מוגן מפני גישה לא מורשית.",
-      "explanationAr": "מידע שעובר ברשת צריך להיות מוגן מפני גישה לא מורשית.",
+      "explanationAr": "المعلومات التي تنتقل في الشبكة يجب أن تكون محمية من الوصول غير المصرّح.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -4975,7 +4975,7 @@ export const seed = {
       "companyId": "siraj",
       "type": "single",
       "textHe": "מה הצעד הראשון כשבונים פתרון טכנולוגי?",
-      "textAr": "מה הצעד הראשון כשבונים פתרון טכנולוגי?",
+      "textAr": "ما الخطوة الأولى عند بناء حل تكنولوجي؟",
       "optionsHe": [
         "לבחור צבעים בלבד",
         "להבין איזו בעיה פותרים ולמי",
@@ -4983,14 +4983,14 @@ export const seed = {
         "להוסיף AI לכל דבר"
       ],
       "optionsAr": [
-        "לבחור צבעים בלבד",
-        "להבין איזו בעיה פותרים ולמי",
-        "לכתוב קוד בלי תכנון",
-        "להוסיף AI לכל דבר"
+        "اختيار ألوان فقط",
+        "فهم أي مشكلة نحل ولمن",
+        "كتابة كود بدون تخطيط",
+        "إضافة ذكاء اصطناعي إلى كل شيء"
       ],
       "correctAnswer": 1,
       "explanationHe": "מוצר טוב מתחיל מהבנת הבעיה והמשתמשים.",
-      "explanationAr": "מוצר טוב מתחיל מהבנת הבעיה והמשתמשים.",
+      "explanationAr": "المنتج الجيد يبدأ من فهم المشكلة والمستخدمين.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5001,7 +5001,7 @@ export const seed = {
       "companyId": "siraj",
       "type": "single",
       "textHe": "למה לא נכון להוסיף AI למוצר רק כדי שיהיה חדשני?",
-      "textAr": "למה לא נכון להוסיף AI למוצר רק כדי שיהיה חדשני?",
+      "textAr": "لماذا ليس صحيحًا إضافة الذكاء الاصطناعي إلى منتج فقط ليبدو مبتكرًا؟",
       "optionsHe": [
         "כי AI צריך לפתור צורך אמיתי",
         "כי AI תמיד אסור",
@@ -5009,14 +5009,14 @@ export const seed = {
         "כי מוצר לא צריך מטרה"
       ],
       "optionsAr": [
-        "כי AI צריך לפתור צורך אמיתי",
-        "כי AI תמיד אסור",
-        "כי משתמשים לא אוהבים טכנולוגיה",
-        "כי מוצר לא צריך מטרה"
+        "لأن الذكاء الاصطناعي يجب أن يحل حاجة حقيقية",
+        "لأن الذكاء الاصطناعي ممنوع دائمًا",
+        "لأن المستخدمين لا يحبون التكنولوجيا",
+        "لأن المنتج لا يحتاج هدفًا"
       ],
       "correctAnswer": 0,
       "explanationHe": "AI צריך להוסיף ערך, לא להיות קישוט.",
-      "explanationAr": "AI צריך להוסיף ערך, לא להיות קישוט.",
+      "explanationAr": "يجب أن يضيف الذكاء الاصطناعي قيمة، لا أن يكون مجرد زينة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5105,7 +5105,7 @@ export const seed = {
       "companyId": "spark-marketing-il",
       "type": "single",
       "textHe": "למה מוצר טכנולוגי צריך גם שיווק?",
-      "textAr": "למה מוצר טכנולוגי צריך גם שיווק?",
+      "textAr": "لماذا يحتاج المنتج التكنولوجي أيضًا إلى تسويق؟",
       "optionsHe": [
         "כי שיווק מחליף מוצר",
         "כי אין צורך במשתמשים",
@@ -5113,14 +5113,14 @@ export const seed = {
         "כי AI עושה שיווק בלי בדיקה"
       ],
       "optionsAr": [
-        "כי שיווק מחליף מוצר",
-        "כי אין צורך במשתמשים",
-        "כדי שאנשים יבינו מה הוא עושה ולמה להשתמש בו",
-        "כי AI עושה שיווק בלי בדיקה"
+        "لأن التسويق يستبدل المنتج",
+        "لأنه لا حاجة إلى المستخدمين",
+        "كي يفهم الناس ماذا يفعل ولماذا يستخدمونه",
+        "لأن الذكاء الاصطناعي يقوم بالتسويق بدون فحص"
       ],
       "correctAnswer": 2,
       "explanationHe": "גם מוצר טוב צריך הסבר ברור לקהל היעד.",
-      "explanationAr": "גם מוצר טוב צריך הסבר ברור לקהל היעד.",
+      "explanationAr": "حتى المنتج الجيد يحتاج شرحًا واضحًا للجمهور المستهدف.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5131,7 +5131,7 @@ export const seed = {
       "companyId": "spark-marketing-il",
       "type": "single",
       "textHe": "מה חשוב לבדוק במסר שיווקי שנוצר בעזרת AI?",
-      "textAr": "מה חשוב לבדוק במסר שיווקי שנוצר בעזרת AI?",
+      "textAr": "ما المهم فحصه في رسالة تسويقية أُنشئت بمساعدة الذكاء الاصطناعي؟",
       "optionsHe": [
         "שהוא הכי ארוך",
         "שהוא נכון, אמין ומתאים לקהל",
@@ -5139,14 +5139,14 @@ export const seed = {
         "שהוא לא קשור למוצר"
       ],
       "optionsAr": [
-        "שהוא הכי ארוך",
-        "שהוא נכון, אמין ומתאים לקהל",
-        "שהוא מסתיר מידע",
-        "שהוא לא קשור למוצר"
+        "أن تكون الأطول",
+        "أن يكون صحيحًا وموثوقًا وملائمًا للجمهور",
+        "أنه يخفي معلومات",
+        "أنها غير مرتبطة بالمنتج"
       ],
       "correctAnswer": 1,
       "explanationHe": "AI יכול לעזור לנסח, אבל אדם צריך לבדוק דיוק והתאמה.",
-      "explanationAr": "AI יכול לעזור לנסח, אבל אדם צריך לבדוק דיוק והתאמה.",
+      "explanationAr": "يمكن للذكاء الاصطناعي أن يساعد في الصياغة، لكن الإنسان يجب أن يفحص الدقة والملاءمة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5209,7 +5209,7 @@ export const seed = {
       "companyId": "taboola",
       "type": "single",
       "textHe": "מה עושה מערכת המלצות?",
-      "textAr": "מה עושה מערכת המלצות?",
+      "textAr": "ماذا يفعل نظام التوصيات؟",
       "optionsHe": [
         "מוחקת תכנים מהאינטרנט",
         "כותבת סיסמאות למשתמשים",
@@ -5217,14 +5217,14 @@ export const seed = {
         "מציעה תוכן או אפשרויות לפי דפוסים ותחומי עניין"
       ],
       "optionsAr": [
-        "מוחקת תכנים מהאינטרנט",
-        "כותבת סיסמאות למשתמשים",
-        "מצלמת לוגואים",
-        "מציעה תוכן או אפשרויות לפי דפוסים ותחומי עניין"
+        "تحذف محتويات من الإنترنت",
+        "تكتب كلمات سر للمستخدمين",
+        "تصوّر شعارات",
+        "تقترح محتوى أو خيارات حسب أنماط واهتمامات"
       ],
       "correctAnswer": 3,
       "explanationHe": "מערכות המלצה מנסות להתאים תוכן למשתמשים על בסיס מידע ודפוסים.",
-      "explanationAr": "מערכות המלצה מנסות להתאים תוכן למשתמשים על בסיס מידע ודפוסים.",
+      "explanationAr": "تحاول أنظمة التوصية ملاءمة المحتوى للمستخدمين بناءً على معلومات وأنماط.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5235,7 +5235,7 @@ export const seed = {
       "companyId": "taboola",
       "type": "single",
       "textHe": "מה הסיכון במערכת שממליצה תמיד על אותו סוג תוכן?",
-      "textAr": "מה הסיכון במערכת שממליצה תמיד על אותו סוג תוכן?",
+      "textAr": "ما الخطر في نظام يوصي دائمًا بنفس نوع المحتوى؟",
       "optionsHe": [
         "התוכן תמיד יהיה מדויק יותר",
         "המשתמש עלול להישאר בבועה ולא להיחשף לדברים חדשים",
@@ -5243,14 +5243,14 @@ export const seed = {
         "המערכת תפסיק להשתמש בדאטה"
       ],
       "optionsAr": [
-        "התוכן תמיד יהיה מדויק יותר",
-        "המשתמש עלול להישאר בבועה ולא להיחשף לדברים חדשים",
-        "לא יהיה צורך בפרטיות",
-        "המערכת תפסיק להשתמש בדאטה"
+        "سيكون المحتوى دائمًا أدق",
+        "قد يبقى المستخدم داخل فقاعة ولا يتعرض لأشياء جديدة",
+        "لن تكون هناك حاجة إلى الخصوصية",
+        "سيتوقف النظام عن استخدام البيانات"
       ],
       "correctAnswer": 1,
       "explanationHe": "מערכת המלצות טובה צריכה לשלב התאמה אישית עם גיוון ובקרה.",
-      "explanationAr": "מערכת המלצות טובה צריכה לשלב התאמה אישית עם גיוון ובקרה.",
+      "explanationAr": "نظام التوصيات الجيد يجب أن يجمع بين الملاءمة الشخصية والتنوع والرقابة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5261,7 +5261,7 @@ export const seed = {
       "companyId": "taboola",
       "type": "single",
       "textHe": "איך אפשר לשפר המלצה לתלמידים?",
-      "textAr": "איך אפשר לשפר המלצה לתלמידים?",
+      "textAr": "كيف يمكن تحسين توصية للطلاب؟",
       "optionsHe": [
         "להמליץ רק על מה שהכי פופולרי",
         "לא לשאול את התלמידים כלום",
@@ -5269,14 +5269,14 @@ export const seed = {
         "לשלב מידע רלוונטי, גיוון ובדיקה אנושית"
       ],
       "optionsAr": [
-        "להמליץ רק על מה שהכי פופולרי",
-        "לא לשאול את התלמידים כלום",
-        "להסתיר למה קיבלו המלצה",
-        "לשלב מידע רלוונטי, גיוון ובדיקה אנושית"
+        "التوصية فقط بما هو الأكثر شعبية",
+        "عدم سؤال الطلاب أي شيء",
+        "إخفاء سبب حصولهم على توصية",
+        "دمج معلومات ذات صلة وتنوع وفحص بشري"
       ],
       "correctAnswer": 3,
       "explanationHe": "המלצה טובה צריכה להיות מותאמת, מוסברת ולא חד־צדדית.",
-      "explanationAr": "המלצה טובה צריכה להיות מותאמת, מוסברת ולא חד־צדדית.",
+      "explanationAr": "التوصية الجيدة يجب أن تكون ملائمة ومفسّرة وليست من جهة واحدة فقط.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5287,7 +5287,7 @@ export const seed = {
       "companyId": "tap-mobile",
       "type": "single",
       "textHe": "למה חשוב לחשוב על מובייל כשבונים מוצר לתלמידים?",
-      "textAr": "למה חשוב לחשוב על מובייל כשבונים מוצר לתלמידים?",
+      "textAr": "لماذا من المهم التفكير في الهاتف المحمول عند بناء منتج للطلاب؟",
       "optionsHe": [
         "כי מחשבים כבר לא קיימים",
         "כי מובייל לא צריך עיצוב",
@@ -5295,14 +5295,14 @@ export const seed = {
         "כי הרבה תלמידים משתמשים בעיקר בטלפון"
       ],
       "optionsAr": [
-        "כי מחשבים כבר לא קיימים",
-        "כי מובייל לא צריך עיצוב",
-        "כי אפליקציה לא צריכה אבטחה",
-        "כי הרבה תלמידים משתמשים בעיקר בטלפון"
+        "لأن الحواسيب لم تعد موجودة",
+        "لأن الهاتف المحمول لا يحتاج تصميمًا",
+        "لأن التطبيق لا يحتاج أمانًا",
+        "لأن كثيرًا من الطلاب يستخدمون الهاتف أساسًا"
       ],
       "correctAnswer": 3,
       "explanationHe": "מוצר שמיועד לתלמידים צריך לעבוד טוב במסך קטן ובשימוש מהיר.",
-      "explanationAr": "מוצר שמיועד לתלמידים צריך לעבוד טוב במסך קטן ובשימוש מהיר.",
+      "explanationAr": "المنتج الموجّه للطلاب يجب أن يعمل جيدًا على شاشة صغيرة وفي استخدام سريع.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5313,7 +5313,7 @@ export const seed = {
       "companyId": "tap-mobile",
       "type": "single",
       "textHe": "מה יכול להפוך אפליקציית AI למתאימה יותר לטלפון?",
-      "textAr": "מה יכול להפוך אפליקציית AI למתאימה יותר לטלפון?",
+      "textAr": "ما الذي يمكن أن يجعل تطبيق ذكاء اصطناعي ملائمًا أكثر للهاتف؟",
       "optionsHe": [
         "טקסט ארוך מאוד בכל מסך",
         "הרבה חלונות קופצים",
@@ -5321,14 +5321,14 @@ export const seed = {
         "שאלות קצרות, כפתורים ברורים ושמירת התקדמות"
       ],
       "optionsAr": [
-        "טקסט ארוך מאוד בכל מסך",
-        "הרבה חלונות קופצים",
-        "חובה להקליד פרטים אישיים",
-        "שאלות קצרות, כפתורים ברורים ושמירת התקדמות"
+        "نص طويل جدًا في كل شاشة",
+        "كثير من النوافذ المنبثقة",
+        "إلزام بإدخال تفاصيل شخصية",
+        "أسئلة قصيرة، أزرار واضحة وحفظ التقدم"
       ],
       "correctAnswer": 3,
       "explanationHe": "מובייל דורש פשטות, מהירות וממשק ברור.",
-      "explanationAr": "מובייל דורש פשטות, מהירות וממשק ברור.",
+      "explanationAr": "الهاتف المحمول يتطلب بساطة وسرعة وواجهة واضحة.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5339,7 +5339,7 @@ export const seed = {
       "companyId": "tech19",
       "type": "single",
       "textHe": "למה חשוב לחשוף תלמידים לעולם הטכנולוגיה כבר בחטיבה?",
-      "textAr": "למה חשוב לחשוף תלמידים לעולם הטכנולוגיה כבר בחטיבה?",
+      "textAr": "لماذا من المهم تعريف الطلاب بعالم التكنولوجيا منذ المرحلة الإعدادية؟",
       "optionsHe": [
         "כדי לבחור מקצוע לכל החיים עכשיו",
         "כדי להפסיק ללמוד מקצועות אחרים",
@@ -5347,14 +5347,14 @@ export const seed = {
         "כדי שכולם יהיו מתכנתים"
       ],
       "optionsAr": [
-        "כדי לבחור מקצוע לכל החיים עכשיו",
-        "כדי להפסיק ללמוד מקצועות אחרים",
-        "כדי שיכירו אפשרויות ויתחילו לפתח מיומנויות",
-        "כדי שכולם יהיו מתכנתים"
+        "لاختيار مهنة لكل الحياة الآن",
+        "للتوقف عن تعلم مواضيع أخرى",
+        "كي يتعرفوا على إمكانيات ويبدأوا تطوير مهارات",
+        "كي يصبح الجميع مبرمجين"
       ],
       "correctAnswer": 2,
       "explanationHe": "חשיפה מוקדמת פותחת אפשרויות ומצמצמת פערים.",
-      "explanationAr": "חשיפה מוקדמת פותחת אפשרויות ומצמצמת פערים.",
+      "explanationAr": "التعرّف المبكر يفتح إمكانيات ويقلل الفجوات.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5365,7 +5365,7 @@ export const seed = {
       "companyId": "tech19",
       "type": "single",
       "textHe": "איזו מיומנות חשובה כמעט בכל תפקיד טכנולוגי?",
-      "textAr": "איזו מיומנות חשובה כמעט בכל תפקיד טכנולוגי?",
+      "textAr": "أي مهارة مهمة تقريبًا في كل وظيفة تكنولوجية؟",
       "optionsHe": [
         "יכולת ללמוד, לשאול שאלות ולעבוד בצוות",
         "לדעת הכול לבד",
@@ -5373,14 +5373,14 @@ export const seed = {
         "להעתיק תשובות"
       ],
       "optionsAr": [
-        "יכולת ללמוד, לשאול שאלות ולעבוד בצוות",
-        "לדעת הכול לבד",
-        "לעבוד בלי תקשורת",
-        "להעתיק תשובות"
+        "القدرة على التعلم وطرح الأسئلة والعمل ضمن فريق",
+        "معرفة كل شيء وحدك",
+        "العمل بدون تواصل",
+        "نسخ إجابات"
       ],
       "correctAnswer": 0,
       "explanationHe": "הייטק דורש למידה מתמשכת, חשיבה ושיתוף פעולה.",
-      "explanationAr": "הייטק דורש למידה מתמשכת, חשיבה ושיתוף פעולה.",
+      "explanationAr": "الهاي تك يحتاج تعلمًا مستمرًا وتفكيرًا وتعاونًا.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5391,7 +5391,7 @@ export const seed = {
       "companyId": "tech7",
       "type": "single",
       "textHe": "מה עוזר לרעיון להפוך לסטארטאפ?",
-      "textAr": "מה עוזר לרעיון להפוך לסטארטאפ?",
+      "textAr": "ما الذي يساعد الفكرة على أن تصبح ستارت أب؟",
       "optionsHe": [
         "שם מגניב בלבד",
         "לוגו יפה בלבד",
@@ -5399,14 +5399,14 @@ export const seed = {
         "בעיה אמיתית, צוות, משוב ותמיכה"
       ],
       "optionsAr": [
-        "שם מגניב בלבד",
-        "לוגו יפה בלבד",
-        "סודיות מוחלטת בלי בדיקה",
-        "בעיה אמיתית, צוות, משוב ותמיכה"
+        "اسم رائع فقط",
+        "شعار جميل فقط",
+        "سرية كاملة بدون فحص",
+        "مشكلة حقيقية، فريق، تغذية راجعة ودعم"
       ],
       "correctAnswer": 3,
       "explanationHe": "סטארטאפ צריך לפתור בעיה אמיתית ולהשתפר בעזרת אנשים ומשוב.",
-      "explanationAr": "סטארטאפ צריך לפתור בעיה אמיתית ולהשתפר בעזרת אנשים ומשוב.",
+      "explanationAr": "الستارت أب يجب أن يحل مشكلة حقيقية ويتحسن بمساعدة الناس والتغذية الراجعة.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5417,7 +5417,7 @@ export const seed = {
       "companyId": "tech7",
       "type": "single",
       "textHe": "למה קהילה חשובה ליזמים?",
-      "textAr": "למה קהילה חשובה ליזמים?",
+      "textAr": "لماذا المجتمع مهم للمبادرين؟",
       "optionsHe": [
         "כי יזמים לא צריכים משתמשים",
         "כי אפשר ללמוד, למצוא שותפים ולקבל משוב",
@@ -5425,14 +5425,14 @@ export const seed = {
         "כי רעיון טוב לא צריך בדיקה"
       ],
       "optionsAr": [
-        "כי יזמים לא צריכים משתמשים",
-        "כי אפשר ללמוד, למצוא שותפים ולקבל משוב",
-        "כי קהילה מחליפה מוצר",
-        "כי רעיון טוב לא צריך בדיקה"
+        "لأن المبادرين لا يحتاجون مستخدمين",
+        "لأنه يمكن التعلم والعثور على شركاء والحصول على ملاحظات",
+        "لأن المجتمع يستبدل المنتج",
+        "لأن الفكرة الجيدة لا تحتاج فحصًا"
       ],
       "correctAnswer": 1,
       "explanationHe": "קהילה תומכת עוזרת לרעיונות לצמוח.",
-      "explanationAr": "קהילה תומכת עוזרת לרעיונות לצמוח.",
+      "explanationAr": "المجتمع الداعم يساعد الأفكار على النمو.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5495,7 +5495,7 @@ export const seed = {
       "companyId": "weka",
       "type": "single",
       "textHe": "למה מערכות AI צריכות גישה מהירה לדאטה?",
-      "textAr": "למה מערכות AI צריכות גישה מהירה לדאטה?",
+      "textAr": "لماذا تحتاج أنظمة الذكاء الاصطناعي إلى وصول سريع للبيانات؟",
       "optionsHe": [
         "כדי לקרוא ולעבד מידע במהירות",
         "כדי להסתיר את התשובות",
@@ -5503,14 +5503,14 @@ export const seed = {
         "כדי לבטל בדיקות"
       ],
       "optionsAr": [
-        "כדי לקרוא ולעבד מידע במהירות",
-        "כדי להסתיר את התשובות",
-        "כדי לעבוד בלי מחשבים",
-        "כדי לבטל בדיקות"
+        "لقراءة المعلومات ومعالجتها بسرعة",
+        "لإخفاء الإجابات",
+        "للعمل بدون حواسيب",
+        "لإلغاء الفحوصات"
       ],
       "correctAnswer": 0,
       "explanationHe": "אם למערכת לוקח זמן רב להגיע למידע, גם המודל יעבוד לאט יותר.",
-      "explanationAr": "אם למערכת לוקח זמן רב להגיע למידע, גם המודל יעבוד לאט יותר.",
+      "explanationAr": "إذا احتاج النظام وقتًا طويلًا للوصول إلى المعلومات، فسيعمل النموذج ببطء أكثر أيضًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5521,7 +5521,7 @@ export const seed = {
       "companyId": "weka",
       "type": "single",
       "textHe": "איזו בעיה תשתית אחסון טובה יכולה לפתור?",
-      "textAr": "איזו בעיה תשתית אחסון טובה יכולה לפתור?",
+      "textAr": "ما المشكلة التي يمكن لبنية تخزين جيدة أن تحلها؟",
       "optionsHe": [
         "ניהול כמויות מידע גדולות",
         "כתיבת סלוגנים",
@@ -5529,14 +5529,14 @@ export const seed = {
         "צילום לוגו"
       ],
       "optionsAr": [
-        "ניהול כמויות מידע גדולות",
-        "כתיבת סלוגנים",
-        "בחירת שם צוות",
-        "צילום לוגו"
+        "إدارة كميات كبيرة من المعلومات",
+        "كتابة شعارات دعائية",
+        "اختيار اسم فريق",
+        "تصوير شعار"
       ],
       "correctAnswer": 0,
       "explanationHe": "תשתית אחסון טובה מאפשרת לשמור ולשלוף הרבה דאטה בצורה מהירה ואמינה.",
-      "explanationAr": "תשתית אחסון טובה מאפשרת לשמור ולשלוף הרבה דאטה בצורה מהירה ואמינה.",
+      "explanationAr": "بنية التخزين الجيدة تتيح حفظ واسترجاع الكثير من البيانات بسرعة وموثوقية.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5547,7 +5547,7 @@ export const seed = {
       "companyId": "wework",
       "type": "single",
       "textHe": "למה סטארטאפים צריכים לעיתים מרחב עבודה משותף?",
-      "textAr": "למה סטארטאפים צריכים לעיתים מרחב עבודה משותף?",
+      "textAr": "لماذا تحتاج الستارت أبات أحيانًا إلى مساحة عمل مشتركة؟",
       "optionsHe": [
         "כדי להימנע מכל שיתוף פעולה",
         "כדי שלא יצטרכו מוצר",
@@ -5555,14 +5555,14 @@ export const seed = {
         "כדי לעבוד, להיפגש, ללמוד מאחרים וליצור קשרים"
       ],
       "optionsAr": [
-        "כדי להימנע מכל שיתוף פעולה",
-        "כדי שלא יצטרכו מוצר",
-        "כדי למחוק את הצורך באינטרנט",
-        "כדי לעבוד, להיפגש, ללמוד מאחרים וליצור קשרים"
+        "لتجنب أي تعاون",
+        "كي لا يحتاجوا إلى منتج",
+        "لحذف الحاجة إلى الإنترنت",
+        "للعمل واللقاء والتعلم من الآخرين وبناء علاقات"
       ],
       "correctAnswer": 3,
       "explanationHe": "מרחב משותף יכול לעודד קהילה, חיבורים ועבודה יעילה.",
-      "explanationAr": "מרחב משותף יכול לעודד קהילה, חיבורים ועבודה יעילה.",
+      "explanationAr": "المساحة المشتركة يمكن أن تشجع المجتمع والروابط والعمل الفعّال.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5573,7 +5573,7 @@ export const seed = {
       "companyId": "wework",
       "type": "single",
       "textHe": "איך חלל עבודה יכול לעזור לרעיון להתקדם?",
-      "textAr": "איך חלל עבודה יכול לעזור לרעיון להתקדם?",
+      "textAr": "كيف يمكن لمساحة العمل أن تساعد الفكرة على التقدّم؟",
       "optionsHe": [
         "מפגיש אנשים, צוותים ומשקיעים פוטנציאליים",
         "מבטיח הצלחה בלי עבודה",
@@ -5581,14 +5581,14 @@ export const seed = {
         "מחליף לקוחות"
       ],
       "optionsAr": [
-        "מפגיש אנשים, צוותים ומשקיעים פוטנציאליים",
-        "מבטיח הצלחה בלי עבודה",
-        "כותב את הקוד לבד",
-        "מחליף לקוחות"
+        "يجمع أشخاصًا وفرقًا ومستثمرين محتملين",
+        "يضمن النجاح بدون عمل",
+        "يكتب الكود وحده",
+        "يستبدل الزبائن"
       ],
       "correctAnswer": 0,
       "explanationHe": "סביבה מתאימה יכולה לעזור לחיבורים וללמידה, אבל הרעיון עדיין דורש עבודה.",
-      "explanationAr": "סביבה מתאימה יכולה לעזור לחיבורים וללמידה, אבל הרעיון עדיין דורש עבודה.",
+      "explanationAr": "البيئة المناسبة يمكن أن تساعد في بناء الروابط والتعلم، لكن الفكرة ما زالت تحتاج عملًا.",
       "points": 8,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5599,7 +5599,7 @@ export const seed = {
       "companyId": "wix",
       "type": "single",
       "textHe": "למה גם מוצר AI חכם צריך מסך פשוט וברור?",
-      "textAr": "למה גם מוצר AI חכם צריך מסך פשוט וברור?",
+      "textAr": "لماذا يحتاج حتى منتج ذكاء اصطناعي ذكي إلى شاشة بسيطة وواضحة؟",
       "optionsHe": [
         "כי זה מחליף את הדאטה",
         "כי המשתמש צריך להבין מה לעשות ומה המערכת מציעה",
@@ -5607,14 +5607,14 @@ export const seed = {
         "כי AI לא עובד בלי תמונות"
       ],
       "optionsAr": [
-        "כי זה מחליף את הדאטה",
-        "כי המשתמש צריך להבין מה לעשות ומה המערכת מציעה",
-        "כי עיצוב יפה תמיד פותר הכול",
-        "כי AI לא עובד בלי תמונות"
+        "لأن ذلك يستبدل البيانات",
+        "لأن المستخدم يجب أن يفهم ماذا يفعل وماذا يقترح النظام",
+        "لأن التصميم الجميل يحل كل شيء دائمًا",
+        "لأن الذكاء الاصطناعي لا يعمل بدون صور"
       ],
       "correctAnswer": 1,
       "explanationHe": "חוויית משתמש טובה הופכת טכנולוגיה לכלי שאנשים באמת יכולים להשתמש בו.",
-      "explanationAr": "חוויית משתמש טובה הופכת טכנולוגיה לכלי שאנשים באמת יכולים להשתמש בו.",
+      "explanationAr": "تجربة المستخدم الجيدة تحول التكنولوجيا إلى أداة يستطيع الناس استخدامها فعلًا.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",
@@ -5625,7 +5625,7 @@ export const seed = {
       "companyId": "wix",
       "type": "single",
       "textHe": "מהו פיצ׳ר טוב באפליקציה לתלמידים?",
-      "textAr": "מהו פיצ׳ר טוב באפליקציה לתלמידים?",
+      "textAr": "ما هي ميزة جيدة في تطبيق للطلاب؟",
       "optionsHe": [
         "תפריט מוסתר שאי אפשר למצוא",
         "שאלה ארוכה בלי הסבר",
@@ -5633,14 +5633,14 @@ export const seed = {
         "איסוף מידע אישי בלי צורך"
       ],
       "optionsAr": [
-        "תפריט מוסתר שאי אפשר למצוא",
-        "שאלה ארוכה בלי הסבר",
-        "כפתור ברור שמסביר מה יקרה אחרי הלחיצה",
-        "איסוף מידע אישי בלי צורך"
+        "قائمة مخفية لا يمكن العثور عليها",
+        "سؤال طويل بدون شرح",
+        "زر واضح يشرح ماذا سيحدث بعد الضغط",
+        "جمع معلومات شخصية بدون حاجة"
       ],
       "correctAnswer": 2,
       "explanationHe": "מוצר טוב צריך להיות ברור, נגיש ומתאים לקהל היעד.",
-      "explanationAr": "מוצר טוב צריך להיות ברור, נגיש ומתאים לקהל היעד.",
+      "explanationAr": "المنتج الجيد يجب أن يكون واضحًا ومتاحًا وملائمًا للجمهور المستهدف.",
       "points": 10,
       "difficulty": "בינונית",
       "sourceUrl": "AI_Quest_Verified_Logos_Questions_HE.xlsx",

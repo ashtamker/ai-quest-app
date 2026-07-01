@@ -116,7 +116,7 @@ export class InstructorApp {
   }
 
   content(data, tr) {
-    if (this.filter === 'photos') return this.photos(data.pendingPhotos.length ? data.pendingPhotos : data.subs, data, tr);
+    if (this.filter === 'photos') return this.photos(data.pendingPhotos, data, tr);
     if (this.filter === 'invalid') return this.photos(data.invalidPhotos, data, tr);
     return `<section class="team-board">${data.visible.map(t => this.teamCard(t, data.cfg, tr, data.now || Date.now())).join('') || card(`<h2>${tr.emptyTitle}</h2><p>${tr.emptyHint}</p>`, 'empty-state')}</section>`;
   }

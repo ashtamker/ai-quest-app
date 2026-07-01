@@ -11,7 +11,7 @@
       "recommendation"
     ],
     "descriptionHe": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
-    "descriptionAr": "בריאות דיגיטלית / רפואה מותאמת. AI יכול לעזור להתאים טיפול או המלצה, אבל אדם מקצועי חייב לבדוק.",
+    "descriptionAr": "صحة رقمية / طب ملائم شخصيًا. يمكن للذكاء الاصطناعي أن يساعد في ملاءمة علاج أو توصية، لكن يجب على مختص فحص ذلك.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -29,7 +29,7 @@
   {
     "id": "ecosystem",
     "nameHe": "מרכז חדשנות",
-    "nameAr": "מרכז חדשנות",
+    "nameAr": "مركز الابتكار",
     "nameEn": "Innovation Center",
     "field": "אקוסיסטם",
     "level": 3,
@@ -38,7 +38,7 @@
       "ethics"
     ],
     "descriptionHe": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
-    "descriptionAr": "תחנת אקוסיסטם שמחברת חברות, תלמידים, יזמים וקהילה.",
+    "descriptionAr": "محطة منظومة تربط بين الشركات والطلاب والمبادرين والمجتمع.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "",
     "aliases": [
@@ -63,7 +63,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "שירותים משפטיים / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "خدمات قانونية / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -89,7 +89,7 @@
       "ability-item-eb7be6ac"
     ],
     "descriptionHe": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
-    "descriptionAr": "בריאות דיגיטלית. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "descriptionAr": "صحة رقمية. النموذج في مجال الصحة يحتاج معلومات جيدة وحماية عالية للخصوصية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -115,7 +115,7 @@
       "ability-item-b071ea70"
     ],
     "descriptionHe": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-    "descriptionAr": "תקשורת וקול. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "اتصال وصوت. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -141,7 +141,7 @@
       "ability-item-a1d1f0cf"
     ],
     "descriptionHe": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
-    "descriptionAr": "מסחור מחקר / אוניברסיטה. מחקר הופך רעיון לידע שאפשר לפתח ממנו פתרונות.",
+    "descriptionAr": "تسويق البحث / جامعة. البحث يحوّل الفكرة إلى معرفة يمكن تطوير حلول منها.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -167,7 +167,7 @@
       "ability-item-716e9d98"
     ],
     "descriptionHe": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
-    "descriptionAr": "ביוטק / בריאות. דאטה ומחקר יכולים לעזור למצוא דפוסים בעולם הבריאות.",
+    "descriptionAr": "بيوتك / صحة. البيانات والبحث يمكن أن يساعدا في إيجاد أنماط في عالم الصحة.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -192,7 +192,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "פיננסים / ניהול חברות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "تمويل / إدارة شركات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -218,7 +218,7 @@
       "ability-item-65ac5ed1"
     ],
     "descriptionHe": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
-    "descriptionAr": "רובוטיקה / אנרגיה / תפעול. AI יכול לעזור למערכות לפעול ביעילות בסביבה אמיתית.",
+    "descriptionAr": "روبوتات / طاقة / تشغيل. يمكن للذكاء الاصطناعي أن يساعد الأنظمة على العمل بكفاءة في بيئة حقيقية.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -244,7 +244,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "אקוסיסטם / שירותים עסקיים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "منظومة / خدمات تجارية. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -270,7 +270,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר / הכשרה / אמון דיגיטלי. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر / تدريب / ثقة رقمية. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -295,7 +295,7 @@
       "ability-item-50e42956"
     ],
     "descriptionHe": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
-    "descriptionAr": "מחקר סייבר / אקדמיה. מחקר עוזר להבין איומים חדשים ולפתח פתרונות טובים יותר.",
+    "descriptionAr": "بحث سايبر / أكاديمية. البحث يساعد على فهم تهديدات جديدة وتطوير حلول أفضل.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -321,7 +321,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר וזהויות. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر وهويات. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -349,7 +349,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר / מודיעין / אקוסיסטם. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر / استخبارات / منظومة. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -375,7 +375,7 @@
       "ability-item-97b35d53"
     ],
     "descriptionHe": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
-    "descriptionAr": "מדיה ותוכן. AI יכול לעזור לארגן, לחפש ולהמליץ על תוכן.",
+    "descriptionAr": "إعلام ومحتوى. يمكن للذكاء الاصطناعي أن يساعد في تنظيم المحتوى والبحث عنه والتوصية به.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -401,7 +401,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "חדשנות / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "ابتكار / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -426,7 +426,7 @@
       "ability-item-58accb02"
     ],
     "descriptionHe": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
-    "descriptionAr": "תשתיות מחשוב / שרתים. מודל AI צריך שרתים, אחסון וכוח מחשוב כדי לעבוד בקנה מידה גדול.",
+    "descriptionAr": "بنى حوسبة / خوادم. يحتاج نموذج الذكاء الاصطناعي إلى خوادم وتخزين وقوة حوسبة كي يعمل على نطاق واسع.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -452,7 +452,7 @@
       "ability-item-bffc19c3"
     ],
     "descriptionHe": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
-    "descriptionAr": "ביטחון / מערכות חכמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "descriptionAr": "أمن / أنظمة ذكية. يمكن للذكاء الاصطناعي أن يندمج في أنظمة متقدمة، لكنه يحتاج فحوصات ومسؤولية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -478,7 +478,7 @@
       "ability-item-67e30743"
     ],
     "descriptionHe": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
-    "descriptionAr": "אנרגיה / תשתיות. מערכות חכמות יכולות לעזור לנהל משאבים טוב יותר.",
+    "descriptionAr": "طاقة / بنى تحتية. الأنظمة الذكية يمكن أن تساعد في إدارة الموارد بشكل أفضل.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -503,7 +503,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "אקוסיסטם / חדשנות. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "منظومة / ابتكار. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -528,7 +528,7 @@
       "ability-item-942ce053"
     ],
     "descriptionHe": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
-    "descriptionAr": "פינטק / סייבר / חדשנות. מערכות כספיות צריכות אמון, הגנה ובדיקת סיכונים.",
+    "descriptionAr": "فينتك / سايبر / ابتكار. الأنظمة المالية تحتاج ثقة وحماية وفحص مخاطر.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -554,7 +554,7 @@
       "recommendation"
     ],
     "descriptionHe": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
-    "descriptionAr": "תיירות / פלטפורמה דיגיטלית. מוצר טוב משתמש במידע כדי לתת ערך למשתמש.",
+    "descriptionAr": "سياحة / منصة رقمية. المنتج الجيد يستخدم المعلومات كي يعطي قيمة للمستخدم.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -579,7 +579,7 @@
       "ability-ai"
     ],
     "descriptionHe": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
-    "descriptionAr": "AI / דאטה / ענן. מודל טוב צריך לזהות דפוסים במידע ולהסביר אותם בצורה שימושית.",
+    "descriptionAr": "ذكاء اصطناعي / بيانات / سحابة. النموذج الجيد يجب أن يكتشف أنماطًا في المعلومات ويشرحها بطريقة مفيدة.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -605,7 +605,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "منظومة / خدمات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -631,7 +631,7 @@
       "ability-item-5f4345de"
     ],
     "descriptionHe": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
-    "descriptionAr": "יזמות / חדשנות. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "descriptionAr": "مبادرة / ابتكار. الأفكار التكنولوجية تحتاج مجتمعًا ودعمًا وشركاء ومستثمرين.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -656,7 +656,7 @@
       "ability-item-36dd2639"
     ],
     "descriptionHe": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
-    "descriptionAr": "שבבים / חומרה. כוח החישוב של המודל תלוי גם בחומרה שמריצה אותו.",
+    "descriptionAr": "رقائق / عتاد. قدرة الحوسبة في النموذج تعتمد أيضًا على العتاد الذي يشغّله.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -682,7 +682,7 @@
       "ability-item-262e22d7"
     ],
     "descriptionHe": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
-    "descriptionAr": "מערכות טכנולוגיות / דאטה. פתרונות גדולים דורשים שילוב בין תוכנה, דאטה ותפעול.",
+    "descriptionAr": "أنظمة تكنولوجية / بيانات. الحلول الكبيرة تحتاج دمجًا بين البرمجيات والبيانات والتشغيل.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -708,7 +708,7 @@
       "product"
     ],
     "descriptionHe": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
-    "descriptionAr": "מוצר / שירות דיגיטלי. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "descriptionAr": "منتج / خدمة رقمية. يجب تحويل التكنولوجيا إلى حل واضح للمستخدم.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -733,7 +733,7 @@
       "product"
     ],
     "descriptionHe": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
-    "descriptionAr": "מוצר / פלטפורמה דיגיטלית. צריך להפוך טכנולוגיה לפתרון ברור למשתמש.",
+    "descriptionAr": "منتج / منصة رقمية. يجب تحويل التكنولوجيا إلى حل واضح للمستخدم.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -760,7 +760,7 @@
       "recommendation"
     ],
     "descriptionHe": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
-    "descriptionAr": "יצירה דיגיטלית / AI קריאייטיבי. AI יכול לעזור ליצור, אבל אדם עדיין בוחר סגנון, מסר ואחריות.",
+    "descriptionAr": "إبداع رقمي / ذكاء اصطناعي إبداعي. يمكن للذكاء الاصطناعي أن يساعد في الإبداع، لكن الإنسان ما زال يختار الأسلوب والرسالة والمسؤولية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -785,7 +785,7 @@
       "ability-item-57171461"
     ],
     "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-    "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "تكنولوجيا / خدمات. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -810,7 +810,7 @@
       "ability-item-eb7be6ac"
     ],
     "descriptionHe": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
-    "descriptionAr": "דאטה רפואי. מודל בתחום בריאות צריך מידע איכותי ושמירה גבוהה על פרטיות.",
+    "descriptionAr": "بيانات طبية. النموذج في مجال الصحة يحتاج معلومات جيدة وحماية عالية للخصوصية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -836,7 +836,7 @@
       "ability-item-57171461"
     ],
     "descriptionHe": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-    "descriptionAr": "טכנולוגיה / שירותים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "تكنولوجيا / خدمات. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -862,7 +862,7 @@
       "recommendation"
     ],
     "descriptionHe": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
-    "descriptionAr": "ענן / AI / תוכנה. כלי AI צריכים תשתית, שירותים ואבטחה כדי לעבוד להרבה משתמשים.",
+    "descriptionAr": "سحابة / ذكاء اصطناعي / برمجيات. أدوات الذكاء الاصطناعي تحتاج بنية تحتية وخدمات وأمانًا كي تعمل لمستخدمين كثيرين.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -888,7 +888,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -914,7 +914,7 @@
       "ability-item-34c0aea6"
     ],
     "descriptionHe": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
-    "descriptionAr": "הכשרה / חינוך טכנולוגי. צמצום פערים מתחיל בלמידה נגישה וברורה.",
+    "descriptionAr": "تدريب / تعليم تكنولوجي. تقليص الفجوات يبدأ بتعلم متاح وواضح.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -939,7 +939,7 @@
       "ability-item-6c90a3af"
     ],
     "descriptionHe": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
-    "descriptionAr": "בריאות / מדטק. AI יכול לעזור בניתוח מידע רפואי, אך לא מחליף אנשי מקצוע.",
+    "descriptionAr": "صحة / تكنولوجيا طبية. يمكن للذكاء الاصطناعي أن يساعد في تحليل المعلومات الطبية، لكنه لا يستبدل المختصين.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -964,7 +964,7 @@
       "ability-ai-68f0d"
     ],
     "descriptionHe": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
-    "descriptionAr": "AI / שבבים / כוח עיבוד. AI דורש הרבה חישובים ולכן צריך חומרה חזקה.",
+    "descriptionAr": "ذكاء اصطناعي / رقائق / قدرة معالجة. الذكاء الاصطناعي يحتاج حسابات كثيرة ولذلك يحتاج عتادًا قويًا.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -990,7 +990,7 @@
       "ability-item-da55b18a"
     ],
     "descriptionHe": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
-    "descriptionAr": "דאטה / בסיסי נתונים / ענן. מודל AI צריך מידע מאורגן ותשתית שמאפשרת לעבוד עליו.",
+    "descriptionAr": "بيانات / قواعد بيانات / سحابة. يحتاج نموذج الذكاء الاصطناعي معلومات منظمة وبنية تتيح العمل عليها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1016,7 +1016,7 @@
       "ability-item-6ecd9bfb"
     ],
     "descriptionHe": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
-    "descriptionAr": "פיתוח תוכנה. AI יכול לעזור למפתחים, אבל הקוד עדיין דורש בדיקה והבנה.",
+    "descriptionAr": "تطوير برمجيات. يمكن للذكاء الاصطناعي أن يساعد المطورين، لكن الكود ما زال يحتاج فحصًا وفهمًا.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1042,7 +1042,7 @@
       "ability-item-e5cef07a"
     ],
     "descriptionHe": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
-    "descriptionAr": "רחפנים / רובוטיקה. AI יכול לעזור למכונות לקבל החלטות בעולם הפיזי.",
+    "descriptionAr": "طائرات مسيّرة / روبوتات. يمكن للذكاء الاصطناعي أن يساعد الآلات على اتخاذ قرارات في العالم المادي.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1069,7 +1069,7 @@
       "ability-item-fb271243"
     ],
     "descriptionHe": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
-    "descriptionAr": "ייעוץ עסקי / טכנולוגי. יועצים עוזרים לארגונים לבחור פתרונות וליישם אותם נכון.",
+    "descriptionAr": "استشارة تجارية / تكنولوجية. المستشارون يساعدون المؤسسات على اختيار حلول وتطبيقها بشكل صحيح.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1095,7 +1095,7 @@
       "ability-item-b071ea70"
     ],
     "descriptionHe": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-    "descriptionAr": "תקשורת ותשתיות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "اتصال وبنى تحتية. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1121,7 +1121,7 @@
       "ability-item-bffc19c3"
     ],
     "descriptionHe": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
-    "descriptionAr": "ביטחון / מערכות מתקדמות. AI יכול להשתלב במערכות מתקדמות, אך דורש בדיקות ואחריות.",
+    "descriptionAr": "أمن / أنظمة متقدمة. يمكن للذكاء الاصطناعي أن يندمج في أنظمة متقدمة، لكنه يحتاج فحوصات ومسؤولية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1148,7 +1148,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "אקוסיסטם / שירותים. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "منظومة / خدمات. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1173,7 +1173,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר / אבטחת תוכנה. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر / أمن برمجيات. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1199,7 +1199,7 @@
       "ability-item-b071ea70"
     ],
     "descriptionHe": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
-    "descriptionAr": "תקשורת / רשתות. מערכות AI צריכות להעביר מידע בצורה יציבה ובטוחה.",
+    "descriptionAr": "اتصال / شبكات. أنظمة الذكاء الاصطناعي تحتاج نقل المعلومات بطريقة مستقرة وآمنة.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1225,7 +1225,7 @@
       "ability-item-a739e7d6"
     ],
     "descriptionHe": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
-    "descriptionAr": "סייבר. המודל צריך לדעת מי ניגש למידע ואיך שומרים עליו.",
+    "descriptionAr": "سايبر. يجب أن يعرف النموذج من يصل إلى المعلومات وكيف نحميها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1250,7 +1250,7 @@
       "ability-item-0d95f1a8"
     ],
     "descriptionHe": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
-    "descriptionAr": "סייבר תעשייתי / OT. מודל AI לא פועל רק במסך; לפעמים הוא קשור למערכות אמיתיות שצריך להגן עליהן.",
+    "descriptionAr": "سايبر صناعي / OT. نموذج الذكاء الاصطناعي لا يعمل فقط على الشاشة؛ أحيانًا يكون مرتبطًا بأنظمة حقيقية يجب حمايتها.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1275,7 +1275,7 @@
       "ability-item-f58da2d1"
     ],
     "descriptionHe": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
-    "descriptionAr": "ביטחון / סייבר / תוכנה. מערכות מורכבות צריכות הגנה, בדיקות ואחריות.",
+    "descriptionAr": "أمن / سايبر / برمجيات. الأنظمة المعقدة تحتاج حماية وفحوصات ومسؤولية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1300,7 +1300,7 @@
       "ability-it"
     ],
     "descriptionHe": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
-    "descriptionAr": "שירותי IT / תשתיות. כדי שמערכת תעבוד, צריך תחזוקה, אבטחה ותמיכה.",
+    "descriptionAr": "خدمات IT / بنى تحتية. كي يعمل النظام، نحتاج صيانة وأمانًا ودعمًا.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1325,7 +1325,7 @@
       "ability-item-57171461"
     ],
     "descriptionHe": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
-    "descriptionAr": "טכנולוגיה / שירותים דיגיטליים. תחום טכנולוגי שיכול להשתלב באקוסיסטם של הפארק.",
+    "descriptionAr": "تكنولوجيا / خدمات رقمية. مجال تكنولوجي يمكن أن يندمج في منظومة الحديقة.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1351,7 +1351,7 @@
       "ability-item-39b0ea36"
     ],
     "descriptionHe": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
-    "descriptionAr": "בריאות / מחקר רפואי. שילוב רפואה ודאטה יכול לשפר החלטות, אך דורש אחריות.",
+    "descriptionAr": "صحة / بحث طبي. دمج الطب والبيانات يمكن أن يحسن القرارات، لكنه يحتاج مسؤولية.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1376,7 +1376,7 @@
       "ability-item-acc94bca"
     ],
     "descriptionHe": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
-    "descriptionAr": "מוזיקה / שיווק דיגיטלי. AI יכול לעזור ליצור קמפיין, אך חייבים לבדוק שהמסר אמין ומתאים.",
+    "descriptionAr": "موسيقى / تسويق رقمي. يمكن للذكاء الاصطناعي أن يساعد في إنشاء حملة، لكن يجب فحص أن الرسالة موثوقة ومناسبة.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1401,7 +1401,7 @@
       "ability-item-091dd22e"
     ],
     "descriptionHe": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
-    "descriptionAr": "שיווק דיגיטלי. דאטה ו-AI יכולים לעזור להבין קהלים, אך אסור לפגוע בפרטיות.",
+    "descriptionAr": "تسويق رقمي. البيانات والذكاء الاصطناعي يمكن أن يساعدا في فهم الجماهير، لكن لا يجوز المساس بالخصوصية.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1427,7 +1427,7 @@
       "ability-item-c6c72da8"
     ],
     "descriptionHe": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
-    "descriptionAr": "תוכנה / אוטומציה. AI יכול לחסוך פעולות חוזרות, אך צריך להגדיר נכון את הכללים.",
+    "descriptionAr": "برمجيات / أتمتة. يمكن للذكاء الاصطناعي أن يوفر أعمالًا متكررة، لكن يجب تعريف القواعد بشكل صحيح.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1452,7 +1452,7 @@
       "recommendation"
     ],
     "descriptionHe": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
-    "descriptionAr": "המלצות תוכן / דאטה. מודל יכול להמליץ, אבל צריך להיזהר מבועה וממידע חלקי.",
+    "descriptionAr": "توصيات محتوى / بيانات. يمكن للنموذج أن يوصي، لكن يجب الحذر من الفقاعة ومن المعلومات الجزئية.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1478,7 +1478,7 @@
       "ability-item-85141a89"
     ],
     "descriptionHe": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
-    "descriptionAr": "מובייל / מוצר / משתמשים. הרבה פתרונות AI מגיעים למשתמש דרך אפליקציה פשוטה בטלפון.",
+    "descriptionAr": "موبايل / منتج / مستخدمون. كثير من حلول الذكاء الاصطناعي تصل إلى المستخدم عبر تطبيق بسيط في الهاتف.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1504,7 +1504,7 @@
       "ability-item-5f4345de"
     ],
     "descriptionHe": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
-    "descriptionAr": "אקוסיסטם סטארטאפים. רעיונות טכנולוגיים צריכים קהילה, תמיכה, שותפים ומשקיעים.",
+    "descriptionAr": "منظومة ستارت أبات. الأفكار التكنولوجية تحتاج مجتمعًا ودعمًا وشركاء ومستثمرين.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1531,7 +1531,7 @@
       "ability-item-28739596"
     ],
     "descriptionHe": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
-    "descriptionAr": "הכשרה / תעסוקה טכנולוגית. עוזר לחבר תלמידים ועובדים לעולם הטכנולוגי.",
+    "descriptionAr": "تدريب / تشغيل تكنولوجي. يساعد في ربط الطلاب والعاملين بعالم التكنولوجيا.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1558,7 +1558,7 @@
       "product"
     ],
     "descriptionHe": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
-    "descriptionAr": "דיגיטל / מוצר אונליין. הערך מגיע כשמחברים טכנולוגיה לצורך אמיתי.",
+    "descriptionAr": "رقمي / منتج أونلاين. القيمة تأتي عندما نربط التكنولوجيا بحاجة حقيقية.",
     "modelRelevance": "ניקוד + השראה",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1583,7 +1583,7 @@
       "ability-item-39b20a69"
     ],
     "descriptionHe": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
-    "descriptionAr": "חדשנות / סטארטאפ. חדשנות מחברת בעיה, רעיון, טכנולוגיה ומשתמשים.",
+    "descriptionAr": "ابتكار / ستارت أب. الابتكار يربط بين مشكلة وفكرة وتكنولوجيا ومستخدمين.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1608,7 +1608,7 @@
       "ability-ai-f37df"
     ],
     "descriptionHe": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
-    "descriptionAr": "אחסון דאטה / תשתיות AI. כדי שמודל יעבוד מהר וטוב, צריך לנהל כמויות מידע גדולות.",
+    "descriptionAr": "تخزين بيانات / بنى ذكاء اصطناعي. كي يعمل النموذج بسرعة وبجودة، يجب إدارة كميات كبيرة من المعلومات.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1634,7 +1634,7 @@
       "ability-item-36e511e0"
     ],
     "descriptionHe": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
-    "descriptionAr": "חללי עבודה / אקוסיסטם. לא כל גוף מפתח AI, אבל הוא יכול לתמוך בחברות, אנשים ורעיונות.",
+    "descriptionAr": "مساحات عمل / منظومة. ليس كل جسم يطوّر ذكاءً اصطناعيًا، لكنه يمكن أن يدعم الشركات والأشخاص والأفكار.",
     "modelRelevance": "עקיף / אקוסיסטם",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [
@@ -1661,7 +1661,7 @@
       "recommendation"
     ],
     "descriptionHe": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
-    "descriptionAr": "אתרים / מוצר / UX. גם מודל חכם לא יעזור אם המשתמשים לא מבינים איך להשתמש בו.",
+    "descriptionAr": "مواقع / منتج / تجربة مستخدم. حتى النموذج الذكي لن يساعد إذا لم يفهم المستخدمون كيف يستخدمونه.",
     "modelRelevance": "ישיר",
     "sourceUrl": "https://careers.gavyam-negev.co.il/portal/companies",
     "aliases": [

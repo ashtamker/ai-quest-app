@@ -6,6 +6,7 @@ import { translations } from '../src/infrastructure/i18n/translations.js';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA = path.join(ROOT, 'server/data');
+const HEBREW_RE = /[\u0590-\u05FF]/;
 
 async function load(name) {
   return JSON.parse(await readFile(path.join(DATA, `${name}.json`), 'utf8'));
@@ -34,6 +35,8 @@ test('core activity data has Arabic content for student-facing fields', async ()
     assert.ok(company.nameAr, `company ${company.id} missing nameAr`);
     assert.ok(company.descriptionHe, `company ${company.id} missing descriptionHe`);
     assert.ok(company.descriptionAr, `company ${company.id} missing descriptionAr`);
+    assert.ok(!HEBREW_RE.test(company.nameAr), `company ${company.id} nameAr contains Hebrew text`);
+    assert.ok(!HEBREW_RE.test(company.descriptionAr), `company ${company.id} descriptionAr contains Hebrew text`);
     assert.ok(company.logoMark, `company ${company.id} missing logoMark`);
     assert.equal(typeof company.logoUrl, 'string', `company ${company.id} missing logoUrl string`);
   }
@@ -44,14 +47,19 @@ test('core activity data has Arabic content for student-facing fields', async ()
     assert.ok(question.textAr, `question ${question.id} missing textAr`);
     assert.ok(question.explanationHe, `question ${question.id} missing explanationHe`);
     assert.ok(question.explanationAr, `question ${question.id} missing explanationAr`);
-    if ((question.optionsHe || []).length) assert.equal((question.optionsAr || []).length, question.optionsHe.length, `question ${question.id} optionsAr length mismatch`);
+    assert.ok(!HEBREW_RE.test(question.textAr), `question ${question.id} textAr contains Hebrew text`);
+    assert.ok(!HEBREW_RE.test(question.explanationAr), `question ${question.id} explanationAr contains Hebrew text`);
+    if ((question.optionsHe || []).length) {
+      assert.equal((question.optionsAr || []).length, question.optionsHe.length, `question ${question.id} optionsAr length mismatch`);
+      question.optionsAr.forEach((option, index) => assert.ok(!HEBREW_RE.test(option), `question ${question.id} optionsAr[${index}] contains Hebrew text`));
+    }
   }
 
   assert.ok(abilities.length >= 10);
   for (const ability of abilities) {
     assert.ok(ability.nameHe, `ability ${ability.id} missing nameHe`);
     assert.ok(ability.nameAr, `ability ${ability.id} missing nameAr`);
-    assert.ok(!/[\u0590-\u05FF]/.test(ability.nameAr), `ability ${ability.id} nameAr contains Hebrew text`);
+    assert.ok(!HEBREW_RE.test(ability.nameAr), `ability ${ability.id} nameAr contains Hebrew text`);
     assert.ok(ability.type, `ability ${ability.id} missing type`);
   }
 
