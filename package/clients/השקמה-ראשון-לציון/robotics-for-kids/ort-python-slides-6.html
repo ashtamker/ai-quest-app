@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מצגת מדריך · Python בסיסי · מפגש 6</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#130b04;--text:#fff7ed;--muted:#ffedd5;--line:rgba(255,255,255,.17);--orange:#fb923c;--amber:#facc15;--blue:#60a5fa;--green:#34d399;--pink:#fb7185}*{box-sizing:border-box}body{margin:0;direction:rtl;font-family:Rubik,Arial,sans-serif;background:radial-gradient(circle at 9% 0,rgba(250,204,21,.28),transparent 34%),radial-gradient(circle at 90% 10%,rgba(251,146,60,.34),transparent 30%),linear-gradient(135deg,#120704,#1f1307 56%,#431407);color:var(--text);height:100vh;overflow:hidden}.deck{position:relative;width:100vw;height:100vh;display:grid;place-items:center;padding:28px}.frame{width:min(1280px,calc(100vw - 56px));aspect-ratio:16/9;max-height:calc(100vh - 92px);background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.045));border:1px solid var(--line);border-radius:36px;box-shadow:0 34px 100px rgba(0,0,0,.42);position:relative;overflow:hidden}.slide{position:absolute;inset:0;display:none;padding:54px 62px}.slide.active{display:flex;flex-direction:column;justify-content:center;gap:22px}.slide.center{text-align:center;align-items:center}.kicker{display:inline-flex;align-self:flex-start;border-radius:999px;padding:8px 13px;background:rgba(251,146,60,.18);border:1px solid rgba(251,146,60,.42);color:#fed7aa;font-weight:900}.center .kicker{align-self:center}.title{font-size:clamp(2.6rem,5vw,5.25rem);line-height:1.02;margin:0;font-weight:900;letter-spacing:-.035em}.subtitle{font-size:clamp(1.18rem,2vw,1.62rem);line-height:1.55;color:var(--muted);max-width:1000px;margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:rgba(255,255,255,.09);border:1px solid var(--line);border-radius:26px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.card h3{margin:0 0 9px;font-size:clamp(1.3rem,2vw,1.95rem)}.card p,.card li{font-size:clamp(1rem,1.55vw,1.28rem);line-height:1.5;color:var(--muted)}.card ul,.card ol{margin:0;padding-inline-start:24px}.mission{border-right:8px solid var(--green)}.warn{border-right:8px solid var(--amber)}.pink{border-right:8px solid var(--pink)}.blue{border-right:8px solid var(--blue)}.prompt{direction:ltr;text-align:left;background:#0f172a;border:1px solid rgba(96,165,250,.42);border-radius:22px;padding:18px 20px;font-size:clamp(1.05rem,1.65vw,1.38rem);line-height:1.55;color:#dbeafe;white-space:pre-wrap}.prompt.rtl{direction:rtl;text-align:right}.big{font-size:clamp(1.4rem,2.5vw,2.25rem);line-height:1.38;margin:0}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-weight:900;color:#ffedd5}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.time{background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:20px;padding:13px}.time b{display:block;color:var(--amber);font-size:1.2rem}.footer-hint{position:absolute;right:34px;bottom:22px;color:#fed7aa;font-weight:800}.counter{position:absolute;left:34px;bottom:22px;color:#fff7ed;font-weight:900}.progress{position:absolute;inset:auto 0 0 0;height:6px;background:rgba(255,255,255,.1)}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--orange),var(--amber));transition:.2s}.controls{position:fixed;inset:auto 22px 20px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;pointer-events:none}.controls>*{pointer-events:auto}.btn{border:0;border-radius:999px;background:#fff;color:#0f172a;font-family:inherit;font-weight:900;padding:10px 15px;text-decoration:none;cursor:pointer}.btn.ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid var(--line)}.navBtns{display:flex;gap:8px}.notes-panel{position:fixed;top:18px;bottom:18px;left:18px;width:min(410px,calc(100vw - 36px));background:rgba(15,23,42,.96);border:1px solid var(--line);border-radius:24px;padding:18px;color:#e2e8f0;box-shadow:0 24px 70px rgba(0,0,0,.36);transform:translateX(calc(-100% - 26px));transition:.22s;z-index:20;overflow:auto}.notes-panel.open{transform:translateX(0)}.notes-panel h2{margin:0 0 12px;color:#fdba74}.notes{display:none}@media(max-width:850px){body{overflow:auto;height:auto}.deck{min-height:100svh;padding:10px 10px 82px}.frame{width:100%;max-height:none;aspect-ratio:auto;min-height:calc(100svh - 104px);border-radius:22px}.slide{padding:28px 18px}.slide.active{position:relative;min-height:calc(100svh - 104px)}.grid,.grid3,.timeline{grid-template-columns:1fr}.controls{inset:auto 10px 10px 10px}.footer-hint{display:none}.title{font-size:2.3rem}}
+  </style>
+</head>
+<body>
+  <main class="deck"><div class="frame">
+    <section class="slide active center" id="slide-1"><div class="kicker">אורט · Python בסיסי · מפגש 6</div><h1 class="title">פונקציות</h1><p class="subtitle">איך הופכים קטע קוד שחוזר על עצמו לכלי שאפשר לקרוא לו שוב ושוב?</p><span class="pill">def · קריאה · פרמטרים · return</span><div class="notes">פתיחה: לחבר למפגש הרשימות. היום עוברים מארגון נתונים לארגון קוד.</div></section>
+    <section class="slide" id="slide-2"><div class="kicker">מטרת המפגש</div><h2 class="title">פחות העתקה, יותר סדר</h2><div class="grid"><div class="card warn"><h3>הבעיה</h3><p>אותן שורות קוד חוזרות בכמה מקומות.</p></div><div class="card mission"><h3>הפתרון</h3><p>מגדירים פעולה פעם אחת, נותנים לה שם, וקוראים לה כשצריך.</p></div></div><div class="notes">לבקש דוגמאות מהתלמידים: תפריט, ממוצע, בדיקה, ציור חוזר.</div></section>
+    <section class="slide" id="slide-3"><div class="kicker">מהלך 75 דקות</div><h2 class="title">רצף עבודה</h2><div class="timeline"><div class="time"><b>0–12</b>למה פונקציות?</div><div class="time"><b>12–28</b>def וקריאה</div><div class="time"><b>28–52</b>פרמטרים ותרגול</div><div class="time"><b>52–75</b>return וחיבור פונקציות</div></div><div class="notes">אם הזמן קצר: לוודא שכולם יוצאים עם def, קריאה, פרמטר אחד ו-return בסיסי.</div></section>
+    <section class="slide" id="slide-4"><div class="kicker">מושג ראשון</div><h2 class="title">פונקציה היא קטע קוד עם שם</h2><p class="big">כותבים את הפעולה פעם אחת, ואז מפעילים אותה לפי הצורך.</p><div class="grid3"><div class="card"><h3>שם</h3><p>מתאר מה הפעולה עושה.</p></div><div class="card"><h3>גוף</h3><p>השורות שרצות כשקוראים לפונקציה.</p></div><div class="card"><h3>קריאה</h3><p>הפקודה שמפעילה את הפונקציה.</p></div></div><div class="notes">להדגיש: שם משמעותי, אותיות קטנות, כמו במשתנים.</div></section>
+    <section class="slide" id="slide-5"><div class="kicker">מבנה בסיסי</div><h2 class="title">def + שם + סוגריים</h2><div class="prompt">def name():
+    # code inside the function
+
+name()</div><p class="subtitle">הקוד שבתוך הפונקציה חייב להיות מוזח פנימה.</p><div class="notes">להראות על המסך את ההבדל בין הגדרה לבין קריאה.</div></section>
+    <section class="slide" id="slide-6"><div class="kicker">נקודה חשובה</div><h2 class="title">פונקציה לא רצה לבד</h2><div class="grid"><div class="card warn"><h3>רק הגדרה</h3><p>Python יודע שהפונקציה קיימת, אבל לא מפעיל אותה.</p></div><div class="card mission"><h3>קריאה לפונקציה</h3><p>רק כשכותבים <b>name()</b> הקוד שבתוכה רץ.</p></div></div><div class="notes">שגיאה נפוצה: תלמידים כותבים פונקציה ולא קוראים לה.</div></section>
+    <section class="slide" id="slide-7"><div class="kicker">דוגמה</div><h2 class="title">print_menu</h2><div class="prompt">def print_menu():
+    print("""
+Welcome to the Menu!
+1. Signup
+2. Signin
+3. Exit
+""")
+
+print_menu()</div><div class="notes">להסביר בקצרה ששלוש מירכאות מאפשרות טקסט רב־שורות.</div></section>
+    <section class="slide" id="slide-8"><div class="kicker">פרמטרים</div><h2 class="title">שולחים מידע לפונקציה</h2><p class="subtitle">לפעמים הפונקציה צריכה לקבל ערך כדי לבצע את העבודה שלה.</p><div class="prompt">def nextYear(age):
+    age += 1
+    print("Next year you will be " + str(age))
+
+nextYear(15)
+nextYear(12)
+nextYear(20)</div><div class="notes">age הוא שם זמני בתוך הפונקציה. הערך האמיתי מגיע בזמן הקריאה.</div></section>
+    <section class="slide" id="slide-9"><div class="kicker">כמה פרמטרים</div><h2 class="title">הסדר חשוב</h2><div class="prompt">def name(op1, op2, op3):
+    # the function
+
+name(10, "hello", False)</div><div class="grid3"><div class="card"><h3>op1</h3><p>מקבל 10.</p></div><div class="card"><h3>op2</h3><p>מקבל "hello".</p></div><div class="card"><h3>op3</h3><p>מקבל False.</p></div></div><div class="notes">להדגיש: ערכים נכנסים לפרמטרים לפי סדר.</div></section>
+    <section class="slide" id="slide-10"><div class="kicker">תרגול</div><h2 class="title">printBigger</h2><p class="subtitle">פונקציה שמקבלת שני מספרים ומדפיסה את הגדול מביניהם.</p><div class="prompt">def printBigger(num1, num2):
+    if num1 > num2:
+        print(str(num1))
+    else:
+        print(str(num2))
+
+printBigger(1, 2)
+printBigger(3, -6)
+printBigger(5, 5)</div><div class="notes">לתת 6–8 דקות עבודה. לבדוק גם מקרה של מספרים שווים.</div></section>
+    <section class="slide" id="slide-11"><div class="kicker">return</div><h2 class="title">לפעמים לא מדפיסים — מחזירים</h2><div class="grid"><div class="card warn"><h3>print</h3><p>מציג למסך. קשה להשתמש בתוצאה בהמשך.</p></div><div class="card mission"><h3>return</h3><p>מחזיר ערך שאפשר לשמור במשתנה או להעביר הלאה.</p></div></div><div class="notes">זה מעבר חשוב. לא להעמיס; להתמקד בשמירת תוצאה במשתנה.</div></section>
+    <section class="slide" id="slide-12"><div class="kicker">דוגמה</div><h2 class="title">average</h2><div class="prompt">def average(num1, num2):
+    return (num1 + num2) / 2
+
+avg = average(100, 90)
+print(str(avg))</div><p class="subtitle">הפונקציה מחזירה 95.0, ואנחנו שומרים את הערך במשתנה.</p><div class="notes">להראות שאפשר גם print(str(average(100, 90))) אבל עדיף לשמור כשצריך להשתמש בהמשך.</div></section>
+    <section class="slide" id="slide-13"><div class="kicker">חיבור פונקציות</div><h2 class="title">ifPass משתמשת ב־average</h2><div class="prompt">def average(num1, num2):
+    return (num1 + num2) / 2
+
+def ifPass(grade1, grade2):
+    avg = average(grade1, grade2)
+    if avg <= 55:
+        print("Failed")
+    else:
+        print("Average is " + str(avg))</div><div class="notes">להדגיש מבנה טוב: פונקציה אחת מחשבת, פונקציה אחרת מקבלת החלטה.</div></section>
+    <section class="slide" id="slide-14"><div class="kicker">טעויות נפוצות</div><h2 class="title">מה לבדוק כשמשהו לא עובד?</h2><div class="grid3"><div class="card warn"><h3>שכחנו לקרוא</h3><p>כתבתם def אבל אין קריאה.</p></div><div class="card warn"><h3>הזחה</h3><p>גוף הפונקציה לא מוזח פנימה.</p></div><div class="card warn"><h3>סדר פרמטרים</h3><p>שלחתם ערכים בסדר לא מתאים.</p></div></div><div class="notes">שקף תיקון תקלות לפני עבודה עצמאית.</div></section>
+    <section class="slide center" id="slide-15"><div class="kicker">כרטיס יציאה</div><h2 class="title">מה יוצא ממפגש 6?</h2><div class="grid"><div class="card mission"><h3>התלמיד יודע</h3><ul><li>להגדיר פונקציה עם def.</li><li>לקרוא לפונקציה.</li><li>להשתמש בפרמטרים.</li><li>להחזיר ערך עם return.</li></ul></div><div class="card blue"><h3>משפט סיכום</h3><p>פונקציה עוזרת לנו להפוך קוד חוזר לפעולה מסודרת שאפשר לבדוק ולהפעיל שוב.</p></div></div><div class="notes">לבקש מכל תלמיד לכתוב פונקציה אחת שהוא יכול להשתמש בה שוב.</div></section>
+    <div class="footer-hint">← / → ניווט · F מסך מלא · N הערות מדריך</div><div class="counter" id="counter">1 / 15</div><div class="progress"><div class="bar" id="bar"></div></div>
+  </div></main>
+  <nav class="controls"><a class="btn ghost" href="ort-courses.html">עמוד אורט</a><a class="btn ghost" href="ort-python-lesson-6.html">חזרה ללומדה</a><div class="navBtns"><button class="btn ghost" onclick="prevSlide()">→ הקודם</button><button class="btn" onclick="nextSlide()">הבא ←</button><button class="btn ghost" onclick="toggleNotes()">הערות מדריך</button></div></nav>
+  <aside class="notes-panel" id="notesPanel"><h2>הערות מדריך</h2><div id="notesText"></div></aside>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let current=0;const panel=document.getElementById('notesPanel'),notesText=document.getElementById('notesText');
+function show(i,hash=true){current=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===current));document.getElementById('counter').textContent=`${current+1} / ${slides.length}`;document.getElementById('bar').style.width=`${(current+1)/slides.length*100}%`;notesText.textContent=slides[current].querySelector('.notes')?.textContent||'אין הערות לשקף זה.';if(hash) history.replaceState(null,'',`#slide-${current+1}`)}
+function nextSlide(){show(current+1)}function prevSlide(){show(current-1)}function toggleNotes(){panel.classList.toggle('open')}function fullscreen(){const el=document.documentElement;if(!document.fullscreenElement)el.requestFullscreen?.();else document.exitFullscreen?.()}
+document.addEventListener('keydown',e=>{if(['ArrowLeft','PageDown',' '].includes(e.key))nextSlide();if(['ArrowRight','PageUp'].includes(e.key))prevSlide();if(e.key.toLowerCase()==='n')toggleNotes();if(e.key.toLowerCase()==='f')fullscreen();if(e.key==='Escape')panel.classList.remove('open')});const m=location.hash.match(/slide-(\d+)/);show(m?Number(m[1])-1:0,false);
+</script>
+<script src="/js/feedback-widget.js?v=20261001-ort-python-slides-6-functions"></script>
+</body>
+</html>
