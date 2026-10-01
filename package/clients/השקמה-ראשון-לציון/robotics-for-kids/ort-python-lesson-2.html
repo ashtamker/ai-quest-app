@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python בסיסי · מפגש 2 · משתנים</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/platform-home-link.css">
+  <style>
+    :root{--ink:#111827;--muted:#526070;--line:#dbe4ef;--orange:#ea580c;--amber:#facc15;--green:#16a34a;--blue:#2563eb}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Rubik,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 0,rgba(250,204,21,.24),transparent 28rem),radial-gradient(circle at 88% 12%,rgba(234,88,12,.18),transparent 24rem),linear-gradient(180deg,#fffdf5,#fff7ed 56%,#f8fafc);line-height:1.65}.shell{width:min(1260px,calc(100% - 28px));margin:0 auto;padding:18px 0 42px}.topbar{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.85);border-radius:30px;padding:14px 16px;box-shadow:0 18px 50px rgba(15,23,42,.08);position:sticky;top:10px;z-index:10;backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:56px;height:56px;border-radius:20px;background:linear-gradient(135deg,var(--orange),var(--amber));display:grid;place-items:center;font-size:1.8rem;font-weight:900;box-shadow:0 14px 34px rgba(234,88,12,.2)}h1{margin:0;font-size:clamp(1.25rem,2.4vw,2rem);line-height:1.15}.brand p{margin:3px 0 0;color:var(--muted);font-weight:800}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 14px;border-radius:999px;background:linear-gradient(135deg,var(--orange),var(--amber));color:#111827;text-decoration:none;border:0;font-family:inherit;font-weight:900;cursor:pointer;box-shadow:0 12px 28px rgba(234,88,12,.14)}.btn.secondary{background:#fff;color:#111827;border:1px solid var(--line);box-shadow:none}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:16px;margin-top:16px}.hero-card{background:linear-gradient(135deg,#7c2d12,#ea580c 55%,#facc15);color:#fff;border-radius:30px;padding:28px;min-height:300px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;position:relative}.hero-card:after{content:"";position:absolute;left:-70px;bottom:-80px;width:260px;height:260px;border-radius:60px;background:rgba(255,255,255,.16);transform:rotate(18deg)}.kicker{display:inline-flex;align-self:flex-start;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 11px;color:#fff7ed;font-weight:900;margin-bottom:10px}.hero h2{font-size:clamp(2rem,5vw,4rem);line-height:1.04;margin:0 0 12px}.hero p{margin:0;color:#fff7ed;font-weight:800;font-size:1.08rem}.stat-grid{display:grid;gap:10px}.stat,.panel,.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:24px;padding:16px;box-shadow:0 16px 42px rgba(15,23,42,.07)}.stat b{display:block;color:var(--orange);font-size:1.35rem}.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:16px;margin-top:16px}.sidebar{position:sticky;top:104px;align-self:start}.toc{display:grid;gap:8px}.toc a{text-decoration:none;background:#fff7ed;border:1px solid #fed7aa;border-radius:16px;padding:10px 12px;font-weight:900;color:#9a3412}.section{margin-bottom:16px}.section h2{margin:0 0 8px;font-size:clamp(1.55rem,3vw,2.35rem)}.lead{color:var(--muted);font-weight:800;margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card h3{margin:0 0 8px;color:#c2410c}.card p,.card li{color:#475569;font-weight:750}.card ul,.card ol{margin:0;padding-inline-start:22px}.code{direction:ltr;text-align:left;background:#111827;color:#e5e7eb;border-radius:22px;padding:16px;white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.6;overflow:auto}.callout{border-right:6px solid var(--orange);background:#fff7ed;border-radius:20px;padding:14px 16px;font-weight:900;color:#9a3412}.success{border-right-color:var(--green);background:#f0fdf4;color:#166534}.worksheet textarea,.worksheet input{width:100%;border:1px solid #cbd5e1;border-radius:16px;padding:11px 12px;font:inherit;background:#fff;margin-top:6px}.worksheet textarea{min-height:86px}.check{display:flex;gap:8px;align-items:flex-start;background:#f8fafc;border:1px solid var(--line);border-radius:16px;padding:10px;font-weight:800;color:#334155;margin-top:8px}.check input{width:auto;margin-top:5px}.footer-note{text-align:center;color:#64748b;font-weight:900;margin-top:18px}@media(max-width:980px){.topbar,.hero,.layout{grid-template-columns:1fr}.sidebar{position:static}.grid,.grid3{grid-template-columns:1fr}.actions .btn{width:100%}}@media print{.topbar,.sidebar,.platform-home-link,.footer-note{display:none!important}body{background:#fff}.layout{display:block}.panel,.card,.stat{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <a class="platform-home-link" href="ort-courses.html" aria-label="חזרה לקורסי אורט"><span class="platform-home-icon" aria-hidden="true">🏠</span><span class="platform-home-text">קורסי אורט</span></a>
+  <div class="shell">
+    <header class="topbar"><div class="brand"><div class="brand-mark">🐍</div><div><h1>Python בסיסי · מפגש 2</h1><p>משתנים · מספרים · מחרוזות · המרות</p></div></div><div class="actions"><a class="btn secondary" href="ort-courses.html">עמוד אורט</a><a class="btn secondary" href="ort-python-slides-2.html">מצגת מדריך</a><button class="btn" onclick="window.print()">הדפסה / PDF</button></div></header>
+
+    <section class="hero"><div class="hero-card"><span class="kicker">75 דקות · עורך אונליין · משתנים</span><h2>משתנים: איך שומרים מידע?</h2><p>לומדים לשמור מספרים וטקסט בזיכרון התוכנית, לבצע פעולות חשבון, לחבר מחרוזות, להמיר בין מספר לטקסט, ולהדפיס תוצאות בצורה ברורה.</p></div><div class="stat-grid"><div class="stat"><b>תוצר יציאה</b>חישוב גילאי בני הבית: סכום, מכפלה, חלוקה, והדפסת התוצאות.</div><div class="stat"><b>מושגים</b>variable · מספרים · string · naming · + - * / · ** · % · str() · int()</div><div class="stat"><b>מה לא עושים כאן</b>בהמשך אפשר לבנות פעילות אישית לכל תלמיד לפי ההתקדמות שלו.</div></div></section>
+
+    <main class="layout"><aside class="panel sidebar"><h3>ניווט מהיר</h3><nav class="toc"><a href="#what">מהו משתנה?</a><a href="#names">שמות משתנים</a><a href="#numbers">מספרים וחשבון</a><a href="#update">עדכון וקיצורים</a><a href="#power">חזקות ומודולו</a><a href="#ages">תרגול גילאים</a><a href="#strings">מחרוזות</a><a href="#convert">המרות והדפסה</a><a href="#exit">כרטיס יציאה</a></nav></aside>
+      <section class="panel">
+        <article class="section" id="what"><h2>1 · מהו משתנה?</h2><p class="lead">משתנים הם כמו מגירות אחסון בזיכרון התוכנית. אנחנו נותנים שם למגירה ושומרים בה מידע.</p><div class="grid"><div class="card"><h3>מה אפשר לשמור?</h3><ul><li>מספרים שלמים: <b>18</b></li><li>מספרים עשרוניים: <b>0.3</b></li><li>טקסט ומילים: <b>"James"</b></li><li>תווים וסימנים</li></ul></div><div class="card"><h3>דוגמה ראשונה</h3><pre class="code"><code>points = 18
+x = 100
+speed = 0.3
+name = "Alice"</code></pre></div></div></article>
+
+        <article class="section" id="names"><h2>2 · הסכמה בשמות משתנים</h2><p class="lead">שם טוב עוזר לנו להבין מה שמור במשתנה גם אחרי שהקוד גדל.</p><div class="grid"><div class="card"><h3>כללים פשוטים</h3><ul><li>מתחילים באותיות קטנות.</li><li>שם צריך להיות משמעותי.</li><li>אם יש כמה מילים: משתמשים ב־_ או באות גדולה.</li></ul></div><div class="card"><h3>דוגמאות</h3><pre class="code"><code>my_name = "Dana"
+myName = "Dana"
+num_of_siblings = 3
+sumOfAges = 111</code></pre></div></div><div class="callout">שאלה: איזה שם משתנה ברור יותר — <b>x</b> או <b>player_score</b>?</div></article>
+
+        <article class="section" id="numbers"><h2>3 · משתנים מספריים ופעולות חשבון</h2><p class="lead">על מספרים אפשר לבצע פעולות חשבון בדיוק כמו במחברת — אבל בתוך קוד.</p><div class="grid"><div class="card"><h3>ארבע פעולות</h3><pre class="code"><code>points = 18 + 1
+x = 100 - 50
+y = 20 * 8
+speed = 0.3 / 10</code></pre></div><div class="card"><h3>סימני הפעולות</h3><ul><li>חיבור: <b>+</b></li><li>חיסור: <b>-</b></li><li>כפל: <b>*</b></li><li>חילוק: <b>/</b></li></ul></div></div></article>
+
+        <article class="section" id="update"><h2>4 · שינוי ערך של משתנה וקיצורים</h2><p class="lead">משתנה יכול לקבל ערך חדש שמבוסס על הערך הקודם שלו.</p><div class="grid"><div class="card"><h3>עדכון רגיל</h3><pre class="code"><code>points = 5
+points = points + 3
+
+speed = 0.5
+speed = speed - 0.1</code></pre></div><div class="card"><h3>דרך קיצור</h3><pre class="code"><code>x = 10
+x += 5
+x *= 7
+x /= 3</code></pre><p>הקיצור אומר: קח את הערך הקיים, בצע פעולה, ושמור שוב באותו משתנה.</p></div></div></article>
+
+        <article class="section" id="power"><h2>5 · חזקות ומודולו</h2><div class="grid"><div class="card"><h3>חזקות עם **</h3><p>שתי כוכביות מחשבות חזקה.</p><pre class="code"><code>power = 2 ** 7
+print(power)</code></pre></div><div class="card"><h3>מודולו עם %</h3><p>מודולו מחזיר את השארית בחלוקה.</p><pre class="code"><code>x = 5 % 2
+print(x)  # 1
+
+y = 11 % 3
+print(y)  # 2</code></pre></div></div></article>
+
+        <article class="section" id="ages"><h2>6 · תרגול כיתה: גילאי בני הבית</h2><p class="lead">נגדיר גיל לכל בן בית, ואז נחשב סכום, מכפלה וחלוקה.</p><div class="grid"><div class="card"><h3>המשימה</h3><ol><li>הגדירו משתנה לגיל של כל אחד מבני הבית.</li><li>שמרו את סכום הגילאים במשתנה <b>sumOfAges</b>.</li><li>שמרו את מכפלת הגילאים במשתנה <b>mulOfAges</b>.</li><li>שמרו במשתנה <b>div</b> את המכפלה חלקי הסכום.</li></ol></div><div class="card"><h3>פתרון לדוגמה</h3><pre class="code"><code>age1 = 18
+age2 = 46
+age3 = 44
+age4 = 3
+
+sumOfAges = age1 + age2 + age3 + age4
+mulOfAges = age1 * age2 * age3 * age4
+div = mulOfAges / sumOfAges</code></pre></div></div></article>
+
+        <article class="section" id="strings"><h2>7 · מחרוזות ושרשור</h2><p class="lead">מחרוזת היא טקסט בתוך מרכאות. אפשר לחבר מחרוזות בעזרת +.</p><div class="grid"><div class="card"><h3>מחרוזות</h3><pre class="code"><code>firstName = "James"
+lastName = "Lacey"
+space = " "</code></pre></div><div class="card"><h3>שרשור</h3><pre class="code"><code>fullName = firstName + " " + lastName
+print(fullName)</code></pre><p>אם רוצים רווח בין מילים — מוסיפים מחרוזת שמכילה רווח.</p></div></div></article>
+
+        <article class="section" id="convert"><h2>8 · הדפסת משתנים והמרות</h2><p class="lead">כשמדפיסים משתנה — לא שמים אותו בתוך מרכאות. כשמחברים מספר לטקסט, ממירים אותו עם str().</p><div class="grid"><div class="card"><h3>הדפסת תוצאות התרגיל</h3><pre class="code"><code>print("Sum of ages: " + str(sumOfAges))
+print("Mul of ages: " + str(mulOfAges))
+print("Div: " + str(div))</code></pre></div><div class="card"><h3>input ו־int</h3><pre class="code"><code>name = input("What is your name? ")
+age = int(input("Enter age: "))
+
+print("My name is " + name)
+print("I'm " + str(age) + " years old")</code></pre><p><b>int()</b> הופך טקסט למספר. <b>str()</b> הופך מספר לטקסט.</p></div></div></article>
+
+        <article class="section worksheet" id="exit"><h2>כרטיס יציאה</h2><div class="card"><h3>בדיקת הבנה</h3><label>כתבו דוגמה למשתנה עם שם משמעותי<textarea data-save="meaningfulName"></textarea></label><label>מה ההבדל בין str() לבין int()?<textarea data-save="convert"></textarea></label><label>מה מחזיר 11 % 3 ולמה?<textarea data-save="modulo"></textarea></label><label class="check"><input type="checkbox" data-done> חישבתי גילאים, הדפסתי תוצאות, והשתמשתי לפחות פעם אחת ב־str() או int().</label></div></article>
+      </section>
+    </main><div class="footer-note">העבודה נשמרת בדפדפן המקומי של המכשיר בלבד.</div>
+  </div>
+<script>
+const key='ortPython.lesson2.v2';const state=JSON.parse(localStorage.getItem(key)||'{}');document.querySelectorAll('[data-save]').forEach(el=>{if(state[el.dataset.save])el.value=state[el.dataset.save];el.addEventListener('input',()=>{state[el.dataset.save]=el.value;localStorage.setItem(key,JSON.stringify(state));});});document.querySelectorAll('[data-done]').forEach((el,i)=>{el.checked=!!state['done'+i];el.addEventListener('change',()=>{state['done'+i]=el.checked;localStorage.setItem(key,JSON.stringify(state));});});
+</script>
+<script src="/js/feedback-widget.js?v=20260930-ort-python-lesson-2-v2"></script>
+</body>
+</html>
