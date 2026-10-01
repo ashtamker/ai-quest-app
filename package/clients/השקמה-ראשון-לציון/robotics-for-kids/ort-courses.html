@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>קורסי אורט · דרך ההייטק</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/platform-home-link.css">
+  <style>
+    :root{--ink:#0f172a;--muted:#5b6778;--line:rgba(15,23,42,.12);--page:#f6f8ff;--card:rgba(255,255,255,.84);--blue:#2563eb;--cyan:#06b6d4;--purple:#7c3aed;--green:#16a34a;--orange:#ea580c;--dark:#0f172a;--glow:0 28px 80px rgba(37,99,235,.16)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Rubik,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 8% 0,rgba(37,99,235,.20),transparent 31rem),radial-gradient(circle at 94% 8%,rgba(6,182,212,.22),transparent 27rem),radial-gradient(circle at 50% 100%,rgba(124,58,237,.14),transparent 28rem),linear-gradient(180deg,#f8fbff,#eef4ff 55%,#f8fafc);line-height:1.65;min-height:100vh}a{color:inherit}.shell{width:min(1200px,calc(100% - 28px));margin:0 auto}.hero{position:relative;color:#fff;padding:30px 0 46px;overflow:hidden;background:linear-gradient(135deg,#020617,#172554 48%,#0f766e)}.hero:before{content:"";position:absolute;inset:-25% -10% auto auto;width:560px;height:560px;border-radius:999px;background:radial-gradient(circle,rgba(34,211,238,.34),transparent 62%);filter:blur(4px)}.hero:after{content:"";position:absolute;inset:auto auto -36% -10%;width:520px;height:520px;border-radius:999px;background:radial-gradient(circle,rgba(167,139,250,.28),transparent 62%)}.hero .shell{position:relative;z-index:1}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:30px}.brand{display:flex;align-items:center;gap:12px;font-weight:900}.mark{width:58px;height:58px;border-radius:20px;background:linear-gradient(135deg,#67e8f9,#22c55e);display:grid;place-items:center;color:#07111f;font-size:1.35rem;box-shadow:0 18px 42px rgba(34,211,238,.25)}.nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.nav a{text-decoration:none;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:8px 12px;color:#e2e8f0;font-weight:900;font-size:.9rem;background:rgba(255,255,255,.07);backdrop-filter:blur(10px)}.nav a:hover{background:rgba(255,255,255,.16)}.kicker{display:inline-flex;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.16);padding:7px 12px;color:#bae6fd;font-weight:900;margin-bottom:13px}h1{font-size:clamp(2.4rem,6vw,5.2rem);line-height:1.02;margin:0 0 15px;max-width:1000px;letter-spacing:-.045em}.hero p{margin:0;color:#dbeafe;font-size:clamp(1.04rem,2vw,1.26rem);max-width:940px;font-weight:700}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;border-radius:999px;padding:10px 16px;background:#fff;color:#0f172a;text-decoration:none;font-weight:900;border:1px solid transparent;box-shadow:0 12px 28px rgba(15,23,42,.12)}.btn.dark{background:#0f172a;color:#fff}.btn.ghost{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.2);box-shadow:none}main{padding:34px 0 60px}.intro{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;margin-bottom:28px}.panel,.course{background:var(--card);border:1px solid rgba(255,255,255,.75);border-radius:32px;padding:24px;box-shadow:var(--glow);backdrop-filter:blur(16px)}.panel{position:relative;overflow:hidden}.panel:before{content:"";position:absolute;inset:0 auto 0 0;width:7px;background:linear-gradient(180deg,var(--blue),var(--cyan),var(--purple))}.panel h2,.course h2{margin:0 0 10px;font-size:clamp(1.5rem,3vw,2.35rem);line-height:1.1;letter-spacing:-.02em}.panel p{margin:0;color:var(--muted);font-weight:800}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.stat{border-radius:22px;background:rgba(248,250,252,.86);border:1px solid var(--line);padding:15px;text-align:center;font-weight:900}.stat b{display:block;color:var(--blue);font-size:1.65rem}.courses{display:grid;gap:20px}.course{position:relative;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease}.course:hover{transform:translateY(-2px);box-shadow:0 34px 90px rgba(15,23,42,.13)}.course:before{content:"";position:absolute;inset:0 0 auto 0;height:8px;background:linear-gradient(90deg,var(--a),var(--b))}.course:after{content:"";position:absolute;inset:18px auto auto 18px;width:120px;height:120px;border-radius:999px;background:radial-gradient(circle,var(--b),transparent 67%);opacity:.18;filter:blur(2px)}.course-head{position:relative;z-index:1;display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:start}.icon{width:68px;height:68px;border-radius:24px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;display:grid;place-items:center;font-size:2rem;font-weight:900;box-shadow:0 18px 36px rgba(15,23,42,.20)}.subtitle{color:var(--muted);font-weight:800;margin:0}.badges{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.badge{border-radius:999px;background:#eef2ff;color:#3730a3;padding:6px 10px;font-size:.8rem;font-weight:900;white-space:nowrap}.badge.green{background:#dcfce7;color:#15803d}.badge.orange{background:#fff7ed;color:#b45309}.summary{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.box{background:rgba(248,250,252,.78);border:1px solid var(--line);border-radius:22px;padding:15px}.box b{display:block;margin-bottom:5px}.box p,.box ul{margin:0;color:#475569;font-weight:750}.box ul{padding-inline-start:20px}.lesson-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}.lesson{display:block;background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:20px;padding:13px;min-height:112px;text-decoration:none;color:inherit;position:relative;overflow:hidden;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}.lesson:hover{transform:translateY(-4px);border-color:rgba(37,99,235,.34);box-shadow:0 18px 38px rgba(37,99,235,.12)}.lesson.ready{background:linear-gradient(135deg,#fff,#eff6ff);border-color:rgba(37,99,235,.28)}.lesson.ready:after{content:"פתיחה";position:absolute;top:10px;left:10px;border-radius:999px;background:#dbeafe;color:#1d4ed8;padding:3px 8px;font-size:.72rem;font-weight:900}.lesson span{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:12px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;font-weight:900;margin-bottom:8px}.lesson h3{font-size:.99rem;line-height:1.25;margin:0 0 5px}.lesson p{margin:0;color:#64748b;font-size:.87rem;font-weight:750;line-height:1.45}.tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.tool{border-radius:999px;background:#ecfeff;color:#155e75;padding:6px 10px;font-size:.8rem;font-weight:900}.note{margin-top:28px;background:linear-gradient(135deg,#0f172a,#172554);color:#e2e8f0;border-radius:32px;padding:24px;box-shadow:0 28px 70px rgba(15,23,42,.18)}.note h2{margin:0 0 8px}.note p{margin:0;color:#cbd5e1;font-weight:750}.footer{text-align:center;color:#64748b;font-weight:900;padding:28px 0 38px}@media(max-width:980px){.intro,.summary{grid-template-columns:1fr}.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.course-head{grid-template-columns:auto 1fr}.badges{grid-column:1/-1;justify-content:flex-start}.nav{display:none}}@media(max-width:620px){.top{align-items:flex-start;flex-direction:column}.hero-actions .btn{width:100%}.panel,.course{padding:17px;border-radius:24px}.lesson-grid{grid-template-columns:1fr}.course-head{grid-template-columns:1fr}.icon{width:58px;height:58px}.stats{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <a class="platform-home-link" href="index.html" aria-label="חזרה לעמוד הראשי"><span class="platform-home-icon" aria-hidden="true">🏠</span><span class="platform-home-text">לעמוד הראשי</span></a>
+  <header class="hero">
+    <div class="shell">
+      <div class="top">
+        <div class="brand"><span class="mark">ORT</span><span>דרך ההייטק · סביבת קורסי אורט</span></div>
+        <nav class="nav" aria-label="ניווט קורסים">
+          <a href="#cyber">סייבר</a>
+          <a href="#python">Python</a>
+          <a href="#vibecoding">VibeCoding</a>
+          <a href="#agents">סוכני AI</a>
+        </nav>
+      </div>
+      <div class="kicker">עמוד בית מרכז · 4 קורסים · 8 מפגשים לכל קורס</div>
+      <h1>קורסי אורט בפורטל הלומדות</h1>
+      <p>מרכז אחד ברור לקורסים של רשת אורט: תקציר, מטרות, תוצר מסכם ופירוט מפגשים. בשלב הזה אין מערכת ניהול — רק עמוד בית מסודר ונוח לפתיחה מתוך הפורטל.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#courses">לצפייה בקורסים</a>
+        <a class="btn ghost" href="index.html">חזרה לקטלוג הכללי</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="courses">
+    <div class="shell">
+      <section class="intro" aria-label="סקירה כללית">
+        <div class="panel">
+          <h2>מה יש כאן?</h2>
+          <p>ארבעה מסלולים מעשיים לחטיבה ולתיכון צעיר: סייבר, פייתון, VibeCoding עם AI, ובניית סוכני AI. כל קורס בנוי סביב למידה קצרה, עבודה מעשית ותוצר שאפשר להציג.</p>
+        </div>
+        <div class="panel stats" aria-label="מדדים">
+          <div class="stat"><b>4</b>קורסים</div>
+          <div class="stat"><b>8</b>מפגשים בכל קורס</div>
+          <div class="stat"><b>75</b>דק׳ בקורסי אונליין</div>
+          <div class="stat"><b>תוצר</b>מסכם לכל מסלול</div>
+        </div>
+      </section>
+
+      <section class="courses">
+        <article class="course" id="cyber" style="--a:#0f766e;--b:#2563eb">
+          <div class="course-head">
+            <div class="icon">🛡️</div>
+            <div>
+              <h2>סייבר לרשת אורט</h2>
+              <p class="subtitle">מתודולוגיה קצרה וממוקדת: 10 דק׳ הסבר, 40 דק׳ עבודה מעשית, 10 דק׳ הצגה.</p>
+            </div>
+            <div class="badges"><span class="badge green">8 מפגשים</span><span class="badge">Gamification</span><span class="badge">ללא צורך בתכנות</span></div>
+          </div>
+          <div class="summary">
+            <div class="box"><b>רעיון מרכזי</b><p>התלמידים חווים מחקר, בנייה ויצירה בעולם של “האקר מול מגן”, ובכל מפגש יוצאים עם כלי מוחשי שבנו בעזרת coding vibe.</p></div>
+            <div class="box"><b>תוצר מסכם</b><p>אפליקציית “מגן הסייבר הצעיר”: מחולל סיסמאות, בוחן פישינג, סימולטור הצפנה או צ׳ק ליסט אבטחה.</p></div>
+          </div>
+          <div class="lesson-grid">
+            <div class="lesson"><span>1</span><h3>היכרות עם עולם הסייבר</h3><p>מפת איומים דיגיטלית וסיפורי האקר מול מגן.</p></div>
+            <div class="lesson"><span>2</span><h3>סיסמאות ואבטחת חשבונות</h3><p>בניית מחולל סיסמאות לפי חוקים.</p></div>
+            <div class="lesson"><span>3</span><h3>הנדסה חברתית ופישינג</h3><p>בוחן לזיהוי הודעות חשודות.</p></div>
+            <div class="lesson"><span>4</span><h3>רשתות ותקשורת בטוחה</h3><p>סימולטור הודעה מוצפנת מול רגילה.</p></div>
+            <div class="lesson"><span>5</span><h3>הצפנה — משחק מרגלים</h3><p>כלי פענוח מסר מוצפן עם מפתח.</p></div>
+            <div class="lesson"><span>6</span><h3>אבטחת מכשירים ניידים</h3><p>צ׳ק ליסט דיגיטלי להרשאות אפליקציות.</p></div>
+            <div class="lesson"><span>7</span><h3>מתקפות בעולם האמיתי</h3><p>דשבורד מדדי התקפה וזיהוי עומס.</p></div>
+            <div class="lesson"><span>8</span><h3>פרויקט סיום</h3><p>בחירת כלי, בנייה, הצגה ותעודה.</p></div>
+          </div>
+        </article>
+
+        <article class="course" id="python" style="--a:#ea580c;--b:#facc15">
+          <div class="course-head">
+            <div class="icon">🐍</div>
+            <div>
+              <h2>Python בסיסי לרשת אורט</h2>
+              <p class="subtitle">מסלול יסודות תכנות: קלט/פלט, משתנים, תנאים, לולאות, רשימות, פונקציות ופרויקט סיום.</p>
+            </div>
+            <div class="badges"><span class="badge green">8 מפגשים</span><span class="badge">PyCharm</span><span class="badge">קוד אמיתי</span></div>
+          </div>
+          <div class="summary">
+            <div class="box"><b>רעיון מרכזי</b><p>למידה הדרגתית של פייתון דרך תרגילים קטנים שמראים איך תוכנה מקבלת מידע, מחליטה, חוזרת על פעולות ומארגנת קוד.</p></div>
+            <div class="box"><b>תוצר מסכם</b><p>משחק או מערכת פשוטה שמשלבת את הידע שנצבר לאורך הקורס.</p></div>
+          </div>
+          <div class="lesson-grid">
+            <a class="lesson ready" href="ort-python-lesson-1.html"><span>1</span><h3>מבוא, קלט ופלט</h3><p>התקנה, סביבת עבודה ותוכנית ברכה אישית.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-2.html"><span>2</span><h3>משתנים וסוגי נתונים</h3><p>שמירת נתונים, מחרוזות ומספרים.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-3.html"><span>3</span><h3>תנאים והיגיון</h3><p>if/else וקבלת החלטות בתוכנית.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-4.html"><span>4</span><h3>לולאות בסיסיות</h3><p>for/while והדפסת מספרים בסדרים שונים.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-5.html"><span>5</span><h3>רשימות</h3><p>גישה למידע, הוספה ומחיקה.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-6.html"><span>6</span><h3>פונקציות</h3><p>פרמטרים, החזרת ערכים וארגון קוד.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-7.html"><span>7</span><h3>הכנה לפרויקט</h3><p>חזרה, תכנון ותחילת עבודה.</p></a>
+            <a class="lesson ready" href="ort-python-lesson-8.html"><span>8</span><h3>פרויקט סיום</h3><p>עבודה על משחק/מערכת, הצגה וסיכום.</p></a>
+          </div>
+        </article>
+
+        <article class="course" id="vibecoding" style="--a:#7c3aed;--b:#06b6d4">
+          <div class="course-head">
+            <div class="icon">⚡</div>
+            <div>
+              <h2>VibeCoding + AI</h2>
+              <p class="subtitle">גילאי 12–15 · אונליין · מיני־אפליקציות, משחקים, כאב אמיתי, קהל יעד, דיבוג והנדסה לאחור.</p>
+            </div>
+            <div class="badges"><span class="badge green">8 מפגשים</span><span class="badge">Base44</span><span class="badge">AI</span><span class="badge">75 דק׳</span></div>
+          </div>
+          <div class="summary">
+            <div class="box"><b>רעיון מרכזי</b><p>בכל שיעור התלמידים משחקים, מפרקים מוצר קיים ובונים מיני־אפליקציה משלהם סביב כאב אמיתי של תלמידים.</p></div>
+            <div class="box"><b>כלים מרכזיים</b><p>Base44, Glide, Lovable, Poe, NotebookLM, Canva, ChatGPT, Claude, Gemini.</p></div>
+          </div>
+          <div class="lesson-grid">
+            <a class="lesson ready" href="ort-vibecoding-lesson-1.html"><span>1</span><h3>יצירתיות וקהל יעד</h3><p>“מצא את הכפתור הנעלם” ועוזר בית ספר אישי.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-2.html"><span>2</span><h3>בריף והנדסה לאחור</h3><p>“נחש את הזרימה” ומנהל זמן לימודים.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-3.html"><span>3</span><h3>Base44: משחקון ראשון</h3><p>“אסוף את היהלומים”, מסך פתיחה ומסך משחק.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-4.html"><span>4</span><h3>Glide: אפליקציית מידע</h3><p>זיכרון מידע וקטלוג אישי.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-5.html"><span>5</span><h3>Lovable + Canva</h3><p>זהות חזותית ודף נחיתה למוצר.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-6.html"><span>6</span><h3>Poe Bot</h3><p>AI כחלק מהמוצר ובוט מייעץ מותאם.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-7.html"><span>7</span><h3>גרסה 2 + Debug Day</h3><p>“מצא את 5 הבאגים” ושיפור מוצר.</p></a>
+            <a class="lesson ready" href="ort-vibecoding-lesson-8.html"><span>8</span><h3>Showcase</h3><p>הנדסה לאחור של המסע ומצגת סיום קצרה.</p></a>
+          </div>
+          <div class="tools"><span class="tool">כאב אמיתי</span><span class="tool">קהל יעד</span><span class="tool">Reverse Engineering</span><span class="tool">Debug</span></div>
+        </article>
+
+        <article class="course" id="agents" style="--a:#111827;--b:#8b5cf6">
+          <div class="course-head">
+            <div class="icon">🤖</div>
+            <div>
+              <h2>בניית סוכני AI אישיים</h2>
+              <p class="subtitle">חטיבת ביניים · אונליין בזום · מעבר מצ׳אט רגיל לסוכן AI מתוכנן עם תפקיד, ידע, גבולות ובקרה.</p>
+            </div>
+            <div class="badges"><span class="badge green">8 מפגשים</span><span class="badge">Gemini Gems</span><span class="badge">NotebookLM</span><span class="badge orange">MD + JSON</span></div>
+          </div>
+          <div class="summary">
+            <div class="box"><b>רעיון מרכזי</b><p>התלמידים בונים סוכן אישי או קבוצתי סביב צורך אמיתי, ומבינים איך מגדירים כלי AI שימושי, בטוח ובר־בדיקה.</p></div>
+            <div class="box"><b>התלמידים יוצאים עם</b><ul><li>Gem ראשוני</li><li>מסמך אפיון</li><li>בסיס ידע</li><li>הוראות Markdown</li><li>מבנה JSON</li><li>תרחישי בדיקה</li></ul></div>
+          </div>
+          <div class="lesson-grid">
+            <a class="lesson ready" href="ort-ai-agents-lesson-1.html"><span>1</span><h3>מצ׳אט רגיל ל־Gem אישי</h3><p>תפקיד, סגנון ומשימה קבועה.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-2.html"><span>2</span><h3>Gem מול סוכן AI</h3><p>משתמש, מטרה, גבולות, ידע ותוצר.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-3.html"><span>3</span><h3>אפיון סוכן</h3><p>שם, קהל יעד, פעולות, יכולות ומגבלות.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-4.html"><span>4</span><h3>ידע עם NotebookLM</h3><p>מקורות, מושגים, שאלות נפוצות ודוגמאות.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-5.html"><span>5</span><h3>מסמכי סוכן: MD ו־JSON</h3><p>הוראות ברורות ומבנה מידע בסיסי.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-6.html"><span>6</span><h3>גרסה ראשונה</h3><p>חיבור אפיון, הוראות וידע לסוכן עובד.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-7.html"><span>7</span><h3>בדיקות ושיפור</h3><p>שאלות קלות/קשות/מחוץ לתחום ושיפור הוראות.</p></a>
+            <a class="lesson ready" href="ort-ai-agents-lesson-8.html"><span>8</span><h3>הצגת הסוכן</h3><p>הדגמת פעולה, ידע, שינויים ותובנות.</p></a>
+          </div>
+        </article>
+      </section>
+
+      <section class="note" aria-label="הערת המשך">
+        <h2>שלב המשך מומלץ</h2>
+        <p>כשהעמוד יאושר, אפשר להפוך כל כרטיס קורס לעמוד קורס מלא עם לומדות/מצגות לפי מפגש. כרגע העמוד משמש כמרכז מסודר להצגת המסלולים והסילבוסים.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">דרך ההייטק · קורסי אורט · hai.tech</footer>
+  <script src="/js/feedback-widget.js?v=20260927-ort-courses-home"></script>
+</body>
+</html>
