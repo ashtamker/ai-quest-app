@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מצגת מדריך · Python בסיסי · מפגש 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--text:#fff7ed;--muted:#ffedd5;--line:rgba(255,255,255,.17);--orange:#fb923c;--amber:#facc15;--green:#86efac}*{box-sizing:border-box}body{margin:0;direction:rtl;font-family:Rubik,Arial,sans-serif;background:radial-gradient(circle at 9% 0,rgba(250,204,21,.28),transparent 34%),radial-gradient(circle at 90% 10%,rgba(251,146,60,.34),transparent 30%),linear-gradient(135deg,#120704,#1f1307 56%,#431407);color:var(--text);height:100vh;overflow:hidden}.deck{position:relative;width:100vw;height:100vh;display:grid;place-items:center;padding:28px}.frame{width:min(1280px,calc(100vw - 56px));aspect-ratio:16/9;max-height:calc(100vh - 92px);background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.045));border:1px solid var(--line);border-radius:36px;box-shadow:0 34px 100px rgba(0,0,0,.42);position:relative;overflow:hidden}.slide{position:absolute;inset:0;display:none;padding:54px 62px}.slide.active{display:flex;flex-direction:column;justify-content:center;gap:22px}.center{text-align:center;align-items:center}.kicker{display:inline-flex;align-self:flex-start;border-radius:999px;padding:8px 13px;background:rgba(251,146,60,.16);border:1px solid rgba(251,146,60,.40);color:#fed7aa;font-weight:900}.center .kicker{align-self:center}.title{font-size:clamp(2.55rem,4.9vw,5.05rem);line-height:1.04;margin:0;font-weight:900;letter-spacing:-.035em}.subtitle{font-size:clamp(1.12rem,1.9vw,1.58rem);line-height:1.55;color:var(--muted);max-width:980px;margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:rgba(255,255,255,.09);border:1px solid var(--line);border-radius:28px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.card h3{margin:0 0 8px;font-size:clamp(1.22rem,1.85vw,1.75rem)}.card p,.card li{font-size:clamp(1rem,1.42vw,1.22rem);line-height:1.55;color:var(--muted)}.card ul,.card ol{margin:0;padding-inline-start:24px}.code{direction:ltr;text-align:left;background:#0f172a;color:#e5e7eb;border-radius:24px;padding:22px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:clamp(.95rem,1.35vw,1.18rem);line-height:1.55;white-space:pre-wrap}.prompt{background:#1c1917;border:1px solid rgba(251,146,60,.45);border-radius:24px;padding:18px 20px;font-size:clamp(1.05rem,1.6vw,1.38rem);line-height:1.65;color:#ffedd5;white-space:pre-wrap}.pill{display:inline-flex;border:1px solid var(--line);background:rgba(255,255,255,.09);border-radius:999px;padding:10px 14px;font-weight:900;color:#fff7ed}.accent{color:var(--green)}.footer-hint{position:absolute;right:34px;bottom:22px;color:#fed7aa;font-weight:800}.counter{position:absolute;left:34px;bottom:22px;color:#fff7ed;font-weight:900}.progress{position:absolute;inset:auto 0 0 0;height:6px;background:rgba(255,255,255,.1)}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--orange),var(--amber));transition:.2s}.controls{position:fixed;inset:auto 22px 20px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;pointer-events:none}.controls>*{pointer-events:auto}.btn{border:0;border-radius:999px;background:#fff;color:#0f172a;font-family:inherit;font-weight:900;padding:10px 15px;text-decoration:none;cursor:pointer}.btn.ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid var(--line)}.navBtns{display:flex;gap:8px}.notes-panel{position:fixed;top:18px;bottom:18px;left:18px;width:min(410px,calc(100vw - 36px));background:rgba(15,23,42,.96);border:1px solid var(--line);border-radius:24px;padding:18px;color:#e2e8f0;box-shadow:0 24px 70px rgba(0,0,0,.36);transform:translateX(calc(-100% - 26px));transition:.22s;z-index:20;overflow:auto}.notes-panel.open{transform:translateX(0)}.notes-panel h2{margin:0 0 12px;color:#facc15}.notes{display:none}@media(max-width:850px){body{overflow:auto;height:auto}.deck{min-height:100svh;padding:10px 10px 82px}.frame{width:100%;max-height:none;aspect-ratio:auto;min-height:calc(100svh - 104px);border-radius:22px}.slide{padding:28px 18px}.slide.active{position:relative;min-height:calc(100svh - 104px)}.grid,.grid3{grid-template-columns:1fr}.controls{inset:auto 10px 10px 10px}.footer-hint{display:none}.title{font-size:2.2rem}}
+  </style>
+</head>
+<body>
+  <main class="deck"><div class="frame" id="frame">
+    <section class="slide active center" id="slide-1"><div class="kicker">אורט · Python בסיסי · מפגש 2</div><h1 class="title">משתנים</h1><p class="subtitle">שומרים מידע בזיכרון התוכנית: מספרים, מחרוזות, חישובים, המרות וקלט מהמשתמש.</p><span class="pill">תוצר: חישוב והדפסת נתוני גילאי בני הבית</span><div class="notes">להזכיר בקצרה את שיעור 1: print, input, מחרוזות ומשתנים ראשונים. היום מעמיקים במשתנים ובפעולות עליהם.</div></section>
+
+    <section class="slide" id="slide-2"><div class="kicker">מושג מרכזי</div><h2 class="title">משתנה הוא מגירת אחסון</h2><p class="subtitle">במהלך תוכנית נרצה לשמור נתונים: מספרים שלמים, מספרים עשרוניים, טקסט ותווים.</p><div class="grid"><div class="card"><h3>דוגמאות</h3><pre class="code"><code>points = 18
+x = 100
+speed = 0.3
+name = "Alice"</code></pre></div><div class="card"><h3>שאלה לכיתה</h3><p>איזה מידע משחק מחשב צריך לזכור בזמן משחק?</p></div></div><div class="notes">להשתמש בדימוי של מגירות/קופסאות. הדגש: שם המשתנה עוזר לנו למצוא את המידע בהמשך.</div></section>
+
+    <section class="slide" id="slide-3"><div class="kicker">שמות משתנים</div><h2 class="title">שם טוב חוסך בלבול</h2><div class="grid"><div class="card"><h3>כללים</h3><ul><li>מתחילים באותיות קטנות.</li><li>נותנים שם משמעותי.</li><li>כמה מילים: _ או אות גדולה.</li></ul></div><div class="card"><h3>דוגמאות</h3><pre class="code"><code>my_name = "Dana"
+myName = "Dana"
+num_of_siblings = 3
+sumOfAges = 111</code></pre></div></div><div class="notes">להציג גם שם לא טוב כמו x, ולהראות מתי x יכול להיות סביר ומתי עדיף שם מלא.</div></section>
+
+    <section class="slide" id="slide-4"><div class="kicker">מספרים</div><h2 class="title">משתנים מספריים</h2><p class="subtitle">על משתנים שמכילים מספר אפשר לבצע פעולות חשבון.</p><pre class="code"><code>points = 18 + 1
+x = 100 - 50
+y = 20 * 8
+speed = 0.3 / 10</code></pre><div class="prompt">+ חיבור · - חיסור · * כפל · / חילוק</div><div class="notes">לשאול לפני הרצה: מה יהיה הערך של כל משתנה? ואז להריץ ולהשוות.</div></section>
+
+    <section class="slide" id="slide-5"><div class="kicker">עדכון ערך</div><h2 class="title">משתנה יכול להשתנות</h2><div class="grid"><div class="card"><h3>מבוסס על הערך הקודם</h3><pre class="code"><code>points = 5
+points = points + 3
+
+speed = 0.5
+speed = speed - 0.1</code></pre></div><div class="card"><h3>קיצורים</h3><pre class="code"><code>x = 10
+x += 5
+x *= 7
+x /= 3</code></pre></div></div><div class="notes">להדגיש: השורה מימין לשווה מחושבת קודם, ואז נשמרת מחדש בשם המשתנה.</div></section>
+
+    <section class="slide" id="slide-6"><div class="kicker">עוד אופרטורים</div><h2 class="title">חזקות ומודולו</h2><div class="grid"><div class="card"><h3>חזקות **</h3><pre class="code"><code>power = 2 ** 7
+print(power)</code></pre></div><div class="card"><h3>מודולו %</h3><pre class="code"><code>x = 5 % 2   # 1
+y = 11 % 3  # 2</code></pre><p>מודולו מחזיר את השארית בחלוקה.</p></div></div><div class="notes">מודולו יכול להיות מופשט. להסביר עם 5 ממתקים שמחלקים ל-2 ילדים ונשאר 1.</div></section>
+
+    <section class="slide" id="slide-7"><div class="kicker">תרגול כיתה</div><h2 class="title">גילאי בני הבית</h2><div class="prompt">הגדירו משתנה לגיל של כל בן בית.
+שמרו סכום ב-sumOfAges.
+שמרו מכפלה ב-mulOfAges.
+שמרו ב-div את המכפלה חלקי הסכום.</div><div class="notes">זה התרגול המרכזי. לתת לתלמידים כמה דקות לפני הצגת פתרון. מי שאין לו רעיון — יכול להשתמש במספרים לדוגמה.</div></section>
+
+    <section class="slide" id="slide-8"><div class="kicker">פתרון לדוגמה</div><h2 class="title">חישוב גילאים</h2><pre class="code"><code>age1 = 18
+age2 = 46
+age3 = 44
+age4 = 3
+
+sumOfAges = age1 + age2 + age3 + age4
+mulOfAges = age1 * age2 * age3 * age4
+div = mulOfAges / sumOfAges</code></pre><div class="notes">להסביר ששמות כמו age1 עובדים, אבל אם רוצים קוד ברור יותר אפשר להשתמש בשמות כמו myAge, momAge וכו׳.</div></section>
+
+    <section class="slide" id="slide-9"><div class="kicker">מחרוזות</div><h2 class="title">טקסט בתוך מרכאות</h2><p class="subtitle">מחרוזות הן טקסט: אותיות, רווחים, תווים וסימנים.</p><pre class="code"><code>firstName = "James"
+lastName = "Lacey"
+space = " "
+
+fullName = firstName + " " + lastName
+print(fullName)</code></pre><div class="notes">להדגיש את הרווח: אם לא נוסיף " ", השמות יידבקו.</div></section>
+
+    <section class="slide" id="slide-10"><div class="kicker">הדפסה והמרות</div><h2 class="title">str() ו-int()</h2><div class="grid"><div class="card"><h3>מספר לטקסט</h3><pre class="code"><code>print("Sum of ages: " + str(sumOfAges))
+print("Mul of ages: " + str(mulOfAges))
+print("Div: " + str(div))</code></pre></div><div class="card"><h3>טקסט למספר</h3><pre class="code"><code>age = int(input("Enter age: "))
+newAge = age + 1
+print("Next year: " + str(newAge))</code></pre></div></div><div class="notes">להסביר: input מחזיר טקסט. כדי לחשב עם התשובה צריך int(). כדי לחבר מספר למשפט צריך str().</div></section>
+
+    <section class="slide" id="slide-11"><div class="kicker">קלט מהמשתמש</div><h2 class="title">שומרים תשובות במשתנים</h2><pre class="code"><code>name = input("What is your name? ")
+age = int(input("Enter age: "))
+city = input("Enter city: ")
+
+print("My name is " + name)
+print("I'm " + str(age) + " years old")
+print("I live in " + city)</code></pre><div class="notes">אפשר להשתמש בזה כתרגול קצר בכיתה אם יש זמן.</div></section>
+
+    <section class="slide center" id="slide-12"><div class="kicker">סיכום</div><h2 class="title">כרטיס יציאה</h2><div class="grid"><div class="card"><h3>מה למדנו?</h3><ul><li>משתנים שומרים מידע.</li><li>מספרים מאפשרים חישובים.</li><li>מחרוזות מתחברות עם +.</li><li>str() ו-int() עוזרות לעבור בין טקסט למספר.</li></ul></div><div class="card"><h3>שאלות סיום</h3><ul><li>מה מחזיר 11 % 3?</li><li>מתי נשתמש ב-str()?</li><li>למה שם משתנה חשוב?</li></ul></div></div><div class="notes">לסיים עם 2–3 תשובות תלמידים ולוודא ששמרו את הקוד.</div></section>
+
+    <div class="footer-hint">← / → ניווט · F מסך מלא · N הערות מדריך</div><div class="counter" id="counter">1 / 12</div><div class="progress"><div class="bar" id="bar"></div></div>
+  </div></main>
+  <nav class="controls"><a class="btn ghost" href="ort-courses.html">עמוד אורט</a><a class="btn ghost" href="ort-python-lesson-2.html">חזרה ללומדה</a><div class="navBtns"><button class="btn ghost" onclick="prevSlide()">→ הקודם</button><button class="btn" onclick="nextSlide()">הבא ←</button><button class="btn ghost" onclick="toggleNotes()">הערות מדריך</button></div></nav>
+  <aside class="notes-panel" id="notesPanel"><h2>הערות מדריך</h2><div id="notesText"></div></aside>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let current=0;const panel=document.getElementById('notesPanel'),notesText=document.getElementById('notesText');function show(i,hash=true){current=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===current));document.getElementById('counter').textContent=(current+1)+' / '+slides.length;document.getElementById('bar').style.width=((current+1)/slides.length*100)+'%';notesText.textContent=slides[current].querySelector('.notes')?.textContent||'אין הערות לשקף זה.';if(hash)history.replaceState(null,'','#slide-'+(current+1))}function nextSlide(){show(current+1)}function prevSlide(){show(current-1)}function toggleNotes(){panel.classList.toggle('open')}function fullscreen(){const el=document.documentElement;if(!document.fullscreenElement)el.requestFullscreen?.();else document.exitFullscreen?.()}document.addEventListener('keydown',e=>{if(['ArrowLeft','PageDown',' '].includes(e.key))nextSlide();if(['ArrowRight','PageUp'].includes(e.key))prevSlide();if(e.key.toLowerCase()==='n')toggleNotes();if(e.key.toLowerCase()==='f')fullscreen();if(e.key==='Escape')panel.classList.remove('open')});const m=location.hash.match(/slide-(\d+)/);show(m?Number(m[1])-1:0,false);
+</script>
+<script src="/js/feedback-widget.js?v=20260930-ort-python-slides-2-v2"></script>
+</body>
+</html>
