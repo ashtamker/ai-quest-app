@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python בסיסי · מפגש 5 · רשימות וטאפלים</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/platform-home-link.css">
+  <style>:root{--ink:#111827;--muted:#526070;--line:#dbe4ef;--card:#fff;--orange:#ea580c;--amber:#facc15;--blue:#2563eb;--green:#16a34a;--dark:#111827}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Rubik,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 0,rgba(250,204,21,.24),transparent 28rem),radial-gradient(circle at 88% 12%,rgba(234,88,12,.18),transparent 24rem),linear-gradient(180deg,#fffdf5,#fff7ed 56%,#f8fafc);line-height:1.65}.shell{width:min(1260px,calc(100% - 28px));margin:0 auto;padding:18px 0 42px}.topbar{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.85);border-radius:30px;padding:14px 16px;box-shadow:0 18px 50px rgba(15,23,42,.08);position:sticky;top:10px;z-index:10;backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:56px;height:56px;border-radius:20px;background:linear-gradient(135deg,var(--orange),var(--amber));display:grid;place-items:center;font-size:1.8rem;font-weight:900;box-shadow:0 14px 34px rgba(234,88,12,.2)}h1{margin:0;font-size:clamp(1.25rem,2.4vw,2rem);line-height:1.15}.brand p{margin:3px 0 0;color:var(--muted);font-weight:800}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 14px;border-radius:999px;background:linear-gradient(135deg,var(--orange),var(--amber));color:#111827;text-decoration:none;border:0;font-family:inherit;font-weight:900;cursor:pointer;box-shadow:0 12px 28px rgba(234,88,12,.14)}.btn.secondary{background:#fff;color:var(--dark);border:1px solid var(--line);box-shadow:none}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:16px;margin-top:16px}.hero-card{background:linear-gradient(135deg,#7c2d12,#ea580c 55%,#facc15);color:#fff;border-radius:30px;padding:28px;min-height:300px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;position:relative}.hero-card:after{content:"";position:absolute;left:-70px;bottom:-80px;width:260px;height:260px;border-radius:60px;background:rgba(255,255,255,.16);transform:rotate(18deg)}.kicker{display:inline-flex;align-self:flex-start;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 11px;color:#fff7ed;font-weight:900;margin-bottom:10px}.hero h2{font-size:clamp(2rem,5vw,4rem);line-height:1.04;margin:0 0 12px}.hero p{margin:0;color:#fff7ed;font-weight:800;font-size:1.08rem}.stat-grid{display:grid;gap:10px}.stat,.panel,.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:24px;padding:16px;box-shadow:0 16px 42px rgba(15,23,42,.07)}.stat b{display:block;color:var(--orange);font-size:1.35rem}.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:16px;margin-top:16px}.sidebar{position:sticky;top:104px;align-self:start}.toc{display:grid;gap:8px}.toc a{text-decoration:none;background:#fff7ed;border:1px solid #fed7aa;border-radius:16px;padding:10px 12px;font-weight:900;color:#9a3412}.section{margin-bottom:18px}.section h2{margin:0 0 8px;font-size:clamp(1.55rem,3vw,2.35rem)}.lead{color:var(--muted);font-weight:800;margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card h3{margin:0 0 8px;color:#c2410c}.card p,.card li{color:#475569;font-weight:750}.card ul,.card ol{margin:0;padding-inline-start:22px}.code{direction:ltr;text-align:left;background:#111827;color:#e5e7eb;border-radius:22px;padding:16px;white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.6;overflow:auto}.callout{border-right:6px solid var(--orange);background:#fff7ed;border-radius:20px;padding:14px 16px;font-weight:900;color:#9a3412}.worksheet textarea,.worksheet input{width:100%;border:1px solid #cbd5e1;border-radius:16px;padding:11px 12px;font:inherit;background:#fff;margin-top:6px}.worksheet textarea{min-height:86px}.check{display:flex;gap:8px;align-items:flex-start;background:#f8fafc;border:1px solid var(--line);border-radius:16px;padding:10px;font-weight:800;color:#334155;margin-top:8px}.check input{width:auto;margin-top:5px}.footer-note{text-align:center;color:#64748b;font-weight:900;margin-top:18px}@media(max-width:980px){.topbar,.hero,.layout{grid-template-columns:1fr}.sidebar{position:static}.grid,.grid3{grid-template-columns:1fr}.actions .btn{width:100%}}@media print{.topbar,.sidebar,.platform-home-link,.footer-note{display:none!important}body{background:#fff}.layout{display:block}.panel,.card,.stat{box-shadow:none}}</style>
+</head>
+<body>
+  <a class="platform-home-link" href="ort-courses.html" aria-label="חזרה לקורסי אורט"><span class="platform-home-icon" aria-hidden="true">🏠</span><span class="platform-home-text">קורסי אורט</span></a>
+  <div class="shell">
+    <header class="topbar"><div class="brand"><div class="brand-mark">🐍</div><div><h1>Python בסיסי · מפגש 5</h1><p>רשימות, אינדקסים, פעולות עריכה, העתקה וטאפלים</p></div></div><div class="actions"><a class="btn secondary" href="ort-courses.html">עמוד אורט</a><a class="btn secondary" href="ort-python-slides-5.html">מצגת מדריך</a><button class="btn" onclick="window.print()">הדפסה / PDF</button></div></header>
+    <section class="hero"><div class="hero-card"><span class="kicker">75 דקות · Python בסיסי</span><h2>רשימות וטאפלים</h2><p>איך שומרים רצף נתונים, ניגשים אליו, משנים אותו ועוברים עליו בלולאה?</p></div><div class="stat-grid"><div class="stat"><b>מטרת השיעור</b>להבין רשימה כרצף נתונים ניתן לעריכה, ולהכיר tuple כרצף קבוע.</div><div class="stat"><b>מושגים</b>list · index · len · append · remove · pop · in · copy · tuple</div><div class="stat"><b>תוצר יציאה</b>קוד שמדפיס, משנה, מעתיק ומעבד רשימות בעזרת לולאות.</div></div></section>
+    <main class="layout"><aside class="panel sidebar"><h3>ניווט מהיר</h3><nav class="toc"><a href="#intro">מהי רשימה?</a><a href="#index">אינדקסים</a><a href="#actions">פעולות רשימה</a><a href="#copy">העתקה</a><a href="#loops">רשימות ולולאות</a><a href="#tuples">טאפלים</a><a href="#work">תרגול כיתה</a><a href="#exit">כרטיס יציאה</a></nav></aside><section class="panel">
+      <article class="section" id="intro"><h2>מהי רשימה?</h2><p class="lead">רשימה היא רצף נתונים שניתן לערוך ולשמור בתוך משתנה אחד. בפייתון כותבים רשימה עם סוגריים מרובעים.</p><div class="grid"><div class="card"><h3>רשימת מחרוזות</h3><pre class="code"><code>animals = ["dog", "cat", "snake", "cow"]</code></pre></div><div class="card"><h3>רשימת מספרים ורשימה מעורבת</h3><pre class="code"><code>numbers = [2, 4, 6, 8]
+x = [3.14, "hello", 7, True]</code></pre><p>רשימה יכולה להכיל ערכים מסוגים שונים, למרות שלרוב נעדיף לשמור בה פריטים מאותו סוג.</p></div></div><div class="callout">אפשר ליצור רשימה ריקה כך: <span dir="ltr">items = []</span>. אפשר גם לרוקן רשימה קיימת על ידי הצבה של רשימה ריקה.</div></article>
+      <article class="section" id="index"><h2>אינדקסים וגישה לאיברים</h2><p class="lead">כדי לגשת לאיבר ברשימה מציינים את האינדקס שלו. בפייתון הספירה מתחילה מ־0.</p><div class="grid"><div class="card"><h3>גישה לאיבר</h3><pre class="code"><code>animals = ["dog", "cat", "snake", "cow"]
+print(animals[1])  # cat</code></pre><p>האיבר השני נמצא באינדקס 1.</p></div><div class="card"><h3>שינוי ערך</h3><pre class="code"><code>animals[1] = "horse"
+print(animals)</code></pre><p>כך מחליפים את הערך שנמצא באינדקס מסוים.</p></div></div><div class="callout">גישה לאינדקס מחוץ לטווח תגרום לשגיאה. למשל אינדקס 5 ברשימה בעלת 3 איברים.</div></article>
+      <article class="section" id="actions"><h2>פעולות נפוצות על רשימות</h2><div class="grid3"><div class="card"><h3>len · אורך רשימה</h3><pre class="code"><code>animals = ["dog", "cat", "snake"]
+print(len(animals))  # 3</code></pre></div><div class="card"><h3>append · הוספה לסוף</h3><pre class="code"><code>animals.append("fish")
+print(animals)</code></pre></div><div class="card"><h3>in · בדיקת קיום</h3><pre class="code"><code>if "cow" in animals:
+    print("Cow in animals.")
+else:
+    print("Cow not in animals.")</code></pre></div></div><div class="grid"><div class="card"><h3>remove · מחיקה לפי ערך</h3><pre class="code"><code>animals = ["dog", "cat", "snake", "cat"]
+animals.remove("cat")
+print(animals)</code></pre><p>remove מוחקת את ההופעה הראשונה של הערך. אם הערך לא קיים — תתקבל שגיאה.</p></div><div class="card"><h3>pop · מחיקה לפי אינדקס</h3><pre class="code"><code>animals = ["dog", "cat", "snake", "cow"]
+animals.pop(2)   # מוחק את snake
+animals.pop()    # מוחק את האיבר האחרון
+print(animals)</code></pre></div></div></article>
+      <article class="section" id="copy"><h2>העתקת רשימות</h2><p class="lead">רשימה היא אובייקט. אם מציבים רשימה במשתנה חדש בצורה רגילה, שני המשתנים מצביעים לאותה רשימה.</p><div class="grid"><div class="card"><h3>מה עלול לבלבל?</h3><pre class="code"><code>animals = ["dog", "cat", "cow"]
+l1 = animals
+l1[0] = "frog"
+print(animals)  # גם animals השתנתה</code></pre></div><div class="card"><h3>העתקה בטוחה</h3><pre class="code"><code>animals = ["dog", "cat", "cow"]
+l1 = animals.copy()
+l1[0] = "frog"
+print(animals)
+print(l1)</code></pre><p>copy יוצרת רשימה חדשה עם אותם הערכים.</p></div></div></article>
+      <article class="section" id="loops"><h2>רשימות ולולאת for</h2><p class="lead">אפשר לעבור על כל איברי הרשימה בלולאה. אם רוצים רק להדפיס — עוברים על הערכים. אם רוצים לשנות — כדאי להשתמש באינדקסים.</p><div class="grid"><div class="card"><h3>מעבר על ערכים</h3><pre class="code"><code>animals = ["dog", "cat", "cow"]
+for animal in animals:
+    print(animal)</code></pre><p>animal מכיל בכל חזרה את הערך של האיבר הנוכחי.</p></div><div class="card"><h3>שינוי איברים עם range</h3><pre class="code"><code>animals = ["dog", "cat", "cow"]
+for i in range(len(animals)):
+    animals[i] = "frog"
+print(animals)</code></pre><p>כאן משתמשים באינדקס כדי לשנות את הרשימה עצמה.</p></div></div><div class="callout">שינוי של משתנה הלולאה בלבד לא משנה את האיבר המקורי ברשימה.</div></article>
+      <article class="section" id="tuples"><h2>טאפלים</h2><p class="lead">טאפל דומה לרשימה, אבל הוא קבוע: אי אפשר להוסיף, למחוק או לשנות איברים אחרי יצירתו. כותבים אותו עם סוגריים רגילים.</p><div class="grid"><div class="card"><h3>יצירת tuple</h3><pre class="code"><code>point = (10, 20)
+colors = ("red", "green", "blue")</code></pre></div><div class="card"><h3>מעבר על tuple</h3><pre class="code"><code>for color in colors:
+    print(color)</code></pre><p>כי גם tuple הוא רצף נתונים.</p></div></div></article>
+      <article class="section worksheet" id="work"><h2>תרגול כיתה</h2><div class="grid"><div class="card"><h3>1 · הדפסת איברי רשימה</h3><pre class="code"><code>animals = ["dog", "cat", "snake", "cow"]
+for animal in animals:
+    print(animal)</code></pre></div><div class="card"><h3>2 · רשימת ריבועים</h3><pre class="code"><code>numbers = [1, 2, 3, 4, 5]
+squared = []
+for num in numbers:
+    squared.append(num ** 2)
+print(squared)</code></pre></div><div class="card"><h3>3 · מחיקת כפילויות</h3><pre class="code"><code>lst = [1, 2, 2, 3, 1, 4]
+no_duplicates = []
+for item in lst:
+    if item not in no_duplicates:
+        no_duplicates.append(item)
+print(no_duplicates)</code></pre></div><div class="card"><h3>4 · קליטת שמות עד stop</h3><pre class="code"><code>names = []
+name = input("הכניסו שם: ")
+while name != "stop":
+    names.append(name)
+    name = input("הכניסו שם: ")
+print(names)</code></pre></div></div><div class="card"><h3>יומן עבודה אישי</h3><label>איזו פעולה חדשה על רשימה הכי שימושית בעיניי?<textarea data-save="operation" placeholder="append / remove / pop / copy / in / len"></textarea></label><label>איזו שגיאה כדאי לזכור להימנע ממנה?<textarea data-save="debug" placeholder="לדוגמה: אינדקס מחוץ לטווח או remove לערך שלא קיים"></textarea></label><label class="check"><input type="checkbox" data-done> הרצתי לפחות שני תרגילים ובדקתי את הפלט.</label></div></article>
+      <article class="section" id="exit"><h2>כרטיס יציאה</h2><div class="grid"><div class="card"><h3>שאלת סיכום</h3><p>מה ההבדל המרכזי בין list לבין tuple?</p></div><div class="card"><h3>לקראת ההמשך</h3><p>שמרו את הקובץ שלכם. במפגש הבא נמשיך להשתמש ברצפי נתונים כדי לבנות תוכניות מסודרות יותר.</p></div></div></article>
+    </section></main><div class="footer-note">העבודה נשמרת בדפדפן המקומי של המכשיר בלבד.</div></div>
+<script>
+const key='ortPython.lesson5.v2';const state=JSON.parse(localStorage.getItem(key)||'{}');document.querySelectorAll('[data-save]').forEach(el=>{if(state[el.dataset.save])el.value=state[el.dataset.save];el.addEventListener('input',()=>{state[el.dataset.save]=el.value;localStorage.setItem(key,JSON.stringify(state));});});document.querySelectorAll('[data-done]').forEach((el,i)=>{el.checked=!!state['done'+i];el.addEventListener('change',()=>{state['done'+i]=el.checked;localStorage.setItem(key,JSON.stringify(state));});});
+</script>
+<script src="/js/feedback-widget.js?v=20260930-ort-python-lesson-5"></script>
+</body>
+</html>
